@@ -101,11 +101,15 @@ class Home extends Component {
       <Container fluid>
         <Header>
           <Row>
-          <Col size="md-6">
-              <img src="assets/images/dinofii_logo.svg" style={{ height: "100px"}}/>
+            <Col size="sm-6 md-4">
+              <img src="assets/images/dinofii_logo.svg" style={{ width: "90%", maxHeight: 150, padding: "1px 1px 1px 1px" }} alt="Dinofii logo" />
             </Col>
-            <Col size="md-6">
-              <h1 style={{ backgroundColor: "#ccc", color: "blue" }}>Hello world.</h1>
+            <Col size="sm-6 md-8">
+              <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "20px" }}>
+                <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)"}}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an area
+                to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and local
+                wifi.
+              </div>
             </Col>
           </Row>
         </Header>

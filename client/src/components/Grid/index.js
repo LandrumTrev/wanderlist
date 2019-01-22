@@ -13,7 +13,7 @@ export function Container({ fluid, children }) {
 
 // Row component lets us use a Bootstrap row without having to think about class names
 // !!! row-fluid is OLD BOOTSTRAP (2.x), no class="row-fluid" in Bootstrap 4
-export function Row({ fluid, children }) {
+export function Row({ children }) {
   return <div className={"row"}>{children}</div>;
   // return <div className={`row${fluid ? "-fluid" : ""}`}>{children}</div>;
 }
