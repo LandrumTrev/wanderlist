@@ -18,6 +18,10 @@ import { Col, Row, Container } from "../components/Grid";
 // import { List, ListItem } from "../components/List";
 // import { Input, TextArea, FormBtn } from "../components/Form";
 
+// import master style.css for all page views
+import "./style.css";
+
+
 class Home extends Component {
   // variable data held and managed by Home component
   state = {
@@ -99,7 +103,6 @@ class Home extends Component {
     return (
       // Container component from Grid returns a Bootstrap "container-fluid"
       <Container fluid>
-
         {/* logo and intro text header */}
         <Header>
           <Row>
@@ -108,7 +111,7 @@ class Home extends Component {
             </Col>
             <Col size="sm-6 md-8">
               <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "20px" }}>
-                <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)"}}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an area
+                <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)" }}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an area
                 to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and local
                 wifi.
               </div>
@@ -116,7 +119,33 @@ class Home extends Component {
           </Row>
         </Header>
 
-        
+        <section id="search_section" className="container-fluid">
+          {/* <div id="search_container" className="container"> */}
+            <form action="">
+              <div className="row">
+                <div id="local_col" className="col-sm-6 p-2">
+                  <div id="feature_input" className="input-group">
+                    <select name="feature" className="custom-select" id="country_options" />
+                    <div className="input-group-append">
+                      <span className="input-group-text" id="basic-addon2" style={{width:"5rem"}}>
+                        country
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="feature_col" className="col-sm-6 p-2">
+                  <div id="feature_input" className="input-group">
+                    <select name="feature" className="custom-select" id="feature_options" />
+                    <div className="input-group-append">
+                      <input id="search_btn" type="submit" className="btn btn-secondary" name="submit" value="search" style={{width:"5rem"}} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          {/* </div> */}
+        </section>
+
         {/* Row returns a Bootstrap "row" */}
         {/* <Row> */}
 
