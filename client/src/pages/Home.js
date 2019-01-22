@@ -100,7 +100,14 @@ class Home extends Component {
       // Container component from Grid returns a Bootstrap "container-fluid"
       <Container fluid>
         <Header>
-          <h1 style={{ backgroundColor: "#ccc", color: "blue" }}>Hello world.</h1>
+          <Row>
+          <Col size="md-6">
+              <img src="assets/images/dinofii_logo.svg" style={{ height: "100px"}}/>
+            </Col>
+            <Col size="md-6">
+              <h1 style={{ backgroundColor: "#ccc", color: "blue" }}>Hello world.</h1>
+            </Col>
+          </Row>
         </Header>
         {/* Row returns a Bootstrap "row" */}
         {/* <Row> */}

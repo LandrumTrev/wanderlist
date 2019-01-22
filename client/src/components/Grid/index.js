@@ -14,7 +14,8 @@ export function Container({ fluid, children }) {
 // Row component lets us use a Bootstrap row without having to think about class names
 // !!! row-fluid is OLD BOOTSTRAP (2.x), no class="row-fluid" in Bootstrap 4
 export function Row({ fluid, children }) {
-  return <div className={`row${fluid ? "-fluid" : ""}`}>{children}</div>;
+  return <div className={"row"}>{children}</div>;
+  // return <div className={`row${fluid ? "-fluid" : ""}`}>{children}</div>;
 }
 
 // Col component lets us size Bootstrap columns with less syntax
@@ -25,7 +26,7 @@ export function Row({ fluid, children }) {
 // and split into an array at spaces " ", so ["md-12", "lg-6"]
 // then do a map on that array, calling each element "size" (BAD CODE! CONFUSING)
 // and have the map create a new array with "col-" tacked onto each element, so
-// ["col-md-12", "col-lg-6"] is the new mapped array, 
+// ["col-md-12", "col-lg-6"] is the new mapped array,
 // then .join that array back into a space " " separated string: "col-md-12 col-lg-6"
 // so that <div className="col-md-12 col-lg-6"> {children} </div> is returned
 export function Col({ size, children }) {
