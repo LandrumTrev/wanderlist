@@ -99,6 +99,8 @@ class Home extends Component {
     return (
       // Container component from Grid returns a Bootstrap "container-fluid"
       <Container fluid>
+
+        {/* logo and intro text header */}
         <Header>
           <Row>
             <Col size="sm-6 md-4">
@@ -113,6 +115,8 @@ class Home extends Component {
             </Col>
           </Row>
         </Header>
+
+        
         {/* Row returns a Bootstrap "row" */}
         {/* <Row> */}
 
