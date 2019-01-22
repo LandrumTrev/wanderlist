@@ -9,7 +9,7 @@ function Header({ children }) {
   return (
     <div
       style={{ clear: "both", paddingTop: 20, textAlign: "center", backgroundColor: "#eee" }}
-      className=" px-0 mx-0"
+      className="px-0 mx-0"
     >
       {children}
     </div>

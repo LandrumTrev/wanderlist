@@ -8,7 +8,7 @@ import React from "react";
 export function Container({ fluid, children }) {
   // if <Container fluid> then return <div class="container-fluid"> ... </div>
   // otherwise return <div class="container"> ... </div>
-  return <div className={`container${fluid ? "-fluid" : ""}, px-0`}>{children}</div>;
+  return <div className={`container${fluid ? "-fluid" : ""}`}>{children}</div>;
 }
 
 // Row component lets us use a Bootstrap row without having to think about class names

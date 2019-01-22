@@ -9,6 +9,7 @@ import React, { Component } from "react";
 
 // import single-component .js files
 import Header from "../components/Header";
+import Background from "../components/Background";
 
 // import DeleteBtn from "../components/DeleteBtn";
 // import Jumbotron from "../components/Jumbotron";
@@ -20,7 +21,6 @@ import { Col, Row, Container } from "../components/Grid";
 
 // import master style.css for all page views
 import "./style.css";
-
 
 class Home extends Component {
   // variable data held and managed by Home component
@@ -101,33 +101,35 @@ class Home extends Component {
 
   render() {
     return (
-      // Container component from Grid returns a Bootstrap "container-fluid"
-      <Container fluid>
-        {/* logo and intro text header */}
-        <Header>
-          <Row>
-            <Col size="sm-6 md-4">
-              <img src="assets/images/dinofii_logo.svg" style={{ width: "90%", maxHeight: 150, padding: "1px 1px 1px 1px" }} alt="Dinofii logo" />
-            </Col>
-            <Col size="sm-6 md-8">
-              <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "20px" }}>
-                <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)" }}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an area
-                to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and local
-                wifi.
-              </div>
-            </Col>
-          </Row>
-        </Header>
+      <>
+        {/* <Container fluid > */}
+        <Background>
+          {/* logo and intro text header */}
+          <Header>
+            <Row>
+              <Col size="sm-6 md-4">
+                <img src="assets/images/dinofii_logo.svg" style={{ width: "90%", maxHeight: 150, padding: "1px 1px 1px 1px" }} alt="Dinofii logo" />
+              </Col>
+              <Col size="sm-6 md-8">
+                <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "30px" }}>
+                  <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)" }}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an
+                  area to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and
+                  local wifi.
+                </div>
+              </Col>
+            </Row>
+          </Header>
 
-        <section id="search_section" className="container-fluid">
-          {/* <div id="search_container" className="container"> */}
+          {/* Search Options Pulldown Selects */}
+          <Container>
+            {/* <Container fluid> */}
             <form action="">
               <div className="row">
                 <div id="local_col" className="col-sm-6 p-2">
                   <div id="feature_input" className="input-group">
                     <select name="feature" className="custom-select" id="country_options" />
                     <div className="input-group-append">
-                      <span className="input-group-text" id="basic-addon2" style={{width:"5rem"}}>
+                      <span className="input-group-text" id="basic-addon2" style={{ width: "5rem" }}>
                         country
                       </span>
                     </div>
@@ -137,103 +139,113 @@ class Home extends Component {
                   <div id="feature_input" className="input-group">
                     <select name="feature" className="custom-select" id="feature_options" />
                     <div className="input-group-append">
-                      <input id="search_btn" type="submit" className="btn btn-secondary" name="submit" value="search" style={{width:"5rem"}} />
+                      <input id="search_btn" type="submit" className="btn btn-secondary" name="submit" value="search" style={{ width: "5rem" }} />
                     </div>
                   </div>
                 </div>
               </div>
             </form>
-          {/* </div> */}
-        </section>
+            {/* </Container> */}
+          </Container>
 
-        {/* Row returns a Bootstrap "row" */}
-        {/* <Row> */}
+          {/* Clear All Results button and search results label */}
+          <Container>
+            <div id="results_header" className="row pr-2 pl-2">
+              <div className="input-group input-group-sm mb-3">
+                <button className="form-control btn-outline-light text-left" style={{ height: "30px" }} disabled>
+                  SEARCH RESULTS:
+                </button>
+                <div className="input-group-prepend">
+                  <button className="form-control btn btn-outline-light" type="button" id="clear_button" style={{ width: "5rem", height: "30px" }}>
+                    CLEAR
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Container>
 
-        {/* Col returns a Bootstrap "col-md-6" */}
-        {/* <Col size="md-6"> */}
-
-        {/* returns a Bootstrap "jumbotron" with inline CSS */}
-        {/* <Jumbotron> */}
-        {/* <h1>What Books Should I Read?</h1> */}
-        {/* </Jumbotron> */}
-
-        {/* HTML <form> tag: input for adding a new book */}
-        {/* <form> */}
-        {/* Bootstrap "form-group" <div> and "form-control" <input> with ...props */}
-        {/* <Input  */}
-        {/* // insert this.state.title data as the value of the input field */}
-        {/* value={this.state.title}  */}
-        {/* // on every char typed, make field value the value of this.state.title */}
-        {/* onChange={this.handleInputChange}  */}
-        {/* // name used by this.handleInputChange to change this.state.title */}
-        {/* name="title"  */}
-        {/* // displayed field text when no value exists */}
-        {/* placeholder="Title (required)"  */}
-        {/* /> */}
-        {/* <Input  */}
-        {/* value={this.state.author}  */}
-        {/* onChange={this.handleInputChange}  */}
-        {/* name="author"  */}
-        {/* placeholder="Author (required)"  */}
-        {/* /> */}
-        {/* uses <textarea> instead of <input>, sizes input field to 20 rows deep */}
-        {/* <TextArea  */}
-        {/* value={this.state.synopsis}  */}
-        {/* onChange={this.handleInputChange}  */}
-        {/* name="synopsis"  */}
-        {/* placeholder="Synopsis (Optional)"  */}
-        {/* /> */}
-        {/* <button> with Bootstrap classes, inline CSS, props, and children */}
-        {/* <FormBtn  */}
-        {/* // button is disabled if no author AND title are entered */}
-        {/* disabled={!(this.state.author && this.state.title)}  */}
-        {/* // when button is clicked, handle the click with this.handleFormSubmit */}
-        {/* onClick={this.handleFormSubmit} */}
-        {/* > */}
-        {/* Submit Book */}
-        {/* </FormBtn> */}
-        {/* </form> */}
-
-        {/* </Col> */}
-
-        {/* <Col size="md-6 sm-12"> */}
-        {/* <Jumbotron> */}
-        {/* <h1>Books On My List</h1> */}
-        {/* </Jumbotron> */}
-
-        {/* if there are books in this.state.books (if TRUE (exists)), then */}
-        {/* {this.state.books.length ? ( */}
-        {/* // create a List component container (styled <div> holding "list-group" <ul>) */}
-        {/* <List> */}
-        {/* array.map() all books in this.state.books */}
-        {/* {this.state.books.map(book => ( */}
-        {/* // where every book object gets a ListItem component with a key for React */}
-        {/* // an <li> with Bootstrap "list-group-item" */}
-        {/* <ListItem key={book._id}> */}
-        {/* <li> contains a Link (React Router) to it's own book page */}
-        {/* App.js (React Router) sends this route to Detail.js page view */}
-        {/* <Link to={"/books/" + book._id}> */}
-        {/* <strong> */}
-        {/* Link surrounds the displayed title and author */}
-        {/* {book.title} by {book.author} */}
-        {/* </strong> */}
-        {/* </Link> */}
-        {/* ListItem also contains DeleteBtn with click handler */}
-        {/* returns a <button> with other non-individual properties */}
-        {/* <DeleteBtn onClick={() => this.deleteBook(book._id)} /> */}
-        {/* </ListItem> */}
-        {/* ))} */}
-        {/* </List> */}
-        {/* ) : ( */}
-        {/* // otherwise, if this.state.books does not have a length (no data), then */}
-        {/* // don't create the <List> component, just create this <h3>: */}
-        {/* <h3>No Results to Display</h3> */}
-        {/* )} */}
-
-        {/* </Col> */}
-
-        {/* </Row> */}
-      </Container>
+          {/* Row returns a Bootstrap "row" */}
+          {/* <Row> */}
+          {/* Col returns a Bootstrap "col-md-6" */}
+          {/* <Col size="md-6"> */}
+          {/* returns a Bootstrap "jumbotron" with inline CSS */}
+          {/* <Jumbotron> */}
+          {/* <h1>What Books Should I Read?</h1> */}
+          {/* </Jumbotron> */}
+          {/* HTML <form> tag: input for adding a new book */}
+          {/* <form> */}
+          {/* Bootstrap "form-group" <div> and "form-control" <input> with ...props */}
+          {/* <Input  */}
+          {/* // insert this.state.title data as the value of the input field */}
+          {/* value={this.state.title}  */}
+          {/* // on every char typed, make field value the value of this.state.title */}
+          {/* onChange={this.handleInputChange}  */}
+          {/* // name used by this.handleInputChange to change this.state.title */}
+          {/* name="title"  */}
+          {/* // displayed field text when no value exists */}
+          {/* placeholder="Title (required)"  */}
+          {/* /> */}
+          {/* <Input  */}
+          {/* value={this.state.author}  */}
+          {/* onChange={this.handleInputChange}  */}
+          {/* name="author"  */}
+          {/* placeholder="Author (required)"  */}
+          {/* /> */}
+          {/* uses <textarea> instead of <input>, sizes input field to 20 rows deep */}
+          {/* <TextArea  */}
+          {/* value={this.state.synopsis}  */}
+          {/* onChange={this.handleInputChange}  */}
+          {/* name="synopsis"  */}
+          {/* placeholder="Synopsis (Optional)"  */}
+          {/* /> */}
+          {/* <button> with Bootstrap classes, inline CSS, props, and children */}
+          {/* <FormBtn  */}
+          {/* // button is disabled if no author AND title are entered */}
+          {/* disabled={!(this.state.author && this.state.title)}  */}
+          {/* // when button is clicked, handle the click with this.handleFormSubmit */}
+          {/* onClick={this.handleFormSubmit} */}
+          {/* > */}
+          {/* Submit Book */}
+          {/* </FormBtn> */}
+          {/* </form> */}
+          {/* </Col> */}
+          {/* <Col size="md-6 sm-12"> */}
+          {/* <Jumbotron> */}
+          {/* <h1>Books On My List</h1> */}
+          {/* </Jumbotron> */}
+          {/* if there are books in this.state.books (if TRUE (exists)), then */}
+          {/* {this.state.books.length ? ( */}
+          {/* // create a List component container (styled <div> holding "list-group" <ul>) */}
+          {/* <List> */}
+          {/* array.map() all books in this.state.books */}
+          {/* {this.state.books.map(book => ( */}
+          {/* // where every book object gets a ListItem component with a key for React */}
+          {/* // an <li> with Bootstrap "list-group-item" */}
+          {/* <ListItem key={book._id}> */}
+          {/* <li> contains a Link (React Router) to it's own book page */}
+          {/* App.js (React Router) sends this route to Detail.js page view */}
+          {/* <Link to={"/books/" + book._id}> */}
+          {/* <strong> */}
+          {/* Link surrounds the displayed title and author */}
+          {/* {book.title} by {book.author} */}
+          {/* </strong> */}
+          {/* </Link> */}
+          {/* ListItem also contains DeleteBtn with click handler */}
+          {/* returns a <button> with other non-individual properties */}
+          {/* <DeleteBtn onClick={() => this.deleteBook(book._id)} /> */}
+          {/* </ListItem> */}
+          {/* ))} */}
+          {/* </List> */}
+          {/* ) : ( */}
+          {/* // otherwise, if this.state.books does not have a length (no data), then */}
+          {/* // don't create the <List> component, just create this <h3>: */}
+          {/* <h3>No Results to Display</h3> */}
+          {/* )} */}
+          {/* </Col> */}
+          {/* </Row> */}
+          {/* </Container> */}
+        </Background>
+      </>
     );
   }
 }
