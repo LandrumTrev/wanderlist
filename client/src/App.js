@@ -3,9 +3,13 @@
 // to control which "page" is displayed for each HTML URL path
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 // import Components that appear on every page view
 import Nav from "./components/Nav";
+
 // import individual page view Components
+import Home from "./pages/Home";
+
 import Books from "./pages/Books";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
@@ -24,7 +28,7 @@ function App() {
         {/* Switch controls Route component views displayed, first matching route displayed */}
         {/* use "exact path" unless you are capturing sub-paths and adding additional content to a primary page view path */}
         <Switch>
-          <Route exact path="/" component={Books} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/books" component={Books} />
           <Route exact path="/books/:id" component={Detail} />
           <Route component={NoMatch} />
