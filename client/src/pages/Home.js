@@ -16,6 +16,8 @@ import Background from "../components/Background";
 
 // import multiple-component .js files
 import { Col, Row, Container } from "../components/Grid";
+import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
+
 // import { List, ListItem } from "../components/List";
 // import { Input, TextArea, FormBtn } from "../components/Form";
 
@@ -111,7 +113,7 @@ class Home extends Component {
                 <img src="assets/images/dinofii_logo.svg" style={{ width: "90%", maxHeight: 150, padding: "1px 1px 1px 1px" }} alt="Dinofii logo" />
               </Col>
               <Col size="sm-6 md-8">
-                <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "30px" }}>
+                <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "0px 30px 30px 0px" }}>
                   <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)" }}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an
                   area to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and
                   local wifi.
@@ -163,6 +165,11 @@ class Home extends Component {
               </div>
             </div>
           </Container>
+
+          {/* ResultCards list */}
+          <CardsContainer fluid>
+            <ResultCard />
+          </CardsContainer>
 
           {/* Row returns a Bootstrap "row" */}
           {/* <Row> */}

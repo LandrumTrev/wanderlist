@@ -1,0 +1,34 @@
+<!-- HTML structure for ResultCard -->
+
+<!-- <div className='card border-dark mb-3'> -->
+
+  <!-- <div className='card-header p-2'> -->
+    <!-- <h5 style='display:inline;'> -->
+
+      <!-- <a href='https://www.google.com/search?q=" + card.featureName + "' target='_blank' style='color:rgb(121, 27, 27);'>" + card.featureName + "</a> -->
+       <!-- :  -->
+       <!-- <a href='https://www.google.com/search?q=" + card.featureCountryName + "' target='_blank' style='color:rgb(29, 68, 126)'>" + card.featureCountryName + "</a>  -->
+       <!-- (<a href='https://www.google.com/search?q=" + card.featureType + "' target='_blank' style='color:rgb(162, 155, 99)'>" + card.featureType + "</a>) -->
+
+      <!-- </h5> -->
+
+      <!-- <span className='font-weight-light' style='display:inline;float:right'>
+        <a href='https://www.google.com/maps/@" + card.featureLatitude + "," + card.featureLongitude + ",15z' target='_blank' style='color:rgb(29, 68, 126)'>" + card.featureLatitude + ", " + card.featureLongitude + "</a>
+      </span> -->
+    <!-- </div> -->
+
+    <!-- <div className='card-body text-dark p-2'> -->
+      <span className='font-weight-light'>
+        <a href='https://www.google.com/maps/dir/?api=1&origin=" + card.nearPlaceLatLong + "&destination=" + card.featureLatitude + "," + card.featureLongitude + "' target='_blank' style='color:rgb(29, 68, 126)'>" + card.nearPlaceName + " " + card.nearPlaceCountryCode + " " + card.nearPlacePostalCode + " (" + card.nearPlaceDistance + " km)</a>
+      </span>
+
+      <a href='https://wigle.net/map?maplat=" + card.featureLatitude + "&maplon=" + card.featureLongitude + "&mapzoom=12&coloring=density' target='_blank'>
+        <i className='fas fa-globe float-right' style='margin-left:10px;padding-top:3px;color:rgb(29, 68, 126);'></i>
+      </a>
+
+      <i className='float-right fas fa-wifi' style='margin-left:10px;padding-top:3px;color:rgb(29, 68, 126);'></i>
+
+      <span className='float-right font-weight-bold'>" + card.nearPlaceWifi + "</span>
+    <!-- </div> -->
+
+  <!-- </div> -->
