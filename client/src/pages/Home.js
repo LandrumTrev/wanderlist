@@ -169,6 +169,7 @@ class Home extends Component {
           {/* ResultCards list */}
           <CardsContainer fluid>
             <ResultCard />
+            <NoResultCard />
           </CardsContainer>
 
           {/* Row returns a Bootstrap "row" */}
