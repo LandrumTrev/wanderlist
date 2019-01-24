@@ -30,10 +30,10 @@ import "./style.css";
 class Home extends Component {
   // variable data held and managed by Home component
   state = {
+    selectRegion: "",
+    selectFeature: "",
     listRegions: ListRegions.countryArray,
     listFeatures: ListFeatures.featureArray,
-    selectRegion: "Argentina, Buenos Aires Province",
-    selectFeature: "bay",
     featureName: "Ensenada Mogotes",
     featureType: "bay",
     featureCountryName: "Argentina",
@@ -56,6 +56,8 @@ class Home extends Component {
     // console.log(this.state);
     // console.log(ListRegions.countryArray);
     // console.log(ListFeatures.featureArray);
+    // console.log(this.state.selectRegion);
+    // console.log(this.state.selectFeature);
   }
 
   // ===================================================
@@ -87,11 +89,11 @@ class Home extends Component {
   // send live typed input data to this.state.title, .author, .synopsis on each keystroke
   handleInputChange = event => {
     // create variables name and value for event.target.name and event.target.value
-    // const { name, value } = event.target;
+    const { name, value } = event.target;
     // use setState to change state values of the state key [name] for whichever property
-    // this.setState({
-    // [name]: value
-    // });
+    this.setState({
+      [name]: value
+    });
   };
 
   // ===================================================
@@ -146,12 +148,20 @@ class Home extends Component {
               <Row>
                 <div className="col-sm-6 p-2">
                   <div className="input-group">
-                    <SelectRegion list={this.state.listRegions} />
+                    <SelectRegion 
+                      list={this.state.listRegions} 
+                      thisRegion={this.handleInputChange} 
+                      onChange={console.log(this.state.selectRegion)} 
+                    />
                   </div>
                 </div>
                 <div className="col-sm-6 p-2">
                   <div className="input-group">
-                    <SelectFeature list={this.state.listFeatures} />
+                    <SelectFeature 
+                    list={this.state.listFeatures} 
+                    thisFeature={this.handleInputChange} 
+                    onChange={console.log(this.state.selectFeature)} 
+                    />
                   </div>
                 </div>
               </Row>

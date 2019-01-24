@@ -9,10 +9,11 @@ import "./style.css";
 
 export function SelectRegion(props) {
   // console.log(props.list);
+  // console.log(props.thisRegion);
 
   return (
     <>
-      <select className="custom-select">
+      <select name="selectRegion" className="custom-select" onChange={props.thisRegion}>
         {props.list.map(region => (
           // where every region gets an <option> element with a key for React
           // an <li> with Bootstrap "list-group-item"
@@ -39,7 +40,7 @@ export function SelectFeature(props) {
 
   return (
     <>
-      <select className="custom-select">
+      <select name="selectFeature" className="custom-select" onChange={props.thisFeature}>
         {props.list.map(feature => (
           // where every region gets an <option> element with a key for React
           // an <li> with Bootstrap "list-group-item"
