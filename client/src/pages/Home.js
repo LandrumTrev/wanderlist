@@ -50,57 +50,16 @@ class Home extends Component {
   };
 
   // ===================================================
-  // setCCs() splits this.state.countryAndRegion into countryCC and regionCC codes
-  // setCCs = () => {
-  // code
-  // this.setState({ countryCC: this.state.countryAndRegion.substring(0, 2), regionCC: this.state.countryAndRegion.substring(2, 4) });
-  // };
-  // ===================================================
-
-  // ===================================================
 
   componentDidUpdate() {
-    // console.log("monkeypants!");
-    // console.log(this.state.countryCC);
     // console.log(this.state.regionCC);
   }
   // ===================================================
 
-  // whenever this page-view Component mounts (is called and displayed),
-  // run the loadBooks() method (below)
   componentDidMount() {
     // this.loadBooks();
     // console.log(this.state);
-    // console.log(ListRegions.countryArray);
-    // console.log(ListFeatures.featureArray);
-    // console.log(this.state.regionCC);
-    // console.log(this.state.featureCode);
   }
-
-  // ===================================================
-
-  // call client/src/utils/API.js to make API.getBooks() axios API route call
-  // loads all books data in the db into this.state.books
-  // and also clear all existing data in this.state.title, .author, and .synopsis
-
-  loadBooks = () => {
-    //   API.getBooks()
-    //     .then(res => this.setState({ books: res.data, title: "", author: "", synopsis: "" }))
-    //     .catch(err => console.log(err));
-  };
-
-  // ===================================================
-
-  // when this.deleteBook(id) is called,
-  // call client/src/utils/API.js to make API.deleteBook(id) axios API route call
-  // and then call this.loadBooks() above to refresh all book data in state
-
-  deleteBook = id => {
-    //   API.deleteBook(id)
-    //     .then(res => this.loadBooks())
-    //     .catch(err => console.log(err));
-  };
-
   // ===================================================
 
   // send live typed input data to this.state.title, .author, .synopsis on each keystroke
@@ -124,10 +83,34 @@ class Home extends Component {
 
   // ===================================================
 
+  geonamesString = () => {
+    if (this.state.featureCode) {
+      let geoString;
+      if (this.state.countryCC === "XX") {
+        geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureCode}&maxRows=1000&username=ghostfountain`;
+      } else if (this.state.regionCC === "") {
+        geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureCode}&country=${
+          this.state.countryCC
+        }&maxRows=1000&username=ghostfountain`;
+      } else {
+        geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureCode}&country=${this.state.countryCC}&adminCode1=${
+          this.state.regionCC
+        }&maxRows=1000&username=ghostfountain`;
+      }
+      console.log(geoString);
+    } else {
+      alert("Please select a feature type.");
+    }
+  };
+
+  // ===================================================
+
   // when user hits the submit button to add a new book,
   handleFormSubmit = event => {
     // prevent page reload default behavior of "submit"
-    // event.preventDefault();
+    event.preventDefault();
+
+    this.geonamesString();
     // as long as user entered a title and author (synopsis optional)
     // if (this.state.title && this.state.author) {
     // call client/src/utils/API.js to make API.saveBook(bookData) axios API call
@@ -142,6 +125,33 @@ class Home extends Component {
     // .then(res => this.loadBooks())
     // .catch(err => console.log(err));
     // }
+    console.log("handleFormSubmit() has run");
+  };
+
+  // ===================================================
+
+  // ===================================================
+
+  // call client/src/utils/API.js to make API.getBooks() axios API route call
+  // loads all books data in the db into this.state.books
+  // and also clear all existing data in this.state.title, .author, and .synopsis
+
+  loadBooks = () => {
+    //   API.getBooks()
+    //     .then(res => this.setState({ books: res.data, title: "", author: "", synopsis: "" }))
+    //     .catch(err => console.log(err));
+  };
+
+  // ===================================================
+
+  // when this.deleteBook(id) is called,
+  // call client/src/utils/API.js to make API.deleteBook(id) axios API route call
+  // and then call this.loadBooks() above to refresh all book data in state
+
+  deleteBook = id => {
+    //   API.deleteBook(id)
+    //     .then(res => this.loadBooks())
+    //     .catch(err => console.log(err));
   };
 
   // ===================================================
@@ -187,6 +197,7 @@ class Home extends Component {
                       list={this.state.listFeatures}
                       thisFeature={this.handleInputChange}
                       onChange={console.log(this.state.featureCode)}
+                      findFeature={this.handleFormSubmit}
                     />
                   </div>
                 </div>
