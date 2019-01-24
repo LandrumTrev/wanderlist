@@ -35,7 +35,9 @@ class Home extends Component {
     nearPlaceName: "LOS ACANTILADOS",
     nearPlaceCountryCode: "AR",
     nearPlacePostalCode: "7609",
-    nearPlaceDistance: "3.5"
+    nearPlaceDistance: "3.5",
+    nearPlaceLatLong: "-38.1167,-57.6",
+    nearPlaceWifi: "3k"
   };
 
   // ===================================================
@@ -184,6 +186,8 @@ class Home extends Component {
               nearPlaceCountryCode={this.state.nearPlaceCountryCode}
               nearPlacePostalCode={this.state.nearPlacePostalCode}
               nearPlaceDistance={this.state.nearPlaceDistance}
+              nearPlaceLatLong={this.state.nearPlaceLatLong}
+              nearPlaceWifi={this.state.nearPlaceWifi}
             />
             <NoResultCard />
           </CardsContainer>

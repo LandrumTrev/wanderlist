@@ -19,6 +19,8 @@ export function CardsContainer({ fluid, children }) {
 // SEARCH RESULTS card
 // ===================================================================
 
+// return <div className={`container${fluid ? "-fluid" : ""}`}>{children}</div>;
+
 export function ResultCard(props) {
   return (
     <>
@@ -29,7 +31,8 @@ export function ResultCard(props) {
           <h5 className="pl-1" style={{ display: "inline" }}>
             {/* Google search: FEATURE NAME */}
             <a
-              href={`https://www.google.com/search?q=Ensenada Mogotes`}
+              // href={`https://www.google.com/search?q=Ensenada Mogotes`}
+              href={`https://www.google.com/search?q=${props.featureName}`}
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "rgb(121, 27, 27)", fontWeight: 500, textDecoration: "none" }}
@@ -40,7 +43,8 @@ export function ResultCard(props) {
             </a>
             {/* Google search: FEATURE TYPE */}
             <a
-              href={`https://www.google.com/search?q=bay`}
+              // href={`https://www.google.com/search?q=bay`}
+              href={`https://www.google.com/search?q=${props.featureType}`}
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "rgb(162, 155, 99)", fontWeight: 100, textDecoration: "none" }}
@@ -51,7 +55,8 @@ export function ResultCard(props) {
             </a>
             {/* Google search: COUNTRY */}
             <a
-              href={`https://www.google.com/search?q=Argentina`}
+              // href={`https://www.google.com/search?q=Argentina`}
+              href={`https://www.google.com/search?q=${props.featureCountryName}`}
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "rgb(29, 68, 126)", fontWeight: 300, textDecoration: "none" }}
@@ -65,7 +70,8 @@ export function ResultCard(props) {
           <span className="font-weight-light pr-1" style={{ display: "inline", float: "right" }}>
             {/* GoogleMaps feature location */}
             <a
-              href={`https://www.google.com/maps/@-38.13333,-57.56667,15z`}
+              // href={`https://www.google.com/maps/@-38.13333,-57.56667,15z`}
+              href={`https://www.google.com/maps/@${props.featureLatitude},${props.featureLongitude},12z`}
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "rgb(29, 68, 126)" }}
@@ -82,7 +88,9 @@ export function ResultCard(props) {
           <span className="font-weight-light">
             {/* GoogleMaps directions from nearest city to feature */}
             <a
-              href={`https://www.google.com/maps/dir/?api=1&origin=-38.1167,-57.6&destination=-38.13333,-57.56667`}
+              // ${card.nearPlaceLatLong}
+              // href={`https://www.google.com/maps/dir/?api=1&origin=-38.1167,-57.6&destination=-38.13333,-57.56667`}
+              href={`https://www.google.com/maps/dir/?api=1&origin=${props.nearPlaceLatLong}&destination=${props.featureLatitude},${props.featureLongitude}`}
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "rgb(29, 68, 126)" }}
@@ -103,7 +111,8 @@ export function ResultCard(props) {
           </span>
           {/* Wigle WIFI MAP */}
           <a
-            href={`https://wigle.net/map?maplat=-38.13333&maplon=-57.56666999999999&mapzoom=12&coloring=density`}
+            // href={`https://wigle.net/map?maplat=-38.13333&maplon=-57.56666999999999&mapzoom=12&coloring=density`}
+            href={`https://wigle.net/map?maplat=${props.featureLatitude}&maplon=${props.featureLongitude}&mapzoom=12&mapstyle=standard&coloring=density`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -112,7 +121,8 @@ export function ResultCard(props) {
               style={{ fontSize: "15px", marginLeft: 2, marginRight: 4, paddingTop: 4, color: "rgb(51, 103, 181)" }}
             />
             <span className="float-right" style={{ color: "rgb(51, 103, 181)" }}>
-              3k
+              {props.nearPlaceWifi}
+              {/* 3k */}
               {/* ${card.nearPlaceWifi} */}
             </span>
           </a>
