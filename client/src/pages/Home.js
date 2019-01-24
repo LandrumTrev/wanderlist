@@ -5,6 +5,8 @@ import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 
 // import API in order to make axios API calls to the Express Server
+import ListRegions from "../utils/ListRegions";
+import ListFeatures from "../utils/ListFeatures";
 // import API from "../utils/API";
 
 // import single-component .js files
@@ -16,6 +18,7 @@ import Background from "../components/Background";
 
 // import multiple-component .js files
 import { Col, Row, Container } from "../components/Grid";
+import { SelectRegion, SelectFeature } from "../components/Search";
 import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
 
 // import { List, ListItem } from "../components/List";
@@ -27,6 +30,10 @@ import "./style.css";
 class Home extends Component {
   // variable data held and managed by Home component
   state = {
+    listRegions: ListRegions.countryArray,
+    listFeatures: ListFeatures.featureArray,
+    selectRegion: "Argentina, Buenos Aires Province",
+    selectFeature: "bay",
     featureName: "Ensenada Mogotes",
     featureType: "bay",
     featureCountryName: "Argentina",
@@ -46,7 +53,9 @@ class Home extends Component {
   // run the loadBooks() method (below)
   componentDidMount() {
     // this.loadBooks();
-    console.log(this.state);
+    // console.log(this.state);
+    // console.log(ListRegions.countryArray);
+    // console.log(ListFeatures.featureArray);
   }
 
   // ===================================================
@@ -134,28 +143,19 @@ class Home extends Component {
           <Container>
             {/* <Container fluid> */}
             <form action="">
-              <div className="row">
-                <div id="local_col" className="col-sm-6 p-2">
-                  <div id="feature_input" className="input-group">
-                    <select name="feature" className="custom-select" id="country_options" />
-                    <div className="input-group-append">
-                      <span className="input-group-text" id="basic-addon2" style={{ width: "5rem" }}>
-                        country
-                      </span>
-                    </div>
+              <Row>
+                <div className="col-sm-6 p-2">
+                  <div className="input-group">
+                    <SelectRegion list={this.state.listRegions} />
                   </div>
                 </div>
-                <div id="feature_col" className="col-sm-6 p-2">
-                  <div id="feature_input" className="input-group">
-                    <select name="feature" className="custom-select" id="feature_options" />
-                    <div className="input-group-append">
-                      <input id="search_btn" type="submit" className="btn btn-secondary" name="submit" value="search" style={{ width: "5rem" }} />
-                    </div>
+                <div className="col-sm-6 p-2">
+                  <div className="input-group">
+                    <SelectFeature list={this.state.listFeatures} />
                   </div>
                 </div>
-              </div>
+              </Row>
             </form>
-            {/* </Container> */}
           </Container>
 
           {/* Clear All Results button and search results label */}

@@ -19,8 +19,6 @@ export function CardsContainer({ fluid, children }) {
 // SEARCH RESULTS card
 // ===================================================================
 
-// return <div className={`container${fluid ? "-fluid" : ""}`}>{children}</div>;
-
 export function ResultCard(props) {
   return (
     <>
@@ -49,7 +47,7 @@ export function ResultCard(props) {
               rel="noopener noreferrer"
               style={{ color: "rgb(162, 155, 99)", fontWeight: 100, textDecoration: "none" }}
             >
-              &nbsp;{props.featureType}&nbsp;
+              &nbsp;({props.featureType})&nbsp;
               {/* &nbsp;(bay)&nbsp; */}
               {/* ${card.featureType} */}
             </a>
@@ -74,7 +72,7 @@ export function ResultCard(props) {
               href={`https://www.google.com/maps/@${props.featureLatitude},${props.featureLongitude},12z`}
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "rgb(29, 68, 126)" }}
+              style={{ color: "rgb(29, 68, 126)", textDecoration: "none" }}
             >
               {props.featureLatitude}, {props.featureLongitude}
               {/* -38.13333, -57.56667 */}
@@ -90,10 +88,12 @@ export function ResultCard(props) {
             <a
               // ${card.nearPlaceLatLong}
               // href={`https://www.google.com/maps/dir/?api=1&origin=-38.1167,-57.6&destination=-38.13333,-57.56667`}
-              href={`https://www.google.com/maps/dir/?api=1&origin=${props.nearPlaceLatLong}&destination=${props.featureLatitude},${props.featureLongitude}`}
+              href={`https://www.google.com/maps/dir/?api=1&origin=${props.nearPlaceLatLong}&destination=${props.featureLatitude},${
+                props.featureLongitude
+              }`}
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "rgb(29, 68, 126)" }}
+              style={{ color: "rgb(29, 68, 126)", textDecoration: "none" }}
             >
               {props.nearPlaceName}&nbsp;
               {/* LOS ACANTILADOS&nbsp; */}
@@ -103,8 +103,7 @@ export function ResultCard(props) {
               {/* ${card.nearPlaceCountryCode}   */}
               {props.nearPlacePostalCode}&nbsp;
               {/* 7609&nbsp; */}
-              {/* ${card.nearPlacePostalCode}   */}
-              ({props.nearPlaceDistance} km)
+              {/* ${card.nearPlacePostalCode}   */}({props.nearPlaceDistance} km)
               {/* (3.5 km) */}
               {/* (${card.nearPlaceDistance} km) */}
             </a>
@@ -112,7 +111,9 @@ export function ResultCard(props) {
           {/* Wigle WIFI MAP */}
           <a
             // href={`https://wigle.net/map?maplat=-38.13333&maplon=-57.56666999999999&mapzoom=12&coloring=density`}
-            href={`https://wigle.net/map?maplat=${props.featureLatitude}&maplon=${props.featureLongitude}&mapzoom=12&mapstyle=standard&coloring=density`}
+            href={`https://wigle.net/map?maplat=${props.featureLatitude}&maplon=${
+              props.featureLongitude
+            }&mapzoom=12&mapstyle=standard&coloring=density`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -141,7 +142,7 @@ export function NoResultCard({ children }) {
     <div className="card border-dark mb-3">
       <div className="card-header p-2">
         <p className="mb-0" style={{ color: "rgb(29, 68, 126)" }}>
-          Sorry, no matching features found in this area.
+          Sorry, no matching features found in that area.
         </p>
       </div>
     </div>

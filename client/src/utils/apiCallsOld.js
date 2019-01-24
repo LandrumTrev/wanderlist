@@ -1,6 +1,6 @@
 // START jQUERY FUNCTION
 // ==============================
-// $(document).ready(function () {
+$(document).ready(function () {
 
   // console.log("Thundercats are go!");
 
@@ -266,23 +266,23 @@
   // FUNCTION TO DYNAMICALLY BUILD A RESPONSE CARD FROM ALL RETURNED INFO
   // ===========================================================================
 
-  // function buildCard(card) {
+  function buildCard(card) {
 
 
-  //     $("#card_container").append("<div class='card border-dark mb-3'><div class='card-header p-2'><h5 style='display:inline;'><a href='https://www.google.com/search?q=" + card.featureName + "' target='_blank' style='color:rgb(121, 27, 27);'>" + card.featureName + "</a> : <a href='https://www.google.com/search?q=" + card.featureCountryName + "' target='_blank' style='color:rgb(29, 68, 126)'>" + card.featureCountryName + "</a> (<a href='https://www.google.com/search?q=" + card.featureType + "' target='_blank' style='color:rgb(162, 155, 99)'>" + card.featureType + "</a>)</h5><span class='font-weight-light' style='display:inline;float:right'><a href='https://www.google.com/maps/@" + card.featureLatitude + "," + card.featureLongitude + ",15z' target='_blank' style='color:rgb(29, 68, 126)'>" + card.featureLatitude + ", " + card.featureLongitude + "</a></span></div><div class='card-body text-dark p-2'><span class='font-weight-light'><a href='https://www.google.com/maps/dir/?api=1&origin=" + card.nearPlaceLatLong + "&destination=" + card.featureLatitude + "," + card.featureLongitude + "' target='_blank' style='color:rgb(29, 68, 126)'>" + card.nearPlaceName + " " + card.nearPlaceCountryCode + " " + card.nearPlacePostalCode + " (" + card.nearPlaceDistance + " km)</a></span><a href='https://wigle.net/map?maplat=" + card.featureLatitude + "&maplon=" + card.featureLongitude + "&mapzoom=12&coloring=density' target='_blank'><i class='fas fa-globe float-right' style='margin-left:10px;padding-top:3px;color:rgb(29, 68, 126);'></i></a><i class='float-right fas fa-wifi' style='margin-left:10px;padding-top:3px;color:rgb(29, 68, 126);'></i><span class='float-right font-weight-bold'>" + card.nearPlaceWifi + "</span></div></div>");
+      $("#card_container").append("<div class='card border-dark mb-3'><div class='card-header p-2'><h5 style='display:inline;'><a href='https://www.google.com/search?q=" + card.featureName + "' target='_blank' style='color:rgb(121, 27, 27);'>" + card.featureName + "</a> : <a href='https://www.google.com/search?q=" + card.featureCountryName + "' target='_blank' style='color:rgb(29, 68, 126)'>" + card.featureCountryName + "</a> (<a href='https://www.google.com/search?q=" + card.featureType + "' target='_blank' style='color:rgb(162, 155, 99)'>" + card.featureType + "</a>)</h5><span class='font-weight-light' style='display:inline;float:right'><a href='https://www.google.com/maps/@" + card.featureLatitude + "," + card.featureLongitude + ",15z' target='_blank' style='color:rgb(29, 68, 126)'>" + card.featureLatitude + ", " + card.featureLongitude + "</a></span></div><div class='card-body text-dark p-2'><span class='font-weight-light'><a href='https://www.google.com/maps/dir/?api=1&origin=" + card.nearPlaceLatLong + "&destination=" + card.featureLatitude + "," + card.featureLongitude + "' target='_blank' style='color:rgb(29, 68, 126)'>" + card.nearPlaceName + " " + card.nearPlaceCountryCode + " " + card.nearPlacePostalCode + " (" + card.nearPlaceDistance + " km)</a></span><a href='https://wigle.net/map?maplat=" + card.featureLatitude + "&maplon=" + card.featureLongitude + "&mapzoom=12&coloring=density' target='_blank'><i class='fas fa-globe float-right' style='margin-left:10px;padding-top:3px;color:rgb(29, 68, 126);'></i></a><i class='float-right fas fa-wifi' style='margin-left:10px;padding-top:3px;color:rgb(29, 68, 126);'></i><span class='float-right font-weight-bold'>" + card.nearPlaceWifi + "</span></div></div>");
 
 
-  // }
+  }
 
   // ===========================================================================
   // FUNCTION TO DYNAMICALLY BUILD A RESPONSE CARD FOR "NO RESULTS FOUND"
   // ===========================================================================
 
-  // function buildNoResults(card) {
+  function buildNoResults(card) {
 
-  //     $("#card_container").append("<div class='card border-dark mb-3'><div class='card-header p-2'><p class='mb-0' style='color:rgb(29, 68, 126)'>Sorry, no matching features found in this area.</p></div></div>");
+      $("#card_container").append("<div class='card border-dark mb-3'><div class='card-header p-2'><p class='mb-0' style='color:rgb(29, 68, 126)'>Sorry, no matching features found in this area.</p></div></div>");
 
-  // }
+  }
 
   // ===========================================================================
   // CLEAR BUTTON: CLEARS THE CURRENTLY LISTED SEARCH RESULTS=
@@ -298,5 +298,5 @@
 
 
   // END jQUERY FUNCTION
-// });
+});
 // ==============================
