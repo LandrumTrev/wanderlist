@@ -6,7 +6,7 @@ export default {
   featureArray: [
     {
       name: "SELECT FEATURE",
-      value: "selectFeature"
+      value: ""
     },
     // =====================================================
     // =====================================================
@@ -19,7 +19,7 @@ export default {
     },
     {
       name: "STREAMS + LAKES",
-      value: "StreamsAndLakes"
+      value: "H"
     },
     {
       name: "",

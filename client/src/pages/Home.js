@@ -7,7 +7,7 @@ import React, { Component } from "react";
 // import API in order to make axios API calls to the Express Server
 import ListRegions from "../utils/ListRegions";
 import ListFeatures from "../utils/ListFeatures";
-// import API from "../utils/API";
+import API from "../utils/API";
 
 // import single-component .js files
 import Header from "../components/Header";
@@ -88,16 +88,19 @@ class Home extends Component {
       let geoString;
       if (this.state.countryCC === "XX") {
         geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureCode}&maxRows=1000&username=ghostfountain`;
+        return geoString;
       } else if (this.state.regionCC === "") {
         geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureCode}&country=${
           this.state.countryCC
         }&maxRows=1000&username=ghostfountain`;
+        return geoString;
       } else {
         geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureCode}&country=${this.state.countryCC}&adminCode1=${
           this.state.regionCC
         }&maxRows=1000&username=ghostfountain`;
+        return geoString;
       }
-      console.log(geoString);
+      // console.log(geoString);
     } else {
       alert("Please select a feature type.");
     }
@@ -110,22 +113,22 @@ class Home extends Component {
     // prevent page reload default behavior of "submit"
     event.preventDefault();
 
+    // call geonamesString() to construct the first external API call string
     this.geonamesString();
-    // as long as user entered a title and author (synopsis optional)
-    // if (this.state.title && this.state.author) {
+    console.log(this.geonamesString());
+
     // call client/src/utils/API.js to make API.saveBook(bookData) axios API call
     // and send current this.state.title, .author, and .synopsis values
     // as the req.body (bookData) of the axios API POST call to /api/books
     // API.saveBook({
-    // title: this.state.title,
-    // author: this.state.author,
-    // synopsis: this.state.synopsis
+    //   title: this.state.title,
+    //   author: this.state.author,
+    //   synopsis: this.state.synopsis
     // })
-    // after async operation complete, call loadBooks() to get updated book list
-    // .then(res => this.loadBooks())
-    // .catch(err => console.log(err));
-    // }
-    console.log("handleFormSubmit() has run");
+    //   // after async operation completes, call loadBooks() to get updated book list
+    //   .then(res => this.loadBooks())
+    //   .catch(err => console.log(err));
+    // console.log("handleFormSubmit() has run");
   };
 
   // ===================================================

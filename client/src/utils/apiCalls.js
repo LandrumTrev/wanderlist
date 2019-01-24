@@ -50,23 +50,24 @@
 // ===========================================================================
 
 function getFeatureName() {
-  let geonamesSearchFeatures;
+  
+  // let geonamesSearchFeatures;
 
-  if (countryCC === "XX") {
-    geonamesSearchFeatures = "https://secure.geonames.org/searchJSON?featureCode=" + featureCode + "&maxRows=1000&username=ghostfountain";
-  } else if (regionCC === "") {
-    geonamesSearchFeatures =
-      "https://secure.geonames.org/searchJSON?featureCode=" + featureCode + "&country=" + countryCC + "&maxRows=1000&username=ghostfountain";
-  } else {
-    geonamesSearchFeatures =
-      "https://secure.geonames.org/searchJSON?featureCode=" +
-      featureCode +
-      "&country=" +
-      countryCC +
-      "&adminCode1=" +
-      regionCC +
-      "&maxRows=1000&username=ghostfountain";
-  }
+  // if (countryCC === "XX") {
+  //   geonamesSearchFeatures = "https://secure.geonames.org/searchJSON?featureCode=" + featureCode + "&maxRows=1000&username=ghostfountain";
+  // } else if (regionCC === "") {
+  //   geonamesSearchFeatures =
+  //     "https://secure.geonames.org/searchJSON?featureCode=" + featureCode + "&country=" + countryCC + "&maxRows=1000&username=ghostfountain";
+  // } else {
+  //   geonamesSearchFeatures =
+  //     "https://secure.geonames.org/searchJSON?featureCode=" +
+  //     featureCode +
+  //     "&country=" +
+  //     countryCC +
+  //     "&adminCode1=" +
+  //     regionCC +
+  //     "&maxRows=1000&username=ghostfountain";
+  // }
 
   $.ajax({
     url: geonamesSearchFeatures,
