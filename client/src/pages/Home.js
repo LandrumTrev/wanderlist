@@ -27,10 +27,15 @@ import "./style.css";
 class Home extends Component {
   // variable data held and managed by Home component
   state = {
-    // books: [],
-    // title: "",
-    // author: "",
-    // synopsis: ""
+    featureName: "Ensenada Mogotes",
+    featureType: "bay",
+    featureCountryName: "Argentina",
+    featureLatitude: "-38.13333",
+    featureLongitude: "-57.56667",
+    nearPlaceName: "LOS ACANTILADOS",
+    nearPlaceCountryCode: "AR",
+    nearPlacePostalCode: "7609",
+    nearPlaceDistance: "3.5"
   };
 
   // ===================================================
@@ -39,6 +44,7 @@ class Home extends Component {
   // run the loadBooks() method (below)
   componentDidMount() {
     // this.loadBooks();
+    console.log(this.state);
   }
 
   // ===================================================
@@ -168,7 +174,17 @@ class Home extends Component {
 
           {/* ResultCards list */}
           <CardsContainer fluid>
-            <ResultCard />
+            <ResultCard
+              featureName={this.state.featureName}
+              featureType={this.state.featureType}
+              featureCountryName={this.state.featureCountryName}
+              featureLatitude={this.state.featureLatitude}
+              featureLongitude={this.state.featureLongitude}
+              nearPlaceName={this.state.nearPlaceName}
+              nearPlaceCountryCode={this.state.nearPlaceCountryCode}
+              nearPlacePostalCode={this.state.nearPlacePostalCode}
+              nearPlaceDistance={this.state.nearPlaceDistance}
+            />
             <NoResultCard />
           </CardsContainer>
 

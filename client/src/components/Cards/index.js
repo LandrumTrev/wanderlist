@@ -19,7 +19,7 @@ export function CardsContainer({ fluid, children }) {
 // SEARCH RESULTS card
 // ===================================================================
 
-export function ResultCard({ children }) {
+export function ResultCard(props) {
   return (
     <>
       <div className="card border-secondary mb-3">
@@ -34,7 +34,8 @@ export function ResultCard({ children }) {
               rel="noopener noreferrer"
               style={{ color: "rgb(121, 27, 27)", fontWeight: 500, textDecoration: "none" }}
             >
-              Ensenada Mogotes
+              {props.featureName}
+              {/* Ensenada Mogotes */}
               {/* ${card.featureName} */}
             </a>
             {/* Google search: FEATURE TYPE */}
@@ -44,7 +45,8 @@ export function ResultCard({ children }) {
               rel="noopener noreferrer"
               style={{ color: "rgb(162, 155, 99)", fontWeight: 100, textDecoration: "none" }}
             >
-              &nbsp;(bay)&nbsp;
+              &nbsp;{props.featureType}&nbsp;
+              {/* &nbsp;(bay)&nbsp; */}
               {/* ${card.featureType} */}
             </a>
             {/* Google search: COUNTRY */}
@@ -54,7 +56,8 @@ export function ResultCard({ children }) {
               rel="noopener noreferrer"
               style={{ color: "rgb(29, 68, 126)", fontWeight: 300, textDecoration: "none" }}
             >
-              :&nbsp;Argentina
+              :&nbsp;{props.featureCountryName}
+              {/* :&nbsp;Argentina */}
               {/* ${card.featureCountryName} */}
             </a>
           </h5>
@@ -67,7 +70,8 @@ export function ResultCard({ children }) {
               rel="noopener noreferrer"
               style={{ color: "rgb(29, 68, 126)" }}
             >
-              -38.13333, -57.56667
+              {props.featureLatitude}, {props.featureLongitude}
+              {/* -38.13333, -57.56667 */}
               {/* ${card.featureLatitude}, ${card.featureLongitude} */}
             </a>
           </span>
@@ -83,13 +87,17 @@ export function ResultCard({ children }) {
               rel="noopener noreferrer"
               style={{ color: "rgb(29, 68, 126)" }}
             >
-              LOS ACANTILADOS&nbsp;
+              {props.nearPlaceName}&nbsp;
+              {/* LOS ACANTILADOS&nbsp; */}
               {/* ${card.nearPlaceName}  */}
-              AR&nbsp;
+              {props.nearPlaceCountryCode}&nbsp;
+              {/* AR&nbsp; */}
               {/* ${card.nearPlaceCountryCode}   */}
-              7609&nbsp;
+              {props.nearPlacePostalCode}&nbsp;
+              {/* 7609&nbsp; */}
               {/* ${card.nearPlacePostalCode}   */}
-              (3.5 km)
+              ({props.nearPlaceDistance} km)
+              {/* (3.5 km) */}
               {/* (${card.nearPlaceDistance} km) */}
             </a>
           </span>
