@@ -9,18 +9,19 @@
   // ===========================================================================
 
   // set variable to stand for the feature code of feature name selected from dropdown
-  var featureCode;
+  // let featureCode;
 
-  function getFeatureCode() {
 
-      var fCode = $("#feature_options").serializeArray();
+  // function getFeatureCode() {
 
-      featureCode = fCode[0].value;
+      // let fCode = $("#feature_options").serializeArray();
 
-      console.log(featureCode);
+      // featureCode = fCode[0].value;
+
+      // console.log(featureCode);
   }
 
-  $("#feature_options").on("change", getFeatureCode);
+  // $("#feature_options").on("change", getFeatureCode);
 
 
 
@@ -29,17 +30,17 @@
   // ===========================================================================
 
   // set variable to stand for the country code of country dropdown, to narrow the search
-  var countryCC = "XX";
-  var regionCC = "";
+  let countryCC = "XX";
+  let regionCC = "";
 
   function getCountryCC() {
 
-      var cCode = $("#country_options").serializeArray();
+      let cCode = $("#country_options").serializeArray();
 
       countryCC = cCode[0].value.substr(0, 2);
       console.log(countryCC);
 
-      regionCC = cCode[0].value.substr(2, 3);
+      regionCC = cCode[0].value.substr(2, 4);
       console.log(regionCC);
 
   }
@@ -56,7 +57,7 @@
 
   function getFeatureName() {
 
-      var geonamesSearchFeatures;
+      let geonamesSearchFeatures;
 
       if (countryCC === "XX") {
 
@@ -86,8 +87,8 @@
               } else {
 
                   // array of random numbers of a certain length from a certain range
-                  var number = Math.min(response.totalResultsCount, 1000);
-                  var random = Array.from({
+                  let number = Math.min(response.totalResultsCount, 1000);
+                  let random = Array.from({
                       length: 1
                   }, () => Math.floor(Math.random() * number));
 
@@ -95,11 +96,11 @@
                   console.log(response);
 
 
-                  for (var i = 0; i < random.length; i++) {
+                  for (let i = 0; i < random.length; i++) {
 
-                      var rando = random[i];
+                      let rando = random[i];
 
-                      var card = {};
+                      let card = {};
 
                       card.featureName = response.geonames[rando].name;
                       card.featureCountryCode = response.geonames[rando].countryCode;
@@ -137,7 +138,7 @@
 
   function getPostalCodes(card) {
 
-      var ezcmdPostalCodes = "https://ezcmd.com/apps/api_geo_postal_codes/nearby_locations_by_coords/866eaf56be3781d02011b80ebd0baef8/354?coords=" + card.featureLatitude + "," + card.featureLongitude + "&within=100&unit=Km";
+      let ezcmdPostalCodes = "https://ezcmd.com/apps/api_geo_postal_codes/nearby_locations_by_coords/866eaf56be3781d02011b80ebd0baef8/354?coords=" + card.featureLatitude + "," + card.featureLongitude + "&within=100&unit=Km";
 
       $.ajax({
               url: ezcmdPostalCodes,
@@ -200,7 +201,7 @@
 
   function getHotspots(card) {
 
-      var wigleHotspots = "https://api.wigle.net/api/v2/stats/regions?country=" + card.nearPlaceCountryCode;
+      let wigleHotspots = "https://api.wigle.net/api/v2/stats/regions?country=" + card.nearPlaceCountryCode;
 
       card.nearPlaceWifi = "";
 
@@ -217,7 +218,7 @@
 
               // console.log(response);
 
-              for (var k = 0; k < response.postalCode.length; k++) {
+              for (let k = 0; k < response.postalCode.length; k++) {
 
                   card.listPostalCode = response.postalCode[k].postalCode;
                   card.listHotSpots = kFormatter(response.postalCode[k].count);
@@ -254,7 +255,7 @@
 
   });
 
-  var audio = document.getElementById("myAudio");
+  let audio = document.getElementById("myAudio");
 
   function playAudio() {
       audio.play();

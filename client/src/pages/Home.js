@@ -30,8 +30,10 @@ import "./style.css";
 class Home extends Component {
   // variable data held and managed by Home component
   state = {
-    selectRegion: "",
-    selectFeature: "",
+    countryAndRegion: "",
+    countryCC: "",
+    regionCC: "",
+    featureCode: "",
     listRegions: ListRegions.countryArray,
     listFeatures: ListFeatures.featureArray,
     featureName: "Ensenada Mogotes",
@@ -48,6 +50,21 @@ class Home extends Component {
   };
 
   // ===================================================
+  // setCCs() splits this.state.countryAndRegion into countryCC and regionCC codes
+  // setCCs = () => {
+  // code
+  // this.setState({ countryCC: this.state.countryAndRegion.substring(0, 2), regionCC: this.state.countryAndRegion.substring(2, 4) });
+  // };
+  // ===================================================
+
+  // ===================================================
+
+  componentDidUpdate() {
+    // console.log("monkeypants!");
+    // console.log(this.state.countryCC);
+    // console.log(this.state.regionCC);
+  }
+  // ===================================================
 
   // whenever this page-view Component mounts (is called and displayed),
   // run the loadBooks() method (below)
@@ -56,8 +73,8 @@ class Home extends Component {
     // console.log(this.state);
     // console.log(ListRegions.countryArray);
     // console.log(ListFeatures.featureArray);
-    // console.log(this.state.selectRegion);
-    // console.log(this.state.selectFeature);
+    // console.log(this.state.regionCC);
+    // console.log(this.state.featureCode);
   }
 
   // ===================================================
@@ -91,9 +108,18 @@ class Home extends Component {
     // create variables name and value for event.target.name and event.target.value
     const { name, value } = event.target;
     // use setState to change state values of the state key [name] for whichever property
-    this.setState({
-      [name]: value
-    });
+    // if selecting a country or region, also set the Country Code and Region Codes
+    if (name === "countryAndRegion") {
+      this.setState({
+        [name]: value,
+        countryCC: value.substring(0, 2),
+        regionCC: value.substring(2, 4)
+      });
+    } else {
+      this.setState({
+        [name]: value
+      });
+    }
   };
 
   // ===================================================
@@ -148,19 +174,19 @@ class Home extends Component {
               <Row>
                 <div className="col-sm-6 p-2">
                   <div className="input-group">
-                    <SelectRegion 
-                      list={this.state.listRegions} 
-                      thisRegion={this.handleInputChange} 
-                      onChange={console.log(this.state.selectRegion)} 
+                    <SelectRegion
+                      list={this.state.listRegions}
+                      thisRegion={this.handleInputChange}
+                      onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
                     />
                   </div>
                 </div>
                 <div className="col-sm-6 p-2">
                   <div className="input-group">
-                    <SelectFeature 
-                    list={this.state.listFeatures} 
-                    thisFeature={this.handleInputChange} 
-                    onChange={console.log(this.state.selectFeature)} 
+                    <SelectFeature
+                      list={this.state.listFeatures}
+                      thisFeature={this.handleInputChange}
+                      onChange={console.log(this.state.featureCode)}
                     />
                   </div>
                 </div>
