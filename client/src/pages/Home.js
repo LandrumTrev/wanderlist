@@ -4,15 +4,13 @@ import React, { Component } from "react";
 // use a <Link> tag in place of <a href> to link to another page view with React Router
 // import { Link } from "react-router-dom";
 
-// import API in order to make axios API calls to the Express Server
+// import list object arrays for Countries/Regions and Feature types
 import ListRegions from "../utils/ListRegions";
 import ListFeatures from "../utils/ListFeatures";
-import API from "../utils/API";
 
 // import single-component .js files
 import Header from "../components/Header";
 import Background from "../components/Background";
-
 // import DeleteBtn from "../components/DeleteBtn";
 // import Jumbotron from "../components/Jumbotron";
 
@@ -20,12 +18,17 @@ import Background from "../components/Background";
 import { Col, Row, Container } from "../components/Grid";
 import { SelectRegion, SelectFeature } from "../components/Search";
 import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
-
 // import { List, ListItem } from "../components/List";
 // import { Input, TextArea, FormBtn } from "../components/Form";
 
 // import master style.css for all page views
 import "./style.css";
+
+// import API in order to make axios API calls to the Express Server
+// import API from "../utils/API";
+
+// use axios to make XMLHttpRequest API calls
+import axios from "axios";
 
 class Home extends Component {
   // variable data held and managed by Home component
@@ -113,9 +116,16 @@ class Home extends Component {
     // prevent page reload default behavior of "submit"
     event.preventDefault();
 
-    // call geonamesString() to construct the first external API call string
-    this.geonamesString();
+    // test geonamesString()
     console.log(this.geonamesString());
+
+    // call geonamesString to construct with current info,
+    // and have axios make the XMLHttpRequest GET call to geoNames API
+    axios.get(this.geonamesString()).then(response => {
+      // console.log(response.data);
+      console.log(response.data.totalResultsCount);
+      console.log(response.data.geonames);
+    });
 
     // call client/src/utils/API.js to make API.saveBook(bookData) axios API call
     // and send current this.state.title, .author, and .synopsis values
@@ -128,7 +138,8 @@ class Home extends Component {
     //   // after async operation completes, call loadBooks() to get updated book list
     //   .then(res => this.loadBooks())
     //   .catch(err => console.log(err));
-    // console.log("handleFormSubmit() has run");
+
+    console.log("handleFormSubmit() has run");
   };
 
   // ===================================================
