@@ -31,29 +31,31 @@ import "./style.css";
 import axios from "axios";
 
 class Home extends Component {
-  // variable data held and managed by Home component
-  state = {
-    countryAndRegion: "",
-    countryCC: "",
-    regionCC: "",
-    featureCode: "",
-    listRegions: ListRegions.countryArray,
-    listFeatures: ListFeatures.featureArray,
-    featureName: "Ensenada Mogotes",
-    featureType: "bay",
-    featureCountryCode: "AR",
-    featureLatitude: "-38.13333",
-    featureLongitude: "-57.56667",
-    featureLocation: "",
-    featureCountryName: "Argentina",
-    nearPlaceName: "LOS ACANTILADOS",
-    nearPlacePostalCode: "7609",
-    nearPlaceCountryCode: "AR",
-    nearPlaceCountryName: "Argentina",
-    nearPlaceDistance: "3.5",
-    nearPlaceLatLong: "-38.1167,-57.6",
-    nearPlaceWifi: "3k"
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      countryAndRegion: "",
+      countryCC: "",
+      regionCC: "",
+      featureCode: "",
+      listRegions: ListRegions.countryArray,
+      listFeatures: ListFeatures.featureArray,
+      featureName: "Ensenada Mogotes",
+      featureType: "bay",
+      featureCountryCode: "AR",
+      featureLatitude: "-38.13333",
+      featureLongitude: "-57.56667",
+      featureLocation: "",
+      featureCountryName: "Argentina",
+      nearPlaceName: "LOS ACANTILADOS",
+      nearPlacePostalCode: "7609",
+      nearPlaceCountryCode: "AR",
+      nearPlaceCountryName: "Argentina",
+      nearPlaceDistance: "3.5",
+      nearPlaceLatLong: "-38.1167,-57.6",
+      nearPlaceWifi: "wifi map"
+    };
+  }
 
   // ===================================================
 
@@ -120,20 +122,20 @@ class Home extends Component {
     event.preventDefault();
 
     // test geonamesString()
-    console.log(this.geonamesString());
+    // console.log(this.geonamesString());
 
     // call geonamesString to construct with current info,
     // and have axios make the XMLHttpRequest GET call to geoNames API
     axios
       .get(this.geonamesString())
       .then(response => {
-        console.log(response.data);
+        // console.log(response.data);
 
         if (response.data.totalResultsCount === 0) {
           // buildNoResults();
           console.log("Sorry, no results!");
         } else {
-          console.log(response.data.totalResultsCount);
+          // console.log(response.data.totalResultsCount);
           // console.log(response.data.geonames);
 
           // get number of results up to 1000 (set as 1000 if more than 1000)
@@ -141,11 +143,11 @@ class Home extends Component {
 
           // get a random number from the range of number of results returned
           let random = Math.floor(Math.random() * maxNumber);
-          console.log(random);
+          // console.log(random);
 
           // use the random number to select one result from the returned data
           let theFeature = response.data.geonames[random];
-          console.log(theFeature);
+          // console.log(theFeature);
 
           this.setState({
             featureName: theFeature.name,
@@ -168,7 +170,7 @@ class Home extends Component {
       })
       .then(() => {
         this.getPostalCodes();
-        console.log("monkeypants");
+        // console.log("monkeypants");
       });
   };
 
@@ -185,7 +187,8 @@ class Home extends Component {
 
     // and have axios make the XMLHttpRequest GET call to EZCMD API
     axios.get(ezcmdPostalCodes).then(response => {
-      console.log(response.data);
+      // console.log(response.data);
+      console.log(response.data.search_results[0]);
 
       if (response.data.search_results.length > 0) {
         this.setState({
@@ -197,7 +200,7 @@ class Home extends Component {
           nearPlaceLatLong: response.data.search_results[0].coords
         });
 
-        // getHotspots();
+        this.getHotspots();
       } else if (this.state.featureLocation) {
         this.setState({
           nearPlaceName: this.state.featureLocation,
@@ -208,9 +211,9 @@ class Home extends Component {
           nearPlaceLatLong: ""
         });
 
-        // getHotspots();
+        this.getHotspots();
       } else {
-        // getHotspots();
+        this.getHotspots();
         console.log("CLOSEST CITY: no info");
       }
     });
@@ -222,13 +225,16 @@ class Home extends Component {
   // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API (service is beta, no set limits)
   // ===========================================================================
 
-  // mini function to format thousands of WiFi numbers to k format
-  kFormatter = num => {
-    return num > 999 ? (num / 1000).toFixed(1) + "k" : num;
-  };
+  // // mini function to format thousands of WiFi numbers to k format
+  // kFormatter = num => {
+  //   return num > 999 ? (num / 1000).toFixed(1) + "k" : num;
+  // };
 
   getHotspots = () => {
     let wigleHotspots = `https://api.wigle.net/api/v2/stats/regions?country=${this.state.nearPlaceCountryCode}`;
+    // console.log(this.state.nearPlaceCountryCode);
+    // console.log("this.state.nearPlaceCountryCode");
+    // console.log(this.state.nearPlaceCountryCode);
 
     // and have axios make the XMLHttpRequest GET call to EZCMD API
     axios
@@ -237,31 +243,36 @@ class Home extends Component {
           Authorization: "Basic " + btoa("AID544c0365fdcc8c2463ec21d3590bbd23:8891f56fb22400d107dd8ee49d2798ff")
         }
       })
-      .then(function(response) {
-        console.log(response.data);
+      .then(response => {
+        // console.log(response.data);
+        // console.log(response.data.postalCode[0]);
+        // console.log(this.state.nearPlacePostalCode);
+
+        // mini function to format thousands of WiFi numbers to k format
+        let kFormatter = num => {
+          return num > 999 ? (num / 1000).toFixed(1) + "k" : num;
+        };
 
         for (let k = 0; k < response.data.postalCode.length; k++) {
-          // this.state.listPostalCode = response.data.postalCode[k].postalCode;
-          // this.state.listHotSpots = this.kFormatter(response.data.postalCode[k].count);
+          let PostalCode = response.data.postalCode[k].postalCode;
+          let wifiCountK = kFormatter(response.data.postalCode[k].count);
 
-          if (this.state.listPostalCode === this.state.nearPlacePostalCode) {
-            // this.state.nearPlaceWifi = this.state.listHotSpots;
+          // console.log(wifiCountK);
+          // console.log(PostalCode);
+          // console.log(this.state.nearPlacePostalCode);
 
-            console.log(
-              "WIFI: " +
-                this.state.nearPlaceName +
-                " " +
-                this.state.nearPlacePostalCode +
-                " " +
-                this.state.nearPlaceCountryCode +
-                " has " +
-                this.state.nearPlaceWifi +
-                " hotspots"
-            );
+          if (PostalCode === this.state.nearPlacePostalCode) {
+            console.log("It's a match:");
+            console.log(wifiCountK);
+            console.log(this.state.nearPlaceCountryCode);
+
+            this.setState({
+              nearPlaceWifi: wifiCountK
+            });
           }
         }
       })
-      .catch(function(error) {
+      .catch(error => {
         console.log(error);
       });
 
