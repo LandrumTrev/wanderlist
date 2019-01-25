@@ -47,7 +47,7 @@ export function ResultCard(props) {
               rel="noopener noreferrer"
               style={{ color: "rgb(162, 155, 99)", fontWeight: 100, textDecoration: "none" }}
             >
-              &nbsp;({props.featureType})&nbsp;
+              &nbsp;{props.featureType}&nbsp;
               {/* &nbsp;(bay)&nbsp; */}
               {/* ${card.featureType} */}
             </a>

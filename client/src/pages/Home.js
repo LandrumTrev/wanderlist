@@ -122,27 +122,56 @@ class Home extends Component {
     // call geonamesString to construct with current info,
     // and have axios make the XMLHttpRequest GET call to geoNames API
     axios.get(this.geonamesString()).then(response => {
-      // console.log(response.data);
-      console.log(response.data.totalResultsCount);
-      console.log(response.data.geonames);
+      console.log(response.data);
+
+      if (response.data.totalResultsCount === 0) {
+        // buildNoResults();
+        console.log("Sorry, no results!");
+      } else {
+        console.log(response.data.totalResultsCount);
+        // console.log(response.data.geonames);
+
+        // get a random number from the range of number of results returned
+        let random = Math.floor(Math.random() * response.data.totalResultsCount);
+        console.log(random);
+
+        // use the random number to select one result from the returned data
+        let theFeature = response.data.geonames[random];
+        console.log(theFeature);
+
+        this.setState({
+          featureName: theFeature.name,
+          featureType: theFeature.fcodeName,
+          featureCountryCode: theFeature.countryCode,
+          featureLatitude: theFeature.lat,
+          featureLongitude: theFeature.lng,
+          featureLocation: theFeature.fclName
+        });
+
+        if (theFeature.countryName) {
+          this.setState({
+            featureCountryName: theFeature.countryName
+          });
+        } else {
+          this.setState({ featureCountryName: "" });
+        }
+      }
     });
-
-    // call client/src/utils/API.js to make API.saveBook(bookData) axios API call
-    // and send current this.state.title, .author, and .synopsis values
-    // as the req.body (bookData) of the axios API POST call to /api/books
-    // API.saveBook({
-    //   title: this.state.title,
-    //   author: this.state.author,
-    //   synopsis: this.state.synopsis
-    // })
-    //   // after async operation completes, call loadBooks() to get updated book list
-    //   .then(res => this.loadBooks())
-    //   .catch(err => console.log(err));
-
-    console.log("handleFormSubmit() has run");
   };
 
   // ===================================================
+
+  // call client/src/utils/API.js to make API.saveBook(bookData) axios API call
+  // and send current this.state.title, .author, and .synopsis values
+  // as the req.body (bookData) of the axios API POST call to /api/books
+  // API.saveBook({
+  //   title: this.state.title,
+  //   author: this.state.author,
+  //   synopsis: this.state.synopsis
+  // })
+  //   // after async operation completes, call loadBooks() to get updated book list
+  //   .then(res => this.loadBooks())
+  //   .catch(err => console.log(err));
 
   // ===================================================
 

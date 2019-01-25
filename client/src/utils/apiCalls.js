@@ -69,24 +69,19 @@ function getFeatureName() {
   //     "&maxRows=1000&username=ghostfountain";
   // }
 
-  $.ajax({
-    url: geonamesSearchFeatures,
-    method: "GET"
-  }).then(function(response) {
-    if (response.totalResultsCount === 0) {
-      buildNoResults();
-    } else {
-      // array of random numbers of a certain length from a certain range
-      let number = Math.min(response.totalResultsCount, 1000);
-      let random = Array.from(
-        {
-          length: 1
-        },
-        () => Math.floor(Math.random() * number)
-      );
+  // $.ajax({
+  //   url: geonamesSearchFeatures,
+  //   method: "GET"
+  // }).then(function(response) {
+  //   if (response.totalResultsCount === 0) {
+  //     buildNoResults();
+  //   } else {
+  //     // array of random numbers of a certain length from a certain range
+  //     let number = Math.min(response.totalResultsCount, 1000);
+  //     let random = Array.from({ length: 1 }, () => Math.floor(Math.random() * number));
 
-      console.log(random);
-      console.log(response);
+  //     console.log(random);
+  //     console.log(response);
 
       for (let i = 0; i < random.length; i++) {
         let rando = random[i];
@@ -110,9 +105,9 @@ function getFeatureName() {
 
         getPostalCodes(card);
       }
-    }
-  });
-}
+    // }
+  // });
+// }
 
 // ===========================================================================
 // GET CLOSEST POSTAL CODE TO FEATURE LOCATION LAT+LONG COORDINATES FROM EZCMD API (limit 10,000 calls/month)
