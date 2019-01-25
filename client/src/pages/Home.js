@@ -197,8 +197,7 @@ class Home extends Component {
           nearPlaceLatLong: response.data.search_results[0].coords
         });
 
-        //   getHotspots();
-
+        // getHotspots();
       } else if (this.state.featureLocation) {
         this.setState({
           nearPlaceName: this.state.featureLocation,
@@ -210,12 +209,63 @@ class Home extends Component {
         });
 
         // getHotspots();
-
       } else {
         // getHotspots();
         console.log("CLOSEST CITY: no info");
       }
     });
+  };
+
+  // ===================================================
+
+  // ===========================================================================
+  // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API (service is beta, no set limits)
+  // ===========================================================================
+
+  // mini function to format thousands of WiFi numbers to k format
+  kFormatter = num => {
+    return num > 999 ? (num / 1000).toFixed(1) + "k" : num;
+  };
+
+  getHotspots = () => {
+    let wigleHotspots = `https://api.wigle.net/api/v2/stats/regions?country=${this.state.nearPlaceCountryCode}`;
+
+    // and have axios make the XMLHttpRequest GET call to EZCMD API
+    axios
+      .get(wigleHotspots, {
+        headers: {
+          Authorization: "Basic " + btoa("AID544c0365fdcc8c2463ec21d3590bbd23:8891f56fb22400d107dd8ee49d2798ff")
+        }
+      })
+      .then(function(response) {
+        console.log(response.data);
+
+        for (let k = 0; k < response.data.postalCode.length; k++) {
+          // this.state.listPostalCode = response.data.postalCode[k].postalCode;
+          // this.state.listHotSpots = this.kFormatter(response.data.postalCode[k].count);
+
+          if (this.state.listPostalCode === this.state.nearPlacePostalCode) {
+            // this.state.nearPlaceWifi = this.state.listHotSpots;
+
+            console.log(
+              "WIFI: " +
+                this.state.nearPlaceName +
+                " " +
+                this.state.nearPlacePostalCode +
+                " " +
+                this.state.nearPlaceCountryCode +
+                " has " +
+                this.state.nearPlaceWifi +
+                " hotspots"
+            );
+          }
+        }
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+
+    // buildCard();
   };
 
   // ===================================================

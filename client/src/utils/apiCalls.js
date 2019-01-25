@@ -83,28 +83,28 @@ function getFeatureName() {
   //     console.log(random);
   //     console.log(response);
 
-      for (let i = 0; i < random.length; i++) {
-        let rando = random[i];
+      // for (let i = 0; i < random.length; i++) {
+      //   let rando = random[i];
 
-        let card = {};
+      //   let card = {};
 
-        card.featureName = response.geonames[rando].name;
-        card.featureCountryCode = response.geonames[rando].countryCode;
-        card.featureLatitude = response.geonames[rando].lat;
-        card.featureLongitude = response.geonames[rando].lng;
-        card.featureLocation = response.geonames[rando].fclName;
-        card.featureType = response.geonames[rando].fcodeName;
+      //   card.featureName = response.geonames[rando].name;
+      //   card.featureCountryCode = response.geonames[rando].countryCode;
+      //   card.featureLatitude = response.geonames[rando].lat;
+      //   card.featureLongitude = response.geonames[rando].lng;
+      //   card.featureLocation = response.geonames[rando].fclName;
+      //   card.featureType = response.geonames[rando].fcodeName;
 
-        if (response.geonames[rando].countryName) {
-          card.featureCountryName = response.geonames[rando].countryName;
-          // console.log("DESTINATION: " + card.featureName + ", " + card.featureCountryName);
-        } else {
-          card.featureCountryName = "";
-          // console.log("DESTINATION: " + card.featureName);
-        }
+      //   if (response.geonames[rando].countryName) {
+      //     card.featureCountryName = response.geonames[rando].countryName;
+      //     // console.log("DESTINATION: " + card.featureName + ", " + card.featureCountryName);
+      //   } else {
+      //     card.featureCountryName = "";
+      //     // console.log("DESTINATION: " + card.featureName);
+      //   }
 
-        getPostalCodes(card);
-      }
+      //   getPostalCodes(card);
+      // }
     // }
   // });
 // }
@@ -113,52 +113,52 @@ function getFeatureName() {
 // GET CLOSEST POSTAL CODE TO FEATURE LOCATION LAT+LONG COORDINATES FROM EZCMD API (limit 10,000 calls/month)
 // ===========================================================================
 
-function getPostalCodes(card) {
-  let ezcmdPostalCodes =
-    "https://ezcmd.com/apps/api_geo_postal_codes/nearby_locations_by_coords/866eaf56be3781d02011b80ebd0baef8/354?coords=" +
-    card.featureLatitude +
-    "," +
-    card.featureLongitude +
-    "&within=100&unit=Km";
+// function getPostalCodes(card) {
+//   let ezcmdPostalCodes =
+//     "https://ezcmd.com/apps/api_geo_postal_codes/nearby_locations_by_coords/866eaf56be3781d02011b80ebd0baef8/354?coords=" +
+//     card.featureLatitude +
+//     "," +
+//     card.featureLongitude +
+//     "&within=100&unit=Km";
 
-  $.ajax({
-    url: ezcmdPostalCodes,
-    method: "GET"
-  }).then(function(response) {
-    console.log(response);
+//   $.ajax({
+//     url: ezcmdPostalCodes,
+//     method: "GET"
+//   }).then(function(response) {
+//     console.log(response);
 
-    if (response.search_results.length > 0) {
-      card.nearPlaceName = response.search_results[0].place_name.trim();
-      card.nearPlacePostalCode = response.search_results[0].postal_code;
-      card.nearPlaceCountryCode = response.search_results[0].country_code;
-      card.nearPlaceCountryName = response.search_results[0].country_name;
-      card.nearPlaceDistance = Math.round(response.search_results[0].distance * 10) / 10;
-      card.nearPlaceLatLong = response.search_results[0].coords;
+//     if (response.search_results.length > 0) {
+//       card.nearPlaceName = response.search_results[0].place_name.trim();
+//       card.nearPlacePostalCode = response.search_results[0].postal_code;
+//       card.nearPlaceCountryCode = response.search_results[0].country_code;
+//       card.nearPlaceCountryName = response.search_results[0].country_name;
+//       card.nearPlaceDistance = Math.round(response.search_results[0].distance * 10) / 10;
+//       card.nearPlaceLatLong = response.search_results[0].coords;
 
-      // console.log("CLOSEST CITY: " + card.nearPlaceName + " " + card.nearPlaceCountryCode + " " + card.nearPlacePostalCode + " (" + card.nearPlaceDistance + " km)");
+//       // console.log("CLOSEST CITY: " + card.nearPlaceName + " " + card.nearPlaceCountryCode + " " + card.nearPlacePostalCode + " (" + card.nearPlaceDistance + " km)");
 
-      getHotspots(card);
-    } else if (card.featureLocation) {
-      card.nearPlaceName = card.featureLocation;
-      card.nearPlacePostalCode = "";
-      card.nearPlaceCountryCode = "";
-      card.nearPlaceCountryName = "";
-      card.nearPlaceDistance = "?";
-      card.nearPlaceLatLong = "";
+//       getHotspots(card);
+//     } else if (card.featureLocation) {
+//       card.nearPlaceName = card.featureLocation;
+//       card.nearPlacePostalCode = "";
+//       card.nearPlaceCountryCode = "";
+//       card.nearPlaceCountryName = "";
+//       card.nearPlaceDistance = "?";
+//       card.nearPlaceLatLong = "";
 
-      getHotspots(card);
+//       getHotspots(card);
 
-      // console.log("CLOSEST CITY: (" + card.nearPlaceName + ")");
+//       // console.log("CLOSEST CITY: (" + card.nearPlaceName + ")");
 
-      // return;
-    } else {
-      getHotspots(card);
+//       // return;
+//     } else {
+//       getHotspots(card);
 
-      // console.log("CLOSEST CITY: no info");
-      // return;
-    }
-  });
-}
+//       // console.log("CLOSEST CITY: no info");
+//       // return;
+//     }
+//   });
+// }
 
 // ===========================================================================
 // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API (service is beta, no set limits)
