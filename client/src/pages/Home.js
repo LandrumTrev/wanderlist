@@ -41,12 +41,15 @@ class Home extends Component {
     listFeatures: ListFeatures.featureArray,
     featureName: "Ensenada Mogotes",
     featureType: "bay",
-    featureCountryName: "Argentina",
+    featureCountryCode: "AR",
     featureLatitude: "-38.13333",
     featureLongitude: "-57.56667",
+    featureLocation: "",
+    featureCountryName: "Argentina",
     nearPlaceName: "LOS ACANTILADOS",
-    nearPlaceCountryCode: "AR",
     nearPlacePostalCode: "7609",
+    nearPlaceCountryCode: "AR",
+    nearPlaceCountryName: "Argentina",
     nearPlaceDistance: "3.5",
     nearPlaceLatLong: "-38.1167,-57.6",
     nearPlaceWifi: "3k"
@@ -121,40 +124,96 @@ class Home extends Component {
 
     // call geonamesString to construct with current info,
     // and have axios make the XMLHttpRequest GET call to geoNames API
-    axios.get(this.geonamesString()).then(response => {
+    axios
+      .get(this.geonamesString())
+      .then(response => {
+        console.log(response.data);
+
+        if (response.data.totalResultsCount === 0) {
+          // buildNoResults();
+          console.log("Sorry, no results!");
+        } else {
+          console.log(response.data.totalResultsCount);
+          // console.log(response.data.geonames);
+
+          // get number of results up to 1000 (set as 1000 if more than 1000)
+          let maxNumber = Math.min(response.data.totalResultsCount, 1000);
+
+          // get a random number from the range of number of results returned
+          let random = Math.floor(Math.random() * maxNumber);
+          console.log(random);
+
+          // use the random number to select one result from the returned data
+          let theFeature = response.data.geonames[random];
+          console.log(theFeature);
+
+          this.setState({
+            featureName: theFeature.name,
+            featureType: theFeature.fcodeName,
+            featureCountryCode: theFeature.countryCode,
+            featureLatitude: theFeature.lat,
+            featureLongitude: theFeature.lng,
+            featureLocation: theFeature.fclName
+          });
+
+          if (theFeature.countryName) {
+            this.setState({
+              featureCountryName: theFeature.countryName
+            });
+          } else {
+            this.setState({ featureCountryName: "" });
+          }
+        }
+        // });
+      })
+      .then(() => {
+        this.getPostalCodes();
+        console.log("monkeypants");
+      });
+  };
+
+  // ===========================================================================
+  // GET CLOSEST POSTAL CODE TO FEATURE LOCATION and NEARBY PLACE
+  // LAT+LONG COORDINATES FROM EZCMD API (limit 10,000 calls/month)
+  // ===========================================================================
+
+  getPostalCodes = () => {
+    // build API string for EZCMD postal code search
+    let ezcmdPostalCodes = `https://ezcmd.com/apps/api_geo_postal_codes/nearby_locations_by_coords/866eaf56be3781d02011b80ebd0baef8/354?coords=${
+      this.state.featureLatitude
+    },${this.state.featureLongitude}&within=100&unit=Km`;
+
+    // and have axios make the XMLHttpRequest GET call to EZCMD API
+    axios.get(ezcmdPostalCodes).then(response => {
       console.log(response.data);
 
-      if (response.data.totalResultsCount === 0) {
-        // buildNoResults();
-        console.log("Sorry, no results!");
-      } else {
-        console.log(response.data.totalResultsCount);
-        // console.log(response.data.geonames);
-
-        // get a random number from the range of number of results returned
-        let random = Math.floor(Math.random() * response.data.totalResultsCount);
-        console.log(random);
-
-        // use the random number to select one result from the returned data
-        let theFeature = response.data.geonames[random];
-        console.log(theFeature);
-
+      if (response.data.search_results.length > 0) {
         this.setState({
-          featureName: theFeature.name,
-          featureType: theFeature.fcodeName,
-          featureCountryCode: theFeature.countryCode,
-          featureLatitude: theFeature.lat,
-          featureLongitude: theFeature.lng,
-          featureLocation: theFeature.fclName
+          nearPlaceName: response.data.search_results[0].place_name.trim(),
+          nearPlacePostalCode: response.data.search_results[0].postal_code,
+          nearPlaceCountryCode: response.data.search_results[0].country_code,
+          nearPlaceCountryName: response.data.search_results[0].country_name,
+          nearPlaceDistance: Math.round(response.data.search_results[0].distance * 10) / 10,
+          nearPlaceLatLong: response.data.search_results[0].coords
         });
 
-        if (theFeature.countryName) {
-          this.setState({
-            featureCountryName: theFeature.countryName
-          });
-        } else {
-          this.setState({ featureCountryName: "" });
-        }
+        //   getHotspots();
+
+      } else if (this.state.featureLocation) {
+        this.setState({
+          nearPlaceName: this.state.featureLocation,
+          nearPlacePostalCode: "",
+          nearPlaceCountryCode: this.state.featureCountryCode,
+          nearPlaceCountryName: this.state.featureCountryName,
+          nearPlaceDistance: "?",
+          nearPlaceLatLong: ""
+        });
+
+        // getHotspots();
+
+      } else {
+        // getHotspots();
+        console.log("CLOSEST CITY: no info");
       }
     });
   };
