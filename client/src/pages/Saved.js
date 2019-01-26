@@ -1,5 +1,5 @@
-// Home page view Component called by React Router in the App.js Router Switch Routes
-// Home page is available to all users (?)
+// Saved page view Component called by React Router in the App.js Router Switch Routes
+// Saved page is only available for logged in users
 
 import React, { Component } from "react";
 // use a <Link> tag in place of <a href> to link to another page view with React Router
@@ -26,12 +26,12 @@ import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
 import "./style.css";
 
 // import API in order to make axios API calls to the Express Server
-// import API from "../utils/API";
+import API from "../utils/API";
 
 // use axios to make XMLHttpRequest API calls
 import axios from "axios";
 
-class Home extends Component {
+class Saved extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -60,15 +60,29 @@ class Home extends Component {
 
   // ===================================================
 
+  componentDidMount() {
+    let readToken = window.localStorage.getItem("RLT_authkey");
+    let query = {
+      token: readToken
+    };
+    API.checkAuth(query)
+      .then(res => {
+        if (res.data.success) {
+          this.setState({ isLoggedIn: true });
+        } else {
+          this.setState({ isLoggedIn: false });
+          window.location.assign("/login");
+        }
+      })
+      .catch(err => console.log(err));
+  }
+
+  // ===================================================
+
   componentDidUpdate() {
     // console.log(this.state.regionCC);
   }
-  // ===================================================
 
-  componentDidMount() {
-    // this.loadBooks();
-    // console.log(this.state);
-  }
   // ===================================================
 
   // send live typed input data to this.state.title, .author, .synopsis on each keystroke
@@ -489,4 +503,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Saved;

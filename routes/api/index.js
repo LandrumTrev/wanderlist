@@ -4,12 +4,18 @@
 
 // require the Express Router (NOT React Router) to include routes imported here
 const router = require("express").Router();
-// include all routes defined in routes/api/books.js for use by Express Router
-const bookRoutes = require("./books");
 
-// tell Express router that all paths that start with /books/...
-// use routings defined in routes/api/books.js (bookRoutes)
+// /api/books/xxx routes
+const bookRoutes = require("./books");
 router.use("/books", bookRoutes);
+
+// /api/auth/xxx for user authentication
+const authRoutes = require("./auth");
+router.use("/auth", authRoutes);
+
+// /api/places/xxx routes for user's saved places
+const placeRoutes = require("./places");
+router.use("/places", placeRoutes);
 
 // export the router with /books path added as value of this file
 module.exports = router;

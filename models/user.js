@@ -1,39 +1,27 @@
-// the Mongoose model used to create and query a MongoDB "users" collection
+// https://github.com/Steven-M-Carpenter/LoginCode.git
 
-// require Mongoose to use it's Schema constructor and .model() definition methods
 const mongoose = require("mongoose");
-// used to define Mongo model properties
+const bcrypt = require("bcryptjs");
 const Schema = mongoose.Schema;
-// used by Passport and bcrypt to validate hashed user login values
-const uniqueValidator = require("mongoose-unique-validator");
-// used to create hashed username and passport values
-const bcrypt = require("bcrypt");
 
-// User mongoose model Schema
+
 const UserSchema = new Schema({
-  username: { type: String, required: true, unique: true },
-  passwordHash: { type: String, required: true }
+  firstName: { type: String, required: true },
+  lastName: { type: String, required: true },
+  email: { type: String, required: true },
+  password: { type: String, required: true },
+  isDeleted:  { type: Boolean, default: false }
 });
 
-// tell the mongoose model Schema to use a plugin, the mongoose-unique-validator
-UserSchema.plugin(uniqueValidator);
 
-// add a method to the mongoose User model schema
-// that returns the bcrypt method to compare an entered password to the stored password
-UserSchema.methods.validPassword = function(password) {
-  return bcrypt.compareSync(password, this.passwordHash);
+UserSchema.methods.generateHash = (password) => {
+  return bcrypt.hashSync(password, bcrypt.genSaltSync(8));
 };
 
-// use a virtual value "password" (change this value to something unique?) to seed the hash
-// to generate the hash of the password. 
-// "12" is current security level (hash gen iterations); increase for better security
-UserSchema.virtual("password").set(function(value) {
-  this.passwordHash = bcrypt.hashSync(value, 12);
-});
 
-// create variable which generates the mongoose model from the UserSchema, and names it "User"
-const User = mongoose.model("User", UserSchema);
+UserSchema.methods.validPassword = (password, storedPW) => {
+  return bcrypt.compareSync(password, storedPW);
+};
 
-// export the model defined above as value of this file 
-// (will be imported and bundled by models/index.js)
-module.exports = User;
+
+module.exports = mongoose.model("User", UserSchema);

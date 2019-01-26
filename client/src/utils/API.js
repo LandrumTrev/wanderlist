@@ -6,6 +6,21 @@ import axios from "axios";
 // define axios call functions to be executed when calling "API.getBooks" etc
 // NOTE: where is the PUT route to update a document?
 export default {
+  // API.getUser : user auth signin route
+  getUser: query => {
+    return axios.post("/api/auth/signin", query);
+  },
+  // API.createUser : user auth signup route
+  createUser: query => {
+    return axios.post("/api/auth/signup", query);
+  },
+  // API.checkAuth : user auth verify route
+  // verify that user is logged in and is allowed access to this functionality
+  checkAuth: function(query) {
+    // console.log("Quer in API = " + JSON.stringify(query));
+    return axios.post("/api/auth/verify", query);
+  },
+  // EXAMPLE CODE BELOW (DELETE)
   // Gets all books
   getBooks: function() {
     // in this app's domain, do a GET call on domain.com/api/books
