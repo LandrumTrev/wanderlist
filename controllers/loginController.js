@@ -1,6 +1,9 @@
 // https://github.com/Steven-M-Carpenter/LoginCode
 
 const db = require("../models");
+const User = db.User;
+const UserSession = db.UserSession;
+
 // const User = require("../models/User");
 // const UserSession = require("../models/UserSession");
 

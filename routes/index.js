@@ -5,9 +5,9 @@ const path = require("path");
 // require the Express Router (NOT the React Router!)
 // so Express can use the API (and production-only HTML) routes included here
 const router = require("express").Router();
+
 // and include the bundler for all API routes for the Express Router to use
 const apiRoutes = require("./api");
-
 // API Routes (for both dev and production use)
 // all routes that are structured: domain.com/api/... 
 // route them to apiRoutes (routes/api/index.js) for further routing
