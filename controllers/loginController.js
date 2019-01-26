@@ -1,8 +1,8 @@
 // https://github.com/Steven-M-Carpenter/LoginCode
 
 const db = require("../models");
-const User = require("../models/User");
-const UserSession = require("../models/UserSession");
+// const User = require("../models/User");
+// const UserSession = require("../models/UserSession");
 
 // Defining methods for the loginController
 module.exports = {

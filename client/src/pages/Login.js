@@ -20,7 +20,7 @@ import React, { Component } from "react";
 import "./style.css";
 
 // import API in order to make axios API calls to the Express Server
-// import API from "../utils/API";
+import API from "../utils/API";
 
 // use axios to make XMLHttpRequest API calls
 // import axios from "axios";
@@ -82,6 +82,7 @@ class Login extends Component {
           this.setState({ isLoggedIn: true });
           this.setState({ loginMsg: res.data.message });
           window.localStorage.setItem("RLT_authkey", res.data.token);
+          // change this location to the logged in main page
           window.location.assign("/authenticated/main");
         } else {
           console.log("in failure handle");
