@@ -1,6 +1,3 @@
-// NoMatch component (404 page)
-// simple page with Bootstrap components
-
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
