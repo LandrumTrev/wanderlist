@@ -1,5 +1,3 @@
-// https://github.com/Steven-M-Carpenter/LoginCode.git
-
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
