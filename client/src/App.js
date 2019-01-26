@@ -28,9 +28,9 @@ function App() {
         {/* Switch controls Route component views displayed, first matching route displayed */}
         {/* use "exact path" unless you are capturing sub-paths and adding additional content to a primary page view path */}
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Books} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/saved" component={Saved} />
-          {/* example routes below */}
           <Route exact path="/books" component={Books} />
           <Route exact path="/books/:id" component={Detail} />
           <Route component={NoMatch} />
@@ -41,3 +41,6 @@ function App() {
 }
 
 export default App;
+
+
+          {/* <Route exact path="/" component={Home} /> */}
