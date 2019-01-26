@@ -1,4 +1,4 @@
-// require the Express Server module to use both it and it's methods
+// require Express Server module to use both it and it's methods
 const express = require("express");
 // create a reference to the invoked Express Server function
 const app = express();
@@ -38,34 +38,34 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist");
 // =================================================================
 
 // passport authentication middleware (using passport-local strategy)
-const passport = require("passport");
-app.use(passport.initialize());
-app.use(passport.session());
+// const passport = require("passport");
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 // PASSPORT (all strategies): store and retrieve user info in session
 // serialize user (how to store user info in the session)
-passport.serializeUser(function(user, done) {
-  done(null, user._id);
-});
+// passport.serializeUser(function(user, done) {
+  // done(null, user._id);
+// });
 // deserialize user (how to retrieve user info from the session)
-passport.deserializeUser(function(userId, done) {
-  User.findById(userId, (err, user) => done(err, user));
-});
+// passport.deserializeUser(function(userId, done) {
+  // User.findById(userId, (err, user) => done(err, user));
+// });
 
 // PASSPORT (passport-local strategy): local authentication
-const LocalStrategy = require("passport-local").Strategy;
-const local = new LocalStrategy((username, password, done) => {
-  User.findOne({ username })
-    .then(user => {
-      if (!user || !user.validPassword(password)) {
-        done(null, false, { message: "Invalid username or password" });
-      } else {
-        done(null, user);
-      }
-    })
-    .catch(e => done(e));
-});
-passport.use("local", local);
+// const LocalStrategy = require("passport-local").Strategy;
+// const local = new LocalStrategy((username, password, done) => {
+  // User.findOne({ username })
+    // .then(user => {
+      // if (!user || !user.validPassword(password)) {
+        // done(null, false, { message: "Invalid username or password" });
+      // } else {
+        // done(null, user);
+      // }
+    // })
+    // .catch(e => done(e));
+// });
+// passport.use("local", local);
 
 // =================================================================
 
