@@ -6,5 +6,7 @@
 // list (Name, and require .js file) all Models from models dir
 // and export them as the value of this file (index.js of models dir)
 module.exports = {
-  Book: require("./book")
+  Book: require("./book"),
+  User: require("./user"),
+  Place: require("./place")
 };
