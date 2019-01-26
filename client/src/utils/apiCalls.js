@@ -49,7 +49,7 @@
 // GET LOCATIONS MATCHING FEATURE CODES FROM GEONAMES search SERVICE (1 credit, limit 2,000/hr, 30,000/mo)
 // ===========================================================================
 
-function getFeatureName() {
+// function getFeatureName() {
   
   // let geonamesSearchFeatures;
 
@@ -165,50 +165,50 @@ function getFeatureName() {
 // ===========================================================================
 
 // mini function to format thousands of WiFi numbers to k format
-function kFormatter(num) {
-  return num > 999 ? (num / 1000).toFixed(1) + "k" : num;
-}
+// function kFormatter(num) {
+//   return num > 999 ? (num / 1000).toFixed(1) + "k" : num;
+// }
 
-function getHotspots(card) {
-  let wigleHotspots = "https://api.wigle.net/api/v2/stats/regions?country=" + card.nearPlaceCountryCode;
+// function getHotspots(card) {
+//   let wigleHotspots = "https://api.wigle.net/api/v2/stats/regions?country=" + card.nearPlaceCountryCode;
 
-  card.nearPlaceWifi = "";
+//   card.nearPlaceWifi = "";
 
   // this API required sending its authentication name:token as a Basic Authorization HTTP header in Base64 ...
   // does that count as using a technology that we haven't discussed?
-  $.ajax({
-    headers: {
-      Authorization: "Basic " + btoa("AID544c0365fdcc8c2463ec21d3590bbd23:8891f56fb22400d107dd8ee49d2798ff")
-    },
-    url: wigleHotspots,
-    method: "GET"
-  }).then(function(response) {
-    // console.log(response);
+//   $.ajax({
+//     headers: {
+//       Authorization: "Basic " + btoa("AID544c0365fdcc8c2463ec21d3590bbd23:8891f56fb22400d107dd8ee49d2798ff")
+//     },
+//     url: wigleHotspots,
+//     method: "GET"
+//   }).then(function(response) {
+//     // console.log(response);
 
-    for (let k = 0; k < response.postalCode.length; k++) {
-      card.listPostalCode = response.postalCode[k].postalCode;
-      card.listHotSpots = kFormatter(response.postalCode[k].count);
+//     for (let k = 0; k < response.postalCode.length; k++) {
+//       card.listPostalCode = response.postalCode[k].postalCode;
+//       card.listHotSpots = kFormatter(response.postalCode[k].count);
 
-      if (card.listPostalCode === card.nearPlacePostalCode) {
-        card.nearPlaceWifi = card.listHotSpots;
+//       if (card.listPostalCode === card.nearPlacePostalCode) {
+//         card.nearPlaceWifi = card.listHotSpots;
 
-        console.log(
-          "WIFI: " +
-            card.nearPlaceName +
-            " " +
-            card.nearPlacePostalCode +
-            " " +
-            card.nearPlaceCountryCode +
-            " has " +
-            card.nearPlaceWifi +
-            " hotspots"
-        );
-      }
-    }
+//         console.log(
+//           "WIFI: " +
+//             card.nearPlaceName +
+//             " " +
+//             card.nearPlacePostalCode +
+//             " " +
+//             card.nearPlaceCountryCode +
+//             " has " +
+//             card.nearPlaceWifi +
+//             " hotspots"
+//         );
+//       }
+//     }
 
-    buildCard(card);
-  });
-}
+//     buildCard(card);
+//   });
+// }
 
 // ===========================================================================
 // END OF GLOBAL VARIABLES AND FUNCTIONS DECLARATIONS
@@ -218,18 +218,18 @@ function getHotspots(card) {
 // APPLICATION'S TOP LEVEL FUNCTIONALITY: SET FEATURE TO SEARCH, and SEARCH BUTTON FUNCTION
 // ===========================================================================
 
-$("#search_btn").on("click", function(event) {
-  event.preventDefault();
+// $("#search_btn").on("click", function(event) {
+//   event.preventDefault();
 
-  getFeatureName();
-  playAudio();
-});
+//   getFeatureName();
+//   playAudio();
+// });
 
-let audio = document.getElementById("myAudio");
+// let audio = document.getElementById("myAudio");
 
-function playAudio() {
-  audio.play();
-}
+// function playAudio() {
+//   audio.play();
+// }
 
 // ===========================================================================
 // FUNCTION TO DYNAMICALLY BUILD A RESPONSE CARD FROM ALL RETURNED INFO
@@ -255,11 +255,11 @@ function playAudio() {
 // CLEAR BUTTON: CLEARS THE CURRENTLY LISTED SEARCH RESULTS=
 // ===========================================================================
 
-$("#clear_button").on("click", function(event) {
-  event.preventDefault();
+// $("#clear_button").on("click", function(event) {
+//   event.preventDefault();
 
-  $("#card_container").html("");
-});
+//   $("#card_container").html("");
+// });
 
 // END jQUERY FUNCTION
 // });
