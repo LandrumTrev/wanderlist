@@ -1,4 +1,4 @@
-// SUB-ROUTER FOR ALL API ROUTES 
+// SUB-ROUTER FOR ALL API ROUTES
 // required by main router: routes/index.js
 
 // include Express Router to attach routes to it
@@ -11,18 +11,10 @@ const loginController = require("../../controllers/loginController");
 const bookRoutes = require("./books");
 
 // api routes for user authentication
-router
-  .route("/signup")
-  .post(loginController.signUp);
-router
-  .route("/signin")
-  .post(loginController.signIn);
-router
-  .route("/verify")
-  .post(loginController.verify);
-router
-  .route("/logout")
-  .post(loginController.logout);
+router.route("/signup").post(loginController.signUp);
+router.route("/signin").post(loginController.signIn);
+router.route("/verify").post(loginController.verify);
+router.route("/logout").post(loginController.logout);
 
 // attach /api/books/xxx routes to Express Router
 router.use("/books", bookRoutes);
