@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // mongoose connects to MongoDB (production OR local)
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist", { useNewUrlParser: true });
 
 // express server listening on PORT (localhost:3001)
 app.listen(PORT, function() {
