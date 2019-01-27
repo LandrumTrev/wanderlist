@@ -1,23 +1,36 @@
 import React, { Component } from "react";
+import Modal from "../Modal";
 
 class Nav extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      item: "value"
+      show: false
     };
   }
 
   // ===================================================
 
+  showModal = () => {
+    this.setState({ show: true });
+    console.log("show: true");
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+    console.log("show: false");
+  };
+
+  // ===================================================
+
   componentDidUpdate() {
-    // console.log(this.state);
+    console.log(this.state);
     console.log("Nav component updated");
   }
   // ===================================================
 
   componentDidMount() {
-    // console.log(this.state);
+    console.log(this.state);
     console.log("Nav component mounted");
   }
   // ===================================================
@@ -26,18 +39,24 @@ class Nav extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-sm navbar-light bg-light">
-        <a className="navbar-brand" href="/">
-          {/* <img src="assets/images/dinofii_logo.svg" style={{ width: "30", height: "30" }} className="d-inline-block align-top" alt="" /> */}
-          Wanderlist
-        </a>
-        <a className="nav-link" href="/">
-          Saved
-        </a>
-        <a className="nav-link" href="/">
-          Login
-        </a>
-      </nav>
+      <>
+        <Modal show={this.state.show} handleClose={this.hideModal}>
+          <p>Modal</p>
+          <p>Data</p>
+        </Modal>
+        <nav className="navbar navbar-expand-sm navbar-light bg-light">
+          <a className="navbar-brand" href="/">
+            {/* <img src="assets/images/dinofii_logo.svg" style={{ width: "30", height: "30" }} className="d-inline-block align-top" alt="" /> */}
+            Wanderlist
+          </a>
+          <a className="nav-link" href="/">
+            Saved
+          </a>
+          <button type="button" className="nav-link" onClick={this.showModal}>
+            Login
+          </button>
+        </nav>
+      </>
     );
   }
 }
