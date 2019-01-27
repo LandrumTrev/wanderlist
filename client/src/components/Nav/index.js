@@ -203,7 +203,7 @@ class Nav extends Component {
             {/* <img src="assets/images/dinofii_logo.svg" style={{ width: "30", height: "30" }} className="d-inline-block align-top" alt="" /> */}
             Wanderlist
           </a>
-          <a className="nav-link" href="/">
+          <a className="nav-link" href="/saved">
             Saved
           </a>
           {/* if isLoggedIn is set to true, then */}
