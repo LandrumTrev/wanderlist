@@ -75,13 +75,11 @@ module.exports = {
     newUser.email = email;
     // have the User models generateHash() use bcrypt to hash the password
     newUser.password = newUser.generateHash(password);
-    // temporary unhashed password for dev
-    // newUser.password = password;
     // have mongoose save the new User to the db
     newUser.save((err, user) => {
       // if error
       if (err) {
-        // console.log(err);
+        console.log(err);
         return res.send({
           success: false,
           message: "ERROR:  Server error (newUser.save)"

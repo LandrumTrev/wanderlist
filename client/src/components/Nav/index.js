@@ -210,6 +210,9 @@ class Nav extends Component {
           <button type="button" className="nav-link" onClick={this.showModal}>
             Login
           </button>
+          <a className="nav-link" href="/">
+            <span>{`Hi ${this.state.firstName} username`}</span>
+          </a>
         </nav>
       </>
     );

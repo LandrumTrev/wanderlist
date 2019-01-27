@@ -31,3 +31,10 @@
 .btn {
   margin: 10px;
 }
+
+#close-button {
+  font-size: 2rem;
+  color: red;
+  float: right;
+  margin-bottom: 20px;
+}

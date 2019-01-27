@@ -99,27 +99,27 @@ db.Book
     process.exit(1);
   });
 
-  const userSeed = [
-    {
-      firstName: "Bilbo",
-      lastName: "Baggins",
-      email: "hobbit@theshire.com",
-      password: "ringbearer",
-    }
-  ];
+  // const userSeed = [
+  //   {
+  //     firstName: "Bilbo",
+  //     lastName: "Baggins",
+  //     email: "hobbit@theshire.com",
+  //     password: "ringbearer",
+  //   }
+  // ];
 
-  db.User
-  // remove all existing users
-  .deleteMany({})
-  // then insert all userSeed array users
-  .then(() => db.User.collection.insertMany(userSeed))
-  // then console log the result and exit with success (0)
-  .then(data => {
-    console.log(data.result.n + " records inserted!");
-    process.exit(0);
-  })
-  // or catch any errors without crashing app and exit with fail (1)
-  .catch(err => {
-    console.error(err);
-    process.exit(1);
-  });
+  // db.User
+  // // remove all existing users
+  // .deleteMany({})
+  // // then insert all userSeed array users
+  // .then(() => db.User.collection.insertMany(userSeed))
+  // // then console log the result and exit with success (0)
+  // .then(data => {
+  //   console.log(data.result.n + " records inserted!");
+  //   process.exit(0);
+  // })
+  // // or catch any errors without crashing app and exit with fail (1)
+  // .catch(err => {
+  //   console.error(err);
+  //   process.exit(1);
+  // });
