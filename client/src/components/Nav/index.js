@@ -13,12 +13,26 @@ class Nav extends Component {
 
   showModal = () => {
     this.setState({ show: true });
-    console.log("show: true");
+    // console.log("show: true");
   };
 
   hideModal = () => {
     this.setState({ show: false });
-    console.log("show: false");
+    // console.log("show: false");
+  };
+
+  // ===================================================
+
+  loginUser = () => {
+    console.log("user login!");
+    this.setState({ show: false });
+    alert("You may or may not have been logged in!");
+  };
+
+  createUser = () => {
+    console.log("user create!");
+    this.setState({ show: false });
+    alert("You may or may not have had a new account created!");
   };
 
   // ===================================================
@@ -40,7 +54,7 @@ class Nav extends Component {
   render() {
     return (
       <>
-        <Modal show={this.state.show} handleClose={this.hideModal}>
+        <Modal show={this.state.show} handleClose={this.hideModal} handleLogin={this.loginUser} handleNewUser={this.createUser}>
           <p>Modal</p>
           <p>Data</p>
         </Modal>
