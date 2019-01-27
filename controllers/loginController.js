@@ -157,7 +157,6 @@ module.exports = {
               message: "ERROR:  Server error"
             });
           }
-
           return res.send({
             success: true,
             message: "User login is complete",
@@ -212,9 +211,13 @@ module.exports = {
   //* Process logout and invalidate user token in DB
   //************************************************************/
   logout: (req, res) => {
+    // query is req.query
     const { query } = req;
+    // token is req.query.token
     const { token } = query;
 
+    // have mongoose find the matching user session token
+    // and change isDeleted to true
     UserSession.findOneAndUpdate(
       {
         _id: token,
@@ -231,12 +234,10 @@ module.exports = {
             message: "ERROR:  Unable to obtain user token."
           });
         }
-
         return res.send({
           success: true,
           message: "Successfully logged out."
         });
-        // };
       }
     );
   }
