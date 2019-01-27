@@ -97,8 +97,11 @@ module.exports = {
   //* Process user Sign-in and create auth token for them
   //************************************************************/
   signIn: (req, res) => {
+    // body is req.body
     const { body } = req;
+    // password is req.body.password
     const { password } = body;
+    // email is req.body.email
     let { email } = body;
 
     console.log("email = " + email + "  password = " + password);
