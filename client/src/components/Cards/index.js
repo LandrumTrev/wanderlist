@@ -84,7 +84,7 @@ export function ResultCard(props) {
               <button
                 type="button"
                 className="btn btn-sm btn-success"
-                onClick={props.handleSaveButton}
+                onClick={() => props.handleSaveButton(props.placeKey)}
                 style={{ float: "right", marginLeft: 10, height: 25, width: 65, padding: "1px 3px 4px 3px" }}
               >
                 SAVE

@@ -515,11 +515,10 @@ class FindPlace extends Component {
 
   // ===================================================
 
-
   handleSavePlace = event => {
     console.log("Save place button clicked!");
     // event.preventDefault();
-    console.log(event.target);
+    console.log(event);
 
     // this.savePlace({
     //   firstName: this.state.firstName.trim(),
@@ -536,20 +535,18 @@ class FindPlace extends Component {
     console.log(query);
 
     API.savePlace(query)
-    .then(res => {
-      // console.log(res);
-      if (res.data.success) {
-        console.log("place saved!");
-        // code to execute on successful save place
-      } else {
-        console.log("failed to save this place.");
-        // code to execute on failed save place
-      }
-    })
-    .catch(err => console.log(err));
-
+      .then(res => {
+        // console.log(res);
+        if (res.data.success) {
+          console.log("place saved!");
+          // code to execute on successful save place
+        } else {
+          console.log("failed to save this place.");
+          // code to execute on failed save place
+        }
+      })
+      .catch(err => console.log(err));
   };
-
 
   pleaseLogin = () => {
     // comment
@@ -666,9 +663,11 @@ class FindPlace extends Component {
 
                     {place.featureName ? (
                       <ResultCard
-                        loginStatus={place.isLoggedIn}
-                        handleSaveButton={this.handleSavePlace(place.placeKey)}
+                        loginStatus={this.state.isLoggedIn}
+                        handleSaveButton={this.handleSavePlace}
                         handleDisabledSaveButton={place.pleaseLogin}
+                        placeKey={place.placeKey}
+                        email={place.email}
                         featureName={place.featureName}
                         featureType={place.featureType}
                         featureCountryName={place.featureCountryName}

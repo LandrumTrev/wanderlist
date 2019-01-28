@@ -1,5 +1,5 @@
 // Saved page view Component called by React Router in the App.js Router Switch Routes
-// Saved page only available to logged in users
+// Saved page is only to logged in users
 
 import React, { Component } from "react";
 // import ReactDOM from "react-dom";
@@ -14,13 +14,18 @@ import ListFeatures from "../utils/ListFeatures";
 import Header from "../components/Header";
 import Background from "../components/Background";
 import Nav from "../components/Nav";
+import Modal from "../components/Modal";
+import { Input, FormBtn } from "../components/Form";
+// import SaveBtn from "../components/SaveBtn";
+
 // import DeleteBtn from "../components/DeleteBtn";
 
 // import multiple-component .js files
 import { Col, Row, Container } from "../components/Grid";
 import { SelectRegion, SelectFeature } from "../components/Search";
 import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
-// import { List, ListItem } from "../components/List";
+import { List } from "../components/List";
+// import { ListItem } from "../components/List";
 // import { Input, TextArea, FormBtn } from "../components/Form";
 
 // import master style.css for all page views
@@ -36,13 +41,24 @@ class Saved extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isLoggedIn: false,
-      countryAndRegion: "",
-      countryCC: "",
-      regionCC: "",
-      featureCode: "",
+      placesArray: [],
       listRegions: ListRegions.countryArray,
       listFeatures: ListFeatures.featureArray,
+      // NAV PROPS:,
+      show: false,
+      firstName: "",
+      lastName: "",
+      newEmail: "",
+      newPassword: "",
+      email: "",
+      password: "",
+      isDeleted: false,
+      isLoggedIn: false,
+      loginMsg: "",
+      // countryAndRegion: "",
+      // countryCC: "",
+      // regionCC: "",
+      // featureCode: "",
       // featureName: "",
       // featureType: "",
       // featureCountryCode: "",
@@ -57,6 +73,11 @@ class Saved extends Component {
       // nearPlaceDistance: "",
       // nearPlaceLatLong: "",
       // nearPlaceWifi: ""
+      // CURRENT PLACE SEARCH PROPS:,
+      countryAndRegion: "",
+      countryCC: "",
+      regionCC: "",
+      featureCode: "",
       featureName: "Ensenada Mogotes",
       featureType: "bay",
       featureCountryCode: "AR",
@@ -75,9 +96,12 @@ class Saved extends Component {
   }
 
   // ===================================================
+  // AUTHENTICATION METHODS
+  // ===================================================
 
   componentDidUpdate() {
-    // console.log(this.state.regionCC);
+    console.log(`<Saved> this.state.email is set to: ${this.state.email}`);
+    console.log(`<Saved> this.state.isLoggedIn is set to: ${this.state.isLoggedIn}`);
     // console.log("Saved component updated with this state:");
     // console.log(this.state);
   }
@@ -91,6 +115,7 @@ class Saved extends Component {
     // console.log(this.state);
     // get the current value of the Wanderlist_authkey token in local storage
     let readToken = window.localStorage.getItem("Wanderlist_authkey");
+    let readEmail = window.localStorage.getItem("Wanderlist_userEmail");
     // set the key and value of the query for token
     let query = {
       token: readToken
@@ -100,6 +125,7 @@ class Saved extends Component {
       .then(res => {
         if (res.data.success) {
           this.setState({ isLoggedIn: true });
+          this.setState({ email: readEmail });
         } else {
           this.setState({ isLoggedIn: false });
         }
@@ -108,6 +134,18 @@ class Saved extends Component {
       })
       .catch(err => console.log(err));
   }
+  // ===================================================
+
+  showModal = () => {
+    this.setState({ show: true });
+    // console.log("show: true");
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+    // console.log("show: false");
+  };
+
   // ===================================================
 
   // send live typed input data to this.state.title, .author, .synopsis on each keystroke
@@ -129,6 +167,107 @@ class Saved extends Component {
     }
   };
 
+  // ===================================================
+
+  loginUser = event => {
+    // console.log("user login!");
+    event.preventDefault();
+    this.validateUser({
+      email: this.state.email.trim(),
+      password: this.state.password.trim()
+    });
+    this.setState({ show: false });
+  };
+
+  validateUser = query => {
+    // getUser calls /api/signin route to log in existing user
+    // console.log("this is the (query) to validateUser():");
+    console.log(query);
+    API.getUser(query)
+      .then(res => {
+        if (res.data.success) {
+          console.log("user login successfully validated.");
+          this.setState({ isLoggedIn: true });
+          this.setState({ loginMsg: res.data.message });
+          window.localStorage.setItem("Wanderlist_authkey", res.data.token);
+          window.localStorage.setItem("Wanderlist_userEmail", this.state.email);
+          // window.location.assign("/");
+        } else {
+          console.log("user login validation failed.");
+          this.setState({ isLoggedIn: false });
+          this.setState({ loginMsg: res.data.message });
+          window.localStorage.setItem("Wanderlist_authkey", "");
+          window.localStorage.setItem("Wanderlist_userEmail", "");
+          // window.location.assign("/login");
+        }
+      })
+      .catch(err => console.log(err));
+  };
+
+  // ===================================================
+
+  createUser = event => {
+    event.preventDefault();
+    this.makeNewUser({
+      firstName: this.state.firstName.trim(),
+      lastName: this.state.lastName.trim(),
+      email: this.state.newEmail.trim(),
+      password: this.state.newPassword.trim()
+    });
+    this.setState({ show: false });
+  };
+
+  makeNewUser = query => {
+    // createUser calls /api/signup route to create a new user
+    // (query) is an object entered firstName, lastName, email and password
+    // console.log("this is the (query) to makeNewUser():");
+    // console.log(query);
+    API.createUser(query)
+      .then(res => {
+        // console.log("SIGNUP: res = " + JSON.stringify(res));
+        if (res.data.success) {
+          console.log("new user create success!");
+          // code to execute on successful creation of new user
+        } else {
+          console.log("failed to create new user.");
+          // code to execute on failed creation of new user
+        }
+      })
+      .catch(err => console.log(err));
+  };
+
+  // ===================================================
+
+  handleUserLogout = event => {
+    event.preventDefault();
+    // get the current value of the Wanderlist_authkey token in local storage
+    let readToken = window.localStorage.getItem("Wanderlist_authkey");
+    // set the key and value of the query for token
+    let query = {
+      token: readToken
+    };
+    // calls the verify() method in the loginController
+    API.logOut(query)
+      .then(res => {
+        if (res.data.success) {
+          this.setState({ isLoggedIn: false });
+          window.localStorage.removeItem("Wanderlist_authkey");
+          window.localStorage.removeItem("Wanderlist_userEmail");
+          console.log("user successfully logged out.");
+          // window.location.assign("/logged_out");
+        } else {
+          // this.setState({ isLoggedIn: true });
+          console.log("user log out failed, user is still logged in.");
+          // window.location.assign("/still_logged_in");
+        }
+        // console.log(`this.state.isLoggedIn is set to: ${this.state.isLoggedIn}`);
+        // console.log(this.state);
+      })
+      .catch(err => console.log(err));
+  };
+
+  // ===================================================
+  // API SEARCH METHODS
   // ===================================================
 
   geonamesString = () => {
@@ -279,11 +418,6 @@ class Saved extends Component {
   // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API (service is beta, no set limits)
   // ===========================================================================
 
-  // // mini function to format thousands of WiFi numbers to k format
-  // kFormatter = num => {
-  //   return num > 999 ? (num / 1000).toFixed(1) + "k" : num;
-  // };
-
   getHotspots = () => {
     let wigleHotspots = `https://api.wigle.net/api/v2/stats/regions?country=${this.state.nearPlaceCountryCode}`;
     // console.log(this.state.nearPlaceCountryCode);
@@ -330,19 +464,96 @@ class Saved extends Component {
         console.log(error);
       });
 
-    // this.buildCard();
+    // console.log("I wanna build a card!");
+    this.buildCard();
   };
 
   // ===================================================
 
-  savePlace = () => {
-    // code
-    console.log("Saving place!");
+  buildCard = () => {
+    console.log("building Card!");
+
+    let placeKey = () => {
+      let text = "";
+      let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+      for (let i = 0; i < 24; i++) text += possible.charAt(Math.floor(Math.random() * possible.length));
+      return text;
+    };
+
+    console.log(placeKey());
+
+    let newCard = {};
+    newCard.placeKey = placeKey();
+    newCard.email = this.state.email;
+    newCard.featureName = this.state.featureName;
+    newCard.featureType = this.state.featureType;
+    newCard.featureCountryName = this.state.featureCountryName;
+    newCard.featureLatitude = this.state.featureLatitude;
+    newCard.featureLongitude = this.state.featureLongitude;
+    newCard.nearPlaceName = this.state.nearPlaceName;
+    newCard.nearPlaceCountryCode = this.state.nearPlaceCountryCode;
+    newCard.nearPlacePostalCode = this.state.nearPlacePostalCode;
+    newCard.nearPlaceDistance = this.state.nearPlaceDistance;
+    newCard.nearPlaceLatLong = this.state.nearPlaceLatLong;
+    newCard.nearPlaceWifi = this.state.nearPlaceWifi;
+    console.log(`newCard:`);
+    console.log(newCard);
+
+    let currentPlaces = this.state.placesArray;
+    console.log(`currentPlaces:`);
+    console.log(currentPlaces);
+
+    // let newPlacesArray = [];
+    let newPlacesArray = [newCard, ...currentPlaces];
+    console.log(`newPlacesArray:`);
+    console.log(newPlacesArray);
+
+    this.setState({ placesArray: newPlacesArray });
+    console.log(`NEW this.state.placesArray:`);
+    console.log(this.state.placesArray);
   };
 
+  // ===================================================
+
+
+  handleSavePlace = event => {
+    console.log("Save place button clicked!");
+    // event.preventDefault();
+    console.log(event.target);
+
+    // this.savePlace({
+    //   firstName: this.state.firstName.trim(),
+    //   lastName: this.state.lastName.trim(),
+    //   email: this.state.newEmail.trim(),
+    //   password: this.state.newPassword.trim()
+    // });
+    // this.setState({ show: false });
+  };
+
+  savePlace = query => {
+    // code
+    console.log("Saving place to API!");
+    console.log(query);
+
+    API.savePlace(query)
+    .then(res => {
+      // console.log(res);
+      if (res.data.success) {
+        console.log("place saved!");
+        // code to execute on successful save place
+      } else {
+        console.log("failed to save this place.");
+        // code to execute on failed save place
+      }
+    })
+    .catch(err => console.log(err));
+
+  };
+
+
   pleaseLogin = () => {
-    // comment    
-    console.log("User not logged in: can't save place!");
+    // comment
+    // console.log("User not logged in: can't save place!");
     alert(`Please log in or sign up to save search results.`);
   };
 
@@ -351,8 +562,34 @@ class Saved extends Component {
   render() {
     return (
       <>
-      <Nav />
-        {/* <Container fluid > */}
+        <Nav loginStatus={this.state.isLoggedIn} logoutClick={this.handleUserLogout} modalPops={this.showModal} firstName={this.state.firstName} />
+
+        <Modal show={this.state.show} handleClose={this.hideModal} handleLogin={this.loginUser} handleNewUser={this.createUser}>
+          <div id="login-user-form">
+            <form>
+              <Input value={this.state.email} onChange={this.handleInputChange} name="email" placeholder="email (required)" />
+              <Input value={this.state.password} onChange={this.handleInputChange} name="password" placeholder="password (required)" />
+              <FormBtn disabled={!(this.state.email && this.state.password)} onClick={this.loginUser}>
+                Log In
+              </FormBtn>
+            </form>
+          </div>
+          <div id="create-user-form">
+            <form>
+              <Input value={this.state.firstName} onChange={this.handleInputChange} name="firstName" placeholder="first name (required)" />
+              <Input value={this.state.lastName} onChange={this.handleInputChange} name="lastName" placeholder="last name (required)" />
+              <Input value={this.state.newEmail} onChange={this.handleInputChange} name="newEmail" placeholder="email (required)" />
+              <Input value={this.state.newPassword} onChange={this.handleInputChange} name="newPassword" placeholder="password (required)" />
+              <FormBtn
+                disabled={!(this.state.firstName && this.state.lastName && this.state.newEmail && this.state.newPassword)}
+                onClick={this.createUser}
+              >
+                Create Account
+              </FormBtn>
+            </form>
+          </div>
+        </Modal>
+
         <Background>
           {/* logo and intro text header */}
           <Header>
@@ -372,7 +609,6 @@ class Saved extends Component {
 
           {/* Search Options Pulldown Selects */}
           <Container>
-            {/* <Container fluid> */}
             <form action="">
               <Row>
                 <div className="col-sm-6 p-2">
@@ -380,7 +616,7 @@ class Saved extends Component {
                     <SelectRegion
                       list={this.state.listRegions}
                       thisRegion={this.handleInputChange}
-                      onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
+                      // onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
                     />
                   </div>
                 </div>
@@ -389,7 +625,7 @@ class Saved extends Component {
                     <SelectFeature
                       list={this.state.listFeatures}
                       thisFeature={this.handleInputChange}
-                      onChange={console.log(this.state.featureCode)}
+                      // onChange={console.log(this.state.featureCode)}
                       findFeature={this.handleFormSubmit}
                     />
                   </div>
@@ -416,25 +652,56 @@ class Saved extends Component {
 
           {/* ResultCards list */}
           <CardsContainer fluid>
-            {this.state.featureName ? (
-              <ResultCard
-                loginStatus={this.state.isLoggedIn}
-                handleSaveButton={this.savePlace}
-                handleDisabledSaveButton={this.pleaseLogin}
-                featureName={this.state.featureName}
-                featureType={this.state.featureType}
-                featureCountryName={this.state.featureCountryName}
-                featureLatitude={this.state.featureLatitude}
-                featureLongitude={this.state.featureLongitude}
-                nearPlaceName={this.state.nearPlaceName}
-                nearPlaceCountryCode={this.state.nearPlaceCountryCode}
-                nearPlacePostalCode={this.state.nearPlacePostalCode}
-                nearPlaceDistance={this.state.nearPlaceDistance}
-                nearPlaceLatLong={this.state.nearPlaceLatLong}
-                nearPlaceWifi={this.state.nearPlaceWifi}
-              />
+            {/* if any elements exist in this.state.books array, then render a <List> */}
+            {/* <List> is just a Bootstrap <div> and <ul> list container */}
+            {this.state.placesArray.length ? (
+              <List>
+                {/* .map the books array, with each element referred to as "book" */}
+                {this.state.placesArray.map(place => (
+                  // create a <ListItem> for each "book" and set a unique key for it
+                  // <ListItem> is just a Bootstrap <li> list item
+                  <div key={place.placeKey} style={{ borderWidth: 0 }}>
+                    {/* <ListItem key={place.featureName}> */}
+                    {/* React Router <Link> replaces <a href>, links to "book"s page by _id */}
+
+                    {place.featureName ? (
+                      <ResultCard
+                        loginStatus={place.isLoggedIn}
+                        handleSaveButton={this.handleSavePlace(place.placeKey)}
+                        handleDisabledSaveButton={place.pleaseLogin}
+                        featureName={place.featureName}
+                        featureType={place.featureType}
+                        featureCountryName={place.featureCountryName}
+                        featureLatitude={place.featureLatitude}
+                        featureLongitude={place.featureLongitude}
+                        nearPlaceName={place.nearPlaceName}
+                        nearPlaceCountryCode={place.nearPlaceCountryCode}
+                        nearPlacePostalCode={place.nearPlacePostalCode}
+                        nearPlaceDistance={place.nearPlaceDistance}
+                        nearPlaceLatLong={place.nearPlaceLatLong}
+                        nearPlaceWifi={place.nearPlaceWifi}
+                      />
+                    ) : (
+                      <NoResultCard />
+                    )}
+
+                    {/* <Link to={"/place/" + place.featureName}> */}
+                    {/* actual content of <ListItem>, wrapped in a <Link> */}
+                    {/* <strong> */}
+                    {/* display properties of each "book" of mapped array */}
+                    {/* {place.title} by {place.author} */}
+                    {/* </strong> */}
+                    {/* </Link> */}
+
+                    {/* a save button handler with unique id of each place */}
+                    {/* <SaveBtn onClick={() => this.handleSavePlace(place.featureName)} /> */}
+                    {/* </ListItem> */}
+                  </div>
+                ))}
+              </List>
             ) : (
-              <NoResultCard />
+              // but if there are no items in this.state.books array, display this message
+              <h5>Select a feature type and region, then click search to find a random destination!</h5>
             )}
           </CardsContainer>
         </Background>
