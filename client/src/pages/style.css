@@ -17,6 +17,28 @@ body {
   /* border: .1px red solid; */
 }
 
+/* NAVIGATION HEAD LINK STYLES BELOW */
+
+#link-search {
+  color: #999;
+}
+
+#link-saved {
+  color: #999;
+}
+
+#link-logout {
+  color: #999;
+}
+
+#link-login {
+  color: #999;
+}
+
+#link-username {
+  color: #999;
+}
+
 /* LOGO AND DESCRIPTION STYLES BELOW */
 
 header {

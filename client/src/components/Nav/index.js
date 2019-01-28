@@ -37,6 +37,7 @@ class Nav extends Component {
   componentDidUpdate() {
     // console.log("Nav component updated with this state:");
     // console.log(this.state);
+    // console.log(`this.state.email: ${this.state.email}`);
   }
   // ===================================================
 
@@ -87,7 +88,7 @@ class Nav extends Component {
   validateUser = query => {
     // getUser calls /api/signin route to log in existing user
     // console.log("this is the (query) to validateUser():");
-    // console.log(query);
+    console.log(query);
     API.getUser(query)
       .then(res => {
         if (res.data.success) {
@@ -199,25 +200,28 @@ class Nav extends Component {
           </div>
         </Modal>
         <nav className="navbar navbar-expand-sm navbar-light bg-light">
-          <a className="navbar-brand" href="/">
+          {/* <a className="navbar-brand" href="/"> */}
             {/* <img src="assets/images/dinofii_logo.svg" style={{ width: "30", height: "30" }} className="d-inline-block align-top" alt="" /> */}
-            Wanderlist
+            {/* Wanderlist */}
+          {/* </a> */}
+          <a id="link-search" className="nav-link" href="/">
+            Search
           </a>
-          <a className="nav-link" href="/saved">
+          <a id="link-saved" className="nav-link" href="/saved">
             Saved
           </a>
           {/* if isLoggedIn is set to true, then */}
           {this.state.isLoggedIn ? (
-            <span className="nav-link" onClick={this.handleUserLogout}>
+            <span id="link-logout" className="nav-link" onClick={this.handleUserLogout}>
               Log Out
             </span>
           ) : (
-            <span className="nav-link" onClick={this.showModal}>
+            <span id="link-login" className="nav-link" onClick={this.showModal}>
               Log In
             </span>
           )}
           {/* if isLoggedIn is set to true, then */}
-          {this.state.firstName ? <span>{`Hi ${this.state.firstName}`}</span> : <span />}
+          {this.state.firstName ? <span id="link-username">{`Hey ${this.state.firstName}!`}</span> : <span />}
         </nav>
       </>
     );

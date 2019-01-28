@@ -1,7 +1,8 @@
 // Home page view Component called by React Router in the App.js Router Switch Routes
-// Home page is available to all users (?)
+// Home page is available to all users
 
 import React, { Component } from "react";
+// import ReactDOM from "react-dom";
 // use a <Link> tag in place of <a href> to link to another page view with React Router
 // import { Link } from "react-router-dom";
 
@@ -12,8 +13,8 @@ import ListFeatures from "../utils/ListFeatures";
 // import single-component .js files
 import Header from "../components/Header";
 import Background from "../components/Background";
+import Nav from "../components/Nav";
 // import DeleteBtn from "../components/DeleteBtn";
-// import Jumbotron from "../components/Jumbotron";
 
 // import multiple-component .js files
 import { Col, Row, Container } from "../components/Grid";
@@ -26,7 +27,7 @@ import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
 import "./style.css";
 
 // import API in order to make axios API calls to the Express Server
-// import API from "../utils/API";
+import API from "../utils/API";
 
 // use axios to make XMLHttpRequest API calls
 import axios from "axios";
@@ -35,12 +36,27 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      isLoggedIn: false,
       countryAndRegion: "",
       countryCC: "",
       regionCC: "",
       featureCode: "",
       listRegions: ListRegions.countryArray,
       listFeatures: ListFeatures.featureArray,
+      // featureName: "",
+      // featureType: "",
+      // featureCountryCode: "",
+      // featureLatitude: "",
+      // featureLongitude: "",
+      // featureLocation: "",
+      // featureCountryName: "",
+      // nearPlaceName: "",
+      // nearPlacePostalCode: "",
+      // nearPlaceCountryCode: "",
+      // nearPlaceCountryName: "",
+      // nearPlaceDistance: "",
+      // nearPlaceLatLong: "",
+      // nearPlaceWifi: ""
       featureName: "Ensenada Mogotes",
       featureType: "bay",
       featureCountryCode: "AR",
@@ -62,12 +78,35 @@ class Home extends Component {
 
   componentDidUpdate() {
     // console.log(this.state.regionCC);
+    // console.log("Home component updated with this state:");
+    // console.log(this.state);
   }
   // ===================================================
 
   componentDidMount() {
     // this.loadBooks();
+    // console.log("Home component mounted with this state:");
     // console.log(this.state);
+    // console.log("Nav component mounted with this state:");
+    // console.log(this.state);
+    // get the current value of the Wanderlist_authkey token in local storage
+    let readToken = window.localStorage.getItem("Wanderlist_authkey");
+    // set the key and value of the query for token
+    let query = {
+      token: readToken
+    };
+    // calls the verify() method in the loginController
+    API.checkAuth(query)
+      .then(res => {
+        if (res.data.success) {
+          this.setState({ isLoggedIn: true });
+        } else {
+          this.setState({ isLoggedIn: false });
+        }
+        console.log(`<Home> this.state.isLoggedIn is set to: ${this.state.isLoggedIn}`);
+        // console.log(this.state);
+      })
+      .catch(err => console.log(err));
   }
   // ===================================================
 
@@ -135,6 +174,20 @@ class Home extends Component {
         if (response.data.totalResultsCount === 0) {
           // buildNoResults();
           console.log("Sorry, no results!");
+
+          this.setState({
+            featureName: "",
+            featureType: "",
+            featureCountryName: "",
+            featureLatitude: "",
+            featureLongitude: "",
+            nearPlaceName: "",
+            nearPlaceCountryCode: "",
+            nearPlacePostalCode: "",
+            nearPlaceDistance: "",
+            nearPlaceLatLong: "",
+            nearPlaceWifi: ""
+          });
         } else {
           // console.log(response.data.totalResultsCount);
           // console.log(response.data.geonames);
@@ -263,9 +316,9 @@ class Home extends Component {
           // console.log(this.state.nearPlacePostalCode);
 
           if (PostalCode === this.state.nearPlacePostalCode) {
-            console.log("It's a match:");
-            console.log(wifiCountK);
-            console.log(this.state.nearPlaceCountryCode);
+            // console.log("It's a match:");
+            // console.log(wifiCountK);
+            // console.log(this.state.nearPlaceCountryCode);
 
             this.setState({
               nearPlaceWifi: wifiCountK
@@ -277,45 +330,20 @@ class Home extends Component {
         console.log(error);
       });
 
-    // buildCard();
+    // this.buildCard();
   };
 
   // ===================================================
 
-  // call client/src/utils/API.js to make API.saveBook(bookData) axios API call
-  // and send current this.state.title, .author, and .synopsis values
-  // as the req.body (bookData) of the axios API POST call to /api/books
-  // API.saveBook({
-  //   title: this.state.title,
-  //   author: this.state.author,
-  //   synopsis: this.state.synopsis
-  // })
-  //   // after async operation completes, call loadBooks() to get updated book list
-  //   .then(res => this.loadBooks())
-  //   .catch(err => console.log(err));
-
-  // ===================================================
-
-  // call client/src/utils/API.js to make API.getBooks() axios API route call
-  // loads all books data in the db into this.state.books
-  // and also clear all existing data in this.state.title, .author, and .synopsis
-
-  loadBooks = () => {
-    //   API.getBooks()
-    //     .then(res => this.setState({ books: res.data, title: "", author: "", synopsis: "" }))
-    //     .catch(err => console.log(err));
+  savePlace = () => {
+    // code
+    console.log("Saving place!");
   };
 
-  // ===================================================
-
-  // when this.deleteBook(id) is called,
-  // call client/src/utils/API.js to make API.deleteBook(id) axios API route call
-  // and then call this.loadBooks() above to refresh all book data in state
-
-  deleteBook = id => {
-    //   API.deleteBook(id)
-    //     .then(res => this.loadBooks())
-    //     .catch(err => console.log(err));
+  pleaseLogin = () => {
+    // comment    
+    console.log("User not logged in: can't save place!");
+    alert(`Please log in or sign up to save search results.`);
   };
 
   // ===================================================
@@ -323,6 +351,7 @@ class Home extends Component {
   render() {
     return (
       <>
+      <Nav />
         {/* <Container fluid > */}
         <Background>
           {/* logo and intro text header */}
@@ -370,7 +399,7 @@ class Home extends Component {
           </Container>
 
           {/* Clear All Results button and search results label */}
-          <Container>
+          {/* <Container>
             <div id="results_header" className="row pr-2 pl-2">
               <div className="input-group input-group-sm mb-3">
                 <button className="form-control btn-outline-light text-left" style={{ height: "30px" }} disabled>
@@ -383,106 +412,31 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-          </Container>
+          </Container> */}
 
           {/* ResultCards list */}
           <CardsContainer fluid>
-            <ResultCard
-              featureName={this.state.featureName}
-              featureType={this.state.featureType}
-              featureCountryName={this.state.featureCountryName}
-              featureLatitude={this.state.featureLatitude}
-              featureLongitude={this.state.featureLongitude}
-              nearPlaceName={this.state.nearPlaceName}
-              nearPlaceCountryCode={this.state.nearPlaceCountryCode}
-              nearPlacePostalCode={this.state.nearPlacePostalCode}
-              nearPlaceDistance={this.state.nearPlaceDistance}
-              nearPlaceLatLong={this.state.nearPlaceLatLong}
-              nearPlaceWifi={this.state.nearPlaceWifi}
-            />
-            <NoResultCard />
+            {this.state.featureName ? (
+              <ResultCard
+                loginStatus={this.state.isLoggedIn}
+                handleSaveButton={this.savePlace}
+                handleDisabledSaveButton={this.pleaseLogin}
+                featureName={this.state.featureName}
+                featureType={this.state.featureType}
+                featureCountryName={this.state.featureCountryName}
+                featureLatitude={this.state.featureLatitude}
+                featureLongitude={this.state.featureLongitude}
+                nearPlaceName={this.state.nearPlaceName}
+                nearPlaceCountryCode={this.state.nearPlaceCountryCode}
+                nearPlacePostalCode={this.state.nearPlacePostalCode}
+                nearPlaceDistance={this.state.nearPlaceDistance}
+                nearPlaceLatLong={this.state.nearPlaceLatLong}
+                nearPlaceWifi={this.state.nearPlaceWifi}
+              />
+            ) : (
+              <NoResultCard />
+            )}
           </CardsContainer>
-
-          {/* Row returns a Bootstrap "row" */}
-          {/* <Row> */}
-          {/* Col returns a Bootstrap "col-md-6" */}
-          {/* <Col size="md-6"> */}
-          {/* returns a Bootstrap "jumbotron" with inline CSS */}
-          {/* <Jumbotron> */}
-          {/* <h1>What Books Should I Read?</h1> */}
-          {/* </Jumbotron> */}
-          {/* HTML <form> tag: input for adding a new book */}
-          {/* <form> */}
-          {/* Bootstrap "form-group" <div> and "form-control" <input> with ...props */}
-          {/* <Input  */}
-          {/* // insert this.state.title data as the value of the input field */}
-          {/* value={this.state.title}  */}
-          {/* // on every char typed, make field value the value of this.state.title */}
-          {/* onChange={this.handleInputChange}  */}
-          {/* // name used by this.handleInputChange to change this.state.title */}
-          {/* name="title"  */}
-          {/* // displayed field text when no value exists */}
-          {/* placeholder="Title (required)"  */}
-          {/* /> */}
-          {/* <Input  */}
-          {/* value={this.state.author}  */}
-          {/* onChange={this.handleInputChange}  */}
-          {/* name="author"  */}
-          {/* placeholder="Author (required)"  */}
-          {/* /> */}
-          {/* uses <textarea> instead of <input>, sizes input field to 20 rows deep */}
-          {/* <TextArea  */}
-          {/* value={this.state.synopsis}  */}
-          {/* onChange={this.handleInputChange}  */}
-          {/* name="synopsis"  */}
-          {/* placeholder="Synopsis (Optional)"  */}
-          {/* /> */}
-          {/* <button> with Bootstrap classes, inline CSS, props, and children */}
-          {/* <FormBtn  */}
-          {/* // button is disabled if no author AND title are entered */}
-          {/* disabled={!(this.state.author && this.state.title)}  */}
-          {/* // when button is clicked, handle the click with this.handleFormSubmit */}
-          {/* onClick={this.handleFormSubmit} */}
-          {/* > */}
-          {/* Submit Book */}
-          {/* </FormBtn> */}
-          {/* </form> */}
-          {/* </Col> */}
-          {/* <Col size="md-6 sm-12"> */}
-          {/* <Jumbotron> */}
-          {/* <h1>Books On My List</h1> */}
-          {/* </Jumbotron> */}
-          {/* if there are books in this.state.books (if TRUE (exists)), then */}
-          {/* {this.state.books.length ? ( */}
-          {/* // create a List component container (styled <div> holding "list-group" <ul>) */}
-          {/* <List> */}
-          {/* array.map() all books in this.state.books */}
-          {/* {this.state.books.map(book => ( */}
-          {/* // where every book object gets a ListItem component with a key for React */}
-          {/* // an <li> with Bootstrap "list-group-item" */}
-          {/* <ListItem key={book._id}> */}
-          {/* <li> contains a Link (React Router) to it's own book page */}
-          {/* App.js (React Router) sends this route to Detail.js page view */}
-          {/* <Link to={"/books/" + book._id}> */}
-          {/* <strong> */}
-          {/* Link surrounds the displayed title and author */}
-          {/* {book.title} by {book.author} */}
-          {/* </strong> */}
-          {/* </Link> */}
-          {/* ListItem also contains DeleteBtn with click handler */}
-          {/* returns a <button> with other non-individual properties */}
-          {/* <DeleteBtn onClick={() => this.deleteBook(book._id)} /> */}
-          {/* </ListItem> */}
-          {/* ))} */}
-          {/* </List> */}
-          {/* ) : ( */}
-          {/* // otherwise, if this.state.books does not have a length (no data), then */}
-          {/* // don't create the <List> component, just create this <h3>: */}
-          {/* <h3>No Results to Display</h3> */}
-          {/* )} */}
-          {/* </Col> */}
-          {/* </Row> */}
-          {/* </Container> */}
         </Background>
       </>
     );

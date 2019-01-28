@@ -9,7 +9,7 @@ import "./style.css";
 
 export function CardsContainer({ fluid, children }) {
   return (
-    <div className="container" style={{ paddingTop: 20, paddingRight: 6, paddingLeft: 6, textAlign: "center" }}>
+    <div id="cards-container" className="container" style={{ paddingTop: 20, paddingRight: 6, paddingLeft: 6, textAlign: "center" }}>
       {children}
     </div>
   );
@@ -24,7 +24,7 @@ export function ResultCard(props) {
     <>
       <div className="card border-secondary mb-3">
         {/* CARD TOP SECTION */}
-        <div className="card-header text-primary text-left p-1">
+        <div className="card-header text-primary text-left" style={{ padding: "5px 1px 5px 7px" }}>
           {/* FEATURE NAME (FEATURE TYPE) : COUNTRY */}
           <h5 className="pl-1" style={{ display: "inline" }}>
             {/* Google search: FEATURE NAME */}
@@ -78,6 +78,26 @@ export function ResultCard(props) {
               {/* -38.13333, -57.56667 */}
               {/* ${card.featureLatitude}, ${card.featureLongitude} */}
             </a>
+
+            {props.loginStatus ? (
+              <button
+                type="button"
+                className="btn btn-sm btn-success"
+                onClick={props.handleSaveButton}
+                style={{ float: "right", marginLeft: 10, height: 25, width: 65, padding: "1px 3px 4px 3px" }}
+              >
+                SAVE
+              </button>
+            ) : (
+              <button
+                type="button"
+                className="btn btn-sm btn-secondary"
+                onClick={props.handleDisabledSaveButton}
+                style={{ float: "right", marginLeft: 10, height: 25, width: 65, padding: "1px 3px 4px 3px" }}
+              >
+                SAVE
+              </button>
+            )}
           </span>
         </div>
         {/* CARD BOTTOM SECTION */}
@@ -108,6 +128,13 @@ export function ResultCard(props) {
               {/* (${card.nearPlaceDistance} km) */}
             </a>
           </span>
+          {/* <button
+            type="button"
+            className="btn btn-sm btn-danger"
+            style={{ float: "right", marginLeft: 10, height: 25, width: 65, padding: "1px 3px 4px 3px" }}
+          >
+            DELETE
+          </button> */}
           {/* Wigle WIFI MAP */}
           <a
             // href={`https://wigle.net/map?maplat=-38.13333&maplon=-57.56666999999999&mapzoom=12&coloring=density`}
@@ -142,7 +169,7 @@ export function NoResultCard({ children }) {
     <div className="card border-dark mb-3">
       <div className="card-header p-2">
         <p className="mb-0" style={{ color: "rgb(29, 68, 126)" }}>
-          Sorry, no matching features found in that area.
+          No matching features found in that region.
         </p>
       </div>
     </div>
