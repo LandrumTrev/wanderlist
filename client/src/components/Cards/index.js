@@ -20,6 +20,7 @@ export function CardsContainer({ fluid, children }) {
 // ===================================================================
 
 export function ResultCard(props) {
+  // console.log(props);
   return (
     <>
       <div className="card border-secondary mb-3">
