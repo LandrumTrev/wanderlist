@@ -101,6 +101,7 @@ class FindPlace extends Component {
 
   componentDidUpdate() {
     console.log(`<FindPlace> this.state.email is set to: ${this.state.email}`);
+    console.log(`<FindPlace> this.state.isLoggedIn is set to: ${this.state.isLoggedIn}`);
     // console.log("FindPlace component updated with this state:");
     // console.log(this.state);
   }
@@ -114,6 +115,7 @@ class FindPlace extends Component {
     // console.log(this.state);
     // get the current value of the Wanderlist_authkey token in local storage
     let readToken = window.localStorage.getItem("Wanderlist_authkey");
+    let readEmail = window.localStorage.getItem("Wanderlist_userEmail");
     // set the key and value of the query for token
     let query = {
       token: readToken
@@ -123,6 +125,7 @@ class FindPlace extends Component {
       .then(res => {
         if (res.data.success) {
           this.setState({ isLoggedIn: true });
+          this.setState({ email: readEmail });
         } else {
           this.setState({ isLoggedIn: false });
         }
@@ -187,12 +190,14 @@ class FindPlace extends Component {
           this.setState({ isLoggedIn: true });
           this.setState({ loginMsg: res.data.message });
           window.localStorage.setItem("Wanderlist_authkey", res.data.token);
+          window.localStorage.setItem("Wanderlist_userEmail", this.state.email);
           // window.location.assign("/");
         } else {
           console.log("user login validation failed.");
           this.setState({ isLoggedIn: false });
           this.setState({ loginMsg: res.data.message });
           window.localStorage.setItem("Wanderlist_authkey", "");
+          window.localStorage.setItem("Wanderlist_userEmail", "");
           // window.location.assign("/login");
         }
       })
@@ -247,6 +252,7 @@ class FindPlace extends Component {
         if (res.data.success) {
           this.setState({ isLoggedIn: false });
           window.localStorage.removeItem("Wanderlist_authkey");
+          window.localStorage.removeItem("Wanderlist_userEmail");
           console.log("user successfully logged out.");
           // window.location.assign("/logged_out");
         } else {
@@ -509,10 +515,41 @@ class FindPlace extends Component {
 
   // ===================================================
 
-  savePlace = () => {
-    // code
-    console.log("Saving place!");
+
+  handleSavePlace = event => {
+    console.log("Save place button clicked!");
+    // event.preventDefault();
+    console.log(event.target);
+
+    // this.savePlace({
+    //   firstName: this.state.firstName.trim(),
+    //   lastName: this.state.lastName.trim(),
+    //   email: this.state.newEmail.trim(),
+    //   password: this.state.newPassword.trim()
+    // });
+    // this.setState({ show: false });
   };
+
+  savePlace = query => {
+    // code
+    console.log("Saving place to API!");
+    console.log(query);
+
+    API.savePlace(query)
+    .then(res => {
+      // console.log(res);
+      if (res.data.success) {
+        console.log("place saved!");
+        // code to execute on successful save place
+      } else {
+        console.log("failed to save this place.");
+        // code to execute on failed save place
+      }
+    })
+    .catch(err => console.log(err));
+
+  };
+
 
   pleaseLogin = () => {
     // comment
@@ -630,7 +667,7 @@ class FindPlace extends Component {
                     {place.featureName ? (
                       <ResultCard
                         loginStatus={place.isLoggedIn}
-                        handleSaveButton={this.savePlace(place.featureName)}
+                        handleSaveButton={this.handleSavePlace(place.placeKey)}
                         handleDisabledSaveButton={place.pleaseLogin}
                         featureName={place.featureName}
                         featureType={place.featureType}
@@ -657,7 +694,7 @@ class FindPlace extends Component {
                     {/* </Link> */}
 
                     {/* a save button handler with unique id of each place */}
-                    {/* <SaveBtn onClick={() => this.savePlace(place.featureName)} /> */}
+                    {/* <SaveBtn onClick={() => this.handleSavePlace(place.featureName)} /> */}
                     {/* </ListItem> */}
                   </div>
                 ))}
