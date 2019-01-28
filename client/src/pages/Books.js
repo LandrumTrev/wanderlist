@@ -21,9 +21,7 @@ class Books extends Component {
 
   loadBooks = () => {
     API.getBooks()
-      .then(res =>
-        this.setState({ books: res.data, title: "", author: "", synopsis: "" })
-      )
+      .then(res => this.setState({ books: res.data, title: "", author: "", synopsis: "" }))
       .catch(err => console.log(err));
   };
 
@@ -62,28 +60,10 @@ class Books extends Component {
               <h1>What Books Should I Read?</h1>
             </Jumbotron>
             <form>
-              <Input
-                value={this.state.title}
-                onChange={this.handleInputChange}
-                name="title"
-                placeholder="Title (required)"
-              />
-              <Input
-                value={this.state.author}
-                onChange={this.handleInputChange}
-                name="author"
-                placeholder="Author (required)"
-              />
-              <TextArea
-                value={this.state.synopsis}
-                onChange={this.handleInputChange}
-                name="synopsis"
-                placeholder="Synopsis (Optional)"
-              />
-              <FormBtn
-                disabled={!(this.state.author && this.state.title)}
-                onClick={this.handleFormSubmit}
-              >
+              <Input value={this.state.title} onChange={this.handleInputChange} name="title" placeholder="Title (required)" />
+              <Input value={this.state.author} onChange={this.handleInputChange} name="author" placeholder="Author (required)" />
+              <TextArea value={this.state.synopsis} onChange={this.handleInputChange} name="synopsis" placeholder="Synopsis (Optional)" />
+              <FormBtn disabled={!(this.state.author && this.state.title)} onClick={this.handleFormSubmit}>
                 Submit Book
               </FormBtn>
             </form>
@@ -92,22 +72,34 @@ class Books extends Component {
             <Jumbotron>
               <h1>Books On My List</h1>
             </Jumbotron>
+
+            {/* if any elements exist in this.state.books array, then render a <List> */}
+            {/* <List> is just a Bootstrap <div> and <ul> list container */}
             {this.state.books.length ? (
               <List>
+                {/* .map the books array, with each element referred to as "book" */}
                 {this.state.books.map(book => (
+                  // create a <ListItem> for each "book" and set a unique key for it
+                  // <ListItem> is just a Bootstrap <li> list item
                   <ListItem key={book._id}>
+                    {/* React Router <Link> replaces <a href>, links to "book"s page by _id */}
                     <Link to={"/books/" + book._id}>
+                      {/* actual content of <ListItem>, wrapped in a <Link> */}
                       <strong>
+                        {/* display properties of each "book" of mapped array */}
                         {book.title} by {book.author}
                       </strong>
                     </Link>
+                    {/* a delete button handler with unique id of each book */}
                     <DeleteBtn onClick={() => this.deleteBook(book._id)} />
                   </ListItem>
                 ))}
               </List>
             ) : (
+              // but if there are no items in this.state.books array, display this message
               <h3>No Results to Display</h3>
             )}
+            
           </Col>
         </Row>
       </Container>

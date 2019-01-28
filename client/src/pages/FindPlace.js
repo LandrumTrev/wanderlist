@@ -16,6 +16,7 @@ import Background from "../components/Background";
 import Nav from "../components/Nav";
 import Modal from "../components/Modal";
 import { Input, FormBtn } from "../components/Form";
+// import SaveBtn from "../components/SaveBtn";
 
 // import DeleteBtn from "../components/DeleteBtn";
 
@@ -23,7 +24,8 @@ import { Input, FormBtn } from "../components/Form";
 import { Col, Row, Container } from "../components/Grid";
 import { SelectRegion, SelectFeature } from "../components/Search";
 import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
-// import { List, ListItem } from "../components/List";
+import { List } from "../components/List";
+// import { ListItem } from "../components/List";
 // import { Input, TextArea, FormBtn } from "../components/Form";
 
 // import master style.css for all page views
@@ -410,11 +412,6 @@ class FindPlace extends Component {
   // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API (service is beta, no set limits)
   // ===========================================================================
 
-  // // mini function to format thousands of WiFi numbers to k format
-  // kFormatter = num => {
-  //   return num > 999 ? (num / 1000).toFixed(1) + "k" : num;
-  // };
-
   getHotspots = () => {
     let wigleHotspots = `https://api.wigle.net/api/v2/stats/regions?country=${this.state.nearPlaceCountryCode}`;
     // console.log(this.state.nearPlaceCountryCode);
@@ -461,7 +458,53 @@ class FindPlace extends Component {
         console.log(error);
       });
 
-    // this.buildCard();
+    // console.log("I wanna build a card!");
+    this.buildCard();
+  };
+
+  // ===================================================
+
+  buildCard = () => {
+    console.log("building Card!");
+
+    let placeKey = () => {
+      let text = "";
+      let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+      for (let i = 0; i < 24; i++) text += possible.charAt(Math.floor(Math.random() * possible.length));
+      return text;
+    };
+
+    console.log(placeKey());
+
+    let newCard = {};
+    newCard.placeKey = placeKey();
+    newCard.email = this.state.email;
+    newCard.featureName = this.state.featureName;
+    newCard.featureType = this.state.featureType;
+    newCard.featureCountryName = this.state.featureCountryName;
+    newCard.featureLatitude = this.state.featureLatitude;
+    newCard.featureLongitude = this.state.featureLongitude;
+    newCard.nearPlaceName = this.state.nearPlaceName;
+    newCard.nearPlaceCountryCode = this.state.nearPlaceCountryCode;
+    newCard.nearPlacePostalCode = this.state.nearPlacePostalCode;
+    newCard.nearPlaceDistance = this.state.nearPlaceDistance;
+    newCard.nearPlaceLatLong = this.state.nearPlaceLatLong;
+    newCard.nearPlaceWifi = this.state.nearPlaceWifi;
+    console.log(`newCard:`);
+    console.log(newCard);
+
+    let currentPlaces = this.state.placesArray;
+    console.log(`currentPlaces:`);
+    console.log(currentPlaces);
+
+    // let newPlacesArray = [];
+    let newPlacesArray = [newCard, ...currentPlaces];
+    console.log(`newPlacesArray:`);
+    console.log(newPlacesArray);
+
+    this.setState({ placesArray: newPlacesArray });
+    console.log(`NEW this.state.placesArray:`);
+    console.log(this.state.placesArray);
   };
 
   // ===================================================
@@ -473,7 +516,7 @@ class FindPlace extends Component {
 
   pleaseLogin = () => {
     // comment
-    console.log("User not logged in: can't save place!");
+    // console.log("User not logged in: can't save place!");
     alert(`Please log in or sign up to save search results.`);
   };
 
@@ -484,7 +527,6 @@ class FindPlace extends Component {
       <>
         <Nav loginStatus={this.state.isLoggedIn} logoutClick={this.handleUserLogout} modalPops={this.showModal} firstName={this.state.firstName} />
 
-        {/* <Container fluid > */}
         <Modal show={this.state.show} handleClose={this.hideModal} handleLogin={this.loginUser} handleNewUser={this.createUser}>
           <div id="login-user-form">
             <form>
@@ -530,7 +572,6 @@ class FindPlace extends Component {
 
           {/* Search Options Pulldown Selects */}
           <Container>
-            {/* <Container fluid> */}
             <form action="">
               <Row>
                 <div className="col-sm-6 p-2">
@@ -538,7 +579,7 @@ class FindPlace extends Component {
                     <SelectRegion
                       list={this.state.listRegions}
                       thisRegion={this.handleInputChange}
-                      onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
+                      // onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
                     />
                   </div>
                 </div>
@@ -547,7 +588,7 @@ class FindPlace extends Component {
                     <SelectFeature
                       list={this.state.listFeatures}
                       thisFeature={this.handleInputChange}
-                      onChange={console.log(this.state.featureCode)}
+                      // onChange={console.log(this.state.featureCode)}
                       findFeature={this.handleFormSubmit}
                     />
                   </div>
@@ -574,25 +615,56 @@ class FindPlace extends Component {
 
           {/* ResultCards list */}
           <CardsContainer fluid>
-            {this.state.featureName ? (
-              <ResultCard
-                loginStatus={this.state.isLoggedIn}
-                handleSaveButton={this.savePlace}
-                handleDisabledSaveButton={this.pleaseLogin}
-                featureName={this.state.featureName}
-                featureType={this.state.featureType}
-                featureCountryName={this.state.featureCountryName}
-                featureLatitude={this.state.featureLatitude}
-                featureLongitude={this.state.featureLongitude}
-                nearPlaceName={this.state.nearPlaceName}
-                nearPlaceCountryCode={this.state.nearPlaceCountryCode}
-                nearPlacePostalCode={this.state.nearPlacePostalCode}
-                nearPlaceDistance={this.state.nearPlaceDistance}
-                nearPlaceLatLong={this.state.nearPlaceLatLong}
-                nearPlaceWifi={this.state.nearPlaceWifi}
-              />
+            {/* if any elements exist in this.state.books array, then render a <List> */}
+            {/* <List> is just a Bootstrap <div> and <ul> list container */}
+            {this.state.placesArray.length ? (
+              <List>
+                {/* .map the books array, with each element referred to as "book" */}
+                {this.state.placesArray.map(place => (
+                  // create a <ListItem> for each "book" and set a unique key for it
+                  // <ListItem> is just a Bootstrap <li> list item
+                  <div key={place.placeKey} style={{ borderWidth: 0 }}>
+                    {/* <ListItem key={place.featureName}> */}
+                    {/* React Router <Link> replaces <a href>, links to "book"s page by _id */}
+
+                    {place.featureName ? (
+                      <ResultCard
+                        loginStatus={place.isLoggedIn}
+                        handleSaveButton={this.savePlace(place.featureName)}
+                        handleDisabledSaveButton={place.pleaseLogin}
+                        featureName={place.featureName}
+                        featureType={place.featureType}
+                        featureCountryName={place.featureCountryName}
+                        featureLatitude={place.featureLatitude}
+                        featureLongitude={place.featureLongitude}
+                        nearPlaceName={place.nearPlaceName}
+                        nearPlaceCountryCode={place.nearPlaceCountryCode}
+                        nearPlacePostalCode={place.nearPlacePostalCode}
+                        nearPlaceDistance={place.nearPlaceDistance}
+                        nearPlaceLatLong={place.nearPlaceLatLong}
+                        nearPlaceWifi={place.nearPlaceWifi}
+                      />
+                    ) : (
+                      <NoResultCard />
+                    )}
+
+                    {/* <Link to={"/place/" + place.featureName}> */}
+                    {/* actual content of <ListItem>, wrapped in a <Link> */}
+                    {/* <strong> */}
+                    {/* display properties of each "book" of mapped array */}
+                    {/* {place.title} by {place.author} */}
+                    {/* </strong> */}
+                    {/* </Link> */}
+
+                    {/* a save button handler with unique id of each place */}
+                    {/* <SaveBtn onClick={() => this.savePlace(place.featureName)} /> */}
+                    {/* </ListItem> */}
+                  </div>
+                ))}
+              </List>
             ) : (
-              <NoResultCard />
+              // but if there are no items in this.state.books array, display this message
+              <h5>Select a feature type and region, then click search to find a random destination!</h5>
             )}
           </CardsContainer>
         </Background>

@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const placeSchema = new Schema({
+  placeKey: { type: String, required: true },
   email: { type: String, required: true },
   featureName: { type: String, required: true },
   featureType: { type: String, required: true },

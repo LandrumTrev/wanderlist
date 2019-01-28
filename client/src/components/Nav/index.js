@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 function Nav(props) {
-  console.log(props);
+  // console.log(props);
 
   return (
     <>
