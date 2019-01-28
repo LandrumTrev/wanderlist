@@ -515,10 +515,32 @@ class FindPlace extends Component {
 
   // ===================================================
 
-  handleSavePlace = event => {
+  handleSavePlace = pKey => {
     console.log("Save place button clicked!");
-    // event.preventDefault();
-    console.log(event);
+    console.log(pKey);
+
+    let currentPlaces = this.state.placesArray;
+    console.log(currentPlaces);
+
+    for (let i = 0; i < currentPlaces.length; i++) {
+      const placeObject = currentPlaces[i];
+
+      if (placeObject.placeKey === pKey) {
+        console.log(placeObject);
+        API.savePlace(placeObject)
+          .then(res => {
+            console.log(res.status);
+            if (res.status === 200) {
+              console.log("place saved!");
+              // code to execute on successful save place
+            } else {
+              console.log("failed to save this place.");
+              // code to execute on failed save place
+            }
+          })
+          .catch(err => console.log(err));
+      }
+    }
 
     // this.savePlace({
     //   firstName: this.state.firstName.trim(),
@@ -529,24 +551,24 @@ class FindPlace extends Component {
     // this.setState({ show: false });
   };
 
-  savePlace = query => {
-    // code
-    console.log("Saving place to API!");
-    console.log(query);
+  // savePlace = query => {
+  //   // code
+  //   console.log("Saving place to API!");
+  //   console.log(query);
 
-    API.savePlace(query)
-      .then(res => {
-        // console.log(res);
-        if (res.data.success) {
-          console.log("place saved!");
-          // code to execute on successful save place
-        } else {
-          console.log("failed to save this place.");
-          // code to execute on failed save place
-        }
-      })
-      .catch(err => console.log(err));
-  };
+  //   API.savePlace(query)
+  //     .then(res => {
+  //       // console.log(res);
+  //       if (res.data.success) {
+  //         console.log("place saved!");
+  //         // code to execute on successful save place
+  //       } else {
+  //         console.log("failed to save this place.");
+  //         // code to execute on failed save place
+  //       }
+  //     })
+  //     .catch(err => console.log(err));
+  // };
 
   pleaseLogin = () => {
     // comment

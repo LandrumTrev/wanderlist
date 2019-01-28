@@ -1,6 +1,10 @@
 import axios from "axios";
 
 export default {
+  // save a place to db
+  savePlace: query => {
+    return axios.post("/api/places", query);
+  },
   // user auth login route
   getUser: query => {
     return axios.post("/api/signin", query);
