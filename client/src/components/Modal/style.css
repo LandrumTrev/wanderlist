@@ -11,7 +11,7 @@
 .login-modal-main {
   position: fixed;
   border-radius: 8px;
-  width: 80%;
+  width: 85%;
   height: auto;
   top: 50%;
   left: 50%;
@@ -46,12 +46,12 @@
 }
 
 #login-user-form {
-  padding: 60px;
+  padding: 50px;
   margin: 20px;
   background-color: rgb(137, 220, 245);
 }
 #create-user-form {
-  padding: 60px;
+  padding: 50px;
   margin: 20px;
   background-color: rgb(202, 230, 173);
 }

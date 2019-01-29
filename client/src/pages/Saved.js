@@ -11,6 +11,7 @@ import Header from "../components/Header";
 import Background from "../components/Background";
 import Nav from "../components/Nav";
 // import Modal from "../components/Modal";
+import Jumbotron from "../components/Jumbotron";
 
 // import multiple-component .js files
 // import { SelectRegion, SelectFeature } from "../components/Search";
@@ -47,7 +48,7 @@ class Saved extends Component {
       password: "",
       isDeleted: false,
       isLoggedIn: false,
-      loginMsg: "",
+      loginMsg: ""
       // countryAndRegion: "",
       // countryCC: "",
       // regionCC: "",
@@ -307,7 +308,7 @@ class Saved extends Component {
           this.setState({ password: "" });
           window.localStorage.removeItem("Wanderlist_authkey");
           window.localStorage.removeItem("Wanderlist_userEmail");
-          window.location.assign('/');
+          window.location.assign("/");
           console.log("user successfully logged out.");
         } else {
           console.log("user log out failed, user is still logged in.");
@@ -326,71 +327,74 @@ class Saved extends Component {
         <Nav loginStatus={this.state.isLoggedIn} logoutClick={this.handleUserLogout} modalPops={this.showModal} />
         {/* MODAL FOR LOGIN and CREATE NEW USER ACCOUNT */}
         {/* <Modal show={this.state.show} handleClose={this.hideModal} handleLogin={this.loginUser} handleNewUser={this.createUser}> */}
-          {/* USER LOGIN */}
-          {/* <div id="login-user-form"> */}
-            {/* <form> */}
-              {/* <Input value={this.state.email} onChange={this.handleInputChange} name="email" placeholder="email (required)" type="text" /> */}
-              {/* <Input */}
-                {/* value={this.state.password} */}
-                {/* onChange={this.handleInputChange} */}
-                {/* name="password" */}
-                {/* placeholder="password (required)" */}
-                {/* type="password" */}
-              {/* /> */}
-              {/* <FormBtn disabled={!(this.state.email && this.state.password)} onClick={this.loginUser}> */}
-                {/* Log In */}
-              {/* </FormBtn> */}
-            {/* </form> */}
-          {/* </div> */}
-          {/* CREATE USER ACCOUNT */}
-          {/* <div id="create-user-form"> */}
-            {/* <form> */}
-              {/* <Input */}
-                {/* value={this.state.firstName} */}
-                {/* onChange={this.handleInputChange} */}
-                {/* name="firstName" */}
-                {/* placeholder="first name (required)" */}
-                {/* type="text" */}
-              {/* /> */}
-              {/* <Input value={this.state.lastName} onChange={this.handleInputChange} name="lastName" placeholder="last name (required)" type="text" /> */}
-              {/* <Input value={this.state.newEmail} onChange={this.handleInputChange} name="newEmail" placeholder="email (required)" type="text" /> */}
-              {/* <Input */}
-                {/* value={this.state.newPassword} */}
-                {/* onChange={this.handleInputChange} */}
-                {/* name="newPassword" */}
-                {/* placeholder="password (required)" */}
-                {/* type="password" */}
-              {/* /> */}
-              {/* <FormBtn */}
-                {/* disabled={!(this.state.firstName && this.state.lastName && this.state.newEmail && this.state.newPassword)} */}
-                {/* onClick={this.createUser} */}
-              {/* > */}
-                {/* Create Account */}
-              {/* </FormBtn> */}
-            {/* </form> */}
-          {/* </div> */}
+        {/* USER LOGIN */}
+        {/* <div id="login-user-form"> */}
+        {/* <form> */}
+        {/* <Input value={this.state.email} onChange={this.handleInputChange} name="email" placeholder="email (required)" type="text" /> */}
+        {/* <Input */}
+        {/* value={this.state.password} */}
+        {/* onChange={this.handleInputChange} */}
+        {/* name="password" */}
+        {/* placeholder="password (required)" */}
+        {/* type="password" */}
+        {/* /> */}
+        {/* <FormBtn disabled={!(this.state.email && this.state.password)} onClick={this.loginUser}> */}
+        {/* Log In */}
+        {/* </FormBtn> */}
+        {/* </form> */}
+        {/* </div> */}
+        {/* CREATE USER ACCOUNT */}
+        {/* <div id="create-user-form"> */}
+        {/* <form> */}
+        {/* <Input */}
+        {/* value={this.state.firstName} */}
+        {/* onChange={this.handleInputChange} */}
+        {/* name="firstName" */}
+        {/* placeholder="first name (required)" */}
+        {/* type="text" */}
+        {/* /> */}
+        {/* <Input value={this.state.lastName} onChange={this.handleInputChange} name="lastName" placeholder="last name (required)" type="text" /> */}
+        {/* <Input value={this.state.newEmail} onChange={this.handleInputChange} name="newEmail" placeholder="email (required)" type="text" /> */}
+        {/* <Input */}
+        {/* value={this.state.newPassword} */}
+        {/* onChange={this.handleInputChange} */}
+        {/* name="newPassword" */}
+        {/* placeholder="password (required)" */}
+        {/* type="password" */}
+        {/* /> */}
+        {/* <FormBtn */}
+        {/* disabled={!(this.state.firstName && this.state.lastName && this.state.newEmail && this.state.newPassword)} */}
+        {/* onClick={this.createUser} */}
+        {/* > */}
+        {/* Create Account */}
+        {/* </FormBtn> */}
+        {/* </form> */}
+        {/* </div> */}
         {/* </Modal> */}
 
         {/* START BACKGROUND ELEMENT WRAP */}
         <Background>
           {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
-          <Header>
-            <Row>
-              {/* LOGOTYPE */}
-              <Col size="sm-6 md-4">
-                <img src="assets/images/dinofii_logo.svg" style={{ width: "90%", maxHeight: 150, padding: "1px 1px 1px 1px" }} alt="Dinofii logo" />
-              </Col>
+          <Jumbotron />
 
-              {/* INTRO TEXT */}
-              <Col size="sm-6 md-8">
-                <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "0px 30px 30px 0px" }}>
-                  <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)" }}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an
-                  area to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and
-                  local wifi.
-                </div>
-              </Col>
-            </Row>
-          </Header>
+          {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
+          {/* <Header> */}
+          {/* <Row> */}
+          {/* LOGOTYPE */}
+          {/* <Col size="sm-6 md-4"> */}
+          {/* <img src="assets/images/dinofii_logo.svg" style={{ width: "90%", maxHeight: 150, padding: "1px 1px 1px 1px" }} alt="Dinofii logo" /> */}
+          {/* </Col> */}
+
+          {/* INTRO TEXT */}
+          {/* <Col size="sm-6 md-8"> */}
+          {/* <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "0px 30px 30px 0px" }}> */}
+          {/* <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)" }}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an */}
+          {/* area to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and */}
+          {/* local wifi. */}
+          {/* </div> */}
+          {/* </Col> */}
+          {/* </Row> */}
+          {/* </Header> */}
 
           {/* SAVED LOCATIONS CARDS */}
           <CardSavedContainer fluid>

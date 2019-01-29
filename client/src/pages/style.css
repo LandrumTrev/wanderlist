@@ -77,12 +77,6 @@ header {
   color: #444;
 }
 
-#headline {
-  font-weight: 700;
-  color: rgb(121, 27, 27);
-  /* color: rgb(162, 155, 99); */
-}
-
 /* LOGO AND DESCRIPTION STYLES ABOVE */
 
 /* SEARCH SELECT STYLES BELOW */
@@ -118,7 +112,8 @@ main {
 }
 
 .default-display-type {
-  color: #555;
+  /* color: #555; */
+  color: #fff;
 }
 /* SEARCH RESULTS STYLES ABOVE */
 
@@ -163,12 +158,59 @@ footer {
 
 /* FOOTER STYLES ABOVE */
 
+/* JUMBOTRON STYLES BELOW */
+
+#jumbohead {
+  /* background-color: #444; */
+  background: linear-gradient(217deg, rgba(183, 197, 208,.8), rgba(183, 197, 208,0) 70.71%), linear-gradient(33deg, rgba(255, 0, 0, 0.8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%), #000;
+}
+
+#headline {
+  font-family: "Julius Sans One", sans-serif;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 0;
+  /* color: rgb(121, 27, 27); */
+  color: #ddd;
+  font-weight: 900;
+}
+
+#subhead {
+  /* font-family: 'Julius Sans One', sans-serif; */
+  font-weight: 700;
+  /* color: rgb(121, 27, 27); */
+  color: #ddd;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+#descriptor {
+  font-weight: 400;
+  /* color: rgb(140, 129, 129); */
+  color: #aaa;
+  letter-spacing: 0rem;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 /* MEDIA QUERIES BELOW */
 
 /* Extra small devices (phones, 575px and down) */
 @media only screen and (max-width: 575px) {
   #intro_col {
     padding-top: 5px;
+  }
+  #headline {
+    font-size: 3.4rem;
+  }
+  #subhead {
+    font-size: 0.4rem;
+    letter-spacing: 0.25rem;
+  }
+  #descriptor {
+    font-size: 1rem;
+    max-width: 360px;
+    font-weight: 400;
   }
 }
 
@@ -178,6 +220,17 @@ footer {
     padding-top: 30px;
     font-size: 0.95rem;
   }
+  #headline {
+    font-size: 4.5rem;
+  }
+  #subhead {
+    font-size: 0.8rem;
+  }
+  #descriptor {
+    font-size: 1.4rem;
+    max-width: 450px;
+    font-weight: 300;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -185,12 +238,34 @@ footer {
   #intro_col {
     font-size: 1.2rem;
   }
+  #headline {
+    font-size: 6rem;
+  }
+  #subhead {
+    font-size: 1.2rem;
+  }
+  #descriptor {
+    font-size: 1.5rem;
+    max-width: 590px;
+    font-weight: 200;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #intro_col {
     font-size: 1.6rem;
+  }
+  #headline {
+    font-size: 7rem;
+  }
+  #subhead {
+    font-size: 1.45rem;
+  }
+  #descriptor {
+    font-size: 1.54rem;
+    max-width: 690px;
+    font-weight: 200;
   }
 }
 

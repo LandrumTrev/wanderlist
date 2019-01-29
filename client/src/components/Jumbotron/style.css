@@ -1,0 +1,73 @@
+/* Jumbotron styles */
+
+/* Google Fonts */
+/* font-family: 'Montserrat', sans-serif; */
+/* Montserrat has all weights 100-900 plus italics */
+/* Montserrat weights current installed: 300, 400, 500, 800 */
+/* font-family: 'Julius Sans One', sans-serif; */
+
+/* =================================== */
+/* MEDIA QUERIES FOR BREAKPOINTS BELOW */
+/* =================================== */
+
+/* Extra small devices (portrait phones, less than 561px)
+No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 561px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+/* =================================== */
+
+/* Small devices (landscape phones, 561px and up) */
+@media (min-width: 561px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+/* MS size for navbar breakpoint at 576px */
+@media (min-width: 576px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+/* MXL full screen (large monitors, 1400px and up) */
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+/* XXL full screen (large monitors, 1800px and up) */
+@media (min-width: 1800px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+/* MEDIA QUERIES FOR BREAKPOINTS ABOVE */
+/* =================================== */

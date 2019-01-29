@@ -11,6 +11,7 @@ import Header from "../components/Header";
 import Background from "../components/Background";
 import Nav from "../components/Nav";
 import Modal from "../components/Modal";
+import Jumbotron from "../components/Jumbotron";
 
 // import multiple-component .js files
 import { SelectRegion, SelectFeature } from "../components/Search";
@@ -639,30 +640,33 @@ class FindPlace extends Component {
         {/* START BACKGROUND ELEMENT WRAP */}
         <Background>
           {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
-          <Header>
-            <Row>
-              {/* LOGOTYPE */}
-              <Col size="sm-6 md-4">
-                <img src="assets/images/dinofii_logo.svg" style={{ width: "90%", maxHeight: 150, padding: "1px 1px 1px 1px" }} alt="Dinofii logo" />
-              </Col>
+          <Jumbotron />
 
-              {/* INTRO TEXT */}
-              <Col size="sm-6 md-8">
-                <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "0px 30px 30px 0px" }}>
-                  <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)" }}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an
-                  area to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and
-                  local wifi.
-                </div>
-              </Col>
-            </Row>
-          </Header>
+          {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
+          {/* <Header> */}
+          {/* <Row> */}
+          {/* LOGOTYPE */}
+          {/* <Col size="sm-6 md-4"> */}
+          {/* <img src="assets/images/dinofii_logo.svg" style={{ width: "90%", maxHeight: 150, padding: "1px 1px 1px 1px" }} alt="Dinofii logo" /> */}
+          {/* </Col> */}
+
+          {/* INTRO TEXT */}
+          {/* <Col size="sm-6 md-8"> */}
+          {/* <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "0px 30px 30px 0px" }}> */}
+          {/* <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)" }}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an */}
+          {/* area to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and */}
+          {/* local wifi. */}
+          {/* </div> */}
+          {/* </Col> */}
+          {/* </Row> */}
+          {/* </Header> */}
 
           {/* SEARCH OPTION SELECTS */}
           <Container>
             <form action="">
               <Row>
                 {/* COUNTRY AND REGION SELECT */}
-                <div className="col-sm-6" style={{padding: 6}}>
+                <div className="col-sm-6" style={{ padding: 6 }}>
                   <div className="input-group">
                     <SelectRegion
                       list={this.state.listRegions}
@@ -672,7 +676,7 @@ class FindPlace extends Component {
                   </div>
                 </div>
                 {/* FEATURE TYPE SELECT */}
-                <div className="col-sm-6" style={{padding: 6}}>
+                <div className="col-sm-6" style={{ padding: 6 }}>
                   <div className="input-group">
                     <SelectFeature
                       list={this.state.listFeatures}
@@ -751,7 +755,9 @@ class FindPlace extends Component {
               </List>
             ) : (
               // but if there are no items in this.state.placesArray, display this message
-              <h5 className="default-display-type" style={{fontSize: "2.8rem", fontWeight: 200, textAlign: "center"}}>Select a feature type and region, then click search to find a random destination!</h5>
+              <h5 className="default-display-type" style={{ fontSize: "2.8rem", fontWeight: 200, textAlign: "center" }}>
+                Select a feature type and region, then click search to find a random destination!
+              </h5>
             )}
           </CardsContainer>
         </Background>

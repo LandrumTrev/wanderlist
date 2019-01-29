@@ -7,11 +7,7 @@ import "./style.css";
 // has a {children} param so other components can exist within its open and close tags
 function Header({ children }) {
   return (
-    <div
-    //style={{ clear: "both", paddingTop: 20, textAlign: "center", backgroundColor: "#eee" }}
-    style={{ paddingTop: 20, backgroundColor: "#eee" }}
-      className="px-0 mx-0"
-    >
+    <div style={{ clear: "both", paddingTop: 20, textAlign: "center", backgroundColor: "#eee" }} className="px-0 mx-0">
       {children}
     </div>
   );
