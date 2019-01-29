@@ -10,12 +10,5 @@ router
   .post(placesController.create)
   .delete(placesController.deletePlace);
 
-// Matches with "/api/books/:id"
-// router
-// .route("/:pKey")
-//   .get(booksController.findById)
-//   .put(booksController.update)
-// .delete(placesController.remove);
-
 module.exports = router;
 

@@ -7,9 +7,6 @@ const router = require("express").Router();
 // controller for user authentication routes methods
 const loginController = require("../../controllers/loginController");
 
-// require all routes for /api/books/xxx
-const bookRoutes = require("./books");
-
 // require all routes in /api/places.js
 const placeRoutes = require("./places");
 // const placesController = require("../../controllers/placesController");
@@ -21,9 +18,6 @@ router.route("/verify").post(loginController.verify);
 router.route("/logout").post(loginController.logout);
 
 // router.route("/places").post(placesController.create);
-
-// attach /api/books/xxx routes to Express Router
-router.use("/books", bookRoutes);
 
 // attach /api/books/xxx routes to Express Router
 router.use("/places", placeRoutes);

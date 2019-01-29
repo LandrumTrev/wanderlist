@@ -662,7 +662,7 @@ class FindPlace extends Component {
             <form action="">
               <Row>
                 {/* COUNTRY AND REGION SELECT */}
-                <div className="col-sm-6 p-2">
+                <div className="col-sm-6" style={{padding: 6}}>
                   <div className="input-group">
                     <SelectRegion
                       list={this.state.listRegions}
@@ -672,7 +672,7 @@ class FindPlace extends Component {
                   </div>
                 </div>
                 {/* FEATURE TYPE SELECT */}
-                <div className="col-sm-6 p-2">
+                <div className="col-sm-6" style={{padding: 6}}>
                   <div className="input-group">
                     <SelectFeature
                       list={this.state.listFeatures}
@@ -751,7 +751,7 @@ class FindPlace extends Component {
               </List>
             ) : (
               // but if there are no items in this.state.placesArray, display this message
-              <h5 className="default-display-type">Select a feature type and region, then click search to find a random destination!</h5>
+              <h5 className="default-display-type" style={{fontSize: "2.8rem", fontWeight: 200, textAlign: "center"}}>Select a feature type and region, then click search to find a random destination!</h5>
             )}
           </CardsContainer>
         </Background>
