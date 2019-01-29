@@ -11,7 +11,7 @@ module.exports = {
     // body is req.body
     const { body } = req;
     // firstName, lastName, password, and email are
-    // firsname.req.body, etc
+    // req.body.firsname, etc
     const { firstName, lastName, password } = body;
     let { email } = body;
 
@@ -171,7 +171,9 @@ module.exports = {
   //* Verify validity of a user's token if presented
   //************************************************************/
   verify: (req, res) => {
+    // body is req.body
     const { body } = req;
+    // token is req.body.token
     const { token } = body;
     // console.log(req);
     // console.log("Token = " + token);

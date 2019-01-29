@@ -10,14 +10,16 @@ function Nav(props) {
         <a id="link-search" className="nav-link" href="/">
           Search
         </a>
-        <a id="link-saved" className="nav-link" href="/saved">
-          Saved
-        </a>
         {/* if isLoggedIn is set to true, then */}
         {props.loginStatus ? (
-          <span id="link-logout" className="nav-link" onClick={props.logoutClick}>
-            Log Out
-          </span>
+          <>
+            <a id="link-saved" className="nav-link" href="/saved">
+              Saved
+            </a>
+            <span id="link-logout" className="nav-link" onClick={props.logoutClick}>
+              Log Out
+            </span>
+          </>
         ) : (
           <span id="link-login" className="nav-link" onClick={props.modalPops}>
             Log In

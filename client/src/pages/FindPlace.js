@@ -74,9 +74,9 @@ class FindPlace extends Component {
 
   componentDidUpdate() {
     // console.log(`<FindPlace> component updated with this state:`);
-    // console.log(this.state);
-    console.log(`<FindPlace> DidUpdate this.state.isLoggedIn: ${this.state.isLoggedIn}`);
-    console.log(`<FindPlace> DidUpdate this.state.email: ${this.state.email}`);
+    console.log(this.state);
+    // console.log(`<FindPlace> DidUpdate this.state.isLoggedIn: ${this.state.isLoggedIn}`);
+    // console.log(`<FindPlace> DidUpdate this.state.email: ${this.state.email}`);
   }
   // ===================================================
 
@@ -100,8 +100,9 @@ class FindPlace extends Component {
         } else {
           this.setState({ isLoggedIn: false });
         }
-        console.log(`<FindPlace> DidMount this.state.isLoggedIn: ${this.state.isLoggedIn}`);
-        console.log(`<FindPlace> DidMount this.state.email: ${this.state.email}`);
+        console.log(this.state);
+        // console.log(`<FindPlace> DidMount this.state.isLoggedIn: ${this.state.isLoggedIn}`);
+        // console.log(`<FindPlace> DidMount this.state.email: ${this.state.email}`);
       })
       .catch(err => console.log(err));
   }
@@ -198,7 +199,10 @@ class FindPlace extends Component {
       .then(res => {
         if (res.data.success) {
           console.log("new user create success!");
-          // code to execute on successful creation of new user
+          this.setState({ firstName: "" });
+          this.setState({ lastName: "" });
+          this.setState({ newEmail: "" });
+          this.setState({ newPassword: "" });
         } else {
           console.log("failed to create new user.");
           // code to execute on failed creation of new user
@@ -229,6 +233,7 @@ class FindPlace extends Component {
           this.setState({ password: "" });
           window.localStorage.removeItem("Wanderlist_authkey");
           window.localStorage.removeItem("Wanderlist_userEmail");
+          window.location.assign('/');
           console.log("user successfully logged out.");
         } else {
           console.log("user log out failed, user is still logged in.");
@@ -738,7 +743,7 @@ class FindPlace extends Component {
                 ))}
               </List>
             ) : (
-              // but if there are no items in this.state.books array, display this message
+              // but if there are no items in this.state.placesArray, display this message
               <h5 className="default-display-type">Select a feature type and region, then click search to find a random destination!</h5>
             )}
           </CardsContainer>
