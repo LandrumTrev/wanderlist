@@ -1,1 +1,53 @@
+/* Google Fonts */
+/* font-family: 'Montserrat', sans-serif; */
+/* Montserrat has all weights 100-900 plus italics */
+/* Montserrat weights current installed: 300, 400, 500, 800 */
+/* font-family: 'Julius Sans One', sans-serif; */
+
 /* styles for Nav */
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+}
+
+/* #link-search-box {
+  background-color: aliceblue;
+  color: #999;
+} */
+
+/* #link-search-box:hover {
+  background-color: rgb(155, 178, 198);
+  color: aliceblue;
+} */
+
+/* #link-saved-box {
+  background-color: aliceblue;
+  color: #999;
+} */
+
+/* #link-saved-box:hover {
+  background-color: rgb(155, 178, 198);
+  color: aliceblue;
+} */
+
+#link-logout-box {
+  background-color: aliceblue;
+  color: #999;
+}
+
+#link-logout-box:hover {
+  background-color: rgb(133, 66, 66);
+  color: rgb(228, 233, 237);
+}
+
+#link-login-box {
+  background-color: aliceblue;
+  color: #999;
+}
+
+#link-login-box:hover {
+  background-color: rgb(133, 66, 66);
+  color: rgb(228, 233, 237);
+}
