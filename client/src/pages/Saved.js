@@ -10,7 +10,7 @@ import React, { Component } from "react";
 import Header from "../components/Header";
 import Background from "../components/Background";
 import Nav from "../components/Nav";
-import Modal from "../components/Modal";
+// import Modal from "../components/Modal";
 
 // import multiple-component .js files
 // import { SelectRegion, SelectFeature } from "../components/Search";
@@ -19,7 +19,7 @@ import { CardSavedContainer, CardSaved } from "../components/CardSaved";
 // import { Container } from "../components/Grid";
 import { Col, Row } from "../components/Grid";
 import { List } from "../components/List";
-import { Input, FormBtn } from "../components/Form";
+// import { Input, FormBtn } from "../components/Form";
 
 // import master style.css for all page views
 import "./style.css";
@@ -325,51 +325,51 @@ class Saved extends Component {
         {/* NAVIGATION HEADER */}
         <Nav loginStatus={this.state.isLoggedIn} logoutClick={this.handleUserLogout} modalPops={this.showModal} />
         {/* MODAL FOR LOGIN and CREATE NEW USER ACCOUNT */}
-        <Modal show={this.state.show} handleClose={this.hideModal} handleLogin={this.loginUser} handleNewUser={this.createUser}>
+        {/* <Modal show={this.state.show} handleClose={this.hideModal} handleLogin={this.loginUser} handleNewUser={this.createUser}> */}
           {/* USER LOGIN */}
-          <div id="login-user-form">
-            <form>
-              <Input value={this.state.email} onChange={this.handleInputChange} name="email" placeholder="email (required)" type="text" />
-              <Input
-                value={this.state.password}
-                onChange={this.handleInputChange}
-                name="password"
-                placeholder="password (required)"
-                type="password"
-              />
-              <FormBtn disabled={!(this.state.email && this.state.password)} onClick={this.loginUser}>
-                Log In
-              </FormBtn>
-            </form>
-          </div>
+          {/* <div id="login-user-form"> */}
+            {/* <form> */}
+              {/* <Input value={this.state.email} onChange={this.handleInputChange} name="email" placeholder="email (required)" type="text" /> */}
+              {/* <Input */}
+                {/* value={this.state.password} */}
+                {/* onChange={this.handleInputChange} */}
+                {/* name="password" */}
+                {/* placeholder="password (required)" */}
+                {/* type="password" */}
+              {/* /> */}
+              {/* <FormBtn disabled={!(this.state.email && this.state.password)} onClick={this.loginUser}> */}
+                {/* Log In */}
+              {/* </FormBtn> */}
+            {/* </form> */}
+          {/* </div> */}
           {/* CREATE USER ACCOUNT */}
-          <div id="create-user-form">
-            <form>
-              <Input
-                value={this.state.firstName}
-                onChange={this.handleInputChange}
-                name="firstName"
-                placeholder="first name (required)"
-                type="text"
-              />
-              <Input value={this.state.lastName} onChange={this.handleInputChange} name="lastName" placeholder="last name (required)" type="text" />
-              <Input value={this.state.newEmail} onChange={this.handleInputChange} name="newEmail" placeholder="email (required)" type="text" />
-              <Input
-                value={this.state.newPassword}
-                onChange={this.handleInputChange}
-                name="newPassword"
-                placeholder="password (required)"
-                type="password"
-              />
-              <FormBtn
-                disabled={!(this.state.firstName && this.state.lastName && this.state.newEmail && this.state.newPassword)}
-                onClick={this.createUser}
-              >
-                Create Account
-              </FormBtn>
-            </form>
-          </div>
-        </Modal>
+          {/* <div id="create-user-form"> */}
+            {/* <form> */}
+              {/* <Input */}
+                {/* value={this.state.firstName} */}
+                {/* onChange={this.handleInputChange} */}
+                {/* name="firstName" */}
+                {/* placeholder="first name (required)" */}
+                {/* type="text" */}
+              {/* /> */}
+              {/* <Input value={this.state.lastName} onChange={this.handleInputChange} name="lastName" placeholder="last name (required)" type="text" /> */}
+              {/* <Input value={this.state.newEmail} onChange={this.handleInputChange} name="newEmail" placeholder="email (required)" type="text" /> */}
+              {/* <Input */}
+                {/* value={this.state.newPassword} */}
+                {/* onChange={this.handleInputChange} */}
+                {/* name="newPassword" */}
+                {/* placeholder="password (required)" */}
+                {/* type="password" */}
+              {/* /> */}
+              {/* <FormBtn */}
+                {/* disabled={!(this.state.firstName && this.state.lastName && this.state.newEmail && this.state.newPassword)} */}
+                {/* onClick={this.createUser} */}
+              {/* > */}
+                {/* Create Account */}
+              {/* </FormBtn> */}
+            {/* </form> */}
+          {/* </div> */}
+        {/* </Modal> */}
 
         {/* START BACKGROUND ELEMENT WRAP */}
         <Background>
