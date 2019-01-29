@@ -108,6 +108,9 @@ main {
   padding-top: 5px;
 }
 
+.default-display-type {
+  color: #555;
+}
 /* SEARCH RESULTS STYLES ABOVE */
 
 /* FOOTER STYLES BELOW */
