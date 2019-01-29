@@ -233,7 +233,7 @@ class FindPlace extends Component {
           this.setState({ password: "" });
           window.localStorage.removeItem("Wanderlist_authkey");
           window.localStorage.removeItem("Wanderlist_userEmail");
-          window.location.assign('/');
+          window.location.assign("/");
           console.log("user successfully logged out.");
         } else {
           console.log("user log out failed, user is still logged in.");
@@ -551,6 +551,7 @@ class FindPlace extends Component {
             // console.log(res.status);
             if (res.status === 200) {
               console.log("place saved!");
+              window.location.assign("/saved");
             } else {
               console.log("failed to save this place.");
             }
