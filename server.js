@@ -3,11 +3,14 @@ const express = require("express");
 // app is express server invoked
 const app = express();
 // mongoose ODM interface for MongoDB
-const mongoose = require("mongoose"); 
+const mongoose = require("mongoose");
 // all API and HTML routes
 const routes = require("./routes");
 // production OR local PORT
 const PORT = process.env.PORT || 3001;
+
+// require dotenv to store private API keys in a .env file
+// const dotenv = require("dotenv").config();
 
 // express server can use URLs encoded with other data
 app.use(express.urlencoded({ extended: true }));
@@ -19,12 +22,15 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-// express server uses HTML and API routes 
+// express server uses HTML and API routes
 // defined in routes/index.js
 app.use(routes);
 
 // mongoose connects to MongoDB (production OR local)
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist", { useNewUrlParser: true });
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost/wanderlist",
+  { useNewUrlParser: true }
+);
 
 // express server listening on PORT (localhost:3001)
 app.listen(PORT, function() {

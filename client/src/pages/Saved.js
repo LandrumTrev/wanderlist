@@ -7,7 +7,7 @@ import React, { Component } from "react";
 // import ListFeatures from "../utils/ListFeatures";
 
 // import single-component .js files
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Background from "../components/Background";
 import Nav from "../components/Nav";
 // import Modal from "../components/Modal";
@@ -18,7 +18,7 @@ import Jumbotron from "../components/Jumbotron";
 // import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
 import { CardSavedContainer, CardSaved } from "../components/CardSaved";
 // import { Container } from "../components/Grid";
-import { Col, Row } from "../components/Grid";
+// import { Col, Row } from "../components/Grid";
 import { List } from "../components/List";
 // import { Input, FormBtn } from "../components/Form";
 

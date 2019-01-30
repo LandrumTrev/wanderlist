@@ -7,7 +7,7 @@ import ListRegions from "../utils/ListRegions";
 import ListFeatures from "../utils/ListFeatures";
 
 // import single-component .js files
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Background from "../components/Background";
 import Nav from "../components/Nav";
 import Modal from "../components/Modal";
@@ -16,7 +16,8 @@ import Jumbotron from "../components/Jumbotron";
 // import multiple-component .js files
 import { SelectRegion, SelectFeature } from "../components/Search";
 import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
-import { Col, Row, Container } from "../components/Grid";
+// import { Col } from "../components/Grid";
+import { Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 import { Input, FormBtn } from "../components/Form";
 
