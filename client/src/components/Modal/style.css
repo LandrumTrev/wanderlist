@@ -60,3 +60,18 @@
   color: rgb(255, 255, 255);
   background-color: rgb(32, 84, 116);
 }
+
+/* Extra small devices (phones, 575px and down) */
+@media only screen and (max-width: 575px) {
+  .login-modal-main {
+    width: 99%;
+  }
+  #login-user-form {
+    padding: 20px 20px 50px 20px;
+    margin: 30px;
+  }
+  #create-user-form {
+    padding: 20px 20px 50px 20px;
+    margin: 30px;
+  }
+}

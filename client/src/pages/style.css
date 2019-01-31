@@ -7,6 +7,10 @@
 
 /* styles for all pages */
 
+#root {
+  /* min-height: 100vh; */
+}
+
 html {
   /* height: 100vh; */
 }

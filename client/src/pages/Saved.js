@@ -324,7 +324,14 @@ class Saved extends Component {
     return (
       <>
         {/* NAVIGATION HEADER */}
-        <Nav loginStatus={this.state.isLoggedIn} logoutClick={this.handleUserLogout} modalPops={this.showModal} />
+        <Nav
+          loginStatus={this.state.isLoggedIn}
+          logoutClick={this.handleUserLogout}
+          modalPops={this.showModal}
+          page={this.props.location.pathname}
+          onChange={console.log(this.props.location.pathname)}
+        />
+
         {/* MODAL FOR LOGIN and CREATE NEW USER ACCOUNT */}
         {/* <Modal show={this.state.show} handleClose={this.hideModal} handleLogin={this.loginUser} handleNewUser={this.createUser}> */}
         {/* USER LOGIN */}

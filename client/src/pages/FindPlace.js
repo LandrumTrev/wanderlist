@@ -583,6 +583,7 @@ class FindPlace extends Component {
   render() {
     return (
       <>
+      
         {/* NAVIGATION HEADER */}
         <Nav
           loginStatus={this.state.isLoggedIn}
@@ -591,6 +592,7 @@ class FindPlace extends Component {
           page={this.props.location.pathname}
           onChange={console.log(this.props.location.pathname)}
         />
+
         {/* MODAL FOR LOGIN and CREATE NEW USER ACCOUNT */}
         <Modal show={this.state.show} handleClose={this.hideModal} handleLogin={this.loginUser} handleNewUser={this.createUser}>
           {/* USER LOGIN */}
