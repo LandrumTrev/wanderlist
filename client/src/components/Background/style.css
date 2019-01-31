@@ -2,19 +2,20 @@
 
 .carousel {
   /* any dimensions are fine, it can be responsive with max-width */
-  /* max-width: 100%; */
+  /* min-width: 100%; */
   width: 100%;
-  /* height: 90%; */
+  height: 100%;
   z-index: -10;
-  position: absolute;
-  top: 10%;
+  position: fixed;
+  top: 12%;
+  /* bottom: 12%; */
 }
 
-/* .carousel-inner { */
+.carousel-inner {
   /* make sure your .items will get correct height */
-  /* height: 100%; */
+  height: 100%;
   /* width: 100%; */
-/* } */
+}
 
 .item {
   background-size: cover;
@@ -23,19 +24,14 @@
   /* height: 100%; */
 }
 
-/* .carousel-item {
-  background-size: cover;
-  background-position: 50% 50%;
-  width: 100%;
+.carousel-item {
+  /* background-size: cover; */
+  /* background-position: 50% 50%; */
+  /* width: 100%; */
   height: 100%;
-} */
-
-/* .carousel-item-left {
-  background-size: cover;
-  background-position: 50% 50%;
-  width: 100%;
-  height: 100%;
-} */
+  /* transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay]; */
+  /* transition: transform 2s ease, opacity 0.5s ease-out; */
+}
 
 .item img {
   visibility: hidden;
@@ -70,36 +66,3 @@
   /* background: linear-gradient(217deg, rgba(183, 197, 208, 0.8), rgba(183, 197, 208, 0) 70.71%), linear-gradient(127deg, rgba(220, 235, 193, 0.8), rgba(220, 235, 193, 0) 70.71%), linear-gradient(336deg, rgba(208, 198, 183, 0.8), rgba(208, 198, 183, 0) 70.71%), url(/assets/images/dfbkg.jpg) center center; */
   /* background-size: cover; */
 }
-
-/* #bg-1 {
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background: linear-gradient(217deg, rgba(183, 197, 208, 0.8), rgba(183, 197, 208, 0) 70.71%),
-    linear-gradient(127deg, rgba(220, 235, 193, 0.8), rgba(220, 235, 193, 0) 70.71%),
-    linear-gradient(336deg, rgba(208, 198, 183, 0.8), rgba(208, 198, 183, 0) 70.71%), url(/assets/images/bg-1.jpg) center center;
-  background-size: cover;
-} */
-
-/* #bg-2 {
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background: linear-gradient(217deg, rgba(183, 197, 208, 0.8), rgba(183, 197, 208, 0) 70.71%),
-    linear-gradient(127deg, rgba(220, 235, 193, 0.8), rgba(220, 235, 193, 0) 70.71%),
-    linear-gradient(336deg, rgba(208, 198, 183, 0.8), rgba(208, 198, 183, 0) 70.71%), url(/assets/images/bg-2.jpg) center center;
-  background-size: cover;
-} */
-
-/* #bg-3 {
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background: linear-gradient(217deg, rgba(183, 197, 208, 0.8), rgba(183, 197, 208, 0) 70.71%),
-    linear-gradient(127deg, rgba(220, 235, 193, 0.8), rgba(220, 235, 193, 0) 70.71%),
-    linear-gradient(336deg, rgba(208, 198, 183, 0.8), rgba(208, 198, 183, 0) 70.71%), url(/assets/images/bg-3.jpg) center center;
-  background-size: cover;
-} */

@@ -10,47 +10,148 @@ function Background({ children }) {
     <>
       {children}
 
-      <div id="bgPhotoCarousel" className="carousel slide carousel-fade" data-ride="carousel">
+      <div id="bgPhotoCarousel" className="carousel slide carousel-fade" data-ride="carousel" data-wrap="true" data-interval="30000">
+
         <div className="carousel-inner">
-          <div className="item carousel-item active" style={{ backgroundImage: "url(/assets/images/bg-1.jpg)" }}>
-          {/* <img src="" className="carouselImage" alt="name" /> */}
-          <img src="/assets/images/bg-1.jpg" className="carouselImage" alt="name" />
-          </div>
-
-          <div className="item carousel-item" style={{ backgroundImage: "url(/assets/images/bg-2.jpg)" }}>
-            <img src="/assets/images/bg-2.jpg" className="carouselImage" alt="name" />
-          </div>
-
-          <div className="item carousel-item" style={{ backgroundImage: "url(/assets/images/bg-3.jpg)" }}>
-            <img src="/assets/images/bg-3.jpg" className="carouselImage" alt="name" />
-          </div>
-
-          {/* <div id="bg-1" className="carousel-item active">
+          <div className="item carousel-item active"   style={{ backgroundImage: "url(/assets/images/bg-1.jpg)" }}>
             <img src="/assets/images/bg-1.jpg" className="carouselImage" alt="name" />
           </div>
 
-          <div id="bg-2" className="carousel-item">
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-2.jpg)" }}>
             <img src="/assets/images/bg-2.jpg" className="carouselImage" alt="name" />
           </div>
 
-          <div id="bg-3" className="carousel-item">
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-3.jpg)" }}>
             <img src="/assets/images/bg-3.jpg" className="carouselImage" alt="name" />
           </div>
-        </div> */}
 
-          {/* <div className="item" style={{ backgroundImage: "url(http://placehold.it/400x400)" }}>
-          <img src="http://placehold.it/400x400" />
-        </div> */}
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-4.jpg)" }}>
+            <img src="/assets/images/bg-4.jpg" className="carouselImage" alt="name" />
+          </div>
 
-          {/* <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
-        <span className="sr-only">Previous</span>
-      </a> */}
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-5.jpg)" }}>
+            <img src="/assets/images/bg-5.jpg" className="carouselImage" alt="name" />
+          </div>
 
-          {/* <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true" />
-        <span className="sr-only">Next</span>
-      </a> */}
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-6.jpg)" }}>
+            <img src="/assets/images/bg-6.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-7.jpg)" }}>
+            <img src="/assets/images/bg-7.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-8.jpg)" }}>
+            <img src="/assets/images/bg-8.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-9.jpg)" }}>
+            <img src="/assets/images/bg-9.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-10.jpg)" }}>
+            <img src="/assets/images/bg-10.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-11.jpg)" }}>
+            <img src="/assets/images/bg-11.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-12.jpg)" }}>
+            <img src="/assets/images/bg-12.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-13.jpg)" }}>
+            <img src="/assets/images/bg-13.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-14.jpg)" }}>
+            <img src="/assets/images/bg-14.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-15.jpg)" }}>
+            <img src="/assets/images/bg-15.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-16.jpg)" }}>
+            <img src="/assets/images/bg-16.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-17.jpg)" }}>
+            <img src="/assets/images/bg-17.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-18.jpg)" }}>
+            <img src="/assets/images/bg-18.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-19.jpg)" }}>
+            <img src="/assets/images/bg-19.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-20.jpg)" }}>
+            <img src="/assets/images/bg-20.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-21.jpg)" }}>
+            <img src="/assets/images/bg-21.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-22.jpg)" }}>
+            <img src="/assets/images/bg-22.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-23.jpg)" }}>
+            <img src="/assets/images/bg-23.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-24.jpg)" }}>
+            <img src="/assets/images/bg-24.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-25.jpg)" }}>
+            <img src="/assets/images/bg-25.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-26.jpg)" }}>
+            <img src="/assets/images/bg-26.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-27.jpg)" }}>
+            <img src="/assets/images/bg-27.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-28.jpg)" }}>
+            <img src="/assets/images/bg-28.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-29.jpg)" }}>
+            <img src="/assets/images/bg-29.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-30.jpg)" }}>
+            <img src="/assets/images/bg-30.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-31.jpg)" }}>
+            <img src="/assets/images/bg-31.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-32.jpg)" }}>
+            <img src="/assets/images/bg-32.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-33.jpg)" }}>
+            <img src="/assets/images/bg-33.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item  "   style={{ backgroundImage: "url(/assets/images/bg-34.jpg)" }}>
+            <img src="/assets/images/bg-34.jpg" className="carouselImage" alt="name" />
+          </div>
+
+          <div className="item carousel-item"   style={{ backgroundImage: "url(/assets/images/bg-35.jpg)" }}>
+            <img src="/assets/images/bg-35.jpg" className="carouselImage" alt="name" />
+          </div>
         </div>
       </div>
     </>
@@ -58,9 +159,3 @@ function Background({ children }) {
 }
 
 export default Background;
-
-{
-  /* <div id="photo">
-      {children}
-    </div> */
-}

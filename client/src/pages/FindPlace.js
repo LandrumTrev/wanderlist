@@ -640,10 +640,10 @@ class FindPlace extends Component {
           </div>
         </Modal>
 
-        {/* START BACKGROUND ELEMENT WRAP */}
-        <Background>
           {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
           <Jumbotron />
+        {/* START BACKGROUND ELEMENT WRAP */}
+        <Background>
 
           {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
           {/* <Header> */}
