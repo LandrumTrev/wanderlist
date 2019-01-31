@@ -111,10 +111,6 @@ main {
   padding-top: 5px;
 }
 
-.default-display-type {
-  /* color: #555; */
-  color: #fff;
-}
 /* SEARCH RESULTS STYLES ABOVE */
 
 /* FOOTER STYLES BELOW */
@@ -162,7 +158,9 @@ footer {
 
 #jumbohead {
   /* background-color: #444; */
-  background: linear-gradient(217deg, rgba(183, 197, 208,.8), rgba(183, 197, 208,0) 70.71%), linear-gradient(33deg, rgba(255, 0, 0, 0.8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%), #000;
+  background: linear-gradient(217deg, rgba(183, 197, 208, 0.8), rgba(183, 197, 208, 0) 70.71%),
+    linear-gradient(33deg, rgba(255, 0, 0, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%),
+    #000;
 }
 
 #headline {
@@ -183,14 +181,29 @@ footer {
   letter-spacing: 0.3rem;
   text-align: center;
 }
+
 #descriptor {
   font-weight: 400;
   /* color: rgb(140, 129, 129); */
-  color: #aaa;
+  color: #bbb;
   letter-spacing: 0rem;
   text-align: left;
   max-width: 700px;
   margin: 0 auto;
+}
+
+#descriptor::after {
+  content: "A random destination finder: directions, info, maps, closest city, and wifi.";
+}
+
+.default-display-type {
+  text-align: center;
+  font-weight: 100;
+  color: #eee;
+}
+
+.default-display-type::after {
+  content: "Select the type of feature and a region to search to get a random destination!";
 }
 
 /* MEDIA QUERIES BELOW */
@@ -201,16 +214,24 @@ footer {
     padding-top: 5px;
   }
   #headline {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   #subhead {
-    font-size: 0.4rem;
-    letter-spacing: 0.25rem;
+    font-size: 8px;
+    letter-spacing: 0.17rem;
   }
   #descriptor {
-    font-size: 1rem;
-    max-width: 360px;
+    font-size: 0.83rem;
+    max-width: 270px;
     font-weight: 400;
+  }
+  #jumbohead {
+    padding-top: 15px;
+    height: 145px;
+    margin-bottom: 0px;
+  }
+  .default-display-type {
+    font-size: 1.4rem;
   }
 }
 
@@ -221,16 +242,24 @@ footer {
     font-size: 0.95rem;
   }
   #headline {
-    font-size: 4.5rem;
+    font-size: 4.4rem;
   }
   #subhead {
     font-size: 0.8rem;
+    margin-bottom: 15px;
+    margin-top: -5px;
   }
   #descriptor {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     max-width: 450px;
     font-weight: 300;
   }
+  #jumbohead {
+    padding-top: 30px;
+    height: 225px;
+    margin-bottom: 0px;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -239,15 +268,24 @@ footer {
     font-size: 1.2rem;
   }
   #headline {
-    font-size: 6rem;
+    font-size: 5rem;
   }
   #subhead {
-    font-size: 1.2rem;
+    font-size: .95rem;
+    margin-bottom: 15px;
+    margin-top: -5px;
   }
   #descriptor {
-    font-size: 1.5rem;
-    max-width: 590px;
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 700px;
     font-weight: 200;
+    letter-spacing: .01rem;
+  }
+  #jumbohead {
+    padding-top: 30px;
+    height: 215px;
+    margin-bottom: 0px;
   }
 }
 
@@ -257,15 +295,24 @@ footer {
     font-size: 1.6rem;
   }
   #headline {
-    font-size: 7rem;
+    font-size: 5rem;
   }
   #subhead {
-    font-size: 1.45rem;
+    font-size: .95rem;
+    margin-bottom: 15px;
+    margin-top: -5px;
   }
   #descriptor {
-    font-size: 1.54rem;
-    max-width: 690px;
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
     font-weight: 200;
+    letter-spacing: .01rem;
+  }
+  #jumbohead {
+    padding-top: 30px;
+    height: 215px;
+    margin-bottom: 0px;
   }
 }
 

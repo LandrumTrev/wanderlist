@@ -756,9 +756,8 @@ class FindPlace extends Component {
               </List>
             ) : (
               // but if there are no items in this.state.placesArray, display this message
-              <h5 className="default-display-type" style={{ fontSize: "2.8rem", fontWeight: 200, textAlign: "center" }}>
-                Select a feature type and region, then click search to find a random destination!
-              </h5>
+              // <h5 className="default-display-type">Select a feature type and region, then click search to find a random destination!</h5>
+              <h5 className="default-display-type"></h5>
             )}
           </CardsContainer>
         </Background>

@@ -27,7 +27,7 @@ export function CardSaved(props) {
         {/* CARD TOP SECTION */}
         <div className="card-body text-left pt-2" style={{ padding: "5px 1px 5px 7px" }}>
           {/* FEATURE NAME (FEATURE TYPE) : COUNTRY */}
-          <h5 className="pl-1" style={{ display: "inline" }}>
+          <h5 className="nametypecountry pl-1" style={{ display: "inline" }}>
             {/* Google search: FEATURE NAME */}
             <a
               href={`https://www.google.com/search?q=${props.featureName}`}
@@ -44,7 +44,7 @@ export function CardSaved(props) {
               rel="noopener noreferrer"
               style={{ color: "rgb(162, 155, 99)", fontWeight: 300, textDecoration: "none" }}
             >
-              &nbsp;{props.featureType}&nbsp;
+            {` • ${props.featureType} • `}
             </a>
             {/* Google search: COUNTRY */}
             <a
@@ -53,17 +53,18 @@ export function CardSaved(props) {
               rel="noopener noreferrer"
               style={{ color: "rgb(29, 68, 126)", fontWeight: 500, textDecoration: "none" }}
             >
-              :&nbsp;{props.featureCountryName}
+              {props.featureCountryName}
             </a>
           </h5>
           {/* LONGITUDE AND LATITUDE */}
-          <span className="pr-1" style={{ display: "inline", float: "right" }}>
+          <span className="pr-1" style={{ display: "inline-block", float: "right" }}>
             {/* GoogleMaps feature location */}
             <a
+              className="featurelonglat"
               href={`https://www.google.com/maps/@${props.featureLatitude},${props.featureLongitude},12z`}
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "rgb(29, 68, 126)", textDecoration: "none", fontWeight: 500, letterSpacing: ".055rem" }}
+              style={{ textDecoration: "none", fontWeight: 500, letterSpacing: ".055rem" }}
             >
               {props.featureLatitude}, {props.featureLongitude}
             </a>
@@ -92,12 +93,13 @@ export function CardSaved(props) {
           {/* NEARPLACENAME COUNTRYCODE POSTALCODE (DISTANCE km) */}
           {/* GoogleMaps directions from nearest city to feature */}
           <a
+            className="nearplacename"
             href={`https://www.google.com/maps/dir/?api=1&origin=${props.nearPlaceLatLong}&destination=${props.featureLatitude},${
               props.featureLongitude
             }`}
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#888", textDecoration: "none", fontWeight: 400 }}
+            style={{ textDecoration: "none", fontWeight: 500 }}
           >
             {props.nearPlaceName}&nbsp;
             {props.nearPlaceCountryCode}&nbsp;
@@ -115,7 +117,7 @@ export function CardSaved(props) {
               className="float-right fas fa-wifi"
               style={{ fontSize: "15px", marginLeft: 2, marginRight: 4, paddingTop: 4, color: "rgb(51, 103, 181)" }}
             />
-            <span className="float-right" style={{ color: "rgb(51, 103, 181)", fontWeight: 500 }}>
+            <span className="wifimapnumbers float-right">
               {props.nearPlaceWifi}
             </span>
           </a>
