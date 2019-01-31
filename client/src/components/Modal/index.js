@@ -1,3 +1,5 @@
+// login and signup Modal component
+
 import React from "react";
 import "./style.css";
 

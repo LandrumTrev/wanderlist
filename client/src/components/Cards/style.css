@@ -1,16 +1,7 @@
 /* styles for ResultCard */
 
-/* Google Fonts */
-/* font-family: 'Montserrat', sans-serif; */
-/* Montserrat has all weights 100-900 plus italics */
-/* Montserrat weights current installed: 300, 400, 500, 800 */
-/* font-family: 'Julius Sans One', sans-serif; */
-
-/* .feature-name {
-  font-weight: 800;
-} */
-
 .nametypecountry {
+  /* font-sizes are set in media queries below */
   /* font-size: 0.95rem; */
 }
 

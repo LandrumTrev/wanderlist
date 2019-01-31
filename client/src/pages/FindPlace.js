@@ -7,7 +7,6 @@ import ListRegions from "../utils/ListRegions";
 import ListFeatures from "../utils/ListFeatures";
 
 // import single-component .js files
-// import Header from "../components/Header";
 import Background from "../components/Background";
 import Nav from "../components/Nav";
 import Modal from "../components/Modal";
@@ -16,7 +15,6 @@ import Jumbotron from "../components/Jumbotron";
 // import multiple-component .js files
 import { SelectRegion, SelectFeature } from "../components/Search";
 import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
-// import { Col } from "../components/Grid";
 import { Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 import { Input, FormBtn } from "../components/Form";
@@ -68,11 +66,11 @@ class FindPlace extends Component {
     };
   }
 
-  // ===================================================
-  // ===================================================
+  // ===========================================================================
+  // ===========================================================================
   // AUTHENTICATION METHODS
-  // ===================================================
-  // ===================================================
+  // ===========================================================================
+  // ===========================================================================
 
   componentDidUpdate() {
     // console.log(`<FindPlace> component updated with this state:`);
@@ -245,11 +243,11 @@ class FindPlace extends Component {
       .catch(err => console.log(err));
   };
 
-  // ===================================================
-  // ===================================================
+  // ===========================================================================
+  // ===========================================================================
   // API SEARCH METHODS
-  // ===================================================
-  // ===================================================
+  // ===========================================================================
+  // ===========================================================================
 
   // ===========================================================================
   // GET A RANDOM FEATURE FROM GeoNames BASED ON SELECTED REGION AND FEATURE TYPE
@@ -409,8 +407,6 @@ class FindPlace extends Component {
       }
     });
   };
-
-  // ===================================================
 
   // ===========================================================================
   // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API (service is beta, no set limits)
@@ -583,7 +579,6 @@ class FindPlace extends Component {
   render() {
     return (
       <>
-      
         {/* NAVIGATION HEADER */}
         <Nav
           loginStatus={this.state.isLoggedIn}
@@ -640,29 +635,10 @@ class FindPlace extends Component {
           </div>
         </Modal>
 
-          {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
-          <Jumbotron />
         {/* START BACKGROUND ELEMENT WRAP */}
         <Background>
-
           {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
-          {/* <Header> */}
-          {/* <Row> */}
-          {/* LOGOTYPE */}
-          {/* <Col size="sm-6 md-4"> */}
-          {/* <img src="assets/images/dinofii_logo.svg" style={{ width: "90%", maxHeight: 150, padding: "1px 1px 1px 1px" }} alt="Dinofii logo" /> */}
-          {/* </Col> */}
-
-          {/* INTRO TEXT */}
-          {/* <Col size="sm-6 md-8"> */}
-          {/* <div style={{ fontWeight: "100", color: "#444", textAlign: "left", padding: "0px 30px 30px 0px" }}> */}
-          {/* <span style={{ fontWeight: "700", color: "rgb(121, 27, 27)" }}>FIND NEW PLACES TO EXPLORE.</span> Select a feature and choose an */}
-          {/* area to search. Dinofii gives you a random point of interest and the closest city, as well as links to info, maps, directions, and */}
-          {/* local wifi. */}
-          {/* </div> */}
-          {/* </Col> */}
-          {/* </Row> */}
-          {/* </Header> */}
+          <Jumbotron />
 
           {/* SEARCH OPTION SELECTS */}
           <Container>
@@ -759,7 +735,7 @@ class FindPlace extends Component {
             ) : (
               // but if there are no items in this.state.placesArray, display this message
               // <h5 className="default-display-type">Select a feature type and region, then click search to find a random destination!</h5>
-              <h5 className="default-display-type"></h5>
+              <h5 className="default-display-type">Select the type of feature and a region to search to get a random destination!</h5>
             )}
           </CardsContainer>
         </Background>

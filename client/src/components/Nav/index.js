@@ -1,5 +1,7 @@
+// Nav component
+// top bar navigation buttons
+
 import React from "react";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import "./style.css";
 

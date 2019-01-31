@@ -1,7 +1,7 @@
-// Search contains SelectRegion and SelectFeature components
+// Search component
+// contains SelectRegion and SelectFeature search feature select lists
 
 import React from "react";
-import "./style.css";
 
 // ===================================================================
 // SelectRegion component

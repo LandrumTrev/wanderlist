@@ -1,5 +1,8 @@
+// List component
+// creates Bootstrap list and list-item classed components
+// handles search result and saved result Card components
+
 import React from "react";
-// import "./style.css";
 
 // This file exports both the List and ListItem components
 
