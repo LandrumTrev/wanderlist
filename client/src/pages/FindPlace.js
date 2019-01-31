@@ -164,7 +164,7 @@ class FindPlace extends Component {
           this.setState({ isLoggedIn: true });
           this.setState({ loginMsg: res.data.message });
           window.localStorage.setItem("Wanderlist_authkey", res.data.token);
-          window.localStorage.setItem("Wanderlist_userEmail", this.state.email);
+          window.localStorage.setItem("Wanderlist_userEmail", this.state.email.toLowerCase());
         } else {
           // console.log("user login validation failed.");
           this.setState({ isLoggedIn: false });
@@ -637,107 +637,107 @@ class FindPlace extends Component {
 
         {/* START BACKGROUND ELEMENT WRAP */}
         {/* <Background> */}
-          {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
-          <Jumbotron />
+        {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
+        <Jumbotron />
 
-          {/* SEARCH OPTION SELECTS */}
-          <Container>
-            <form action="">
-              <Row>
-                {/* COUNTRY AND REGION SELECT */}
-                <div className="col-sm-6" style={{ padding: 6 }}>
-                  <div className="input-group">
-                    <SelectRegion
-                      list={this.state.listRegions}
-                      thisRegion={this.handleInputChange}
-                      // onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
-                    />
-                  </div>
-                </div>
-                {/* FEATURE TYPE SELECT */}
-                <div className="col-sm-6" style={{ padding: 6 }}>
-                  <div className="input-group">
-                    <SelectFeature
-                      list={this.state.listFeatures}
-                      thisFeature={this.handleInputChange}
-                      // onChange={console.log(this.state.featureCode)}
-                      findFeature={this.handleFormSubmit}
-                    />
-                  </div>
-                </div>
-              </Row>
-            </form>
-          </Container>
-
-          {/* CLEAR ALL RESULTS and SEARCH RESULTS HEADER */}
-          <Container>
-            <div id="results_header" className="row pr-2 pl-2">
-              <div className="input-group input-group-sm mb-3">
-                {/* "SEARCH RESULTS:" */}
-                <button className="form-control btn-outline-light text-left" style={{ height: "30px" }} disabled>
-                  SEARCH RESULTS:
-                </button>
-                {/* CLEAR ALL RESULTS BUTTON */}
-                <div className="input-group-prepend">
-                  <button
-                    onClick={() => this.handleClearButton()}
-                    className="form-control btn btn-outline-light"
-                    type="button"
-                    id="clear_button"
-                    style={{ width: "5rem", height: "30px" }}
-                  >
-                    CLEAR
-                  </button>
+        {/* SEARCH OPTION SELECTS */}
+        <Container>
+          <form action="">
+            <Row>
+              {/* COUNTRY AND REGION SELECT */}
+              <div className="col-sm-6" style={{ padding: 6 }}>
+                <div className="input-group">
+                  <SelectRegion
+                    list={this.state.listRegions}
+                    thisRegion={this.handleInputChange}
+                    // onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
+                  />
                 </div>
               </div>
-            </div>
-          </Container>
+              {/* FEATURE TYPE SELECT */}
+              <div className="col-sm-6" style={{ padding: 6 }}>
+                <div className="input-group">
+                  <SelectFeature
+                    list={this.state.listFeatures}
+                    thisFeature={this.handleInputChange}
+                    // onChange={console.log(this.state.featureCode)}
+                    findFeature={this.handleFormSubmit}
+                  />
+                </div>
+              </div>
+            </Row>
+          </form>
+        </Container>
 
-          {/* SEARCH RESULT CARDS */}
-          <CardsContainer fluid>
-            {/* if there are any feature objects in this.state.placesArray, */}
-            {this.state.placesArray.length ? (
-              // create a <List>, a Bootstrap <div> and <ul> list container
-              <List>
-                {/* and .map the placesArray, with each element referred to as "place" */}
-                {this.state.placesArray.map(place => (
-                  // create a <div> for each "place" and set it's unique key
-                  <div key={place.placeKey}>
-                    {/* if a search result has a featureName (at least one feature returned) */}
-                    {place.featureName ? (
-                      // then build a <ResultCard> for it, passing all the props
-                      <ResultCard
-                        loginStatus={this.state.isLoggedIn}
-                        handleSaveButton={this.handleSavePlace}
-                        handleDisabledSaveButton={place.pleaseLogin}
-                        placeKey={place.placeKey}
-                        email={place.email}
-                        featureName={place.featureName}
-                        featureType={place.featureType}
-                        featureCountryName={place.featureCountryName}
-                        featureLatitude={place.featureLatitude}
-                        featureLongitude={place.featureLongitude}
-                        nearPlaceName={place.nearPlaceName}
-                        nearPlaceCountryCode={place.nearPlaceCountryCode}
-                        nearPlacePostalCode={place.nearPlacePostalCode}
-                        nearPlaceDistance={place.nearPlaceDistance}
-                        nearPlaceLatLong={place.nearPlaceLatLong}
-                        nearPlaceWifi={place.nearPlaceWifi}
-                      />
-                    ) : (
-                      // but if search result has no featureName (no results found)
-                      // then build a <NoResultCard> instead
-                      <NoResultCard />
-                    )}
-                  </div>
-                ))}
-              </List>
-            ) : (
-              // but if there are no items in this.state.placesArray, display this message
-              // <h5 className="default-display-type">Select a feature type and region, then click search to find a random destination!</h5>
-              <h5 className="default-display-type">Select the type of feature and a region to search to get a random destination!</h5>
-            )}
-          </CardsContainer>
+        {/* CLEAR ALL RESULTS and SEARCH RESULTS HEADER */}
+        <Container>
+          <div id="results_header" className="row pr-2 pl-2">
+            <div className="input-group input-group-sm mb-3">
+              {/* "SEARCH RESULTS:" */}
+              <button className="form-control btn-outline-light text-left" style={{ height: "30px" }} disabled>
+                SEARCH RESULTS:
+              </button>
+              {/* CLEAR ALL RESULTS BUTTON */}
+              <div className="input-group-prepend">
+                <button
+                  onClick={() => this.handleClearButton()}
+                  className="form-control btn btn-outline-light"
+                  type="button"
+                  id="clear_button"
+                  style={{ width: "5rem", height: "30px" }}
+                >
+                  CLEAR
+                </button>
+              </div>
+            </div>
+          </div>
+        </Container>
+
+        {/* SEARCH RESULT CARDS */}
+        <CardsContainer fluid>
+          {/* if there are any feature objects in this.state.placesArray, */}
+          {this.state.placesArray.length ? (
+            // create a <List>, a Bootstrap <div> and <ul> list container
+            <List>
+              {/* and .map the placesArray, with each element referred to as "place" */}
+              {this.state.placesArray.map(place => (
+                // create a <div> for each "place" and set it's unique key
+                <div key={place.placeKey}>
+                  {/* if a search result has a featureName (at least one feature returned) */}
+                  {place.featureName ? (
+                    // then build a <ResultCard> for it, passing all the props
+                    <ResultCard
+                      loginStatus={this.state.isLoggedIn}
+                      handleSaveButton={this.handleSavePlace}
+                      handleDisabledSaveButton={place.pleaseLogin}
+                      placeKey={place.placeKey}
+                      email={place.email}
+                      featureName={place.featureName}
+                      featureType={place.featureType}
+                      featureCountryName={place.featureCountryName}
+                      featureLatitude={place.featureLatitude}
+                      featureLongitude={place.featureLongitude}
+                      nearPlaceName={place.nearPlaceName}
+                      nearPlaceCountryCode={place.nearPlaceCountryCode}
+                      nearPlacePostalCode={place.nearPlacePostalCode}
+                      nearPlaceDistance={place.nearPlaceDistance}
+                      nearPlaceLatLong={place.nearPlaceLatLong}
+                      nearPlaceWifi={place.nearPlaceWifi}
+                    />
+                  ) : (
+                    // but if search result has no featureName (no results found)
+                    // then build a <NoResultCard> instead
+                    <NoResultCard />
+                  )}
+                </div>
+              ))}
+            </List>
+          ) : (
+            // but if there are no items in this.state.placesArray, display this message
+            // <h5 className="default-display-type">Select a feature type and region, then click search to find a random destination!</h5>
+            <h5 className="default-display-type">Select the type of feature and a region to search to get a random destination!</h5>
+          )}
+        </CardsContainer>
         {/* </Background> */}
       </>
     );
