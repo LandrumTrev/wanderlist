@@ -251,6 +251,7 @@ class FindPlace extends Component {
 
   // ===========================================================================
   // GET A RANDOM FEATURE FROM GeoNames BASED ON SELECTED REGION AND FEATURE TYPE
+  // API limits: 20,000 searchs/day, 1,000 searches/hour
   // ===========================================================================
 
   // constructs the string for first API call based on option selects in Region and Feature inputs
@@ -357,7 +358,7 @@ class FindPlace extends Component {
 
   // ===========================================================================
   // GET CLOSEST POSTAL CODE TO FEATURE LOCATION and NEARBY PLACE
-  // LAT+LONG COORDINATES FROM EZCMD API (limit 10,000 calls/month)
+  // LAT+LONG COORDINATES FROM EZCMD API (limit 10,000 calls/month, upgrade for $2/mo)
   // ===========================================================================
 
   // EZCMD postal code search based on GeoNames feature's Lat and Long coordinates
@@ -409,7 +410,8 @@ class FindPlace extends Component {
   };
 
   // ===========================================================================
-  // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API (service is beta, no set limits)
+  // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API 
+  // (service is beta, no set limits)
   // ===========================================================================
 
   // attempt to retrieve and calculate number of wifi hotspots in feature's nearby postal code
