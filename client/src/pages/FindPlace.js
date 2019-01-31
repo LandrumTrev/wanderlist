@@ -636,7 +636,7 @@ class FindPlace extends Component {
         </Modal>
 
         {/* START BACKGROUND ELEMENT WRAP */}
-        <Background>
+        {/* <Background> */}
           {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
           <Jumbotron />
 
@@ -738,7 +738,7 @@ class FindPlace extends Component {
               <h5 className="default-display-type">Select the type of feature and a region to search to get a random destination!</h5>
             )}
           </CardsContainer>
-        </Background>
+        {/* </Background> */}
       </>
     );
   }

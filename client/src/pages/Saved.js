@@ -200,7 +200,7 @@ class Saved extends Component {
         />
 
         {/* START BACKGROUND ELEMENT WRAP */}
-        <Background>
+        {/* <Background> */}
           {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
           <Jumbotron />
 
@@ -241,7 +241,7 @@ class Saved extends Component {
               <h5 className="default-display-type">You haven't saved any locations yet. Go to Search and get your Wander on!</h5>
             )}
           </CardSavedContainer>
-        </Background>
+        {/* </Background> */}
       </>
     );
   }

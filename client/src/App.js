@@ -2,11 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import FindPlace from "./pages/FindPlace";
 import Saved from "./pages/Saved";
+import Background from "./components/Background";
 
 function App() {
   return (
     <Router>
       <div>
+        <Background />
         <Switch>
           <Route exact path="/" component={FindPlace} />
           <Route exact path="/search" component={FindPlace} />
