@@ -13,6 +13,7 @@
 .login-modal-main {
   position: fixed;
   border-radius: 8px;
+  max-width: 600px;
   width: 85%;
   height: auto;
   top: 50%;
