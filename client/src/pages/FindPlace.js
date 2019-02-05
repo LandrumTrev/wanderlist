@@ -410,7 +410,7 @@ class FindPlace extends Component {
   };
 
   // ===========================================================================
-  // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API 
+  // GET # OF WIFI HOTSPOTS BY POSTAL CODE FROM WIGLE API
   // (service is beta, no set limits)
   // ===========================================================================
 
@@ -673,10 +673,14 @@ class FindPlace extends Component {
 
         {/* CLEAR ALL RESULTS and SEARCH RESULTS HEADER */}
         <Container>
-          <div id="results_header" className="row pr-2 pl-2">
+          <div id="results_header" className="row pr-2 pl-2" style={{ marginTop: 6, marginRight: -16, marginLeft: -17 }}>
             <div className="input-group input-group-sm mb-3">
               {/* "SEARCH RESULTS:" */}
-              <button className="form-control btn-outline-light text-left" style={{ height: "30px" }} disabled>
+              <button
+                className="form-control btn-outline-light text-left"
+                style={{ height: "30px", backgroundColor: "rgba(0, 0, 0, 0.2)", borderRadius: 0 }}
+                disabled
+              >
                 SEARCH RESULTS:
               </button>
               {/* CLEAR ALL RESULTS BUTTON */}
@@ -686,7 +690,7 @@ class FindPlace extends Component {
                   className="form-control btn btn-outline-light"
                   type="button"
                   id="clear_button"
-                  style={{ width: "5rem", height: "30px" }}
+                  style={{ width: "5rem", height: "30px", width: "78px", backgroundColor: "rgba(155, 155, 155, 0.3)", borderRadius: 0 }}
                 >
                   CLEAR
                 </button>
