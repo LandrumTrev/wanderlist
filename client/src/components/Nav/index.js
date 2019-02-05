@@ -43,7 +43,7 @@ function Nav(props) {
             </div>
 
             <div className="card flex-fill m-0">
-              <span id="link-logout-box" className="nav-link nav-item" onClick={props.logoutClick}>
+              <span id="link-logout-box" className="nav-link nav-item" onClick={props.logoutClick} style={{ borderWidth: 0}}>
                 <div className="card-body p-0">
                   <h4 className="card-title mb-0 text-center">LOG OUT</h4>
                 </div>
