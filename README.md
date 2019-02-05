@@ -3,7 +3,7 @@
 
 _________________________________________________
 
-*A MERN full stack web application created with React and a Mongo NoSQL database with Mongoose ODM, using the Express server running in Node. Custom authorization courtesy of [Steve Carpenter](https://github.com/Steven-M-Carpenter/LoginCode) utilizing bCrypt to hash passwords stored in the database. The app utilizes three APIs to gather the information returned: geoNames for feature information, ezcmd for nearby inhabited place information, and Wigle for global crowdsourced information about known wifi hotspots. Custom CSS augments responsive Bootstrap components*
+*MERN full stack web application created with React and Mongo NoSQL database with Mongoose ODM, using an Express server running in Node. Custom user auth courtesy of [Steve Carpenter](https://github.com/Steven-M-Carpenter/LoginCode) utilizing bCrypt to hash passwords stored in the database. The app gathers and cross-references information from three separate APIs: geoNames for feature information, ezcmd for nearby inhabited place information, and Wigle for global crowdsourced information about all known wifi hotspots. Axios is used for both internal database and external API calls, and custom CSS augments responsive Bootstrap components.*
 
 _________________________________________________
 
