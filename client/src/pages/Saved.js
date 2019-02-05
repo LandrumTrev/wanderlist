@@ -201,46 +201,48 @@ class Saved extends Component {
 
         {/* START BACKGROUND ELEMENT WRAP */}
         {/* <Background> */}
-          {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
-          <Jumbotron />
+        {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
+        <Jumbotron />
 
-          {/* SAVED LOCATIONS CARDS */}
-          <CardSavedContainer fluid>
-            {/* if there are any feature objects in this.state.savedPlaces, */}
-            {this.state.savedPlaces.length ? (
-              // create a <List>, a Bootstrap <div> and <ul> list container
-              <List>
-                {/* and .map the savedPlaces, with each element referred to as "place" */}
-                {this.state.savedPlaces.map(place => (
-                  // create a <div> for each "place" and set it's unique key
-                  <div key={place.placeKey}>
-                    {/* then build a <CardSaved> for it, passing all the props */}
-                    <CardSaved
-                      loginStatus={this.state.isLoggedIn}
-                      handleDeleteButton={this.handleDeletePlace}
-                      // handleDisabledSaveButton={place.pleaseLogin}
-                      placeKey={place.placeKey}
-                      email={place.email}
-                      featureName={place.featureName}
-                      featureType={place.featureType}
-                      featureCountryName={place.featureCountryName}
-                      featureLatitude={place.featureLatitude}
-                      featureLongitude={place.featureLongitude}
-                      nearPlaceName={place.nearPlaceName}
-                      nearPlaceCountryCode={place.nearPlaceCountryCode}
-                      nearPlacePostalCode={place.nearPlacePostalCode}
-                      nearPlaceDistance={place.nearPlaceDistance}
-                      nearPlaceLatLong={place.nearPlaceLatLong}
-                      nearPlaceWifi={place.nearPlaceWifi}
-                    />
-                  </div>
-                ))}
-              </List>
-            ) : (
-              // but if there are no items in this.state.savedPlaces array, display this message
-              <h5 className="default-display-type">You haven't saved any locations yet. Go to Search and get your Wander on!</h5>
-            )}
-          </CardSavedContainer>
+        {/* SAVED LOCATIONS CARDS */}
+        <CardSavedContainer fluid>
+          {/* if there are any feature objects in this.state.savedPlaces, */}
+          {this.state.savedPlaces.length ? (
+            // create a <List>, a Bootstrap <div> and <ul> list container
+            <List>
+              {/* and .map the savedPlaces, with each element referred to as "place" */}
+              {this.state.savedPlaces.map(place => (
+                // create a <div> for each "place" and set it's unique key
+                <div key={place.placeKey}>
+                  {/* then build a <CardSaved> for it, passing all the props */}
+                  <CardSaved
+                    loginStatus={this.state.isLoggedIn}
+                    handleDeleteButton={this.handleDeletePlace}
+                    // handleDisabledSaveButton={place.pleaseLogin}
+                    placeKey={place.placeKey}
+                    email={place.email}
+                    featureName={place.featureName}
+                    featureType={place.featureType}
+                    featureCountryName={place.featureCountryName}
+                    featureLatitude={place.featureLatitude}
+                    featureLongitude={place.featureLongitude}
+                    nearPlaceName={place.nearPlaceName}
+                    nearPlaceCountryCode={place.nearPlaceCountryCode}
+                    nearPlacePostalCode={place.nearPlacePostalCode}
+                    nearPlaceDistance={place.nearPlaceDistance}
+                    nearPlaceLatLong={place.nearPlaceLatLong}
+                    nearPlaceWifi={place.nearPlaceWifi}
+                  />
+                </div>
+              ))}
+            </List>
+          ) : (
+            // but if there are no items in this.state.savedPlaces array, display this message
+            <h5 className="default-display-type" style={{ letterSpacing: ".02rem" }}>
+              You haven't saved any locations yet. Click SEARCH and get your wander on!
+            </h5>
+          )}
+        </CardSavedContainer>
         {/* </Background> */}
       </>
     );
