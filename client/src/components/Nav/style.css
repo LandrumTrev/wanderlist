@@ -27,3 +27,7 @@ h4 {
   background-color: rgb(147, 33, 33);
   color: rgb(228, 233, 237);
 }
+
+.card {
+  border-radius: 0;
+}
