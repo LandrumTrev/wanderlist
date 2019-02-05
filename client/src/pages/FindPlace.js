@@ -678,7 +678,7 @@ class FindPlace extends Component {
               {/* "SEARCH RESULTS:" */}
               <button
                 className="form-control btn-outline-light text-left"
-                style={{ height: "30px", backgroundColor: "rgba(0, 0, 0, 0.2)", borderRadius: 0 }}
+                style={{ height: "30px", backgroundColor: "rgba(0, 0, 0, 0.3)", borderRadius: 0, borderWidth: 0, letterSpacing: ".06rem" }}
                 disabled
               >
                 SEARCH RESULTS:
@@ -690,7 +690,7 @@ class FindPlace extends Component {
                   className="form-control btn btn-outline-light"
                   type="button"
                   id="clear_button"
-                  style={{ width: "5rem", height: "30px", width: "78px", backgroundColor: "rgba(155, 155, 155, 0.3)", borderRadius: 0 }}
+                  style={{ width: "5rem", height: "30px", width: "79px", backgroundColor: "rgba(255, 255, 255, 0.2)", borderRadius: 0, borderWidth: 0, letterSpacing: ".1rem", fontWeight: 700, fontSize: 12, }}
                 >
                   CLEAR
                 </button>
@@ -741,7 +741,7 @@ class FindPlace extends Component {
           ) : (
             // but if there are no items in this.state.placesArray, display this message
             // <h5 className="default-display-type">Select a feature type and region, then click search to find a random destination!</h5>
-            <h5 className="default-display-type">Select the type of feature and a region to search to get a random destination!</h5>
+            <h5 className="default-display-type" style={{ marginTop: -20, letterSpacing: ".02rem"}}>Select the type of feature and a region to search to get a random destination!</h5>
           )}
         </CardsContainer>
         {/* </Background> */}
