@@ -2511,6 +2511,34 @@ export default {
       value: "AE"
     },
     {
+      name: "Abū Z̧aby Emirate, United Arab Emirates",
+      value: "AE01"
+    },
+    {
+      name: "`Ajmān Emirate, United Arab Emirates",
+      value: "AE02"
+    },
+    {
+      name: "Dubayy Emirate, United Arab Emirates",
+      value: "AE03"
+    },
+    {
+      name: "Al Fujayrah Emirate, United Arab Emirates",
+      value: "AE04"
+    },
+    {
+      name: "Ra's al Khaymah Emirate, United Arab Emirates",
+      value: "AE05"
+    },
+    {
+      name: "Ash Shāriqah Emirate, United Arab Emirates",
+      value: "AE06"
+    },
+    {
+      name: "Umm al Qaywayn Emirate, United Arab Emirates",
+      value: "AE07"
+    },
+    {
       name: "United Kingdom",
       value: "GB"
     },
