@@ -171,6 +171,245 @@ export default {
       value: "DZ"
     },
     {
+      name: "Alger Province, Algeria",
+      value: "DZ01"
+      // value: "AG01"
+    },
+    {
+      name: "Batna Province, Algeria",
+      value: "DZ03"
+      // value: "AG03"
+    },
+    {
+      name: "Constantine Province, Algeria",
+      value: "DZ04"
+      // value: "AG04"
+    },
+    {
+      name: "Médéa Province, Algeria",
+      value: "DZ06"
+      // value: "AG06"
+    },
+    {
+      name: "Mostaganem Province, Algeria",
+      value: "DZ07"
+      // value: "AG07"
+    },
+    {
+      name: "Oran Province, Algeria",
+      value: "DZ09"
+      // value: "AG09"
+    },
+    {
+      name: "Saïda Province, Algeria",
+      value: "DZ10"
+      // value: "AG10"
+    },
+    {
+      name: "Sétif Province, Algeria",
+      value: "DZ12"
+      // value: "AG12"
+    },
+    {
+      name: "Tiaret Province, Algeria",
+      value: "DZ13"
+      // value: "AG13"
+    },
+    {
+      name: "Tizi Ouzou Province, Algeria",
+      value: "DZ14"
+      // value: "AG14"
+    },
+    {
+      name: "Tlemcen Province, Algeria",
+      value: "DZ15"
+      // value: "AG15"
+    },
+    {
+      name: "Bejaïa Province, Algeria",
+      value: "DZ18"
+      // value: "AG18"
+    },
+    {
+      name: "Biskra Province, Algeria",
+      value: "DZ19"
+      // value: "AG19"
+    },
+    {
+      name: "Blida Province, Algeria",
+      value: "DZ20"
+      // value: "AG20"
+    },
+    {
+      name: "Bouira Province, Algeria",
+      value: "DZ21"
+      // value: "AG21"
+    },
+    {
+      name: "Djelfa Province, Algeria",
+      value: "DZ22"
+      // value: "AG22"
+    },
+    {
+      name: "Guelma Province, Algeria",
+      value: "DZ23"
+      // value: "AG23"
+    },
+    {
+      name: "Jijel Province, Algeria",
+      value: "DZ24"
+      // value: "AG24"
+    },
+    {
+      name: "Laghouat Province, Algeria",
+      value: "DZ25"
+      // value: "AG25"
+    },
+    {
+      name: "Muaskar Province, Algeria",
+      value: "DZ26"
+      // value: "AG26"
+    },
+    {
+      name: "M'Sila Province, Algeria",
+      value: "DZ27"
+      // value: "AG27"
+    },
+    {
+      name: "Oum el Bouaghi Province, Algeria",
+      value: "DZ29"
+      // value: "AG29"
+    },
+    {
+      name: "Sidi Bel Abbès Province, Algeria",
+      value: "DZ30"
+      // value: "AG30"
+    },
+    {
+      name: "Skikda Province, Algeria",
+      value: "DZ31"
+      // value: "AG31"
+    },
+    {
+      name: "Tébessa Province, Algeria",
+      value: "DZ33"
+      // value: "AG33"
+    },
+    {
+      name: "Adrar Province, Algeria",
+      value: "DZ34"
+      // value: "AG34"
+    },
+    {
+      name: "Aïn Defla Province, Algeria",
+      value: "DZ35"
+      // value: "AG35"
+    },
+    {
+      name: "Aïn Temouchent Province, Algeria",
+      value: "DZ36"
+      // value: "AG36"
+    },
+    {
+      name: "Annaba Province, Algeria",
+      value: "DZ37"
+      // value: "AG37"
+    },
+    {
+      name: "Béchar Province, Algeria",
+      value: "DZ38"
+      // value: "AG38"
+    },
+    {
+      name: "Bordj Bou Arréridj Province, Algeria",
+      value: "DZ39"
+      // value: "AG39"
+    },
+    {
+      name: "Boumerdes Province, Algeria",
+      value: "AG40"
+    },
+    {
+      name: "Chlef Province, Algeria",
+      value: "DZ41"
+      // value: "AG41"
+    },
+    {
+      name: "El Bayadh Province, Algeria",
+      value: "DZ42"
+      // value: "AG42"
+    },
+    {
+      name: "El Oued Province, Algeria",
+      value: "DZ43"
+      // value: "AG43"
+    },
+    {
+      name: "El Tarf Province, Algeria",
+      value: "DZ44"
+      // value: "AG44"
+    },
+    {
+      name: "Ghardaïa Province, Algeria",
+      value: "DZ45"
+      // value: "AG45"
+    },
+    {
+      name: "Illizi Province, Algeria",
+      value: "DZ46"
+      // value: "AG46"
+    },
+    {
+      name: "Khenchela Province, Algeria",
+      value: "DZ47"
+      // value: "AG47"
+    },
+    {
+      name: "Mila Province, Algeria",
+      value: "DZ48"
+      // value: "AG48"
+    },
+    {
+      name: "Naama Province, Algeria",
+      value: "DZ49"
+      // value: "AG49"
+    },
+    {
+      name: "Ouargla Province, Algeria",
+      value: "DZ50"
+      // value: "AG50"
+    },
+    {
+      name: "Relizane Province, Algeria",
+      value: "DZ51"
+      // value: "AG51"
+    },
+    {
+      name: "Souk Ahras Province, Algeria",
+      value: "DZ52"
+      // value: "AG52"
+    },
+    {
+      name: "Tamanghasset Province, Algeria",
+      value: "DZ53"
+      // value: "AG53"
+    },
+    {
+      name: "Tindouf Province, Algeria",
+      value: "DZ54"
+      // value: "AG54"
+    },
+    {
+      name: "Tipaza Province, Algeria",
+      value: "DZ55"
+      // value: "AG55"
+    },
+    {
+      name: "Tissemsilt Province, Algeria",
+      value: "DZ56"
+      // value: "AG56"
+    },
+    {
       name: "American Samoa",
       value: "AS"
     },
