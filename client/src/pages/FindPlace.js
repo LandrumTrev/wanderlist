@@ -297,7 +297,7 @@ class FindPlace extends Component {
     axios
       .get(this.geonamesString())
       .then(response => {
-        // console.log(response.data);
+        console.log(response.data);
         if (response.data.totalResultsCount === 0) {
           console.log("No matching features found in that region.");
           this.setState({

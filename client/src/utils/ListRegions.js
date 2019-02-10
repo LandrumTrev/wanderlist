@@ -8,6 +8,12 @@
 // region codes are usually FIPS region codes (check data returned for each country):
 // https://en.wikipedia.org/wiki/List_of_FIPS_region_codes_(A%E2%80%93C)
 
+// NOTE!! IF FIPS country code is different from ISO country code, 
+// COUNTRY CODE PORTION OF FIPS REGION CODES NEED TO BE MODIFIED:
+// REPLACE FIPS COUNTRY CODE WITH ISO 3166-1 alpha-2 COUNTRY CODE IN REGION
+// geoNames searched by "adminCode1:" property, NOT by "adminCodes1: ISO3166_2:" property
+// IF ISO country code same as FIPS country code, no modification needed
+
 // =========================================================
 
 export default {
@@ -187,6 +193,46 @@ export default {
     {
       name: "Antigua and Barbuda",
       value: "AG"
+    },
+    {
+      name: "Barbuda Dependency, Antigua and Barbuda",
+      value: "AG01"
+      // value: "AC01"
+    },
+    {
+      name: "Saint George Parish, Antigua and Barbuda",
+      value: "AG03"
+      // value: "AC03"
+    },
+    {
+      name: "Saint John Parish, Antigua and Barbuda",
+      value: "AG04"
+      // value: "AC04"
+    },
+    {
+      name: "Saint Mary Parish, Antigua and Barbuda",
+      value: "AG05"
+      // value: "AC05"
+    },
+    {
+      name: "Saint Paul Parish, Antigua and Barbuda",
+      value: "AG06"
+      // value: "AC06"
+    },
+    {
+      name: "Saint Peter Parish, Antigua and Barbuda",
+      value: "AG07"
+      // value: "AC07"
+    },
+    {
+      name: "Saint Philip Parish, Antigua and Barbuda",
+      value: "AG08"
+      // value: "AC08"
+    },
+    {
+      name: "Redonda Dependency, Antigua and Barbuda",
+      value: "AG09"
+      // value: "AC09"
     },
     {
       name: "Argentina",
