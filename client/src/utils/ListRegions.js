@@ -21,6 +21,142 @@ export default {
       value: "AF"
     },
     {
+      name: "Badakhshan Province, Afghanistan",
+      value: "AF01"
+    },
+    {
+      name: "Badghis Province, Afghanistan",
+      value: "AF02"
+    },
+    {
+      name: "Baghlan Province, Afghanistan",
+      value: "AF03"
+    },
+    {
+      name: "Bamyan Province, Afghanistan",
+      value: "AF05"
+    },
+    {
+      name: "Farah Province, Afghanistan",
+      value: "AF06"
+    },
+    {
+      name: "Faryab Province, Afghanistan",
+      value: "AF07"
+    },
+    {
+      name: "Ghazni Province, Afghanistan",
+      value: "AF08"
+    },
+    {
+      name: "Ghor Province, Afghanistan",
+      value: "AF09"
+    },
+    {
+      name: "Helmand Province, Afghanistan",
+      value: "AF10"
+    },
+    {
+      name: "Herat Province, Afghanistan",
+      value: "AF11"
+    },
+    {
+      name: "Kabul Province, Afghanistan",
+      value: "AF13"
+    },
+    {
+      name: "Kapisa Province, Afghanistan",
+      value: "AF14"
+    },
+    {
+      name: "Lowgar Province, Afghanistan",
+      value: "AF17"
+    },
+    {
+      name: "Nangarhar Province, Afghanistan",
+      value: "AF18"
+    },
+    {
+      name: "Nimruz Province, Afghanistan",
+      value: "AF19"
+    },
+    {
+      name: "Kandahar Province, Afghanistan",
+      value: "AF23"
+    },
+    {
+      name: "Kondoz Province, Afghanistan",
+      value: "AF24"
+    },
+    {
+      name: "Takhar Province, Afghanistan",
+      value: "AF26"
+    },
+    {
+      name: "Vardak Province, Afghanistan",
+      value: "AF27"
+    },
+    {
+      name: "Zabol Province, Afghanistan",
+      value: "AF28"
+    },
+    {
+      name: "Paktika Province, Afghanistan",
+      value: "AF29"
+    },
+    {
+      name: "Balkh Province, Afghanistan",
+      value: "AF30"
+    },
+    {
+      name: "Jowzjan Province, Afghanistan",
+      value: "AF31"
+    },
+    {
+      name: "Samangan Province, Afghanistan",
+      value: "AF32"
+    },
+    {
+      name: "Sar-e Pol Province, Afghanistan",
+      value: "AF33"
+    },
+    {
+      name: "Konar Province, Afghanistan",
+      value: "AF34"
+    },
+    {
+      name: "Laghman Province, Afghanistan",
+      value: "AF35"
+    },
+    {
+      name: "Paktia Province, Afghanistan",
+      value: "AF36"
+    },
+    {
+      name: "Khost Province, Afghanistan",
+      value: "AF37"
+    },
+    {
+      name: "Nurestan Province, Afghanistan",
+      value: "AF38"
+    },
+    {
+      name: "Orūzgān Province, Afghanistan",
+      value: "AF39"
+    },
+    {
+      name: "Parvān Province, Afghanistan",
+      value: "AF40"
+    },
+    {
+      name: "Daykundi Province, Afghanistan",
+      value: "AF41"
+    },
+    {
+      name: "Panjshīr Province, Afghanistan",
+      value: "AF42"
+    },
+    {
       name: "Albania",
       value: "AL"
     },
