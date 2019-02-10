@@ -1,8 +1,11 @@
 // =========================================================
-// Array of geoNames country ISO CODES and country Names to populate dropdown
+// Array of Country and Region names, with their codes used by geoNames:
 // =========================================================
 
-// regions are usually FIPS region codes (but countries are NOT FIPS codes)
+// country codes are ISO 3166-1 alpha-2 codes (two letter country codes)
+// https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+// region codes are usually FIPS region codes (check data returned for each country):
 // https://en.wikipedia.org/wiki/List_of_FIPS_region_codes_(A%E2%80%93C)
 
 // =========================================================
