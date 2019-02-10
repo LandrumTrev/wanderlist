@@ -674,6 +674,361 @@ export default {
       value: "AZ"
     },
     {
+      name: "Abşeron Rayon, Azerbaijan",
+      value: "AZ01"
+      // value: "AJ01"
+    },
+    {
+      name: "Ağcabǝdi Rayon, Azerbaijan",
+      value: "AZ02"
+      // value: "AJ02"
+    },
+    {
+      name: "Ağdam Rayon, Azerbaijan",
+      value: "AZ03"
+      // value: "AJ03"
+    },
+    {
+      name: "Ağdaş Rayon, Azerbaijan",
+      value: "AZ04"
+      // value: "AJ04"
+    },
+    {
+      name: "Ağstafa Rayon, Azerbaijan",
+      value: "AZ05"
+      // value: "AJ05"
+    },
+    {
+      name: "Ağsu Rayon, Azerbaijan",
+      value: "AZ06"
+      // value: "AJ06"
+    },
+    {
+      name: "Əli Bayramlı City, Azerbaijan",
+      value: "AZ07"
+      // value: "AJ07"
+    },
+    {
+      name: "Astara Rayon, Azerbaijan",
+      value: "AZ08"
+      // value: "AJ08"
+    },
+    {
+      name: "Bakı City, Azerbaijan",
+      value: "AZ09"
+      // value: "AJ09"
+    },
+    {
+      name: "Balakǝn Rayon, Azerbaijan",
+      value: "AZ10"
+      // value: "AJ10"
+    },
+    {
+      name: "Bǝrdǝ Rayon, Azerbaijan",
+      value: "AZ11"
+      // value: "AJ11"
+    },
+    {
+      name: "Beylǝqan Rayon, Azerbaijan",
+      value: "AZ12"
+      // value: "AJ12"
+    },
+    {
+      name: "Biläsuvar Rayon, Azerbaijan",
+      value: "AZ13"
+      // value: "AJ13"
+    },
+    {
+      name: "Cǝbrayıl Rayon, Azerbaijan",
+      value: "AZ14"
+      // value: "AJ14"
+    },
+    {
+      name: "Cǝlilabad Rayon, Azerbaijan",
+      value: "AZ15"
+      // value: "AJ15"
+    },
+    {
+      name: "Daşkǝsǝn Rayon, Azerbaijan",
+      value: "AZ16"
+      // value: "AJ16"
+    },
+    {
+      name: "Dǝvǝçi Rayon, Azerbaijan",
+      value: "AZ17"
+      // value: "AJ17"
+    },
+    {
+      name: "Füzuli Rayon, Azerbaijan",
+      value: "AZ18"
+      // value: "AJ18"
+    },
+    {
+      name: "Gǝdǝbǝy Rayon, Azerbaijan",
+      value: "AZ19"
+      // value: "AJ19"
+    },
+    {
+      name: "Gǝncǝ City, Azerbaijan",
+      value: "AZ20"
+      // value: "AJ20"
+    },
+    {
+      name: "Goranboy Rayon, Azerbaijan",
+      value: "AZ21"
+      // value: "AJ21"
+    },
+    {
+      name: "Göyçay Rayon, Azerbaijan",
+      value: "AZ22"
+      // value: "AJ22"
+    },
+    {
+      name: "Hacıqabul Rayon, Azerbaijan",
+      value: "AZ23"
+      // value: "AJ23"
+    },
+    {
+      name: "İmişli Rayon, Azerbaijan",
+      value: "AZ24"
+      // value: "AJ24"
+    },
+    {
+      name: "İsmayıllı Rayon, Azerbaijan",
+      value: "AZ25"
+      // value: "AJ25"
+    },
+    {
+      name: "Kǝlbǝcǝr Rayon, Azerbaijan",
+      value: "AZ26"
+      // value: "AJ26"
+    },
+    {
+      name: "Kürdämir Rayon, Azerbaijan",
+      value: "AZ27"
+      // value: "AJ27"
+    },
+    {
+      name: "Laçın Rayon, Azerbaijan",
+      value: "AZ28"
+      // value: "AJ28"
+    },
+    {
+      name: "Lǝnkǝran Rayon, Azerbaijan",
+      value: "AZ29"
+      // value: "AJ29"
+    },
+    {
+      name: "Lǝnkǝran City, Azerbaijan",
+      value: "AZ30"
+      // value: "AJ30"
+    },
+    {
+      name: "Lerik Rayon, Azerbaijan",
+      value: "AZ31"
+      // value: "AJ31"
+    },
+    {
+      name: "Masallı Rayon, Azerbaijan",
+      value: "AZ32"
+      // value: "AJ32"
+    },
+    {
+      name: "Mingǝcevir City, Azerbaijan",
+      value: "AZ33"
+      // value: "AJ33"
+    },
+    {
+      name: "Naftalan City, Azerbaijan",
+      value: "AZ34"
+      // value: "AJ34"
+    },
+    {
+      name: "Nakhichevan Autonomous Republic, Azerbaijan",
+      value: "AZ35"
+      // value: "AJ35"
+    },
+    {
+      name: "Neftçala Rayon, Azerbaijan",
+      value: "AZ36"
+      // value: "AJ36"
+    },
+    {
+      name: "Oğuz Rayon, Azerbaijan",
+      value: "AZ37"
+      // value: "AJ37"
+    },
+    {
+      name: "Qǝbǝlǝ Rayon, Azerbaijan",
+      value: "AZ38"
+      // value: "AJ38"
+    },
+    {
+      name: "Qax Rayon, Azerbaijan",
+      value: "AZ39"
+      // value: "AJ39"
+    },
+    {
+      name: "Qazax Rayon, Azerbaijan",
+      value: "AZ40"
+      // value: "AJ40"
+    },
+    {
+      name: "Qobustan Rayon, Azerbaijan",
+      value: "AZ41"
+      // value: "AJ41"
+    },
+    {
+      name: "Quba Rayon, Azerbaijan",
+      value: "AZ42"
+      // value: "AJ42"
+    },
+    {
+      name: "Qubadlı Rayon, Azerbaijan",
+      value: "AZ43"
+      // value: "AJ43"
+    },
+    {
+      name: "Qusar Rayon, Azerbaijan",
+      value: "AZ44"
+      // value: "AJ44"
+    },
+    {
+      name: "Saatlı Rayon, Azerbaijan",
+      value: "AZ45"
+      // value: "AJ45"
+    },
+    {
+      name: "Sabirabad Rayon, Azerbaijan",
+      value: "AZ46"
+      // value: "AJ46"
+    },
+    {
+      name: "Şǝki Rayon, Azerbaijan",
+      value: "AZ47"
+      // value: "AJ47"
+    },
+    {
+      name: "Şǝki City, Azerbaijan",
+      value: "AZ48"
+      // value: "AJ48"
+    },
+    {
+      name: "Salyan Rayon, Azerbaijan",
+      value: "AZ49"
+      // value: "AJ49"
+    },
+    {
+      name: "Şamaxı Rayon, Azerbaijan",
+      value: "AZ50"
+      // value: "AJ50"
+    },
+    {
+      name: "Şǝmkir Rayon, Azerbaijan",
+      value: "AZ51"
+      // value: "AJ51"
+    },
+    {
+      name: "Samux Rayon, Azerbaijan",
+      value: "AZ52"
+      // value: "AJ52"
+    },
+    {
+      name: "Siyǝzǝn Rayon, Azerbaijan",
+      value: "AZ53"
+      // value: "AJ53"
+    },
+    {
+      name: "Sumqayıt Rayon, Azerbaijan",
+      value: "AZ54"
+      // value: "AJ54"
+    },
+    {
+      name: "Şuşa Rayon, Azerbaijan",
+      value: "AZ55"
+      // value: "AJ55"
+    },
+    {
+      name: "Şuşa City, Azerbaijan",
+      value: "AZ56"
+      // value: "AJ56"
+    },
+    {
+      name: "Tǝrtǝr Rayon, Azerbaijan",
+      value: "AZ57"
+      // value: "AJ57"
+    },
+    {
+      name: "Tovuz Rayon, Azerbaijan",
+      value: "AZ58"
+      // value: "AJ58"
+    },
+    {
+      name: "Ucar Rayon, Azerbaijan",
+      value: "AZ59"
+      // value: "AJ59"
+    },
+    {
+      name: "Xaçmaz Rayon, Azerbaijan",
+      value: "AZ60"
+      // value: "AJ60"
+    },
+    {
+      name: "Xankǝndi City, Azerbaijan",
+      value: "AZ61"
+      // value: "AJ61"
+    },
+    {
+      name: "Goygol Rayon, Azerbaijan, formerly Xanlar Rayon",
+      value: "AZ62"
+      // value: "AJ62"
+    },
+    {
+      name: "Xızı Rayon, Azerbaijan",
+      value: "AZ63"
+      // value: "AJ63"
+    },
+    {
+      name: "Xocalı Rayon, Azerbaijan",
+      value: "AZ64"
+      // value: "AJ64"
+    },
+    {
+      name: "Xocavǝnd Rayon, Azerbaijan",
+      value: "AZ65"
+      // value: "AJ65"
+    },
+    {
+      name: "Yardımlı Rayon, Azerbaijan",
+      value: "AZ66"
+      // value: "AJ66"
+    },
+    {
+      name: "Yevlax Rayon, Azerbaijan",
+      value: "AZ67"
+      // value: "AJ67"
+    },
+    {
+      name: "Yevlax City, Azerbaijan",
+      value: "AZ68"
+      // value: "AJ68"
+    },
+    {
+      name: "Zǝngilan Rayon, Azerbaijan",
+      value: "AZ69"
+      // value: "AJ69"
+    },
+    {
+      name: "Zaqatala Rayon, Azerbaijan",
+      value: "AZ70"
+      // value: "AJ70"
+    },
+    {
+      name: "Zǝrdab Rayon, Azerbaijan",
+      value: "AZ71"
+      // value: "AJ71"
+    },
+    {
       name: "Bahrain",
       value: "BH"
     },
