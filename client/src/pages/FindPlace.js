@@ -283,8 +283,8 @@ class FindPlace extends Component {
         return geoString;
       } else if (!this.state.featureType) {
         // Country + Feature Category
-        geoString = `https://secure.geonames.org/searchJSON?featureClass=${this.state.featureCategory}&country=${
-          this.state.countryCC
+        geoString = `https://secure.geonames.org/searchJSON?featureClass=${this.state.featureCategory}&country=${this.state.countryCC}&adminCode1=${
+          this.state.regionCC
         }&maxRows=1000&username=ghostfountain`;
         console.log(geoString);
         return geoString;
@@ -320,7 +320,7 @@ class FindPlace extends Component {
     axios
       .get(this.geonamesString())
       .then(response => {
-        // console.log(response.data);
+        console.log(response.data);
         if (response.data.totalResultsCount === 0) {
           // console.log("No matching features found in that region.");
           this.setState({
@@ -567,7 +567,6 @@ class FindPlace extends Component {
       nearPlaceLatLong: "",
       nearPlaceWifi: ""
     });
-
   };
 
   // ===================================================

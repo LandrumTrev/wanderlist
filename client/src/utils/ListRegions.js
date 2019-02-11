@@ -658,753 +658,886 @@ export default {
       value: "AG09"
       // value: "AC09"
     },
+    // =========================================================
+    // Argentina
+    // =========================================================
     {
       name: "Argentina",
       value: "AR"
     },
     {
-      name: "Argentina, Buenos Aires Province",
+      name: "Buenos Aires Province",
       value: "AR01"
     },
     {
-      name: "Argentina, Catamarca Province",
+      name: "Catamarca Province",
       value: "AR02"
     },
     {
-      name: "Argentina, Chaco Province",
+      name: "Chaco Province",
       value: "AR03"
     },
     {
-      name: "Argentina, Chubut Province",
+      name: "Chubut Province",
       value: "AR04"
     },
     {
-      name: "Argentina, Córdoba Province",
+      name: "Córdoba Province",
       value: "AR05"
     },
     {
-      name: "Argentina, Corrientes Province",
+      name: "Corrientes Province",
       value: "AR06"
     },
     {
-      name: "Argentina, Distrito Federal",
+      name: "Distrito Federal",
       value: "AR07"
     },
     {
-      name: "Argentina, Entre Ríos Province",
+      name: "Entre Ríos Province",
       value: "AR08"
     },
     {
-      name: "Argentina, Formosa Province",
+      name: "Formosa Province",
       value: "AR09"
     },
     {
-      name: "Argentina, Jujuy Province",
+      name: "Jujuy Province",
       value: "AR10"
     },
     {
-      name: "Argentina, La Pampa Province",
+      name: "La Pampa Province",
       value: "AR11"
     },
     {
-      name: "Argentina, La Rioja Province",
+      name: "La Rioja Province",
       value: "AR12"
     },
     {
-      name: "Argentina, Mendoza Province",
+      name: "Mendoza Province",
       value: "AR13"
     },
     {
-      name: "Argentina, Misiones Province",
+      name: "Misiones Province",
       value: "AR14"
     },
     {
-      name: "Argentina, Neuquén Province",
+      name: "Neuquén Province",
       value: "AR15"
     },
     {
-      name: "Argentina, Río Negro Province",
+      name: "Río Negro Province",
       value: "AR16"
     },
     {
-      name: "Argentina, Salta Province",
+      name: "Salta Province",
       value: "AR17"
     },
     {
-      name: "Argentina, San Juan Province",
+      name: "San Juan Province",
       value: "AR18"
     },
     {
-      name: "Argentina, San Luis Province",
+      name: "San Luis Province",
       value: "AR19"
     },
     {
-      name: "Argentina, Santa Cruz Province",
+      name: "Santa Cruz Province",
       value: "AR20"
     },
     {
-      name: "Argentina, Santa Fe Province",
+      name: "Santa Fe Province",
       value: "AR21"
     },
     {
-      name: "Argentina, Santiago del Estero Province",
+      name: "Santiago del Estero Province",
       value: "AR22"
     },
     {
-      name: "Argentina, Tierra del Fuego, Antártida e Islas del Atlántico Sur Province",
+      name: "Tierra del Fuego, Antártida e Islas del Atlántico Sur Province",
       value: "AR23"
     },
     {
-      name: "Argentina, Tucumán Province",
+      name: "Tucumán Province",
       value: "AR24"
     },
+    // =========================================================
+    // Armenia
+    // =========================================================
     {
       name: "Armenia",
       value: "AM"
     },
     {
-      name: "Armenia, Aragatsotn Province",
+      name: "Aragatsotn Province",
       value: "AM01"
     },
     {
-      name: "Armenia, Ararat Province",
+      name: "Ararat Province",
       value: "AM02"
     },
     {
-      name: "Armenia, Armavir Province",
+      name: "Armavir Province",
       value: "AM03"
     },
     {
-      name: "Armenia, Geghark'unik' Province",
+      name: "Geghark'unik' Province",
       value: "AM04"
     },
     {
-      name: "Armenia, Kotayk' Province",
+      name: "Kotayk' Province",
       value: "AM05"
     },
     {
-      name: "Armenia, Lorri Province",
+      name: "Lorri Province",
       value: "AM06"
     },
     {
-      name: "Armenia, Shirak Province",
+      name: "Shirak Province",
       value: "AM07"
     },
     {
-      name: "Armenia, Syunik' Province",
+      name: "Syunik' Province",
       value: "AM08"
     },
     {
-      name: "Armenia, Tavush Province",
+      name: "Tavush Province",
       value: "AM09"
     },
     {
-      name: "Armenia, Vayots' Dzor Province",
+      name: "Vayots' Dzor Province",
       value: "AM10"
     },
     {
-      name: "Armenia, Yerevan City",
+      name: "Yerevan City",
       value: "AM11"
     },
+    // =========================================================
+    // Aruba
+    // =========================================================
     {
       name: "Aruba",
       value: "AW"
     },
+    // =========================================================
+    // Australia
+    // =========================================================
     {
       name: "Australia",
       value: "AU"
     },
     {
+      name: "Australian Capital Territory",
+      value: "AU01"
+      // value: "AS01"
+    },
+    {
+      name: "New South Wales State",
+      value: "AU02"
+      // value: "AS02"
+    },
+    {
+      name: "Northern Territory",
+      value: "AU03"
+      // value: "AS03"
+    },
+    {
+      name: "Queensland State",
+      value: "AU04"
+      // value: "AS04"
+    },
+    {
+      name: "South Australia State",
+      value: "AU05"
+      // value: "AS05"
+    },
+    {
+      name: "Tasmania State",
+      value: "AU06"
+      // value: "AS06"
+    },
+    {
+      name: "Victoria State",
+      value: "AU07"
+      // value: "AS07"
+    },
+    {
+      name: "Western Australia State",
+      value: "AU08"
+      // value: "AS08"
+    },
+    // =========================================================
+    // Austria
+    // =========================================================
+    {
       name: "Austria",
       value: "AT"
     },
     {
-      name: "Austria, Burgenland State",
+      name: "Burgenland State",
       value: "AT01"
+      // value: "AU01"
     },
     {
-      name: "Austria, Kärnten State",
+      name: "Kärnten State",
       value: "AT02"
+      // value: "AU02"
     },
     {
-      name: "Austria, Niederösterreich State",
+      name: "Niederösterreich State",
       value: "AT03"
+      // value: "AU03"
     },
     {
-      name: "Austria, Oberösterreich State",
+      name: "Oberösterreich State",
       value: "AT04"
+      // value: "AU04"
     },
     {
-      name: "Austria, Salzburg State",
+      name: "Salzburg State",
       value: "AT05"
+      // value: "AU05"
     },
     {
-      name: "Austria, Steiermark State",
+      name: "Steiermark State",
       value: "AT06"
+      // value: "AU06"
     },
     {
-      name: "Austria, Tirol State",
+      name: "Tirol State",
       value: "AT07"
+      // value: "AU07"
     },
     {
-      name: "Austria, Vorarlberg State",
+      name: "Vorarlberg State",
       value: "AT08"
+      // value: "AU08"
     },
     {
-      name: "Austria, Wien State",
+      name: "Wien State",
       value: "AT09"
+      // value: "AU09"
     },
+    // =========================================================
+    // Azerbaijan
+    // =========================================================
     {
       name: "Azerbaijan",
       value: "AZ"
     },
     {
-      name: "Abşeron Rayon, Azerbaijan",
+      name: "Abşeron Rayon",
       value: "AZ01"
       // value: "AJ01"
     },
     {
-      name: "Ağcabǝdi Rayon, Azerbaijan",
+      name: "Ağcabǝdi Rayon",
       value: "AZ02"
       // value: "AJ02"
     },
     {
-      name: "Ağdam Rayon, Azerbaijan",
+      name: "Ağdam Rayon",
       value: "AZ03"
       // value: "AJ03"
     },
     {
-      name: "Ağdaş Rayon, Azerbaijan",
+      name: "Ağdaş Rayon",
       value: "AZ04"
       // value: "AJ04"
     },
     {
-      name: "Ağstafa Rayon, Azerbaijan",
+      name: "Ağstafa Rayon",
       value: "AZ05"
       // value: "AJ05"
     },
     {
-      name: "Ağsu Rayon, Azerbaijan",
+      name: "Ağsu Rayon",
       value: "AZ06"
       // value: "AJ06"
     },
     {
-      name: "Əli Bayramlı City, Azerbaijan",
+      name: "Əli Bayramlı City",
       value: "AZ07"
       // value: "AJ07"
     },
     {
-      name: "Astara Rayon, Azerbaijan",
+      name: "Astara Rayon",
       value: "AZ08"
       // value: "AJ08"
     },
     {
-      name: "Bakı City, Azerbaijan",
+      name: "Bakı City",
       value: "AZ09"
       // value: "AJ09"
     },
     {
-      name: "Balakǝn Rayon, Azerbaijan",
+      name: "Balakǝn Rayon",
       value: "AZ10"
       // value: "AJ10"
     },
     {
-      name: "Bǝrdǝ Rayon, Azerbaijan",
+      name: "Bǝrdǝ Rayon",
       value: "AZ11"
       // value: "AJ11"
     },
     {
-      name: "Beylǝqan Rayon, Azerbaijan",
+      name: "Beylǝqan Rayon",
       value: "AZ12"
       // value: "AJ12"
     },
     {
-      name: "Biläsuvar Rayon, Azerbaijan",
+      name: "Biläsuvar Rayon",
       value: "AZ13"
       // value: "AJ13"
     },
     {
-      name: "Cǝbrayıl Rayon, Azerbaijan",
+      name: "Cǝbrayıl Rayon",
       value: "AZ14"
       // value: "AJ14"
     },
     {
-      name: "Cǝlilabad Rayon, Azerbaijan",
+      name: "Cǝlilabad Rayon",
       value: "AZ15"
       // value: "AJ15"
     },
     {
-      name: "Daşkǝsǝn Rayon, Azerbaijan",
+      name: "Daşkǝsǝn Rayon",
       value: "AZ16"
       // value: "AJ16"
     },
     {
-      name: "Dǝvǝçi Rayon, Azerbaijan",
+      name: "Dǝvǝçi Rayon",
       value: "AZ17"
       // value: "AJ17"
     },
     {
-      name: "Füzuli Rayon, Azerbaijan",
+      name: "Füzuli Rayon",
       value: "AZ18"
       // value: "AJ18"
     },
     {
-      name: "Gǝdǝbǝy Rayon, Azerbaijan",
+      name: "Gǝdǝbǝy Rayon",
       value: "AZ19"
       // value: "AJ19"
     },
     {
-      name: "Gǝncǝ City, Azerbaijan",
+      name: "Gǝncǝ City",
       value: "AZ20"
       // value: "AJ20"
     },
     {
-      name: "Goranboy Rayon, Azerbaijan",
+      name: "Goranboy Rayon",
       value: "AZ21"
       // value: "AJ21"
     },
     {
-      name: "Göyçay Rayon, Azerbaijan",
+      name: "Göyçay Rayon",
       value: "AZ22"
       // value: "AJ22"
     },
     {
-      name: "Hacıqabul Rayon, Azerbaijan",
+      name: "Hacıqabul Rayon",
       value: "AZ23"
       // value: "AJ23"
     },
     {
-      name: "İmişli Rayon, Azerbaijan",
+      name: "İmişli Rayon",
       value: "AZ24"
       // value: "AJ24"
     },
     {
-      name: "İsmayıllı Rayon, Azerbaijan",
+      name: "İsmayıllı Rayon",
       value: "AZ25"
       // value: "AJ25"
     },
     {
-      name: "Kǝlbǝcǝr Rayon, Azerbaijan",
+      name: "Kǝlbǝcǝr Rayon",
       value: "AZ26"
       // value: "AJ26"
     },
     {
-      name: "Kürdämir Rayon, Azerbaijan",
+      name: "Kürdämir Rayon",
       value: "AZ27"
       // value: "AJ27"
     },
     {
-      name: "Laçın Rayon, Azerbaijan",
+      name: "Laçın Rayon",
       value: "AZ28"
       // value: "AJ28"
     },
     {
-      name: "Lǝnkǝran Rayon, Azerbaijan",
+      name: "Lǝnkǝran Rayon",
       value: "AZ29"
       // value: "AJ29"
     },
     {
-      name: "Lǝnkǝran City, Azerbaijan",
+      name: "Lǝnkǝran City",
       value: "AZ30"
       // value: "AJ30"
     },
     {
-      name: "Lerik Rayon, Azerbaijan",
+      name: "Lerik Rayon",
       value: "AZ31"
       // value: "AJ31"
     },
     {
-      name: "Masallı Rayon, Azerbaijan",
+      name: "Masallı Rayon",
       value: "AZ32"
       // value: "AJ32"
     },
     {
-      name: "Mingǝcevir City, Azerbaijan",
+      name: "Mingǝcevir City",
       value: "AZ33"
       // value: "AJ33"
     },
     {
-      name: "Naftalan City, Azerbaijan",
+      name: "Naftalan City",
       value: "AZ34"
       // value: "AJ34"
     },
     {
-      name: "Nakhichevan Autonomous Republic, Azerbaijan",
+      name: "Nakhichevan Autonomous Republic",
       value: "AZ35"
       // value: "AJ35"
     },
     {
-      name: "Neftçala Rayon, Azerbaijan",
+      name: "Neftçala Rayon",
       value: "AZ36"
       // value: "AJ36"
     },
     {
-      name: "Oğuz Rayon, Azerbaijan",
+      name: "Oğuz Rayon",
       value: "AZ37"
       // value: "AJ37"
     },
     {
-      name: "Qǝbǝlǝ Rayon, Azerbaijan",
+      name: "Qǝbǝlǝ Rayon",
       value: "AZ38"
       // value: "AJ38"
     },
     {
-      name: "Qax Rayon, Azerbaijan",
+      name: "Qax Rayon",
       value: "AZ39"
       // value: "AJ39"
     },
     {
-      name: "Qazax Rayon, Azerbaijan",
+      name: "Qazax Rayon",
       value: "AZ40"
       // value: "AJ40"
     },
     {
-      name: "Qobustan Rayon, Azerbaijan",
+      name: "Qobustan Rayon",
       value: "AZ41"
       // value: "AJ41"
     },
     {
-      name: "Quba Rayon, Azerbaijan",
+      name: "Quba Rayon",
       value: "AZ42"
       // value: "AJ42"
     },
     {
-      name: "Qubadlı Rayon, Azerbaijan",
+      name: "Qubadlı Rayon",
       value: "AZ43"
       // value: "AJ43"
     },
     {
-      name: "Qusar Rayon, Azerbaijan",
+      name: "Qusar Rayon",
       value: "AZ44"
       // value: "AJ44"
     },
     {
-      name: "Saatlı Rayon, Azerbaijan",
+      name: "Saatlı Rayon",
       value: "AZ45"
       // value: "AJ45"
     },
     {
-      name: "Sabirabad Rayon, Azerbaijan",
+      name: "Sabirabad Rayon",
       value: "AZ46"
       // value: "AJ46"
     },
     {
-      name: "Şǝki Rayon, Azerbaijan",
+      name: "Şǝki Rayon",
       value: "AZ47"
       // value: "AJ47"
     },
     {
-      name: "Şǝki City, Azerbaijan",
+      name: "Şǝki City",
       value: "AZ48"
       // value: "AJ48"
     },
     {
-      name: "Salyan Rayon, Azerbaijan",
+      name: "Salyan Rayon",
       value: "AZ49"
       // value: "AJ49"
     },
     {
-      name: "Şamaxı Rayon, Azerbaijan",
+      name: "Şamaxı Rayon",
       value: "AZ50"
       // value: "AJ50"
     },
     {
-      name: "Şǝmkir Rayon, Azerbaijan",
+      name: "Şǝmkir Rayon",
       value: "AZ51"
       // value: "AJ51"
     },
     {
-      name: "Samux Rayon, Azerbaijan",
+      name: "Samux Rayon",
       value: "AZ52"
       // value: "AJ52"
     },
     {
-      name: "Siyǝzǝn Rayon, Azerbaijan",
+      name: "Siyǝzǝn Rayon",
       value: "AZ53"
       // value: "AJ53"
     },
     {
-      name: "Sumqayıt Rayon, Azerbaijan",
+      name: "Sumqayıt Rayon",
       value: "AZ54"
       // value: "AJ54"
     },
     {
-      name: "Şuşa Rayon, Azerbaijan",
+      name: "Şuşa Rayon",
       value: "AZ55"
       // value: "AJ55"
     },
     {
-      name: "Şuşa City, Azerbaijan",
+      name: "Şuşa City",
       value: "AZ56"
       // value: "AJ56"
     },
     {
-      name: "Tǝrtǝr Rayon, Azerbaijan",
+      name: "Tǝrtǝr Rayon",
       value: "AZ57"
       // value: "AJ57"
     },
     {
-      name: "Tovuz Rayon, Azerbaijan",
+      name: "Tovuz Rayon",
       value: "AZ58"
       // value: "AJ58"
     },
     {
-      name: "Ucar Rayon, Azerbaijan",
+      name: "Ucar Rayon",
       value: "AZ59"
       // value: "AJ59"
     },
     {
-      name: "Xaçmaz Rayon, Azerbaijan",
+      name: "Xaçmaz Rayon",
       value: "AZ60"
       // value: "AJ60"
     },
     {
-      name: "Xankǝndi City, Azerbaijan",
+      name: "Xankǝndi City",
       value: "AZ61"
       // value: "AJ61"
     },
     {
-      name: "Goygol Rayon, Azerbaijan, formerly Xanlar Rayon",
+      name: "Goygol Rayon, formerly Xanlar Rayon",
       value: "AZ62"
       // value: "AJ62"
     },
     {
-      name: "Xızı Rayon, Azerbaijan",
+      name: "Xızı Rayon",
       value: "AZ63"
       // value: "AJ63"
     },
     {
-      name: "Xocalı Rayon, Azerbaijan",
+      name: "Xocalı Rayon",
       value: "AZ64"
       // value: "AJ64"
     },
     {
-      name: "Xocavǝnd Rayon, Azerbaijan",
+      name: "Xocavǝnd Rayon",
       value: "AZ65"
       // value: "AJ65"
     },
     {
-      name: "Yardımlı Rayon, Azerbaijan",
+      name: "Yardımlı Rayon",
       value: "AZ66"
       // value: "AJ66"
     },
     {
-      name: "Yevlax Rayon, Azerbaijan",
+      name: "Yevlax Rayon",
       value: "AZ67"
       // value: "AJ67"
     },
     {
-      name: "Yevlax City, Azerbaijan",
+      name: "Yevlax City",
       value: "AZ68"
       // value: "AJ68"
     },
     {
-      name: "Zǝngilan Rayon, Azerbaijan",
+      name: "Zǝngilan Rayon",
       value: "AZ69"
       // value: "AJ69"
     },
     {
-      name: "Zaqatala Rayon, Azerbaijan",
+      name: "Zaqatala Rayon",
       value: "AZ70"
       // value: "AJ70"
     },
     {
-      name: "Zǝrdab Rayon, Azerbaijan",
+      name: "Zǝrdab Rayon",
       value: "AZ71"
       // value: "AJ71"
     },
+    // =========================================================
+    // Bahrain
+    // =========================================================
     {
       name: "Bahrain",
       value: "BH"
     },
+    // =========================================================
+    // Bahamas
+    // =========================================================
     {
       name: "Bahamas",
       value: "BS"
     },
+    // =========================================================
+    // Bangladesh
+    // =========================================================
     {
       name: "Bangladesh",
       value: "BD"
     },
+    // =========================================================
+    // Barbados
+    // =========================================================
     {
       name: "Barbados",
       value: "BB"
     },
+    // =========================================================
+    // Belarus
+    // =========================================================
     {
       name: "Belarus",
       value: "BY"
     },
+    // =========================================================
+    // Belgium
+    // =========================================================
     {
       name: "Belgium",
       value: "BE"
     },
+    // =========================================================
+    // Belize
+    // =========================================================
     {
       name: "Belize",
       value: "BZ"
     },
+    // =========================================================
+    // Benin
+    // =========================================================
     {
       name: "Benin",
       value: "BJ"
     },
+    // =========================================================
+    // Azerbaijan
+    // =========================================================
     {
       name: "Bermuda",
       value: "BM"
     },
+    // =========================================================
+    // Bhutan
+    // =========================================================
     {
       name: "Bhutan",
       value: "BT"
     },
+    // =========================================================
+    // Bolivia
+    // =========================================================
     {
       name: "Bolivia",
       value: "BO"
     },
+    // =========================================================
+    // Bonaire, Sint Eustatius and Saba
+    // =========================================================
     {
       name: "Bonaire, Sint Eustatius and Saba",
       value: "BQ"
     },
+    // =========================================================
+    // Bosnia and Herzegovina
+    // =========================================================
     {
       name: "Bosnia and Herzegovina",
       value: "BA"
     },
+    // =========================================================
+    // Botswana
+    // =========================================================
     {
       name: "Botswana",
       value: "BW"
     },
+    // =========================================================
+    // Bouvet Island
+    // =========================================================
     {
       name: "Bouvet Island",
       value: "BV"
     },
+    // =========================================================
+    // Brazil
+    // =========================================================
     {
       name: "Brazil",
       value: "BR"
     },
     {
-      name: "Brazil, Acre State",
+      name: "Acre State",
       value: "BR01"
     },
     {
-      name: "Brazil, Alagoas State",
+      name: "Alagoas State",
       value: "BR02"
     },
     {
-      name: "Brazil, Amapá State",
+      name: "Amapá State",
       value: "BR03"
     },
     {
-      name: "Brazil, Amazonas State",
+      name: "Amazonas State",
       value: "BR04"
     },
     {
-      name: "Brazil, Bahia State",
+      name: "Bahia State",
       value: "BR05"
     },
     {
-      name: "Brazil, Ceará State",
+      name: "Ceará State",
       value: "BR06"
     },
     {
-      name: "Brazil, Distrito Federal",
+      name: "Distrito Federal",
       value: "BR07"
     },
     {
-      name: "Brazil, Espírito Santo State",
+      name: "Espírito Santo State",
       value: "BR08"
     },
     {
-      name: "Brazil, Mato Grosso do Sul State",
+      name: "Mato Grosso do Sul State",
       value: "BR11"
     },
     {
-      name: "Brazil, Maranhão State",
+      name: "Maranhão State",
       value: "BR13"
     },
     {
-      name: "Brazil, Mato Grosso State",
+      name: "Mato Grosso State",
       value: "BR14"
     },
     {
-      name: "Brazil, Minas Gerais State",
+      name: "Minas Gerais State",
       value: "BR15"
     },
     {
-      name: "Brazil, Pará State",
+      name: "Pará State",
       value: "BR16"
     },
     {
-      name: "Brazil, Paraíba State",
+      name: "Paraíba State",
       value: "BR17"
     },
     {
-      name: "Brazil, Paraná State",
+      name: "Paraná State",
       value: "BR18"
     },
     {
-      name: "Brazil, Piauí State",
+      name: "Piauí State",
       value: "BR20"
     },
     {
-      name: "Brazil, Rio de Janeiro State",
+      name: "Rio de Janeiro State",
       value: "BR21"
     },
     {
-      name: "Brazil, Rio Grande do Norte State",
+      name: "Rio Grande do Norte State",
       value: "BR22"
     },
     {
-      name: "Brazil, Rio Grande do Sul State",
+      name: "Rio Grande do Sul State",
       value: "BR23"
     },
     {
-      name: "Brazil, Rondônia State",
+      name: "Rondônia State",
       value: "BR24"
     },
     {
-      name: "Brazil, Roraima State",
+      name: "Roraima State",
       value: "BR25"
     },
     {
-      name: "Brazil, Santa Catarina State",
+      name: "Santa Catarina State",
       value: "BR26"
     },
     {
-      name: "Brazil, São Paulo State",
+      name: "São Paulo State",
       value: "BR27"
     },
     {
-      name: "Brazil, Sergipe State",
+      name: "Sergipe State",
       value: "BR28"
     },
     {
-      name: "Brazil, Goiás State",
+      name: "Goiás State",
       value: "BR29"
     },
     {
-      name: "Brazil, Pernambuco State",
+      name: "Pernambuco State",
       value: "BR30"
     },
     {
-      name: "Brazil, Tocantins State",
+      name: "Tocantins State",
       value: "BR31"
     },
+    // =========================================================
+    // British Indian Ocean Territory
+    // =========================================================
     {
       name: "British Indian Ocean Territory",
       value: "IO"
     },
+    // =========================================================
+    // Brunei Darussalam
+    // =========================================================
     {
       name: "Brunei Darussalam",
       value: "BN"
     },
+    // =========================================================
+    // Bulgaria
+    // =========================================================
     {
       name: "Bulgaria",
       value: "BG"
     },
+    // =========================================================
+    // Burkina Faso
+    // =========================================================
     {
       name: "Burkina Faso",
       value: "BF"
     },
+    // =========================================================
+    // Burundi
+    // =========================================================
     {
       name: "Burundi",
       value: "BI"
     },
+    // =========================================================
+    // Cambodia
+    // =========================================================
     {
       name: "Cambodia",
       value: "KH"
