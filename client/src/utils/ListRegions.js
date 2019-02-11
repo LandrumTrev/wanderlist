@@ -1704,6 +1704,41 @@ export default {
       name: "Belarus",
       value: "BY"
     },
+    {
+      name: "Brest Province (Brestskaya Voblasts’)",
+      value: "BY01"
+      // value: "BO01"
+    },
+    {
+      name: "Homyel Province (Homyel’skaya Voblasts’)",
+      value: "BY02"
+      // value: "BO02"
+    },
+    {
+      name: "Hrodna Province (Hrodzyenskaya Voblasts’)",
+      value: "BY03"
+      // value: "BO03"
+    },
+    {
+      name: "Minsk City (Horad Minsk)",
+      value: "BY04"
+      // value: "BO04"
+    },
+    {
+      name: "Minsk Province (Minskaja Voblasts’)",
+      value: "BY05"
+      // value: "BO05"
+    },
+    {
+      name: "Mahilyow Province (Mahilyowskaya Voblasts’)",
+      value: "BY06"
+      // value: "BO06"
+    },
+    {
+      name: "Vitsebsk Province (Vitsyebskaya Voblasts’)",
+      value: "BY07"
+      // value: "BO07"
+    },
     // =========================================================
     // Belgium
     // =========================================================
