@@ -28,6 +28,4 @@ The SEARCH function is available to all users. Users can also create an profile 
 
 _________________________________________________
 
-©2019 Richard Trevillian  
-University of Richmond, Full Stack Web Development Bootcamp  
-2019-01-31  
+© Richard Trevillian  

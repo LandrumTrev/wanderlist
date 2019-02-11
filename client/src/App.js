@@ -4,21 +4,25 @@ import FindPlace from "./pages/FindPlace";
 import Saved from "./pages/Saved";
 import oldFindPlace from "./pages/oldFindPlace";
 import Background from "./components/Background";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Background />
-        <Switch>
-          <Route exact path="/" component={FindPlace} />
-          <Route exact path="/search" component={FindPlace} />
-          <Route exact path="/saved" component={Saved} />
-          <Route exact path="/test" component={oldFindPlace} />
-          <Route path="*" component={FindPlace} />
-        </Switch>
-      </div>
-    </Router>
+    <>
+      <Router>
+        <div>
+          <Background />
+          <Switch>
+            <Route exact path="/" component={FindPlace} />
+            <Route exact path="/search" component={FindPlace} />
+            <Route exact path="/saved" component={Saved} />
+            <Route exact path="/test" component={oldFindPlace} />
+            <Route path="*" component={FindPlace} />
+          </Switch>
+        </div>
+      </Router>
+      <Footer />
+    </>
   );
 }
 
