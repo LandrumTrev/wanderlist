@@ -8,7 +8,7 @@
 // region codes are usually FIPS region codes (check data returned for each country):
 // https://en.wikipedia.org/wiki/List_of_FIPS_region_codes_(A%E2%80%93C)
 
-// NOTE!! IF FIPS country code is different from ISO country code, 
+// NOTE!! IF FIPS country code is different from ISO country code,
 // COUNTRY CODE PORTION OF FIPS REGION CODES NEED TO BE MODIFIED:
 // REPLACE FIPS COUNTRY CODE WITH ISO 3166-1 alpha-2 COUNTRY CODE IN REGION
 // geoNames searched by "adminCode1:" property, NOT by "adminCodes1: ISO3166_2:" property
@@ -18,417 +18,495 @@
 
 export default {
   countryArray: [
+    // =========================================================
+    // Earth (search entire planet)
+    // =========================================================
     {
-      name: "EARTH",
+      name: "Earth",
       value: "XX"
     },
+    // =========================================================
+    // Afghanistan
+    // =========================================================
     {
       name: "Afghanistan",
       value: "AF"
     },
     {
-      name: "Badakhshan Province, Afghanistan",
+      name: "Badakhshan Province",
       value: "AF01"
     },
     {
-      name: "Badghis Province, Afghanistan",
+      name: "Badghis Province",
       value: "AF02"
     },
     {
-      name: "Baghlan Province, Afghanistan",
+      name: "Baghlan Province",
       value: "AF03"
     },
     {
-      name: "Bamyan Province, Afghanistan",
+      name: "Bamyan Province",
       value: "AF05"
     },
     {
-      name: "Farah Province, Afghanistan",
+      name: "Farah Province",
       value: "AF06"
     },
     {
-      name: "Faryab Province, Afghanistan",
+      name: "Faryab Province",
       value: "AF07"
     },
     {
-      name: "Ghazni Province, Afghanistan",
+      name: "Ghazni Province",
       value: "AF08"
     },
     {
-      name: "Ghor Province, Afghanistan",
+      name: "Ghor Province",
       value: "AF09"
     },
     {
-      name: "Helmand Province, Afghanistan",
+      name: "Helmand Province",
       value: "AF10"
     },
     {
-      name: "Herat Province, Afghanistan",
+      name: "Herat Province",
       value: "AF11"
     },
     {
-      name: "Kabul Province, Afghanistan",
+      name: "Kabul Province",
       value: "AF13"
     },
     {
-      name: "Kapisa Province, Afghanistan",
+      name: "Kapisa Province",
       value: "AF14"
     },
     {
-      name: "Lowgar Province, Afghanistan",
+      name: "Lowgar Province",
       value: "AF17"
     },
     {
-      name: "Nangarhar Province, Afghanistan",
+      name: "Nangarhar Province",
       value: "AF18"
     },
     {
-      name: "Nimruz Province, Afghanistan",
+      name: "Nimruz Province",
       value: "AF19"
     },
     {
-      name: "Kandahar Province, Afghanistan",
+      name: "Kandahar Province",
       value: "AF23"
     },
     {
-      name: "Kondoz Province, Afghanistan",
+      name: "Kondoz Province",
       value: "AF24"
     },
     {
-      name: "Takhar Province, Afghanistan",
+      name: "Takhar Province",
       value: "AF26"
     },
     {
-      name: "Vardak Province, Afghanistan",
+      name: "Vardak Province",
       value: "AF27"
     },
     {
-      name: "Zabol Province, Afghanistan",
+      name: "Zabol Province",
       value: "AF28"
     },
     {
-      name: "Paktika Province, Afghanistan",
+      name: "Paktika Province",
       value: "AF29"
     },
     {
-      name: "Balkh Province, Afghanistan",
+      name: "Balkh Province",
       value: "AF30"
     },
     {
-      name: "Jowzjan Province, Afghanistan",
+      name: "Jowzjan Province",
       value: "AF31"
     },
     {
-      name: "Samangan Province, Afghanistan",
+      name: "Samangan Province",
       value: "AF32"
     },
     {
-      name: "Sar-e Pol Province, Afghanistan",
+      name: "Sar-e Pol Province",
       value: "AF33"
     },
     {
-      name: "Konar Province, Afghanistan",
+      name: "Konar Province",
       value: "AF34"
     },
     {
-      name: "Laghman Province, Afghanistan",
+      name: "Laghman Province",
       value: "AF35"
     },
     {
-      name: "Paktia Province, Afghanistan",
+      name: "Paktia Province",
       value: "AF36"
     },
     {
-      name: "Khost Province, Afghanistan",
+      name: "Khost Province",
       value: "AF37"
     },
     {
-      name: "Nurestan Province, Afghanistan",
+      name: "Nurestan Province",
       value: "AF38"
     },
     {
-      name: "Orūzgān Province, Afghanistan",
+      name: "Orūzgān Province",
       value: "AF39"
     },
     {
-      name: "Parvān Province, Afghanistan",
+      name: "Parvān Province",
       value: "AF40"
     },
     {
-      name: "Daykundi Province, Afghanistan",
+      name: "Daykundi Province",
       value: "AF41"
     },
     {
-      name: "Panjshīr Province, Afghanistan",
+      name: "Panjshīr Province",
       value: "AF42"
     },
+    // =========================================================
+    // Albania
+    // =========================================================
     {
       name: "Albania",
       value: "AL"
     },
     {
+      name: "Berat County",
+      value: "AL40"
+    },
+    {
+      name: "Dibër County",
+      value: "AL41"
+    },
+    {
+      name: "Durrës County",
+      value: "AL42"
+    },
+    {
+      name: "Elbasan County",
+      value: "AL43"
+    },
+    {
+      name: "Fier County",
+      value: "AL44"
+    },
+    {
+      name: "Gjirokastër County",
+      value: "AL45"
+    },
+    {
+      name: "Korçë County",
+      value: "AL46"
+    },
+    {
+      name: "Kukës County",
+      value: "AL47"
+    },
+    {
+      name: "Lezhë County",
+      value: "AL48"
+    },
+    {
+      name: "Shkodër County",
+      value: "AL49"
+    },
+    {
+      name: "Tirana County",
+      value: "AL50"
+    },
+    {
+      name: "Vlorë County",
+      value: "AL51"
+    },
+    // =========================================================
+    // Algeria
+    // =========================================================
+    {
       name: "Algeria",
       value: "DZ"
     },
     {
-      name: "Alger Province, Algeria",
+      name: "Alger Province",
       value: "DZ01"
       // value: "AG01"
     },
     {
-      name: "Batna Province, Algeria",
+      name: "Batna Province",
       value: "DZ03"
       // value: "AG03"
     },
     {
-      name: "Constantine Province, Algeria",
+      name: "Constantine Province",
       value: "DZ04"
       // value: "AG04"
     },
     {
-      name: "Médéa Province, Algeria",
+      name: "Médéa Province",
       value: "DZ06"
       // value: "AG06"
     },
     {
-      name: "Mostaganem Province, Algeria",
+      name: "Mostaganem Province",
       value: "DZ07"
       // value: "AG07"
     },
     {
-      name: "Oran Province, Algeria",
+      name: "Oran Province",
       value: "DZ09"
       // value: "AG09"
     },
     {
-      name: "Saïda Province, Algeria",
+      name: "Saïda Province",
       value: "DZ10"
       // value: "AG10"
     },
     {
-      name: "Sétif Province, Algeria",
+      name: "Sétif Province",
       value: "DZ12"
       // value: "AG12"
     },
     {
-      name: "Tiaret Province, Algeria",
+      name: "Tiaret Province",
       value: "DZ13"
       // value: "AG13"
     },
     {
-      name: "Tizi Ouzou Province, Algeria",
+      name: "Tizi Ouzou Province",
       value: "DZ14"
       // value: "AG14"
     },
     {
-      name: "Tlemcen Province, Algeria",
+      name: "Tlemcen Province",
       value: "DZ15"
       // value: "AG15"
     },
     {
-      name: "Bejaïa Province, Algeria",
+      name: "Bejaïa Province",
       value: "DZ18"
       // value: "AG18"
     },
     {
-      name: "Biskra Province, Algeria",
+      name: "Biskra Province",
       value: "DZ19"
       // value: "AG19"
     },
     {
-      name: "Blida Province, Algeria",
+      name: "Blida Province",
       value: "DZ20"
       // value: "AG20"
     },
     {
-      name: "Bouira Province, Algeria",
+      name: "Bouira Province",
       value: "DZ21"
       // value: "AG21"
     },
     {
-      name: "Djelfa Province, Algeria",
+      name: "Djelfa Province",
       value: "DZ22"
       // value: "AG22"
     },
     {
-      name: "Guelma Province, Algeria",
+      name: "Guelma Province",
       value: "DZ23"
       // value: "AG23"
     },
     {
-      name: "Jijel Province, Algeria",
+      name: "Jijel Province",
       value: "DZ24"
       // value: "AG24"
     },
     {
-      name: "Laghouat Province, Algeria",
+      name: "Laghouat Province",
       value: "DZ25"
       // value: "AG25"
     },
     {
-      name: "Muaskar Province, Algeria",
+      name: "Muaskar Province",
       value: "DZ26"
       // value: "AG26"
     },
     {
-      name: "M'Sila Province, Algeria",
+      name: "M'Sila Province",
       value: "DZ27"
       // value: "AG27"
     },
     {
-      name: "Oum el Bouaghi Province, Algeria",
+      name: "Oum el Bouaghi Province",
       value: "DZ29"
       // value: "AG29"
     },
     {
-      name: "Sidi Bel Abbès Province, Algeria",
+      name: "Sidi Bel Abbès Province",
       value: "DZ30"
       // value: "AG30"
     },
     {
-      name: "Skikda Province, Algeria",
+      name: "Skikda Province",
       value: "DZ31"
       // value: "AG31"
     },
     {
-      name: "Tébessa Province, Algeria",
+      name: "Tébessa Province",
       value: "DZ33"
       // value: "AG33"
     },
     {
-      name: "Adrar Province, Algeria",
+      name: "Adrar Province",
       value: "DZ34"
       // value: "AG34"
     },
     {
-      name: "Aïn Defla Province, Algeria",
+      name: "Aïn Defla Province",
       value: "DZ35"
       // value: "AG35"
     },
     {
-      name: "Aïn Temouchent Province, Algeria",
+      name: "Aïn Temouchent Province",
       value: "DZ36"
       // value: "AG36"
     },
     {
-      name: "Annaba Province, Algeria",
+      name: "Annaba Province",
       value: "DZ37"
       // value: "AG37"
     },
     {
-      name: "Béchar Province, Algeria",
+      name: "Béchar Province",
       value: "DZ38"
       // value: "AG38"
     },
     {
-      name: "Bordj Bou Arréridj Province, Algeria",
+      name: "Bordj Bou Arréridj Province",
       value: "DZ39"
       // value: "AG39"
     },
     {
-      name: "Boumerdes Province, Algeria",
-      value: "AG40"
+      name: "Boumerdes Province",
+      value: "DZ40"
     },
     {
-      name: "Chlef Province, Algeria",
+      name: "Chlef Province",
       value: "DZ41"
       // value: "AG41"
     },
     {
-      name: "El Bayadh Province, Algeria",
+      name: "El Bayadh Province",
       value: "DZ42"
       // value: "AG42"
     },
     {
-      name: "El Oued Province, Algeria",
+      name: "El Oued Province",
       value: "DZ43"
       // value: "AG43"
     },
     {
-      name: "El Tarf Province, Algeria",
+      name: "El Tarf Province",
       value: "DZ44"
       // value: "AG44"
     },
     {
-      name: "Ghardaïa Province, Algeria",
+      name: "Ghardaïa Province",
       value: "DZ45"
       // value: "AG45"
     },
     {
-      name: "Illizi Province, Algeria",
+      name: "Illizi Province",
       value: "DZ46"
       // value: "AG46"
     },
     {
-      name: "Khenchela Province, Algeria",
+      name: "Khenchela Province",
       value: "DZ47"
       // value: "AG47"
     },
     {
-      name: "Mila Province, Algeria",
+      name: "Mila Province",
       value: "DZ48"
       // value: "AG48"
     },
     {
-      name: "Naama Province, Algeria",
+      name: "Naama Province",
       value: "DZ49"
       // value: "AG49"
     },
     {
-      name: "Ouargla Province, Algeria",
+      name: "Ouargla Province",
       value: "DZ50"
       // value: "AG50"
     },
     {
-      name: "Relizane Province, Algeria",
+      name: "Relizane Province",
       value: "DZ51"
       // value: "AG51"
     },
     {
-      name: "Souk Ahras Province, Algeria",
+      name: "Souk Ahras Province",
       value: "DZ52"
       // value: "AG52"
     },
     {
-      name: "Tamanghasset Province, Algeria",
+      name: "Tamanghasset Province",
       value: "DZ53"
       // value: "AG53"
     },
     {
-      name: "Tindouf Province, Algeria",
+      name: "Tindouf Province",
       value: "DZ54"
       // value: "AG54"
     },
     {
-      name: "Tipaza Province, Algeria",
+      name: "Tipaza Province",
       value: "DZ55"
       // value: "AG55"
     },
     {
-      name: "Tissemsilt Province, Algeria",
+      name: "Tissemsilt Province",
       value: "DZ56"
       // value: "AG56"
     },
+    // =========================================================
+    // American Samoa
+    // =========================================================
     {
       name: "American Samoa",
       value: "AS"
     },
+    // =========================================================
+    // Andorra
+    // =========================================================
     {
       name: "Andorra",
       value: "AD"
     },
+    // =========================================================
+    // Angola
+    // =========================================================
     {
       name: "Angola",
       value: "AO"
     },
+    // =========================================================
+    // Anguilla
+    // =========================================================
     {
       name: "Anguilla",
       value: "AI"
     },
+    // =========================================================
+    // Antarctica
+    // =========================================================
     {
       name: "Antarctica",
       value: "AQ"
     },
+    // =========================================================
+    // Antigua and Barbuda
+    // =========================================================
     {
       name: "Antigua and Barbuda",
       value: "AG"
