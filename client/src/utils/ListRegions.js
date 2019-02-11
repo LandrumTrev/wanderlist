@@ -1810,6 +1810,36 @@ export default {
       name: "Belize",
       value: "BZ"
     },
+    {
+      name: "Belize District",
+      value: "BZ01"
+      // value: "BH01"
+    },
+    {
+      name: "Cayo District",
+      value: "BZ02"
+      // value: "BH02"
+    },
+    {
+      name: "Corozal District",
+      value: "BZ03"
+      // value: "BH03"
+    },
+    {
+      name: "Orange Walk District",
+      value: "BZ04"
+      // value: "BH04"
+    },
+    {
+      name: "Stann Creek District",
+      value: "BZ05"
+      // value: "BH05"
+    },
+    {
+      name: "Toledo District",
+      value: "BZ06"
+      // value: "BH06"
+    },
     // =========================================================
     // Benin
     // =========================================================
@@ -1817,8 +1847,68 @@ export default {
       name: "Benin",
       value: "BJ"
     },
+    {
+      name: "Alibori Department",
+      value: "BJ07"
+      // value: "BN07"
+    },
+    {
+      name: "Atakora Department",
+      value: "BJ08"
+      // value: "BN08"
+    },
+    {
+      name: "Atlantique Department",
+      value: "BJ09"
+      // value: "BN09"
+    },
+    {
+      name: "Borgou Department",
+      value: "BJ10"
+      // value: "BN10"
+    },
+    {
+      name: "Collines Department",
+      value: "BJ11"
+      // value: "BN11"
+    },
+    {
+      name: "Kouffo Department",
+      value: "BJ12"
+      // value: "BN12"
+    },
+    {
+      name: "Donga Department",
+      value: "BJ13"
+      // value: "BN13"
+    },
+    {
+      name: "Littoral Department",
+      value: "BJ14"
+      // value: "BN14"
+    },
+    {
+      name: "Mono Department",
+      value: "BJ15"
+      // value: "BN15"
+    },
+    {
+      name: "Ouémé Department",
+      value: "BJ16"
+      // value: "BN16"
+    },
+    {
+      name: "Plateau Department",
+      value: "BJ17"
+      // value: "BN17"
+    },
+    {
+      name: "Zou Department",
+      value: "BJ18"
+      // value: "BN18"
+    },
     // =========================================================
-    // Azerbaijan
+    // Bermuda
     // =========================================================
     {
       name: "Bermuda",
