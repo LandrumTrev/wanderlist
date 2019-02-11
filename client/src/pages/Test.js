@@ -13,7 +13,8 @@ import Modal from "../components/Modal";
 import Jumbotron from "../components/Jumbotron";
 
 // import multiple-component .js files
-import { SelectRegion, SelectFeature } from "../components/Search";
+import { SelectCountryName, SelectCountryRegion, SelectFeatureCategory, SelectFeatureName } from "../components/Select";
+// import { SelectRegion, SelectFeature } from "../components/Search";
 import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
 import { Row, Container } from "../components/Grid";
 import { List } from "../components/List";
@@ -28,7 +29,7 @@ import API from "../utils/API";
 // use axios to make XMLHttpRequest API calls
 import axios from "axios";
 
-class FindPlace extends Component {
+class Test extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -125,12 +126,10 @@ class FindPlace extends Component {
     // destructured name and value for event.target.name and event.target.value
     const { name, value } = event.target;
     // use name="" value of an input to change an identical key name in this.state
-    // break single countryAndRegion value into it's countryCC and regionCC pieces
-    if (name === "countryAndRegion") {
+    // remove first two country code letters from 4-char FIPS (or modified FIPS) region code 
+    if (name === "regionCC") {
       this.setState({
-        [name]: value,
-        countryCC: value.substring(0, 2),
-        regionCC: value.substring(2, 4)
+        [name]: value.substring(2, 4)
       });
     } else {
       this.setState({
@@ -642,24 +641,55 @@ class FindPlace extends Component {
         {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
         <Jumbotron />
 
-        {/* SEARCH OPTION SELECTS */}
+        {/* COUNTRY and REGION selects */}
         <Container>
           <form action="">
             <Row>
-              {/* COUNTRY AND REGION SELECT */}
+              {/* COUNTRY SELECT */}
               <div className="col-sm-6" style={{ padding: 6 }}>
                 <div className="input-group">
-                  <SelectRegion
+                  <SelectCountryName
+                    list={this.state.listRegions}
+                    thisCountry={this.handleInputChange}
+                    onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
+                  />
+                </div>
+              </div>
+
+              {/* REGION SELECT */}
+              <div className="col-sm-6" style={{ padding: 6 }}>
+                <div className="input-group">
+                  <SelectCountryRegion
+                    list={this.state.listRegions}
+                    thisRegion={this.handleInputChange}
+                    selectedCountry={this.state.countryCC}
+                    onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
+                  />
+                </div>
+              </div>
+            </Row>
+          </form>
+        </Container>
+
+        {/* FEATURE CATEGORY AND TYPE SELECTS */}
+        <Container>
+          <form action="">
+            <Row>
+              {/* FEATURE CATEGORY SELECT */}
+              <div className="col-sm-6" style={{ padding: 6 }}>
+                <div className="input-group">
+                  <SelectFeatureCategory
                     list={this.state.listRegions}
                     thisRegion={this.handleInputChange}
                     // onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
                   />
                 </div>
               </div>
+
               {/* FEATURE TYPE SELECT */}
               <div className="col-sm-6" style={{ padding: 6 }}>
                 <div className="input-group">
-                  <SelectFeature
+                  <SelectFeatureName
                     list={this.state.listFeatures}
                     thisFeature={this.handleInputChange}
                     // onChange={console.log(this.state.featureCode)}
@@ -761,4 +791,4 @@ class FindPlace extends Component {
   }
 }
 
-export default FindPlace;
+export default Test;

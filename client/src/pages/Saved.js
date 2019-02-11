@@ -3,7 +3,7 @@
 import React, { Component } from "react";
 
 // import single-component .js files
-import Background from "../components/Background";
+// import Background from "../components/Background";
 import Nav from "../components/Nav";
 import Jumbotron from "../components/Jumbotron";
 
