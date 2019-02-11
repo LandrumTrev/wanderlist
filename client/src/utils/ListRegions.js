@@ -525,6 +525,78 @@ export default {
       name: "Angola",
       value: "AO"
     },
+    {
+      name: "Benguela Province",
+      value: "AO01"
+    },
+    {
+      name: "Bié Province",
+      value: "AO02"
+    },
+    {
+      name: "Cabinda Province",
+      value: "AO03"
+    },
+    {
+      name: "Cuando Cubango Province",
+      value: "AO04"
+    },
+    {
+      name: "Cuanza Norte Province",
+      value: "AO05"
+    },
+    {
+      name: "Cuanza Sul Province",
+      value: "AO06"
+    },
+    {
+      name: "Cunene Province",
+      value: "AO07"
+    },
+    {
+      name: "Huambo Province",
+      value: "AO08"
+    },
+    {
+      name: "Huíla Province",
+      value: "AO09"
+    },
+    {
+      name: "Malanje Province",
+      value: "AO12"
+    },
+    {
+      name: "Namibe Province",
+      value: "AO13"
+    },
+    {
+      name: "Moxico Province",
+      value: "AO14"
+    },
+    {
+      name: "Uíge Province",
+      value: "AO15"
+    },
+    {
+      name: "Zaire Province",
+      value: "AO16"
+    },
+    {
+      name: "Lunda Norte Province",
+      value: "AO17"
+    },
+    {
+      name: "Lunda Sul Province",
+      value: "AO18"
+    },
+    {
+      name: "Bengo Province",
+      value: "AO19"
+    },
+    {
+      name: "Luanda Province",
+      value: "AO20"
+    },
     // =========================================================
     // Anguilla
     // =========================================================
