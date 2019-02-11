@@ -1746,6 +1746,63 @@ export default {
       name: "Belgium",
       value: "BE"
     },
+    {
+      name: "Flanders",
+      // name: "Antwerpen Province (Flanders)",
+      value: "BEVLG"
+      // value: "BE01"
+    },
+    // {
+    //   name: "Hainaut Province",
+    //   value: "BE03"
+    //   // value: "BE03"
+    // },
+    {
+      name: "Wallonia",
+      // name: "Liège Province (Wallonia)",
+      value: "BEWAL"
+      // value: "BE04"
+    },
+    // {
+    //   name: "Limburg Province",
+    //   value: "BE05"
+    //   // value: "BE05"
+    // },
+    // {
+    //   name: "Luxembourg Province",
+    //   value: "BE06"
+    //   // value: "BE06"
+    // },
+    // {
+    //   name: "Namur Province",
+    //   value: "BE07"
+    //   // value: "BE07"
+    // },
+    // {
+    //   name: "Oost-Vlaanderen Province",
+    //   value: "BE08"
+    //   // value: "BE08"
+    // },
+    // {
+    //   name: "West-Vlaanderen Province",
+    //   value: "BE09"
+    //   // value: "BE09"
+    // },
+    // {
+    //   name: "Walloon Brabant Province",
+    //   value: "BE10"
+    //   // value: "BE10"
+    // },
+    {
+      name: "Brussels-Capital Region",
+      value: "BEBRU"
+      // value: "BE11"
+    },
+    // {
+    //   name: "Flemish Brabant Province",
+    //   value: "BE12"
+    //   // value: "BE12"
+    // },
     // =========================================================
     // Belize
     // =========================================================
