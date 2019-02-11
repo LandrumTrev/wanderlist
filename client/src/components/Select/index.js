@@ -28,7 +28,7 @@ export function SelectCountryName(props) {
       <div className="input-group-append">
         <span
           className="input-group-text"
-          style={{ width: "5.7rem", borderRadius: 0, fontWeight: 800, fontSize: 12, borderWidth: 0, letterSpacing: ".07rem" }}
+          style={{ width: "6.2rem", borderRadius: 0, fontWeight: 800, fontSize: 12, borderWidth: 0, letterSpacing: ".07rem" }}
         >
           COUNTRY
         </span>
@@ -42,23 +42,22 @@ export function SelectCountryName(props) {
 // ===================================================================
 
 export function SelectCountryRegion(props) {
-  console.log(props);
+  // console.log(props);
 
-  console.log("selectedCountry:");
-  console.log(props.selectedCountry);
+  // console.log("selectedCountry:");
+  // console.log(props.selectedCountry);
 
   const allRegions = props.list.filter(region => region.value.length === 4);
-  console.log("allRegions:");
-  console.log(allRegions);
+  // console.log("allRegions:");
+  // console.log(allRegions);
 
   const countryRegions = allRegions.filter(region => region.value.substring(0, 2) === props.selectedCountry);
-  console.log("countryRegions:");
-  console.log(countryRegions);
+  // console.log("countryRegions:");
+  // console.log(countryRegions);
 
   return (
     <>
       <select name="regionCC" className="custom-select" onChange={props.thisRegion} style={{ borderRadius: 0, borderWidth: 0 }}>
-
         <option value="" key="">
           search entire country
         </option>
@@ -73,7 +72,7 @@ export function SelectCountryRegion(props) {
       <div className="input-group-append">
         <span
           className="input-group-text"
-          style={{ width: "5rem", borderRadius: 0, fontWeight: 800, fontSize: 12, borderWidth: 0, letterSpacing: ".07rem" }}
+          style={{ width: "6.2rem", borderRadius: 0, fontWeight: 800, fontSize: 12, borderWidth: 0, letterSpacing: ".07rem" }}
         >
           REGION
         </span>
@@ -87,35 +86,30 @@ export function SelectCountryRegion(props) {
 // ===================================================================
 
 export function SelectFeatureCategory(props) {
+  // console.log("feature categories and types:");
   // console.log(props.list);
+
+  const featureCategories = props.list.filter(item => item.value.length === 1);
+  // console.log("featureCategories:");
+  // console.log(featureCategories);
 
   return (
     <>
-      <select name="featureCode" className="custom-select" onChange={props.thisFeature} style={{ borderRadius: 0, borderWidth: 0 }}>
-        {props.list.map(feature => (
+      <select name="featureCategory" className="custom-select" onChange={props.thisCategory} style={{ borderRadius: 0, borderWidth: 0 }}>
+        {featureCategories.map(featCat => (
           // where every feature gets an <option> element with a key for React
-          <option value={feature.value} key={feature.value}>
-            {feature.name}
+          <option value={featCat.value} key={featCat.value}>
+            {featCat.name}
           </option>
         ))}
       </select>
       <div className="input-group-append">
-        <button
-          className="input-group-text btn btn-primary"
-          style={{
-            width: "5rem",
-            borderRadius: 0,
-            fontWeight: 700,
-            fontSize: 12,
-            backgroundColor: "rgba(215, 31, 31, 0.9)",
-            color: "#fff",
-            borderWidth: 0,
-            letterSpacing: ".06rem"
-          }}
-          onClick={props.findFeature}
+        <span
+          className="input-group-text"
+          style={{ width: "6.2rem", borderRadius: 0, fontWeight: 800, fontSize: 12, borderWidth: 0, letterSpacing: ".07rem" }}
         >
-          SEARCH
-        </button>
+          CATEGORY
+        </span>
       </div>
     </>
   );
@@ -126,12 +120,24 @@ export function SelectFeatureCategory(props) {
 // ===================================================================
 
 export function SelectFeatureName(props) {
+  // console.log("selectedCategory:");
+  // console.log(props.selectedCategory);
+
+  // console.log("props.list:");
   // console.log(props.list);
+
+  const featureTypes = props.list.filter(type => type.value.substring(0, 1) === props.selectedCategory && type.value.length > 1);
+
+  console.log("featureTypes:");
+  console.log(featureTypes);
 
   return (
     <>
-      <select name="featureCode" className="custom-select" onChange={props.thisFeature} style={{ borderRadius: 0, borderWidth: 0 }}>
-        {props.list.map(feature => (
+      <select name="featureType" className="custom-select" onChange={props.thisFeature} style={{ borderRadius: 0, borderWidth: 0 }}>
+        <option value="" key="">
+          search all features
+        </option>
+        {featureTypes.map(feature => (
           // where every feature gets an <option> element with a key for React
           <option value={feature.value} key={feature.value}>
             {feature.name}
@@ -142,7 +148,7 @@ export function SelectFeatureName(props) {
         <button
           className="input-group-text btn btn-primary"
           style={{
-            width: "5rem",
+            width: "6.2rem",
             borderRadius: 0,
             fontWeight: 700,
             fontSize: 12,

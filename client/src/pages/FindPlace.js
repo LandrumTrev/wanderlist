@@ -4,7 +4,8 @@ import React, { Component } from "react";
 
 // import list arrays for Country+Region and Feature Type <select> menus
 import ListRegions from "../utils/ListRegions";
-import ListFeatures from "../utils/ListFeatures";
+// import ListFeatures from "../utils/ListFeatures";
+import ListLocations from "../utils/ListLocations";
 
 // import single-component .js files
 // import Background from "../components/Background";
@@ -13,7 +14,8 @@ import Modal from "../components/Modal";
 import Jumbotron from "../components/Jumbotron";
 
 // import multiple-component .js files
-import { SelectRegion, SelectFeature } from "../components/Search";
+import { SelectCountryName, SelectCountryRegion, SelectFeatureCategory, SelectFeatureName } from "../components/Select";
+// import { SelectRegion, SelectFeature } from "../components/Search";
 import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
 import { Row, Container } from "../components/Grid";
 import { List } from "../components/List";
@@ -34,7 +36,7 @@ class FindPlace extends Component {
     this.state = {
       placesArray: [],
       listRegions: ListRegions.countryArray,
-      listFeatures: ListFeatures.featureArray,
+      ListLocations: ListLocations.featureArray,
       show: false,
       firstName: "",
       lastName: "",
@@ -46,11 +48,12 @@ class FindPlace extends Component {
       isLoggedIn: false,
       loginMsg: "",
       countryAndRegion: "",
-      countryCC: "",
+      countryCC: "XX",
       regionCC: "",
       featureCode: "",
       featureName: "",
       featureType: "",
+      featureCategory: "",
       featureCountryCode: "",
       featureLatitude: "",
       featureLongitude: "",
@@ -73,7 +76,7 @@ class FindPlace extends Component {
   // ===========================================================================
 
   componentDidUpdate() {
-    // console.log(`<FindPlace> component updated with this state:`);
+    console.log(`<FindPlace> component updated with this state:`);
     console.log(this.state);
     // console.log(`<FindPlace> DidUpdate this.state.isLoggedIn: ${this.state.isLoggedIn}`);
     // console.log(`<FindPlace> DidUpdate this.state.email: ${this.state.email}`);
@@ -100,7 +103,7 @@ class FindPlace extends Component {
         } else {
           this.setState({ isLoggedIn: false });
         }
-        console.log(this.state);
+        // console.log(this.state);
         // console.log(`<FindPlace> DidMount this.state.isLoggedIn: ${this.state.isLoggedIn}`);
         // console.log(`<FindPlace> DidMount this.state.email: ${this.state.email}`);
       })
@@ -125,12 +128,18 @@ class FindPlace extends Component {
     // destructured name and value for event.target.name and event.target.value
     const { name, value } = event.target;
     // use name="" value of an input to change an identical key name in this.state
-    // break single countryAndRegion value into it's countryCC and regionCC pieces
-    if (name === "countryAndRegion") {
+    // remove first two country code letters from 4-char FIPS (or modified FIPS) region code
+    if (name === "regionCC") {
       this.setState({
-        [name]: value,
-        countryCC: value.substring(0, 2),
-        regionCC: value.substring(2, 4)
+        [name]: value.substring(2, 4)
+      });
+    } else if (name === "featureType") {
+      this.setState({
+        [name]: value.substring(2)
+      });
+    } else if (name === "featureCategory") {
+      this.setState({
+        [name]: value
       });
     } else {
       this.setState({
@@ -259,27 +268,41 @@ class FindPlace extends Component {
   // either: Earth+Feature Type, Country+Feature Type, or Country+Region+Feature Type
   geonamesString = () => {
     // if user has selected a Feature Type (required)
-    if (this.state.featureCode) {
+    if (this.state.featureCategory && this.state.featureCategory !== "_") {
       // make blank variable for API URL string
       let geoString;
-      if (this.state.countryCC === "XX") {
+      if (this.state.countryCC === "XX" && !this.state.featureType) {
+        // Earth + Feature Category
+        geoString = `https://secure.geonames.org/searchJSON?featureClass=${this.state.featureCategory}&maxRows=1000&username=ghostfountain`;
+        console.log(geoString);
+        return geoString;
+      } else if (this.state.countryCC === "XX") {
         // Earth + Feature Type
-        geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureCode}&maxRows=1000&username=ghostfountain`;
+        geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureType}&maxRows=1000&username=ghostfountain`;
+        console.log(geoString);
+        return geoString;
+      } else if (!this.state.featureType) {
+        // Country + Feature Category
+        geoString = `https://secure.geonames.org/searchJSON?featureClass=${this.state.featureCategory}&country=${
+          this.state.countryCC
+        }&maxRows=1000&username=ghostfountain`;
+        console.log(geoString);
         return geoString;
       } else if (this.state.regionCC === "") {
         // Country + Feature Type
-        geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureCode}&country=${
+        geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureType}&country=${
           this.state.countryCC
         }&maxRows=1000&username=ghostfountain`;
+        console.log(geoString);
         return geoString;
       } else {
         // Country + Region + Feature Type
-        geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureCode}&country=${this.state.countryCC}&adminCode1=${
+        geoString = `https://secure.geonames.org/searchJSON?featureCode=${this.state.featureType}&country=${this.state.countryCC}&adminCode1=${
           this.state.regionCC
         }&maxRows=1000&username=ghostfountain`;
+        console.log(geoString);
         return geoString;
       }
-      // console.log(geoString);
     } else {
       // if user has not selected a Feature Type
       alert("Please select a feature type.");
@@ -297,17 +320,21 @@ class FindPlace extends Component {
     axios
       .get(this.geonamesString())
       .then(response => {
-        console.log(response.data);
+        // console.log(response.data);
         if (response.data.totalResultsCount === 0) {
-          console.log("No matching features found in that region.");
+          // console.log("No matching features found in that region.");
           this.setState({
             featureName: "",
             featureType: "",
             featureCountryName: "",
+            featureCountryCode: "",
+            // featureCategory: "",
+            featureLocation: "",
             featureLatitude: "",
             featureLongitude: "",
             nearPlaceName: "",
             nearPlaceCountryCode: "",
+            nearPlaceCountryName: "",
             nearPlacePostalCode: "",
             nearPlaceDistance: "",
             nearPlaceLatLong: "",
@@ -332,7 +359,8 @@ class FindPlace extends Component {
           // extract and set in state relevant data from the selected feature object
           this.setState({
             featureName: theFeature.name,
-            featureType: theFeature.fcodeName,
+            featureType: theFeature.fcode,
+            featureCategory: theFeature.fcl,
             featureCountryCode: theFeature.countryCode,
             featureLatitude: theFeature.lat,
             featureLongitude: theFeature.lng,
@@ -404,7 +432,7 @@ class FindPlace extends Component {
         // just make the third API call to Wigle, since Wigle map location will use
         // the feature's Lat and Long coordinates anyway (postal code results too unreliable)
         this.getHotspots();
-        console.log("CLOSEST CITY: no info");
+        // console.log("CLOSEST CITY: no info");
       }
     });
   };
@@ -521,6 +549,25 @@ class FindPlace extends Component {
     this.setState({ placesArray: newPlacesArray });
     // console.log(`NEW this.state.placesArray:`);
     // console.log(this.state.placesArray);
+
+    this.setState({
+      featureName: "",
+      featureType: "",
+      featureCountryName: "",
+      featureCountryCode: "",
+      // featureCategory: "",
+      featureLocation: "",
+      featureLatitude: "",
+      featureLongitude: "",
+      nearPlaceName: "",
+      nearPlaceCountryCode: "",
+      nearPlaceCountryName: "",
+      nearPlacePostalCode: "",
+      nearPlaceDistance: "",
+      nearPlaceLatLong: "",
+      nearPlaceWifi: ""
+    });
+
   };
 
   // ===================================================
@@ -587,7 +634,7 @@ class FindPlace extends Component {
           logoutClick={this.handleUserLogout}
           modalPops={this.showModal}
           page={this.props.location.pathname}
-          onChange={console.log(this.props.location.pathname)}
+          // onChange={console.log(this.props.location.pathname)}
         />
 
         {/* MODAL FOR LOGIN and CREATE NEW USER ACCOUNT */}
@@ -642,27 +689,60 @@ class FindPlace extends Component {
         {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
         <Jumbotron />
 
-        {/* SEARCH OPTION SELECTS */}
+        {/* COUNTRY and REGION selects */}
         <Container>
           <form action="">
             <Row>
-              {/* COUNTRY AND REGION SELECT */}
+              {/* COUNTRY SELECT */}
               <div className="col-sm-6" style={{ padding: 6 }}>
                 <div className="input-group">
-                  <SelectRegion
+                  <SelectCountryName
                     list={this.state.listRegions}
-                    thisRegion={this.handleInputChange}
-                    // onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
+                    thisCountry={this.handleInputChange}
+                    // onChange={console.log(this.state.countryCC)}
                   />
                 </div>
               </div>
+
+              {/* REGION SELECT */}
+              <div className="col-sm-6" style={{ padding: 6 }}>
+                <div className="input-group">
+                  <SelectCountryRegion
+                    list={this.state.listRegions}
+                    thisRegion={this.handleInputChange}
+                    selectedCountry={this.state.countryCC}
+                    // onChange={console.log(this.state.regionCC)}
+                  />
+                </div>
+              </div>
+            </Row>
+          </form>
+        </Container>
+
+        {/* FEATURE CATEGORY AND TYPE SELECTS */}
+        <Container>
+          <form action="">
+            <Row>
+              {/* FEATURE CATEGORY SELECT */}
+              <div className="col-sm-6" style={{ padding: 6 }}>
+                <div className="input-group">
+                  <SelectFeatureCategory
+                    list={this.state.ListLocations}
+                    thisCategory={this.handleInputChange}
+                    onChange={console.log(this.state.featureCategory)}
+                    // findFeature={this.handleFormSubmit}
+                  />
+                </div>
+              </div>
+
               {/* FEATURE TYPE SELECT */}
               <div className="col-sm-6" style={{ padding: 6 }}>
                 <div className="input-group">
-                  <SelectFeature
-                    list={this.state.listFeatures}
+                  <SelectFeatureName
+                    list={this.state.ListLocations}
                     thisFeature={this.handleInputChange}
-                    // onChange={console.log(this.state.featureCode)}
+                    selectedCategory={this.state.featureCategory}
+                    onChange={console.log(this.state.featureType)}
                     findFeature={this.handleFormSubmit}
                   />
                 </div>
@@ -691,11 +771,11 @@ class FindPlace extends Component {
                   type="button"
                   id="clear_button"
                   style={{
+                    width: "6.2rem",
                     height: "30px",
-                    width: "79px",
-                    backgroundColor: "rgba(255, 255, 255, 0.2)",
                     borderRadius: 0,
                     borderWidth: 0,
+                    backgroundColor: "rgba(255, 255, 255, 0.2)",
                     letterSpacing: ".1rem",
                     fontWeight: 700,
                     fontSize: 12

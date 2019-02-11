@@ -13,8 +13,7 @@ import Modal from "../components/Modal";
 import Jumbotron from "../components/Jumbotron";
 
 // import multiple-component .js files
-import { SelectCountryName, SelectCountryRegion, SelectFeatureCategory, SelectFeatureName } from "../components/Select";
-// import { SelectRegion, SelectFeature } from "../components/Search";
+import { SelectRegion, SelectFeature } from "../components/Search";
 import { CardsContainer, ResultCard, NoResultCard } from "../components/Cards";
 import { Row, Container } from "../components/Grid";
 import { List } from "../components/List";
@@ -29,7 +28,7 @@ import API from "../utils/API";
 // use axios to make XMLHttpRequest API calls
 import axios from "axios";
 
-class Test extends Component {
+class FindPlace extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -126,10 +125,12 @@ class Test extends Component {
     // destructured name and value for event.target.name and event.target.value
     const { name, value } = event.target;
     // use name="" value of an input to change an identical key name in this.state
-    // remove first two country code letters from 4-char FIPS (or modified FIPS) region code 
-    if (name === "regionCC") {
+    // break single countryAndRegion value into it's countryCC and regionCC pieces
+    if (name === "countryAndRegion") {
       this.setState({
-        [name]: value.substring(2, 4)
+        [name]: value,
+        countryCC: value.substring(0, 2),
+        regionCC: value.substring(2, 4)
       });
     } else {
       this.setState({
@@ -641,55 +642,24 @@ class Test extends Component {
         {/* APP LOGOTYPE AND INTRO TEXT HEADER */}
         <Jumbotron />
 
-        {/* COUNTRY and REGION selects */}
+        {/* SEARCH OPTION SELECTS */}
         <Container>
           <form action="">
             <Row>
-              {/* COUNTRY SELECT */}
+              {/* COUNTRY AND REGION SELECT */}
               <div className="col-sm-6" style={{ padding: 6 }}>
                 <div className="input-group">
-                  <SelectCountryName
-                    list={this.state.listRegions}
-                    thisCountry={this.handleInputChange}
-                    onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
-                  />
-                </div>
-              </div>
-
-              {/* REGION SELECT */}
-              <div className="col-sm-6" style={{ padding: 6 }}>
-                <div className="input-group">
-                  <SelectCountryRegion
-                    list={this.state.listRegions}
-                    thisRegion={this.handleInputChange}
-                    selectedCountry={this.state.countryCC}
-                    onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
-                  />
-                </div>
-              </div>
-            </Row>
-          </form>
-        </Container>
-
-        {/* FEATURE CATEGORY AND TYPE SELECTS */}
-        <Container>
-          <form action="">
-            <Row>
-              {/* FEATURE CATEGORY SELECT */}
-              <div className="col-sm-6" style={{ padding: 6 }}>
-                <div className="input-group">
-                  <SelectFeatureCategory
+                  <SelectRegion
                     list={this.state.listRegions}
                     thisRegion={this.handleInputChange}
                     // onChange={console.log(this.state.countryAndRegion, this.state.countryCC, this.state.regionCC)}
                   />
                 </div>
               </div>
-
               {/* FEATURE TYPE SELECT */}
               <div className="col-sm-6" style={{ padding: 6 }}>
                 <div className="input-group">
-                  <SelectFeatureName
+                  <SelectFeature
                     list={this.state.listFeatures}
                     thisFeature={this.handleInputChange}
                     // onChange={console.log(this.state.featureCode)}
@@ -791,4 +761,4 @@ class Test extends Component {
   }
 }
 
-export default Test;
+export default FindPlace;
