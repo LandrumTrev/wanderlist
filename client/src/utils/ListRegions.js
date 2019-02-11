@@ -483,6 +483,41 @@ export default {
       name: "Andorra",
       value: "AD"
     },
+    {
+      name: "Canillo Parish",
+      value: "AD02"
+      // value: "AN02"
+    },
+    {
+      name: "Encamp Parish",
+      value: "AD03"
+      // value: "AN03"
+    },
+    {
+      name: "La Massana Parish",
+      value: "AD04"
+      // value: "AN04"
+    },
+    {
+      name: "Ordino Parish",
+      value: "AD05"
+      // value: "AN05"
+    },
+    {
+      name: "Sant Julià de Lòria Parish",
+      value: "AD06"
+      // value: "AN06"
+    },
+    {
+      name: "Andorra la Vella Parish",
+      value: "AD07"
+      // value: "AN07"
+    },
+    {
+      name: "Escaldes-Engordany Parish",
+      value: "AD08"
+      // value: "AN08"
+    },
     // =========================================================
     // Angola
     // =========================================================

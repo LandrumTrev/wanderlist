@@ -5,7 +5,7 @@
 export default {
   featureArray: [
     {
-      name: "SELECT FEATURE CATEGORY",
+      name: "select feature category (required)",
       value: "_"
     },
     // =====================================================
