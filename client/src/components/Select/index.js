@@ -47,7 +47,7 @@ export function SelectCountryRegion(props) {
   // console.log("selectedCountry:");
   // console.log(props.selectedCountry);
 
-  const allRegions = props.list.filter(region => region.value.length === 4);
+  const allRegions = props.list.filter(region => region.value.length > 2);
   // console.log("allRegions:");
   // console.log(allRegions);
 

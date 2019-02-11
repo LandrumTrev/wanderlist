@@ -131,7 +131,8 @@ class FindPlace extends Component {
     // remove first two country code letters from 4-char FIPS (or modified FIPS) region code
     if (name === "regionCC") {
       this.setState({
-        [name]: value.substring(2, 4)
+        // [name]: value.substring(2, 4)
+        [name]: value.substring(2)
       });
     } else if (name === "featureType") {
       this.setState({
@@ -282,7 +283,7 @@ class FindPlace extends Component {
         console.log(geoString);
         return geoString;
       } else if (!this.state.featureType) {
-        // Country + Feature Category
+        // Country + Region + Feature Category
         geoString = `https://secure.geonames.org/searchJSON?featureClass=${this.state.featureCategory}&country=${this.state.countryCC}&adminCode1=${
           this.state.regionCC
         }&maxRows=1000&username=ghostfountain`;

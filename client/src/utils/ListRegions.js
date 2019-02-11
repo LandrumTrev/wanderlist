@@ -476,6 +476,26 @@ export default {
       name: "American Samoa",
       value: "AS"
     },
+    {
+      name: "Eastern District",
+      value: "AS010"
+    },
+    {
+      name: "Manu'a",
+      value: "AS020"
+    },
+    {
+      name: "Rose Island",
+      value: "AS030"
+    },
+    {
+      name: "Swains Island",
+      value: "AS040"
+    },
+    {
+      name: "Western District",
+      value: "AS050"
+    },
     // =========================================================
     // Andorra
     // =========================================================
@@ -602,7 +622,13 @@ export default {
     // =========================================================
     {
       name: "Anguilla",
+      // value: "AV"
       value: "AI"
+    },
+    {
+      name: "Anguilla",
+      // value: "AV"
+      value: "AI00"
     },
     // =========================================================
     // Antarctica
@@ -619,42 +645,42 @@ export default {
       value: "AG"
     },
     {
-      name: "Barbuda Dependency, Antigua and Barbuda",
+      name: "Barbuda Dependency",
       value: "AG01"
       // value: "AC01"
     },
     {
-      name: "Saint George Parish, Antigua and Barbuda",
+      name: "Saint George Parish",
       value: "AG03"
       // value: "AC03"
     },
     {
-      name: "Saint John Parish, Antigua and Barbuda",
+      name: "Saint John Parish",
       value: "AG04"
       // value: "AC04"
     },
     {
-      name: "Saint Mary Parish, Antigua and Barbuda",
+      name: "Saint Mary Parish",
       value: "AG05"
       // value: "AC05"
     },
     {
-      name: "Saint Paul Parish, Antigua and Barbuda",
+      name: "Saint Paul Parish",
       value: "AG06"
       // value: "AC06"
     },
     {
-      name: "Saint Peter Parish, Antigua and Barbuda",
+      name: "Saint Peter Parish",
       value: "AG07"
       // value: "AC07"
     },
     {
-      name: "Saint Philip Parish, Antigua and Barbuda",
+      name: "Saint Philip Parish",
       value: "AG08"
       // value: "AC08"
     },
     {
-      name: "Redonda Dependency, Antigua and Barbuda",
+      name: "Redonda Dependency",
       value: "AG09"
       // value: "AC09"
     },
@@ -818,6 +844,10 @@ export default {
     {
       name: "Aruba",
       value: "AW"
+    },
+    {
+      name: "Aruba",
+      value: "AW00"
     },
     // =========================================================
     // Australia
@@ -1287,12 +1317,292 @@ export default {
       name: "Bahrain",
       value: "BH"
     },
+    {
+      name: "Al Ḩadd Municipality",
+      value: "BH01"
+      // value: "BA01"
+    },
+    {
+      name: "Al Manāmah Municipality",
+      value: "BH02"
+      // value: "BA02"
+    },
+    {
+      name: "Jidd Ḩafş Municipality",
+      value: "BH05"
+      // value: "BA05"
+    },
+    {
+      name: "Sitrah Municipality",
+      value: "BH06"
+      // value: "BA06"
+    },
+    {
+      name: "Al Minţaqah al Gharbīyah Municipality",
+      value: "BH08"
+      // value: "BA08"
+    },
+    {
+      name: "Minţaqat Juzur Ḩawār",
+      value: "BH09"
+      // value: "BA09"
+    },
+    {
+      name: "Al Minţaqah ash Shamālīyah Municipality",
+      value: "BH10"
+      // value: "BA10"
+    },
+    {
+      name: "Al Minţaqah al Wusţá Municipality",
+      value: "BH11"
+      // value: "BA11"
+    },
+    {
+      name: "Madīnat `Īsá Municipality",
+      value: "BH12"
+      // value: "BA12"
+    },
+    {
+      name: "Ar Rifā` wa al Minţaqah al Janūbīyah Municipality",
+      value: "BH13"
+      // value: "BA13"
+    },
+    {
+      name: "Madīnat Ḩamad Municipality",
+      value: "BH14"
+      // value: "BA14"
+    },
+    {
+      name: "Al Muḩarraq Municipality",
+      value: "BH15"
+      // value: "BA15"
+    },
+    {
+      name: "Al ٰĀşimah Municipality",
+      value: "BH16"
+      // value: "BA16"
+    },
+    {
+      name: "Al Janūbīyah Municipality",
+      value: "BH17"
+      // value: "BA17"
+    },
+    {
+      name: "Ash Shamālīyah Municipality",
+      value: "BH18"
+      // value: "BA18"
+    },
+    {
+      name: "Al Wusţá Municipality",
+      value: "BH19"
+      // value: "BA19"
+    },
     // =========================================================
     // Bahamas
     // =========================================================
     {
       name: "Bahamas",
       value: "BS"
+    },
+    {
+      name: "Bimini District",
+      value: "BS05"
+      // value: "BF05"
+    },
+    {
+      name: "Cat Island District",
+      value: "BS06"
+      // value: "BF06"
+    },
+    {
+      name: "Exuma District",
+      value: "BS10"
+      // value: "BF10"
+    },
+    {
+      name: "Inagua District",
+      value: "BS13"
+      // value: "BF13"
+    },
+    {
+      name: "Long Island District",
+      value: "BS15"
+      // value: "BF15"
+    },
+    {
+      name: "Mayaguana District",
+      value: "BS16"
+      // value: "BF16"
+    },
+    {
+      name: "Ragged Island District",
+      value: "BS18"
+      // value: "BF18"
+    },
+    {
+      name: "Harbour Island District",
+      value: "BS22"
+      // value: "BF22"
+    },
+    {
+      name: "New Providence District",
+      value: "BS23"
+      // value: "BF23"
+    },
+    {
+      name: "Acklins and Crooked Islands District",
+      value: "BS24"
+      // value: "BF24"
+    },
+    {
+      name: "City of Freeport District",
+      value: "BS25"
+      // value: "BF25"
+    },
+    {
+      name: "Fresh Creek District",
+      value: "BS26"
+      // value: "BF26"
+    },
+    {
+      name: "Governor's Harbour District",
+      value: "BS27"
+      // value: "BF27"
+    },
+    {
+      name: "Green Turtle Cay District",
+      value: "BS28"
+      // value: "BF28"
+    },
+    {
+      name: "High Rock District",
+      value: "BS29"
+      // value: "BF29"
+    },
+    {
+      name: "Kemps Bay District",
+      value: "BS30"
+      // value: "BF30"
+    },
+    {
+      name: "Marsh Harbour District",
+      value: "BS31"
+      // value: "BF31"
+    },
+    {
+      name: "Nichollstown and Berry Islands District",
+      value: "BS32"
+      // value: "BF32"
+    },
+    {
+      name: "Rock Sound District",
+      value: "BS33"
+      // value: "BF33"
+    },
+    {
+      name: "Sandy Point District",
+      value: "BS34"
+      // value: "BF34"
+    },
+    {
+      name: "San Salvador",
+      value: "BS35"
+      // value: "BF35"
+    },
+    {
+      name: "Black Point District",
+      value: "BS36"
+      // value: "BF36"
+    },
+    {
+      name: "Central Abaco District",
+      value: "BS37"
+      // value: "BF37"
+    },
+    {
+      name: "Central Andros District",
+      value: "BS38"
+      // value: "BF38"
+    },
+    {
+      name: "Central Eleuthera District",
+      value: "BS39"
+      // value: "BF39"
+    },
+    {
+      name: "Crooked Island and Long Cay District",
+      value: "BS40"
+      // value: "BF40"
+    },
+    {
+      name: "East Grand Bahama District",
+      value: "BS41"
+      // value: "BF41"
+    },
+    {
+      name: "Grand Cay District",
+      value: "BS42"
+      // value: "BF42"
+    },
+    {
+      name: "Hope Town District",
+      value: "BS43"
+      // value: "BF43"
+    },
+    {
+      name: "Mangrove Cay District",
+      value: "BS44"
+      // value: "BF44"
+    },
+    {
+      name: "Moore’s Island District",
+      value: "BS45"
+      // value: "BF45"
+    },
+    {
+      name: "North Abaco District",
+      value: "BS46"
+      // value: "BF46"
+    },
+    {
+      name: "North Andros District",
+      value: "BS47"
+      // value: "BF47"
+    },
+    {
+      name: "North Eleuthera District",
+      value: "BS48"
+      // value: "BF48"
+    },
+    {
+      name: "Rum Cay District",
+      value: "BS49"
+      // value: "BF49"
+    },
+    {
+      name: "South Abaco District",
+      value: "BS50"
+      // value: "BF50"
+    },
+    {
+      name: "South Andros District",
+      value: "BS51"
+      // value: "BF51"
+    },
+    {
+      name: "South Eleuthera District",
+      value: "BS52"
+      // value: "BF52"
+    },
+    {
+      name: "Spanish Wells District",
+      value: "BS53"
+      // value: "BF53"
+    },
+    {
+      name: "West Grand Bahama District",
+      value: "BS54"
+      // value: "BF54"
     },
     // =========================================================
     // Bangladesh
