@@ -1611,12 +1611,91 @@ export default {
       name: "Bangladesh",
       value: "BD"
     },
+    {
+      name: "Dhaka Division",
+      value: "BD81"
+      // value: "BG81"
+    },
+    {
+      name: "Khulna Division",
+      value: "BD82"
+      // value: "BG82"
+    },
+    {
+      name: "Rājshāhi Division",
+      value: "BD83"
+      // value: "BG83"
+    },
+    {
+      name: "Chittagong Division",
+      value: "BD84"
+      // value: "BG84"
+    },
+    {
+      name: "Barisāl Division",
+      value: "BD85"
+      // value: "BG85"
+    },
+    {
+      name: "Sylhet Division",
+      value: "BD86"
+      // value: "BG86"
+    },
+    {
+      name: "Rangpur Division",
+      value: "BD87"
+      // value: "BG87"
+    },
     // =========================================================
     // Barbados
     // =========================================================
     {
       name: "Barbados",
       value: "BB"
+    },
+    {
+      name: "Parish of Christ Church",
+      value: "BB01"
+    },
+    {
+      name: "Parish of Saint Andrew",
+      value: "BB02"
+    },
+    {
+      name: "Parish of Saint George",
+      value: "BB03"
+    },
+    {
+      name: "Parish of Saint James",
+      value: "BB04"
+    },
+    {
+      name: "Parish of Saint John",
+      value: "BB05"
+    },
+    {
+      name: "Parish of Saint Joseph",
+      value: "BB06"
+    },
+    {
+      name: "Parish of Saint Lucy",
+      value: "BB07"
+    },
+    {
+      name: "Parish of Saint Michael",
+      value: "BB08"
+    },
+    {
+      name: "Parish of Saint Peter",
+      value: "BB09"
+    },
+    {
+      name: "Parish of Saint Philip",
+      value: "BB10"
+    },
+    {
+      name: "Parish of Saint Thomas",
+      value: "BB11"
     },
     // =========================================================
     // Belarus
