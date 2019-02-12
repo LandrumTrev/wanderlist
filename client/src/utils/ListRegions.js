@@ -1914,6 +1914,61 @@ export default {
       name: "Bermuda",
       value: "BM"
     },
+    {
+      name: "Devonshire Parish",
+      value: "BM01"
+      // value: "BD01"
+    },
+    {
+      name: "Hamilton Parish",
+      value: "BM02"
+      // value: "BD02"
+    },
+    {
+      name: "Hamilton Municipality",
+      value: "BM03"
+      // value: "BD03"
+    },
+    {
+      name: "Paget Parish",
+      value: "BM04"
+      // value: "BD04"
+    },
+    {
+      name: "Pembroke Parish",
+      value: "BM05"
+      // value: "BD05"
+    },
+    {
+      name: "Saint George Municipality",
+      value: "BM06"
+      // value: "BD06"
+    },
+    {
+      name: "Saint George's Parish",
+      value: "BM07"
+      // value: "BD07"
+    },
+    {
+      name: "Sandys Parish",
+      value: "BM08"
+      // value: "BD08"
+    },
+    {
+      name: "Smith's Parish",
+      value: "BM09"
+      // value: "BD09"
+    },
+    {
+      name: "Southampton Parish",
+      value: "BM10"
+      // value: "BD10"
+    },
+    {
+      name: "Warwick Parish",
+      value: "BM11"
+      // value: "BD11"
+    },
     // =========================================================
     // Bhutan
     // =========================================================
@@ -1921,12 +1976,129 @@ export default {
       name: "Bhutan",
       value: "BT"
     },
+    {
+      name: "Bumthang District",
+      value: "BT05"
+    },
+    {
+      name: "Chhukha District",
+      value: "BT06"
+    },
+    {
+      name: "Tsirang (Chirang) District",
+      value: "BT07"
+    },
+    {
+      name: "Dagana District",
+      value: "BT08"
+    },
+    {
+      name: "Sarpang (Geylegphug) District",
+      value: "BT09"
+    },
+    {
+      name: "Haa (Ha) District",
+      value: "BT10"
+    },
+    {
+      name: "Lhuntse (Lhuntshi) District",
+      value: "BT11"
+    },
+    {
+      name: "Mongar District",
+      value: "BT12"
+    },
+    {
+      name: "Paro District",
+      value: "BT13"
+    },
+    {
+      name: "Pemagatshel (Pemagatsel) District",
+      value: "BT14"
+    },
+    {
+      name: "Punakha District",
+      value: "BT15"
+    },
+    {
+      name: "Samtse (Samchi) District",
+      value: "BT16"
+    },
+    {
+      name: "Samdrup Jongkhar District",
+      value: "BT17"
+    },
+    {
+      name: "Zhemgang (Shemgang) District",
+      value: "BT18"
+    },
+    {
+      name: "Trashigang (Tashigang) District",
+      value: "BT19"
+    },
+    {
+      name: "Thimphu District",
+      value: "BT20"
+    },
+    {
+      name: "Trongsa (Tongsa) District",
+      value: "BT21"
+    },
+    {
+      name: "Wangdue Phodrang (Wangdi Phodrang) District",
+      value: "BT22"
+    },
     // =========================================================
     // Bolivia
     // =========================================================
     {
       name: "Bolivia",
       value: "BO"
+    },
+    {
+      name: "Chuquisaca Department",
+      value: "BO01"
+      // value: "BL01"
+    },
+    {
+      name: "Cochabamba Department",
+      value: "BO02"
+      // value: "BL02"
+    },
+    {
+      name: "Beni Department",
+      value: "BO03"
+      // value: "BL03"
+    },
+    {
+      name: "La Paz Department",
+      value: "BO04"
+      // value: "BL04"
+    },
+    {
+      name: "Oruro Department",
+      value: "BO05"
+      // value: "BL05"
+    },
+    {
+      name: "Pando Department",
+      value: "BO06"
+      // value: "BL06"
+    },
+    {
+      name: "Potosí Department",
+      value: "BO07"
+      // value: "BL07"
+    },
+    {
+      name: "Santa Cruz Department",
+      value: "BO08"
+      // value: "BL08"
+    },
+    {
+      name: "Tarija Department",
+      value: "BO09"
+      // value: "BL09"
     },
     // =========================================================
     // Bonaire, Sint Eustatius and Saba
