@@ -2897,6 +2897,94 @@ export default {
       name: "Cape Verde",
       value: "CV"
     },
+    {
+      name: "Boa Vista",
+      value: "CV01"
+    },
+    {
+      name: "Brava",
+      value: "CV02"
+    },
+    {
+      name: "Maio",
+      value: "CV04"
+    },
+    {
+      name: "Paul",
+      value: "CV05"
+    },
+    {
+      name: "Ribeira Grande",
+      value: "CV07"
+    },
+    {
+      name: "Sal",
+      value: "CV08"
+    },
+    {
+      name: "São Vicente",
+      value: "CV11"
+    },
+    {
+      name: "Mosteiros",
+      value: "CV13"
+    },
+    {
+      name: "Praia",
+      value: "CV14"
+    },
+    {
+      name: "Santa Catarina",
+      value: "CV15"
+    },
+    {
+      name: "Santa Cruz",
+      value: "CV16"
+    },
+    {
+      name: "Sao Domingos",
+      value: "CV17"
+    },
+    {
+      name: "Sao Filipe",
+      value: "CV18"
+    },
+    {
+      name: "Sao Miguel",
+      value: "CV19"
+    },
+    {
+      name: "Tarrafal",
+      value: "CV20"
+    },
+    {
+      name: "Porto Novo",
+      value: "CV21"
+    },
+    {
+      name: "Ribeira Brava",
+      value: "CV22"
+    },
+    {
+      name: "Ribeira Grande de Santiago",
+      value: "CV23"
+    },
+    {
+      name: "Santa Catarina do Fogo",
+      value: "CV24"
+    },
+    {
+      name: "Sao Lourenco dos Orgaos",
+      value: "CV25"
+    },
+    {
+      name: "Sao Salvador do Mundo",
+      value: "CV26"
+    },
+    {
+      name: "Tarrafal de Sao Nicolau",
+      value: "CV27"
+    },
     // =========================================================
     // Cayman Islands
     // =========================================================
