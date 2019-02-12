@@ -2107,12 +2107,38 @@ export default {
       name: "Bonaire, Sint Eustatius and Saba",
       value: "BQ"
     },
+    {
+      name: "Bonaire",
+      value: "BQBO"
+    },
+    {
+      name: "Sint Eustatius",
+      value: "BQSE"
+    },
+    {
+      name: "Saba",
+      value: "BQSB"
+    },
     // =========================================================
     // Bosnia and Herzegovina
     // =========================================================
     {
       name: "Bosnia and Herzegovina",
       value: "BA"
+    },
+    {
+      name: "Federacija Bosne i Hercegovine",
+      value: "BA01"
+      // value: "BK01"
+    },
+    {
+      name: "Republika Srpska",
+      value: "BA02"
+      // value: "BK02"
+    },
+    {
+      name: "Brčko",
+      value: "BABRC"
     },
     // =========================================================
     // Botswana
@@ -2121,13 +2147,78 @@ export default {
       name: "Botswana",
       value: "BW"
     },
+    {
+      name: "Central",
+      value: "BW01"
+    },
+    {
+      name: "Ghanzi",
+      value: "BW03"
+    },
+    {
+      name: "Kgalagadi",
+      value: "BW04"
+    },
+    {
+      name: "Kgatleng",
+      value: "BW05"
+    },
+    {
+      name: "Kweneng",
+      value: "BW06"
+    },
+    {
+      name: "North-East",
+      value: "BW08"
+    },
+    {
+      name: "South-East",
+      value: "BW09"
+    },
+    {
+      name: "Ngwaketsi",
+      value: "BW10"
+    },
+    {
+      name: "North-West",
+      value: "BW11"
+    },
+    {
+      name: "Chobe",
+      value: "BW12"
+    },
+    {
+      name: "City of Francistown",
+      value: "BW13"
+    },
+    {
+      name: "Gaborone",
+      value: "BW14"
+    },
+    {
+      name: "Lobatse",
+      value: "BW16"
+    },
+    {
+      name: "Selibe Phikwe",
+      value: "BW17"
+    },
+    {
+      name: "Sowa Town",
+      value: "BW18"
+    },
+    {
+      name: "(other)",
+      value: "BW00"
+    },
     // =========================================================
     // Bouvet Island
+    // REMOVED: uninhabited Antarctic island, no geoNames tagged features
     // =========================================================
-    {
-      name: "Bouvet Island",
-      value: "BV"
-    },
+    // {
+    //   name: "Bouvet Island",
+    //   value: "BV"
+    // },
     // =========================================================
     // Brazil
     // =========================================================
@@ -2250,12 +2341,36 @@ export default {
       name: "British Indian Ocean Territory",
       value: "IO"
     },
+    {
+      name: "British Indian Ocean Territory",
+      value: "IO00"
+    },
     // =========================================================
     // Brunei Darussalam
     // =========================================================
     {
-      name: "Brunei Darussalam",
+      name: "Brunei",
       value: "BN"
+    },
+    {
+      name: "Belait",
+      value: "BN01"
+    },
+    {
+      name: "Brunei and Muara",
+      value: "BN02"
+    },
+    {
+      name: "Temburong",
+      value: "BN03"
+    },
+    {
+      name: "Tutong",
+      value: "BN04"
+    },
+    {
+      name: "(other)",
+      value: "BN00"
     },
     // =========================================================
     // Bulgaria
@@ -2264,6 +2379,146 @@ export default {
       name: "Bulgaria",
       value: "BG"
     },
+    {
+      name: "Blagoevgrad Province",
+      value: "BG38"
+      // value: "BU38"
+    },
+    {
+      name: "Burgas Province",
+      value: "BG39"
+      // value: "BU39"
+    },
+    {
+      name: "Dobrich Province",
+      value: "BG40"
+      // value: "BU40"
+    },
+    {
+      name: "Gabrovo Province",
+      value: "BG41"
+      // value: "BU41"
+    },
+    {
+      name: "Sofiya-Grad Province (capital)",
+      value: "BG42"
+      // value: "BU42"
+    },
+    {
+      name: "Haskovo Province",
+      value: "BG43"
+      // value: "BU43"
+    },
+    {
+      name: "Kardzhali Province",
+      value: "BG44"
+      // value: "BU44"
+    },
+    {
+      name: "Kyustendil Province",
+      value: "BG45"
+      // value: "BU45"
+    },
+    {
+      name: "Lovech Province",
+      value: "BG46"
+      // value: "BU46"
+    },
+    {
+      name: "Montana Province",
+      value: "BG47"
+      // value: "BU47"
+    },
+    {
+      name: "Pazardzhik Province",
+      value: "BG48"
+      // value: "BU48"
+    },
+    {
+      name: "Pernik Province",
+      value: "BG49"
+      // value: "BU49"
+    },
+    {
+      name: "Pleven Province",
+      value: "BG50"
+      // value: "BU50"
+    },
+    {
+      name: "Plovdiv Province",
+      value: "BG51"
+      // value: "BU51"
+    },
+    {
+      name: "Razgrad Province",
+      value: "BG52"
+      // value: "BU52"
+    },
+    {
+      name: "Ruse Province",
+      value: "BG53"
+      // value: "BU53"
+    },
+    {
+      name: "Shumen Province",
+      value: "BG54"
+      // value: "BU54"
+    },
+    {
+      name: "Silistra Province",
+      value: "BG55"
+      // value: "BU55"
+    },
+    {
+      name: "Sliven Province",
+      value: "BG56"
+      // value: "BU56"
+    },
+    {
+      name: "Smolyan Province",
+      value: "BG57"
+      // value: "BU57"
+    },
+    {
+      name: "Sofia Province",
+      value: "BG58"
+      // value: "BU58"
+    },
+    {
+      name: "Stara Zagora Province",
+      value: "BG59"
+      // value: "BU59"
+    },
+    {
+      name: "Targovishte Province",
+      value: "BG60"
+      // value: "BU60"
+    },
+    {
+      name: "Varna Province",
+      value: "BG61"
+      // value: "BU61"
+    },
+    {
+      name: "Veliko Tarnovo Province",
+      value: "BG62"
+      // value: "BU62"
+    },
+    {
+      name: "Vidin Province",
+      value: "BG63"
+      // value: "BU63"
+    },
+    {
+      name: "Vratsa Province",
+      value: "BG64"
+      // value: "BU64"
+    },
+    {
+      name: "Yambol Province",
+      value: "BG65"
+      // value: "BU65"
+    },
     // =========================================================
     // Burkina Faso
     // =========================================================
@@ -2271,12 +2526,136 @@ export default {
       name: "Burkina Faso",
       value: "BF"
     },
+    {
+      name: "Boucle du Mouhoun",
+      value: "BF01"
+    },
+    {
+      name: "Cascades",
+      value: "BF02"
+    },
+    {
+      name: "Centre",
+      value: "BF03"
+    },
+    {
+      name: "Centre-Est",
+      value: "BF04"
+    },
+    {
+      name: "Centre-Nord",
+      value: "BF05"
+    },
+    {
+      name: "Centre-Ouest",
+      value: "BF06"
+    },
+    {
+      name: "Centre-Sud",
+      value: "BF07"
+    },
+    {
+      name: "Est",
+      value: "BF08"
+    },
+    {
+      name: "Hauts-Bassins",
+      value: "BF09"
+    },
+    {
+      name: "Nord",
+      value: "BF10"
+    },
+    {
+      name: "Plateau-Central",
+      value: "BF11"
+    },
+    {
+      name: "Sahel",
+      value: "BF12"
+    },
+    {
+      name: "Sud-Ouest",
+      value: "BF13"
+    },
     // =========================================================
     // Burundi
     // =========================================================
     {
       name: "Burundi",
       value: "BI"
+    },
+    {
+      name: "Bubanza",
+      value: "BI09"
+    },
+    {
+      name: "Bururi",
+      value: "BI10"
+    },
+    {
+      name: "Cankuzo",
+      value: "BI11"
+    },
+    {
+      name: "Cibitoke",
+      value: "BI12"
+    },
+    {
+      name: "Gitega",
+      value: "BI13"
+    },
+    {
+      name: "Karuzi",
+      value: "BI14"
+    },
+    {
+      name: "Kayanza",
+      value: "BI15"
+    },
+    {
+      name: "Kirundo",
+      value: "BI16"
+    },
+    {
+      name: "Makamba",
+      value: "BI17"
+    },
+    {
+      name: "Muyinga",
+      value: "BI18"
+    },
+    {
+      name: "Ngozi",
+      value: "BI19"
+    },
+    {
+      name: "Rutana",
+      value: "BI20"
+    },
+    {
+      name: "Ruyigi",
+      value: "BI21"
+    },
+    {
+      name: "Muramvya",
+      value: "BI22"
+    },
+    {
+      name: "Mwaro",
+      value: "BI23"
+    },
+    {
+      name: "Bujumbura Mairie",
+      value: "BI24"
+    },
+    {
+      name: "Bujumbura Rural",
+      value: "BI25"
+    },
+    {
+      name: "Rumonge",
+      value: "BI26"
     },
     // =========================================================
     // Cambodia
