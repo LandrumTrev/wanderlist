@@ -2987,6 +2987,7 @@ export default {
     },
     // =========================================================
     // Cayman Islands
+    // (no sensible admin code regime: leave "search entire country")
     // =========================================================
     {
       name: "Cayman Islands",
@@ -2998,6 +2999,91 @@ export default {
     {
       name: "Central African Republic",
       value: "CF"
+    },
+    {
+      name: "Bamingui-Bangoran",
+      value: "CF01"
+      // value: "CT01"
+    },
+    {
+      name: "Basse-Kotto",
+      value: "CF02"
+      // value: "CT02"
+    },
+    {
+      name: "Haute-Kotto",
+      value: "CF03"
+      // value: "CT03"
+    },
+    {
+      name: "Mambéré-Kadéï",
+      value: "CF04"
+      // value: "CT04"
+    },
+    {
+      name: "Haut-Mbomou",
+      value: "CF05"
+      // value: "CT05"
+    },
+    {
+      name: "Kémo",
+      value: "CF06"
+      // value: "CT06"
+    },
+    {
+      name: "Lobaye",
+      value: "CF07"
+      // value: "CT07"
+    },
+    {
+      name: "Mbomou",
+      value: "CF08"
+      // value: "CT08"
+    },
+    {
+      name: "Nana-Mambéré",
+      value: "CF09"
+      // value: "CT09"
+    },
+    {
+      name: "Ouaka",
+      value: "CF11"
+      // value: "CT11"
+    },
+    {
+      name: "Ouham",
+      value: "CF12"
+      // value: "CT12"
+    },
+    {
+      name: "Ouham-Pendé",
+      value: "CF13"
+      // value: "CT13"
+    },
+    {
+      name: "Vakaga",
+      value: "CF14"
+      // value: "CT14"
+    },
+    {
+      name: "Nana-Grébizi",
+      value: "CF15"
+      // value: "CT15"
+    },
+    {
+      name: "Sangha-Mbaéré",
+      value: "CF16"
+      // value: "CT16"
+    },
+    {
+      name: "Ombella-Mpoko",
+      value: "CF17"
+      // value: "CT17"
+    },
+    {
+      name: "Bangui Commune",
+      value: "CF18"
+      // value: "CT18"
     },
     // =========================================================
     // Chad
