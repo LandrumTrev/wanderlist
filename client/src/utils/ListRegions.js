@@ -4336,14 +4336,383 @@ export default {
       name: "Romania",
       value: "RO"
     },
+    // =========================================================
+    // Russian Federation
+    // =========================================================
     {
       name: "Russian Federation",
       value: "RU"
     },
     {
+      name: "Adygeya Republic",
+      value: "RU01"
+    },
+    {
+      name: "Agin-Buryat Okrug",
+      value: "RU02"
+    },
+    {
+      name: "Altai",
+      value: "RU03"
+    },
+    {
+      name: "Altai Krai",
+      value: "RU04"
+    },
+    {
+      name: "Amur Oblast",
+      value: "RU05"
+    },
+    {
+      name: "Arkhangelskaya",
+      value: "RU06"
+    },
+    {
+      name: "Astrakhan",
+      value: "RU07"
+    },
+    {
+      name: "Bashkortostan Republic",
+      value: "RU08"
+    },
+    {
+      name: "Belgorod Oblast",
+      value: "RU09"
+    },
+    {
+      name: "Bryansk Oblast",
+      value: "RU10"
+    },
+    {
+      name: "Buryatiya Republic",
+      value: "RU11"
+    },
+    {
+      name: "Chechnya",
+      value: "RU12"
+    },
+    {
+      name: "Chelyabinsk",
+      value: "RU13"
+    },
+    {
+      name: "Chukotka",
+      value: "RU15"
+    },
+    {
+      name: "Chuvashia",
+      value: "RU16"
+    },
+    {
+      name: "Dagestan",
+      value: "RU17"
+    },
+    {
+      name: "Ingushetiya Republic",
+      value: "RU19"
+    },
+    {
+      name: "Irkutsk Oblast",
+      value: "RU20"
+    },
+    {
+      name: "Ivanovo",
+      value: "RU21"
+    },
+    {
+      name: "Kabardino-Balkariya Republic",
+      value: "RU22"
+    },
+    {
+      name: "Kaliningrad",
+      value: "RU23"
+    },
+    {
+      name: "Kalmykiya Republic",
+      value: "RU24"
+    },
+    {
+      name: "Kaluga",
+      value: "RU25"
+    },
+    {
+      name: "Karachayevo-Cherkesiya Republic",
+      value: "RU27"
+    },
+    {
+      name: "Karelia",
+      value: "RU28"
+    },
+    {
+      name: "Kemerovo Oblast",
+      value: "RU29"
+    },
+    {
+      name: "Khabarovsk",
+      value: "RU30"
+    },
+    {
+      name: "Khakasiya Republic",
+      value: "RU31"
+    },
+    {
+      name: "Khanty-Mansi Autonomous Okrug",
+      value: "RU32"
+    },
+    {
+      name: "Kirov Oblast",
+      value: "RU33"
+    },
+    {
+      name: "Komi Republic",
+      value: "RU34"
+    },
+    {
+      name: "Kostroma Oblast",
+      value: "RU37"
+    },
+    {
+      name: "Krasnodarskiy",
+      value: "RU38"
+    },
+    {
+      name: "Kurgan Oblast",
+      value: "RU40"
+    },
+    {
+      name: "Kursk",
+      value: "RU41"
+    },
+    {
+      name: "Leningrad Oblast",
+      value: "RU42"
+    },
+    {
+      name: "Lipetsk Oblast",
+      value: "RU43"
+    },
+    {
+      name: "Magadan Oblast",
+      value: "RU44"
+    },
+    {
+      name: "Mariy-El Republic",
+      value: "RU45"
+    },
+    {
+      name: "Mordoviya Republic",
+      value: "RU46"
+    },
+    {
+      name: "Moscow Oblast",
+      value: "RU47"
+    },
+    {
+      name: "Moscow",
+      value: "RU48"
+    },
+    {
+      name: "Murmansk",
+      value: "RU49"
+    },
+    {
+      name: "Nenets Autonomous Okrug",
+      value: "RU50"
+    },
+    {
+      name: "Nizhny Novgorod Oblast",
+      value: "RU51"
+    },
+    {
+      name: "Novgorod Oblast",
+      value: "RU52"
+    },
+    {
+      name: "Novosibirsk Oblast",
+      value: "RU53"
+    },
+    {
+      name: "Omsk",
+      value: "RU54"
+    },
+    {
+      name: "Orenburg Oblast",
+      value: "RU55"
+    },
+    {
+      name: "Orel Oblast",
+      value: "RU56"
+    },
+    {
+      name: "Penza",
+      value: "RU57"
+    },
+    {
+      name: "Primorskiy (Maritime) Kray",
+      value: "RU59"
+    },
+    {
+      name: "Pskov Oblast",
+      value: "RU60"
+    },
+    {
+      name: "Rostov",
+      value: "RU61"
+    },
+    {
+      name: "Ryazan Oblast",
+      value: "RU62"
+    },
+    {
+      name: "Sakha Republic",
+      value: "RU63"
+    },
+    {
+      name: "Sakhalin Oblast",
+      value: "RU64"
+    },
+    {
+      name: "Samara Oblast",
+      value: "RU65"
+    },
+    {
+      name: "St. Petersburg",
+      value: "RU66"
+    },
+    {
+      name: "Saratov Oblast",
+      value: "RU67"
+    },
+    {
+      name: "North Ossetia – Alania",
+      value: "RU68"
+    },
+    {
+      name: "Smolensk",
+      value: "RU69"
+    },
+    {
+      name: "Stavropol’ Kray",
+      value: "RU70"
+    },
+    {
+      name: "Sverdlovsk",
+      value: "RU71"
+    },
+    {
+      name: "Tambov",
+      value: "RU72"
+    },
+    {
+      name: "Tatarstan Republic",
+      value: "RU73"
+    },
+    {
+      name: "Tomsk Oblast",
+      value: "RU75"
+    },
+    {
+      name: "Tula",
+      value: "RU76"
+    },
+    {
+      name: "Tver’ Oblast",
+      value: "RU77"
+    },
+    {
+      name: "Tyumen’ Oblast",
+      value: "RU78"
+    },
+    {
+      name: "Republic of Tyva (Tuva)",
+      value: "RU79"
+    },
+    {
+      name: "Udmurtiya Republic",
+      value: "RU80"
+    },
+    {
+      name: "Ulyanovsk",
+      value: "RU81"
+    },
+    {
+      name: "Ust-Orda Buryat Okrug",
+      value: "RU82"
+    },
+    {
+      name: "Vladimir",
+      value: "RU83"
+    },
+    {
+      name: "Volgograd Oblast",
+      value: "RU84"
+    },
+    {
+      name: "Vologda",
+      value: "RU85"
+    },
+    {
+      name: "Voronezj",
+      value: "RU86"
+    },
+    {
+      name: "Yamalo-Nenets",
+      value: "RU87"
+    },
+    {
+      name: "Jaroslavl",
+      value: "RU88"
+    },
+    {
+      name: "Jewish Autonomous Oblast",
+      value: "RU89"
+    },
+    {
+      name: "Perm",
+      value: "RU90"
+    },
+    {
+      name: "Krasnoyarskiy",
+      value: "RU91"
+    },
+    {
+      name: "Kamchatka",
+      value: "RU92"
+    },
+    {
+      name: "Transbaikal Territory",
+      value: "RU93"
+    },
+    // =========================================================
+    // Rwanda
+    // =========================================================
+    {
       name: "Rwanda",
       value: "RW"
     },
+    {
+      name: "Eastern Province",
+      value: "RW11"
+    },
+    {
+      name: "Kigali",
+      value: "RW12"
+    },
+    {
+      name: "Northern Province",
+      value: "RW13"
+    },
+    {
+      name: "Western Province",
+      value: "RW14"
+    },
+    {
+      name: "Southern Province",
+      value: "RW15"
+    },
+    // =========================================================
+    // Saint Barthélemy
+    // =========================================================
     {
       name: "Saint Barthélemy",
       value: "BL"
