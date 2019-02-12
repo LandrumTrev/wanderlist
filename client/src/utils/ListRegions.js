@@ -2665,9 +2665,175 @@ export default {
       value: "KH"
     },
     {
+      name: "Kâmpóng Cham Province",
+      value: "KH02"
+      // value: "CB02"
+    },
+    {
+      name: "Kâmpóng Chhnăng Province",
+      value: "KH03"
+      // value: "CB03"
+    },
+    {
+      name: "Kâmpóng Spœ Province",
+      value: "KH04"
+      // value: "CB04"
+    },
+    {
+      name: "Kâmpóng Thum Province",
+      value: "KH05"
+      // value: "CB05"
+    },
+    {
+      name: "Kândal Province",
+      value: "KH07"
+      // value: "CB07"
+    },
+    {
+      name: "Kaôh Kŏng Province",
+      value: "KH08"
+      // value: "CB08"
+    },
+    {
+      name: "Krâchéh Province",
+      value: "KH09"
+      // value: "CB09"
+    },
+    {
+      name: "Môndôl Kiri Province",
+      value: "KH10"
+      // value: "CB10"
+    },
+    {
+      name: "Poŭthĭsăt Province",
+      value: "KH12"
+      // value: "CB12"
+    },
+    {
+      name: "Preăh Vĭhéar Province",
+      value: "KH13"
+      // value: "CB13"
+    },
+    {
+      name: "Prey Vêng Province",
+      value: "KH14"
+      // value: "CB14"
+    },
+    {
+      name: "Stœ̆ng Trêng Province",
+      value: "KH17"
+      // value: "CB17"
+    },
+    {
+      name: "Svay Riĕng Province",
+      value: "KH18"
+      // value: "CB18"
+    },
+    {
+      name: "Takêv Province",
+      value: "KH19"
+      // value: "CB19"
+    },
+    {
+      name: "Kâmpôt Province",
+      value: "KH21"
+      // value: "CB21"
+    },
+    {
+      name: "Phnum Pénh Municipality",
+      value: "KH22"
+      // value: "CB22"
+    },
+    {
+      name: "Rôtânăh Kiri Province",
+      value: "KH23"
+      // value: "CB23"
+    },
+    {
+      name: "Siĕm Réab Province",
+      value: "KH24"
+      // value: "CB24"
+    },
+    {
+      name: "Bântéay Méan Cheăy Province",
+      value: "KH25"
+      // value: "CB25"
+    },
+    {
+      name: "Kêb Municipality",
+      value: "KH26"
+      // value: "CB26"
+    },
+    {
+      name: "Ŏtdâr Méanchey Province",
+      value: "KH27"
+      // value: "CB27"
+    },
+    {
+      name: "Preăh Sihanouk Municipality",
+      value: "KH28"
+      // value: "CB28"
+    },
+    {
+      name: "Bătdâmbâng Province",
+      value: "KH29"
+      // value: "CB29"
+    },
+    {
+      name: "Pailĭn Province",
+      value: "KH30"
+      // value: "CB30"
+    },
+    // =========================================================
+    // Cameroon
+    // =========================================================
+    {
       name: "Cameroon",
       value: "CM"
     },
+    {
+      name: "East Province",
+      value: "CM04"
+    },
+    {
+      name: "Littoral Province",
+      value: "CM05"
+    },
+    {
+      name: "Northwest Province",
+      value: "CM07"
+    },
+    {
+      name: "West Province",
+      value: "CM08"
+    },
+    {
+      name: "Southwest Province",
+      value: "CM09"
+    },
+    {
+      name: "Adamawa Province",
+      value: "CM10"
+    },
+    {
+      name: "Centre Province",
+      value: "CM11"
+    },
+    {
+      name: "Far North Province",
+      value: "CM12"
+    },
+    {
+      name: "North Province",
+      value: "CM13"
+    },
+    {
+      name: "South Province",
+      value: "CM14"
+    },
+    // =========================================================
+    // Canada
+    // =========================================================
     {
       name: "Canada",
       value: "CA"
@@ -2724,26 +2890,44 @@ export default {
       name: "Canada, Nunavut",
       value: "CA14"
     },
+    // =========================================================
+    // Cape Verde
+    // =========================================================
     {
       name: "Cape Verde",
       value: "CV"
     },
+    // =========================================================
+    // Cayman Islands
+    // =========================================================
     {
       name: "Cayman Islands",
       value: "KY"
     },
+    // =========================================================
+    // Central African Republic
+    // =========================================================
     {
       name: "Central African Republic",
       value: "CF"
     },
+    // =========================================================
+    // Chad
+    // =========================================================
     {
       name: "Chad",
       value: "TD"
     },
+    // =========================================================
+    // Chile
+    // =========================================================
     {
       name: "Chile",
       value: "CL"
     },
+    // =========================================================
+    // China
+    // =========================================================
     {
       name: "China",
       value: "CN"
