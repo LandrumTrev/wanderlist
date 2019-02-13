@@ -3092,6 +3092,102 @@ export default {
       name: "Chad",
       value: "TD"
     },
+    {
+      name: "Batha",
+      value: "TD01"
+    },
+    {
+      name: "Wadi Fira",
+      value: "TD02"
+    },
+    {
+      name: "Guera",
+      value: "TD05"
+    },
+    {
+      name: "Kanem",
+      value: "TD06"
+    },
+    {
+      name: "Lac",
+      value: "TD07"
+    },
+    {
+      name: "Logone Occidental",
+      value: "TD08"
+    },
+    {
+      name: "Logone Oriental",
+      value: "TD09"
+    },
+    {
+      name: "Ouaddai",
+      value: "TD12"
+    },
+    {
+      name: "Salamat",
+      value: "TD13"
+    },
+    {
+      name: "Tandjile",
+      value: "TD14"
+    },
+    {
+      name: "Chari-Baguirmi",
+      value: "TD15"
+    },
+    {
+      name: "Mayo-Kebbi East",
+      value: "TD16"
+    },
+    {
+      name: "Moyen-Chari",
+      value: "TD17"
+    },
+    {
+      name: "Hadjer-Lamis",
+      value: "TD18"
+    },
+    {
+      name: "Mandoul",
+      value: "TD19"
+    },
+    {
+      name: "Mayo-Kebbi West",
+      value: "TD20"
+    },
+    {
+      name: "Ville de N'Djaména",
+      value: "TD21"
+    },
+    {
+      name: "Barh el Gazel",
+      value: "TD22"
+    },
+    {
+      name: "Borkou",
+      value: "TD23"
+    },
+    {
+      name: "Ennedi",
+      value: "TD24"
+    },
+    {
+      name: "Sila",
+      value: "TD25"
+    },
+    {
+      name: "Tibesti",
+      value: "TD26"
+    },
+    {
+      name: "Ennedi-Est",
+      value: "TD27"
+    },
+    {
+      name: "Ennedi-Ouest",
+      value: "TD28"
+    },
     // =========================================================
     // Chile
     // =========================================================

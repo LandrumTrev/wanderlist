@@ -76,8 +76,8 @@ class FindPlace extends Component {
   // ===========================================================================
 
   componentDidUpdate() {
-    console.log(`<FindPlace> component updated with this state:`);
-    console.log(this.state);
+    // console.log(`<FindPlace> component updated with this state:`);
+    // console.log(this.state);
     // console.log(`<FindPlace> DidUpdate this.state.isLoggedIn: ${this.state.isLoggedIn}`);
     // console.log(`<FindPlace> DidUpdate this.state.email: ${this.state.email}`);
   }
