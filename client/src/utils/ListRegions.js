@@ -3195,6 +3195,70 @@ export default {
       name: "Chile",
       value: "CL"
     },
+    {
+      name: "Valparaíso",
+      value: "CL01"
+    },
+    {
+      name: "Aysén",
+      value: "CL02"
+    },
+    {
+      name: "Antofagasta",
+      value: "CL03"
+    },
+    {
+      name: "Araucanía",
+      value: "CL04"
+    },
+    {
+      name: "Atacama",
+      value: "CL05"
+    },
+    {
+      name: "Biobío",
+      value: "CL06"
+    },
+    {
+      name: "Coquimbo Region",
+      value: "CL07"
+    },
+    {
+      name: "O'Higgins Region",
+      value: "CL08"
+    },
+    {
+      name: "Region of Magallanes",
+      value: "CL10"
+    },
+    {
+      name: "Maule Region",
+      value: "CL11"
+    },
+    {
+      name: "Santiago Metropolitan",
+      value: "CL12"
+    },
+    {
+      name: "Los Lagos Region",
+      value: "CL14"
+    },
+    {
+      name: "Tarapacá",
+      value: "CL15"
+    },
+    {
+      name: "Arica y Parinacota",
+      value: "CL16"
+    },
+    {
+      name: "Los Ríos Region",
+      value: "CL17"
+    },
+    {
+      name: "Ñuble",
+      value: "CL18"
+    },
     // =========================================================
     // China
     // =========================================================
