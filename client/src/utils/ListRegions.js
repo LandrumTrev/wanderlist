@@ -3756,6 +3756,7 @@ export default {
     },
     // =========================================================
     // Cook Islands
+    // leave as "search entire country": some 00, others have no Admin1 code
     // =========================================================
     {
       name: "Cook Islands",
@@ -3797,11 +3798,71 @@ export default {
       value: "CR08"
     },
     // =========================================================
-    // Côte d'Ivoire
+    // Côte d'Ivoire (Ivory Coast)
     // =========================================================
     {
-      name: "Côte d'Ivoire",
+      name: "Côte d'Ivoire (Ivory Coast)",
       value: "CI"
+    },
+    {
+      name: "Abidjan",
+      value: "CI93"
+    },
+    {
+      name: "Bas-Sassandra",
+      value: "CI76"
+    },
+    {
+      name: "Comoé",
+      value: "CI94"
+    },
+    {
+      name: "Denguélé",
+      value: "CI77"
+    },
+    {
+      name: "Gôh-Djiboua",
+      value: "CI95"
+    },
+    {
+      name: "Lacs",
+      value: "CI81"
+    },
+    {
+      name: "Lagunes",
+      value: "CI82"
+    },
+    {
+      name: "Montagnes",
+      value: "CI78"
+    },
+    {
+      name: "Sassandra-Marahoué",
+      value: "CI96"
+    },
+    {
+      name: "Savanes",
+      value: "CI87"
+    },
+    {
+      name: "Vallée du Bandama",
+      value: "CI90"
+    },
+    {
+      name: "Woroba",
+      value: "CI97"
+    },
+    {
+      name: "Yamoussoukro",
+      value: "CI98"
+    },
+    {
+      name: "Zanzan",
+      value: "CI92"
+    },
+    {
+      name: "(other)",
+      value: "CI00"
     },
     // =========================================================
     // Croatia
