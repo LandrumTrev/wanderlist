@@ -3626,6 +3626,134 @@ export default {
       name: "Congo, Democratic Republic of",
       value: "CD"
     },
+    {
+      name: "Bandundu",
+      value: "CD01"
+    },
+    {
+      name: "Équateur",
+      value: "CD02"
+    },
+    {
+      name: "Kasaï-Occidental",
+      value: "CD03"
+    },
+    {
+      name: "Kasaï-Oriental",
+      value: "CD04"
+    },
+    {
+      name: "Katanga",
+      value: "CD05"
+    },
+    {
+      name: "Kinshasa City",
+      value: "CD06"
+    },
+    {
+      name: "Kivu",
+      value: "CD07"
+    },
+    {
+      name: "Bas-Congo",
+      value: "CD08"
+    },
+    {
+      name: "Orientale",
+      value: "CD09"
+    },
+    {
+      name: "Maniema",
+      value: "CD10"
+    },
+    {
+      name: "Nord Kivu",
+      value: "CD11"
+    },
+    {
+      name: "South Kivu",
+      value: "CD12"
+    },
+    {
+      name: "Bas-Uele",
+      value: "CD13"
+    },
+    {
+      name: "Haut-Katanga",
+      value: "CD14"
+    },
+    {
+      name: "Haut-Lomami",
+      value: "CD15"
+    },
+    {
+      name: "Haut-Uele",
+      value: "CD16"
+    },
+    {
+      name: "Ituri",
+      value: "CD17"
+    },
+    {
+      name: "Kasai",
+      value: "CD18"
+    },
+    {
+      name: "Kwango",
+      value: "CD19"
+    },
+    {
+      name: "Kwilu",
+      value: "CD20"
+    },
+    {
+      name: "Lomami",
+      value: "CD21"
+    },
+    {
+      name: "Lualaba",
+      value: "CD22"
+    },
+    {
+      name: "Kasai-Central",
+      value: "CD23"
+    },
+    {
+      name: "Mai-Ndombe",
+      value: "CD24"
+    },
+    {
+      name: "Mongala",
+      value: "CD25"
+    },
+    {
+      name: "Nord-Ubangi",
+      value: "CD26"
+    },
+    {
+      name: "Sankuru",
+      value: "CD27"
+    },
+    {
+      name: "Sud-Ubangi",
+      value: "CD28"
+    },
+    {
+      name: "Tanganyika",
+      value: "CD29"
+    },
+    {
+      name: "Tshopo",
+      value: "CD30"
+    },
+    {
+      name: "Tshuapa",
+      value: "CD31"
+    },
+    {
+      name: "(other)",
+      value: "CD00"
+    },
     // =========================================================
     // Cook Islands
     // =========================================================
