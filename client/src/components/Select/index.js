@@ -128,8 +128,8 @@ export function SelectFeatureName(props) {
 
   const featureTypes = props.list.filter(type => type.value.substring(0, 1) === props.selectedCategory && type.value.length > 1);
 
-  console.log("featureTypes:");
-  console.log(featureTypes);
+  // console.log("featureTypes:");
+  // console.log(featureTypes);
 
   return (
     <>

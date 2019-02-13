@@ -3267,329 +3267,568 @@ export default {
       value: "CN"
     },
     {
-      name: "China, Anhui Province",
+      name: "Anhui Province",
       value: "CN01"
     },
     {
-      name: "China, Zhejiang Province",
+      name: "Zhejiang Province",
       value: "CN02"
     },
     {
-      name: "China, Jiangxi Province",
+      name: "Jiangxi Province",
       value: "CN03"
     },
     {
-      name: "China, Jiangsu Province",
+      name: "Jiangsu Province",
       value: "CN04"
     },
     {
-      name: "China, Jilin Province",
+      name: "Jilin Province",
       value: "CN05"
     },
     {
-      name: "China, Qinghai Province",
+      name: "Qinghai Province",
       value: "CN06"
     },
     {
-      name: "China, Fujian Province",
+      name: "Fujian Province",
       value: "CN07"
     },
     {
-      name: "China, Heilongjiang Province",
+      name: "Heilongjiang Province",
       value: "CN08"
     },
     {
-      name: "China, Henan Province",
+      name: "Henan Province",
       value: "CN09"
     },
     {
-      name: "China, Hebei Province",
+      name: "Hebei Province",
       value: "CN10"
     },
     {
-      name: "China, Hunan Province",
+      name: "Hunan Province",
       value: "CN11"
     },
     {
-      name: "China, Hubei Province",
+      name: "Hubei Province",
       value: "CN12"
     },
     {
-      name: "China, Xinjiang Autonomous Region",
+      name: "Xinjiang Autonomous Region",
       value: "CN13"
     },
     {
-      name: "China, Xizang Autonomous Region",
+      name: "Xizang Autonomous Region",
       value: "CN14"
     },
     {
-      name: "China, Gansu Province",
+      name: "Gansu Province",
       value: "CN15"
     },
     {
-      name: "China, Guangxi Autonomous Region",
+      name: "Guangxi Autonomous Region",
       value: "CN16"
     },
     {
-      name: "China, Guizhou Province",
+      name: "Guizhou Province",
       value: "CN18"
     },
     {
-      name: "China, Liaoning Province",
+      name: "Liaoning Province",
       value: "CN19"
     },
     {
-      name: "China, Nei Mongol Autonomous Region",
+      name: "Nei Mongol Autonomous Region",
       value: "CN20"
     },
     {
-      name: "China, Ningxia Autonomous Region",
+      name: "Ningxia Autonomous Region",
       value: "CN21"
     },
     {
-      name: "China, Beijing Municipality",
+      name: "Beijing Municipality",
       value: "CN22"
     },
     {
-      name: "China, Shanghai Municipality",
+      name: "Shanghai Municipality",
       value: "CN23"
     },
     {
-      name: "China, Shanxi Province",
+      name: "Shanxi Province",
       value: "CN24"
     },
     {
-      name: "China, Shandong Province",
+      name: "Shandong Province",
       value: "CN25"
     },
     {
-      name: "China, Shaanxi Province",
+      name: "Shaanxi Province",
       value: "CN26"
     },
     {
-      name: "China, Tianjin Municipality",
+      name: "Tianjin Municipality",
       value: "CN28"
     },
     {
-      name: "China, Yunnan Province",
+      name: "Yunnan Province",
       value: "CN29"
     },
     {
-      name: "China, Guangdong Province",
+      name: "Guangdong Province",
       value: "CN30"
     },
     {
-      name: "China, Hainan Province",
+      name: "Hainan Province",
       value: "CN31"
     },
     {
-      name: "China, Sichuan Province",
+      name: "Sichuan Province",
       value: "CN32"
     },
     {
-      name: "China, Chongqing Municipality",
+      name: "Chongqing Municipality",
       value: "CN33"
     },
+    // =========================================================
+    // Christmas Island
+    // leave as "search entire country": some 00, others have no Admin1 code
+    // =========================================================
     {
       name: "Christmas Island",
       value: "CX"
     },
+    // =========================================================
+    // Cocos (Keeling) Islands
+    // leave as "search entire country": some 00, others have no Admin1 code
+    // =========================================================
     {
       name: "Cocos (Keeling) Islands",
       value: "CC"
     },
+    // =========================================================
+    // Colombia
+    // =========================================================
     {
       name: "Colombia",
       value: "CO"
     },
     {
+      name: "Amazonas",
+      value: "CO01"
+    },
+    {
+      name: "Antioquia",
+      value: "CO02"
+    },
+    {
+      name: "Arauca",
+      value: "CO03"
+    },
+    {
+      name: "Atlantico",
+      value: "CO04"
+    },
+    {
+      name: "Caqueta",
+      value: "CO08"
+    },
+    {
+      name: "Cauca",
+      value: "CO09"
+    },
+    {
+      name: "Cesar",
+      value: "CO10"
+    },
+    {
+      name: "Choco",
+      value: "CO11"
+    },
+    {
+      name: "Cordoba",
+      value: "CO12"
+    },
+    {
+      name: "Guaviare",
+      value: "CO14"
+    },
+    {
+      name: "Guainia",
+      value: "CO15"
+    },
+    {
+      name: "Huila",
+      value: "CO16"
+    },
+    {
+      name: "La Guajira",
+      value: "CO17"
+    },
+    {
+      name: "Meta",
+      value: "CO19"
+    },
+    {
+      name: "Narino",
+      value: "CO20"
+    },
+    {
+      name: "Norte de Santander",
+      value: "CO21"
+    },
+    {
+      name: "Putumayo",
+      value: "CO22"
+    },
+    {
+      name: "Quindio",
+      value: "CO23"
+    },
+    {
+      name: "Risaralda",
+      value: "CO24"
+    },
+    {
+      name: "San Andres y Providencia",
+      value: "CO25"
+    },
+    {
+      name: "Santander",
+      value: "CO26"
+    },
+    {
+      name: "Sucre",
+      value: "CO27"
+    },
+    {
+      name: "Tolima",
+      value: "CO28"
+    },
+    {
+      name: "Valle del Cauca",
+      value: "CO29"
+    },
+    {
+      name: "Vaupes",
+      value: "CO30"
+    },
+    {
+      name: "Vichada",
+      value: "CO31"
+    },
+    {
+      name: "Casanare",
+      value: "CO32"
+    },
+    {
+      name: "Cundinamarca",
+      value: "CO33"
+    },
+    {
+      name: "Bogota D.C.",
+      value: "CO34"
+    },
+    {
+      name: "Bolivar",
+      value: "CO35"
+    },
+    {
+      name: "Boyaca",
+      value: "CO36"
+    },
+    {
+      name: "Caldas",
+      value: "CO37"
+    },
+    {
+      name: "Magdalena",
+      value: "CO38"
+    },
+    // =========================================================
+    // Comoros
+    // =========================================================
+    {
       name: "Comoros",
       value: "KM"
     },
     {
-      name: "Congo",
+      name: "Nzwani (Ndzuwani, Anjouan)",
+      value: "KM01"
+    },
+    {
+      name: "Ngazidja (Grande Comore)",
+      value: "KM02"
+    },
+    {
+      name: "Mwali (Mohéli)",
+      value: "KM03"
+    },
+    // =========================================================
+    // Republic of the Congo
+    // =========================================================
+    {
+      name: "Congo, Republic of the",
       value: "CG"
     },
+    {
+      name: "Bouenza",
+      value: "CG01"
+    },
+    {
+      name: "Kouilou",
+      value: "CG04"
+    },
+    {
+      name: "Lékoumou",
+      value: "CG05"
+    },
+    {
+      name: "Likouala",
+      value: "CG06"
+    },
+    {
+      name: "Niari",
+      value: "CG07"
+    },
+    {
+      name: "Plateaux",
+      value: "CG08"
+    },
+    {
+      name: "Sangha",
+      value: "CG10"
+    },
+    {
+      name: "Pool",
+      value: "CG11"
+    },
+    {
+      name: "Brazzaville",
+      value: "CG12"
+    },
+    {
+      name: "Cuvette",
+      value: "CG13"
+    },
+    {
+      name: "Cuvette-Ouest",
+      value: "CG14"
+    },
+    {
+      name: "Pointe-Noire",
+      value: "CG15"
+    },
+    // =========================================================
+    // Congo, Democratic Republic of
+    // =========================================================
     {
       name: "Congo, Democratic Republic of",
       value: "CD"
     },
+    // =========================================================
+    // Cook Islands
+    // =========================================================
     {
       name: "Cook Islands",
       value: "CK"
     },
+    // =========================================================
+    // Costa Rica
+    // =========================================================
     {
       name: "Costa Rica",
       value: "CR"
     },
     {
-      name: "Costa Rica, Alajuela",
+      name: "Alajuela",
       value: "CR01"
     },
     {
-      name: "Costa Rica, Cartago",
+      name: "Cartago",
       value: "CR02"
     },
     {
-      name: "Costa Rica, Guanacaste",
+      name: "Guanacaste",
       value: "CR03"
     },
     {
-      name: "Costa Rica, Heredia",
+      name: "Heredia",
       value: "CR04"
     },
     {
-      name: "Costa Rica, Limón",
+      name: "Limón",
       value: "CR06"
     },
     {
-      name: "Costa Rica, Puntarenas",
+      name: "Puntarenas",
       value: "CR07"
     },
     {
-      name: "Costa Rica, San José",
+      name: "San José",
       value: "CR08"
     },
+    // =========================================================
+    // Côte d'Ivoire
+    // =========================================================
     {
       name: "Côte d'Ivoire",
       value: "CI"
     },
+    // =========================================================
+    // Croatia
+    // =========================================================
     {
       name: "Croatia",
       value: "HR"
     },
+    // =========================================================
+    // Cuba
+    // =========================================================
     {
       name: "Cuba",
       value: "CU"
     },
     {
-      name: "Cuba, Pinar del Río",
+      name: "Pinar del Río",
       value: "CU01"
     },
     {
-      name: "Cuba, Ciudad de La Habana",
+      name: "Ciudad de La Habana",
       value: "CU02"
     },
     {
-      name: "Cuba, Matanzas",
+      name: "Matanzas",
       value: "CU03"
     },
     {
-      name: "Cuba, Isla de la Juventud",
+      name: "Isla de la Juventud",
       value: "CU04"
     },
     {
-      name: "Cuba, Camagüey",
+      name: "Camagüey",
       value: "CU05"
     },
     {
-      name: "Cuba, Ciego de Ávila",
+      name: "Ciego de Ávila",
       value: "CU07"
     },
     {
-      name: "Cuba, Cienfuegos",
+      name: "Cienfuegos",
       value: "CU08"
     },
     {
-      name: "Cuba, Granma",
+      name: "Granma",
       value: "CU09"
     },
     {
-      name: "Cuba, Guantánamo",
+      name: "Guantánamo",
       value: "CU10"
     },
     {
-      name: "Cuba, La Habana",
+      name: "La Habana",
       value: "CU11"
     },
     {
-      name: "Cuba, Holguín",
+      name: "Holguín",
       value: "CU12"
     },
     {
-      name: "Cuba, Las Tunas",
+      name: "Las Tunas",
       value: "CU13"
     },
     {
-      name: "Cuba, Sancti Spíritus",
+      name: "Sancti Spíritus",
       value: "CU14"
     },
     {
-      name: "Cuba, Santiago de Cuba",
+      name: "Santiago de Cuba",
       value: "CU15"
     },
     {
-      name: "Cuba, Villa Clara",
+      name: "Villa Clara",
       value: "CU16"
     },
+    // =========================================================
+    // Curaçao
+    // =========================================================
     {
       name: "Curaçao",
       value: "CW"
     },
+    // =========================================================
+    // Cyprus
+    // =========================================================
     {
       name: "Cyprus",
       value: "CY"
     },
+    // =========================================================
+    // Czech Republic
+    // =========================================================
     {
       name: "Czech Republic",
       value: "CZ"
     },
     {
-      name: "Czech Republic, Prague (Praha)",
+      name: "Prague (Praha)",
       value: "CZ52"
     },
     {
-      name: "Czech Republic, South Moravia (Jihomoravský)",
+      name: "South Moravia (Jihomoravský)",
       value: "CZ78"
     },
     {
-      name: "Czech Republic, South Bohemia (Jihočeský)",
+      name: "South Bohemia (Jihočeský)",
       value: "CZ79"
     },
     {
-      name: "Czech Republic, Vysočina",
+      name: "Vysočina",
       value: "CZ80"
     },
     {
-      name: "Czech Republic, Karlovy Vary (Karlovarský)",
+      name: "Karlovy Vary (Karlovarský)",
       value: "CZ81"
     },
     {
-      name: "Czech Republic, Hradec Králové (Královéhradecký)",
+      name: "Hradec Králové (Královéhradecký)",
       value: "CZ82"
     },
     {
-      name: "Czech Republic, Liberec (Liberecký)",
+      name: "Liberec (Liberecký)",
       value: "CZ83"
     },
     {
-      name: "Czech Republic, Olomouc (Olomoucký)",
+      name: "Olomouc (Olomoucký)",
       value: "CZ84"
     },
     {
-      name: "Czech Republic, Moravia-Silesia (Moravskoslezský)",
+      name: "Moravia-Silesia (Moravskoslezský)",
       value: "CZ85"
     },
     {
-      name: "Czech Republic, Pardubice (Pardubický)",
+      name: "Pardubice (Pardubický)",
       value: "CZ86"
     },
     {
-      name: "Czech Republic, Plzeň (Plzeňský)",
+      name: "Plzeň (Plzeňský)",
       value: "CZ87"
     },
     {
-      name: "Czech Republic, Central Bohemia (Středočeský)",
+      name: "Central Bohemia (Středočeský)",
       value: "CZ88"
     },
     {
-      name: "Czech Republic, Ústí nad Labem (Ústecký)",
+      name: "Ústí nad Labem (Ústecký)",
       value: "CZ89"
     },
     {
-      name: "Czech Republic, Zlín (Zlínský)",
+      name: "Zlín (Zlínský)",
       value: "CZ90"
     },
+    // =========================================================
+    // Denmark
+    // =========================================================
     {
       name: "Denmark",
       value: "DK"
