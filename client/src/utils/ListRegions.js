@@ -3871,6 +3871,90 @@ export default {
       name: "Croatia",
       value: "HR"
     },
+    {
+      name: "Bjelovar-Bilogora",
+      value: "HR01"
+    },
+    {
+      name: "Brod-Posavina",
+      value: "HR02"
+    },
+    {
+      name: "Dubrovnik-Neretva",
+      value: "HR03"
+    },
+    {
+      name: "Istria",
+      value: "HR04"
+    },
+    {
+      name: "Karlovac",
+      value: "HR05"
+    },
+    {
+      name: "Koprivnica-Križevci",
+      value: "HR06"
+    },
+    {
+      name: "Krapina-Zagorje",
+      value: "HR07"
+    },
+    {
+      name: "Lika-Senj",
+      value: "HR08"
+    },
+    {
+      name: "Međimurje",
+      value: "HR09"
+    },
+    {
+      name: "Osijek-Baranja",
+      value: "HR10"
+    },
+    {
+      name: "Požega-Slavonia",
+      value: "HR11"
+    },
+    {
+      name: "Primorje-Gorski Kotar",
+      value: "HR12"
+    },
+    {
+      name: "Šibenik-Knin",
+      value: "HR13"
+    },
+    {
+      name: "Sisak-Moslavina",
+      value: "HR14"
+    },
+    {
+      name: "Split-Dalmatia",
+      value: "HR15"
+    },
+    {
+      name: "Varaždin",
+      value: "HR16"
+    },
+    {
+      name: "Virovitica-Podravina",
+      value: "HR17"
+    },
+    {
+      name: "Vukovar-Srijem",
+      value: "HR18"
+    },
+    {
+      name: "Zadar",
+      value: "HR19"
+    },
+    {
+      name: "Zagreb County",
+      value: "HR20"
+    },
+    {
+      name: "Zagreb City",
+      value: "HR21"
+    },
     // =========================================================
     // Cuba
     // =========================================================
@@ -3940,6 +4024,7 @@ export default {
     },
     // =========================================================
     // Curaçao
+    // leave as "search entire country": some 00, others have no Admin1 code
     // =========================================================
     {
       name: "Curaçao",
@@ -3951,6 +4036,30 @@ export default {
     {
       name: "Cyprus",
       value: "CY"
+    },
+    {
+      name: "Famagusta (Ammochostos)",
+      value: "CY01"
+    },
+    {
+      name: "Keryneia",
+      value: "CY02"
+    },
+    {
+      name: "Larnaka",
+      value: "CY03"
+    },
+    {
+      name: "Nicosia",
+      value: "CY04"
+    },
+    {
+      name: "Limassol",
+      value: "CY05"
+    },
+    {
+      name: "Pafos",
+      value: "CY06"
     },
     // =========================================================
     // Czech Republic
