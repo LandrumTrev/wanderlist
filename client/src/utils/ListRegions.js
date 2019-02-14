@@ -4593,12 +4593,100 @@ export default {
       name: "El Salvador",
       value: "SV"
     },
+    {
+      name: "Ahuachapán",
+      value: "SV01"
+    },
+    {
+      name: "Cabañas",
+      value: "SV02"
+    },
+    {
+      name: "Chalatenango",
+      value: "SV03"
+    },
+    {
+      name: "Cuscatlán",
+      value: "SV04"
+    },
+    {
+      name: "La Libertad",
+      value: "SV05"
+    },
+    {
+      name: "La Paz",
+      value: "SV06"
+    },
+    {
+      name: "La Unión",
+      value: "SV07"
+    },
+    {
+      name: "Morazán",
+      value: "SV08"
+    },
+    {
+      name: "San Miguel",
+      value: "SV09"
+    },
+    {
+      name: "San Salvador",
+      value: "SV10"
+    },
+    {
+      name: "Santa Ana",
+      value: "SV11"
+    },
+    {
+      name: "San Vicente",
+      value: "SV12"
+    },
+    {
+      name: "Sonsonate",
+      value: "SV13"
+    },
+    {
+      name: "Usulután",
+      value: "SV14"
+    },
     // =========================================================
     // Equatorial Guinea
     // =========================================================
     {
       name: "Equatorial Guinea",
       value: "GQ"
+    },
+    {
+      name: "Annobón",
+      value: "GQ03"
+    },
+    {
+      name: "Bioko Norte",
+      value: "GQ04"
+    },
+    {
+      name: "Bioko Sur",
+      value: "GQ05"
+    },
+    {
+      name: "Centro Sur",
+      value: "GQ06"
+    },
+    {
+      name: "Kié-Ntem",
+      value: "GQ07"
+    },
+    {
+      name: "Litoral",
+      value: "GQ08"
+    },
+    {
+      name: "Wele-Nzas",
+      value: "GQ09"
+    },
+    {
+      name: "(other)",
+      value: "GQ00"
     },
     // =========================================================
     // Eritrea
@@ -4607,12 +4695,104 @@ export default {
       name: "Eritrea",
       value: "ER"
     },
+    {
+      name: "Anseba",
+      value: "ER01"
+    },
+    {
+      name: "Debub (Southern)",
+      value: "ER02"
+    },
+    {
+      name: "Southern Red Sea",
+      value: "ER03"
+    },
+    {
+      name: "Gash-Barka",
+      value: "ER04"
+    },
+    {
+      name: "Maekel (Central)",
+      value: "ER05"
+    },
+    {
+      name: "Northern Red Sea",
+      value: "ER06"
+    },
+    {
+      name: "(other)",
+      value: "ER00"
+    },
     // =========================================================
     // Estonia
     // =========================================================
     {
       name: "Estonia",
       value: "EE"
+    },
+    {
+      name: "Harjumaa",
+      value: "EE01"
+    },
+    {
+      name: "Hiiumaa",
+      value: "EE02"
+    },
+    {
+      name: "Ida-Virumaa",
+      value: "EE03"
+    },
+    {
+      name: "Järvamaa",
+      value: "EE04"
+    },
+    {
+      name: "Jõgevamaa",
+      value: "EE05"
+    },
+    {
+      name: "Läänemaa",
+      value: "EE07"
+    },
+    {
+      name: "Lääne-Virumaa",
+      value: "EE08"
+    },
+    {
+      name: "Pärnumaa",
+      value: "EE11"
+    },
+    {
+      name: "Põlva",
+      value: "EE12"
+    },
+    {
+      name: "Raplamaa",
+      value: "EE13"
+    },
+    {
+      name: "Saaremaa",
+      value: "EE14"
+    },
+    {
+      name: "Tartumaa",
+      value: "EE18"
+    },
+    {
+      name: "Valgamaa",
+      value: "EE19"
+    },
+    {
+      name: "Viljandimaa",
+      value: "EE20"
+    },
+    {
+      name: "Võrumaa",
+      value: "EE21"
+    },
+    {
+      name: "(other)",
+      value: "EE00"
     },
     // =========================================================
     // Ethiopia
@@ -4621,11 +4801,60 @@ export default {
       name: "Ethiopia",
       value: "ET"
     },
+    {
+      name: "Addis Ababa",
+      value: "ET44"
+    },
+    {
+      name: "Āfar",
+      value: "ET45"
+    },
+    {
+      name: "Amhara",
+      value: "ET46"
+    },
+    {
+      name: "Bīnshangul Gumuz",
+      value: "ET47"
+    },
+    {
+      name: "Dire Dawa",
+      value: "ET48"
+    },
+    {
+      name: "Gambela",
+      value: "ET49"
+    },
+    {
+      name: "Harari",
+      value: "ET50"
+    },
+    {
+      name: "Oromiya",
+      value: "ET51"
+    },
+    {
+      name: "Somali",
+      value: "ET52"
+    },
+    {
+      name: "Tigray",
+      value: "ET53"
+    },
+    {
+      name: "SNNPR (Southern Nations, Nationalities, and People's Region)",
+      value: "ET54"
+    },
+    {
+      name: "(other)",
+      value: "ET00"
+    },
     // =========================================================
-    // Falkland Islands (Malvinas)
+    // Falkland Islands (Islas Malvinas)
+    // leave as "search entire country": some 00, others have no Admin1 code
     // =========================================================
     {
-      name: "Falkland Islands (Malvinas)",
+      name: "Falkland Islands (Islas Malvinas)",
       value: "FK"
     },
     // =========================================================
@@ -4636,27 +4865,27 @@ export default {
       value: "FO"
     },
     {
-      name: "Eysturoy (Faroe Islands)",
+      name: "Eysturoy (Eysturoyar Sýsla)",
       value: "FOOS"
     },
     {
-      name: "Norðoyar (Faroe Islands)",
+      name: "Norðoyar (Norðoyar Sýsla)",
       value: "FONO"
     },
     {
-      name: "Sandoy (Faroe Islands)",
+      name: "Sandoy (Sandoyar Sýsla)",
       value: "FOSA"
     },
     {
-      name: "Streymoy (Faroe Islands)",
+      name: "Streymoy (Streymoyar Sýsla)",
       value: "FOST"
     },
     {
-      name: "Suðuroy (Faroe Islands)",
+      name: "Suðuroy (Suðuroyar Sýsla)",
       value: "FOSU"
     },
     {
-      name: "Vágar (Faroe Islands)",
+      name: "Vágar (Vága Sýsla)",
       value: "FOVG"
     },
     // =========================================================
@@ -4665,6 +4894,30 @@ export default {
     {
       name: "Fiji",
       value: "FJ"
+    },
+    {
+      name: "Central",
+      value: "FJ01"
+    },
+    {
+      name: "Eastern",
+      value: "FJ02"
+    },
+    {
+      name: "Northern",
+      value: "FJ03"
+    },
+    {
+      name: "Rotuma",
+      value: "FJ04"
+    },
+    {
+      name: "Western",
+      value: "FJ05"
+    },
+    {
+      name: "(other)",
+      value: "FJ00"
     },
     // =========================================================
     // Finland
@@ -4807,12 +5060,44 @@ export default {
       name: "French Guiana",
       value: "GF"
     },
+    {
+      name: "Guyane",
+      value: "GFGF"
+    },
+    {
+      name: "(other)",
+      value: "GF00"
+    },
     // =========================================================
     // French Polynesia
     // =========================================================
     {
       name: "French Polynesia",
       value: "PF"
+    },
+    {
+      name: "Windward Islands (Îles du Vent) Tahiti, Moorea, ...",
+      value: "PF01"
+    },
+    {
+      name: "Leeward Islands (Îles Sous-le-vent) Raiatea, Huahine, Tahaa, Bora Bora, ...",
+      value: "PF02"
+    },
+    {
+      name: "Tuamotus and Gambier Islands (Îles Tuamotu-Gambier)",
+      value: "PF03"
+    },
+    {
+      name: "Marquesas Islands (Îles Marquises)",
+      value: "PF04"
+    },
+    {
+      name: "Austral Islands (Îles Australes) Tupua'i Islands and Bass Islands",
+      value: "PF05"
+    },
+    {
+      name: "(other)",
+      value: "PF00"
     },
     // =========================================================
     // French Southern Territories
@@ -4821,6 +5106,30 @@ export default {
       name: "French Southern Territories",
       value: "TF"
     },
+    {
+      name: "Saint-Paul-et-Amsterdam (Îles Saint-Paul et Nouvelle-Amsterdam)",
+      value: "TF01"
+    },
+    {
+      name: "Crozet (Archipel des Crozet)",
+      value: "TF02"
+    },
+    {
+      name: "Kerguelen (Archipel des Kerguelen)",
+      value: "TF03"
+    },
+    {
+      name: "Terre-Adélie (La Terre-Adélie)",
+      value: "TF04"
+    },
+    {
+      name: "Îles Éparses (Îles Éparses de l'océan Indien)",
+      value: "TF05"
+    },
+    {
+      name: "(other)",
+      value: "TF00"
+    },
     // =========================================================
     // Gabon
     // =========================================================
@@ -4828,66 +5137,114 @@ export default {
       name: "Gabon",
       value: "GA"
     },
+    // =========================================================
+    // Gambia
+    // =========================================================
     {
       name: "Gambia",
       value: "GM"
     },
+    // =========================================================
+    // Georgia
+    // =========================================================
     {
       name: "Georgia",
       value: "GE"
     },
+    // =========================================================
+    // Germany
+    // =========================================================
     {
       name: "Germany",
       value: "DE"
     },
+    // =========================================================
+    // Ghana
+    // =========================================================
     {
       name: "Ghana",
       value: "GH"
     },
+    // =========================================================
+    // Gibraltar
+    // =========================================================
     {
       name: "Gibraltar",
       value: "GI"
     },
+    // =========================================================
+    // Greece
+    // =========================================================
     {
       name: "Greece",
       value: "GR"
     },
+    // =========================================================
+    // Greenland
+    // =========================================================
     {
       name: "Greenland",
       value: "GL"
     },
+    // =========================================================
+    // Grenada
+    // =========================================================
     {
       name: "Grenada",
       value: "GD"
     },
+    // =========================================================
+    // Guadeloupe
+    // =========================================================
     {
       name: "Guadeloupe",
       value: "GP"
     },
+    // =========================================================
+    // Guam
+    // =========================================================
     {
       name: "Guam",
       value: "GU"
     },
+    // =========================================================
+    // Guatemala
+    // =========================================================
     {
       name: "Guatemala",
       value: "GT"
     },
+    // =========================================================
+    // Guernsey
+    // =========================================================
     {
       name: "Guernsey",
       value: "GG"
     },
+    // =========================================================
+    // Guinea
+    // =========================================================
     {
       name: "Guinea",
       value: "GN"
     },
+    // =========================================================
+    // Guinea-Bissau
+    // =========================================================
     {
       name: "Guinea-Bissau",
       value: "GW"
     },
+    // =========================================================
+    // Guyana
+    // =========================================================
     {
       name: "Guyana",
       value: "GY"
     },
+    // =========================================================
+    // Haiti
+    // =========================================================
     {
       name: "Haiti",
       value: "HT"
