@@ -4947,8 +4947,16 @@ export default {
       value: "FI06"
     },
     {
+      name: "Päijänne Tavastia",
+      value: "FI07"
+    },
+    {
       name: "Kymenlaakso",
       value: "FI08"
+    },
+    {
+      name: "South Karelia",
+      value: "FI09"
     },
     {
       name: "Southern Savonia",
@@ -4990,9 +4998,28 @@ export default {
       name: "Lapland",
       value: "FI19"
     },
+    // =========================================================
+    // Åland Islands (Finland)
+    // =========================================================
     {
-      name: "Åland Islands",
+      name: "Åland Islands (Finland)",
       value: "AX"
+    },
+    {
+      name: "Mariehamns stad",
+      value: "AX211"
+    },
+    {
+      name: "Ålands landsbygd (countryside)",
+      value: "AX212"
+    },
+    {
+      name: "Ålands skärgård (archipelago)",
+      value: "AX213"
+    },
+    {
+      name: "Harvaluoto, Samppa, Gundby, Erikvalla",
+      value: "AX15"
     },
     // =========================================================
     // France
