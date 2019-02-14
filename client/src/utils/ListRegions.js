@@ -4375,12 +4375,216 @@ export default {
       name: "Ecuador",
       value: "EC"
     },
+    {
+      name: "Galápagos",
+      value: "EC01"
+    },
+    {
+      name: "Azuay",
+      value: "EC02"
+    },
+    {
+      name: "Bolivar",
+      value: "EC03"
+    },
+    {
+      name: "Canar",
+      value: "EC04"
+    },
+    {
+      name: "Carchi",
+      value: "EC05"
+    },
+    {
+      name: "Chimborazo",
+      value: "EC06"
+    },
+    {
+      name: "Cotopaxi",
+      value: "EC07"
+    },
+    {
+      name: "El Oro",
+      value: "EC08"
+    },
+    {
+      name: "Esmeraldas",
+      value: "EC09"
+    },
+    {
+      name: "Guayas (Guayaquil)",
+      value: "EC10"
+    },
+    {
+      name: "Imbabura",
+      value: "EC11"
+    },
+    {
+      name: "Loja",
+      value: "EC12"
+    },
+    {
+      name: "Los Rios",
+      value: "EC13"
+    },
+    {
+      name: "Manabi",
+      value: "EC14"
+    },
+    {
+      name: "Morona Santiago",
+      value: "EC15"
+    },
+    {
+      name: "Pastaza",
+      value: "EC17"
+    },
+    {
+      name: "Pichincha (Quito)",
+      value: "EC18"
+    },
+    {
+      name: "Tungurahua",
+      value: "EC19"
+    },
+    {
+      name: "Zamora Chinchipe",
+      value: "EC20"
+    },
+    {
+      name: "Sucumbios",
+      value: "EC22"
+    },
+    {
+      name: "Napo",
+      value: "EC23"
+    },
+    {
+      name: "Francisco de Orellana",
+      value: "EC24"
+    },
+    {
+      name: "Santa Elena",
+      value: "EC25"
+    },
+    {
+      name: "Santo Domingo de los Tsachilas",
+      value: "EC26"
+    },
     // =========================================================
     // Egypt
     // =========================================================
     {
       name: "Egypt",
       value: "EG"
+    },
+    {
+      name: "Dakahlia (Daqahliyah)",
+      value: "EG01"
+    },
+    {
+      name: "Red Sea (Bahr al Ahmar)",
+      value: "EG02"
+    },
+    {
+      name: "Beheira (Beheira Governorate)",
+      value: "EG03"
+    },
+    {
+      name: "Faiyum (Fayyum)",
+      value: "EG04"
+    },
+    {
+      name: "Gharbia (Gharbiyah)",
+      value: "EG05"
+    },
+    {
+      name: "Alexandria (Iskandariyah)",
+      value: "EG06"
+    },
+    {
+      name: "Ismailia (Ismailia Governorate)",
+      value: "EG07"
+    },
+    {
+      name: "Giza (Jizah)",
+      value: "EG08"
+    },
+    {
+      name: "Monufia (Minufiyah)",
+      value: "EG09"
+    },
+    {
+      name: "Minya (Minya)",
+      value: "EG10"
+    },
+    {
+      name: "Cairo (Qahirah)",
+      value: "EG11"
+    },
+    {
+      name: "Qalyubia (Qalyubiyah)",
+      value: "EG12"
+    },
+    {
+      name: "New Valley (Wadi al Jadid)",
+      value: "EG13"
+    },
+    {
+      name: "Sharqia (Sharqiyah)",
+      value: "EG14"
+    },
+    {
+      name: "Suez (As Suways)",
+      value: "EG15"
+    },
+    {
+      name: "Aswan (Aswan)",
+      value: "EG16"
+    },
+    {
+      name: "Asyut (Asyut)",
+      value: "EG17"
+    },
+    {
+      name: "Beni Suweif (Bani Suwayf)",
+      value: "EG18"
+    },
+    {
+      name: "Port Said (Bur Sa`id)",
+      value: "EG19"
+    },
+    {
+      name: "Damietta (Dumyat)",
+      value: "EG20"
+    },
+    {
+      name: "Kafr el-Sheikh (Kafr ash Shaykh)",
+      value: "EG21"
+    },
+    {
+      name: "Matruh (Matruh)",
+      value: "EG22"
+    },
+    {
+      name: "Qena (Qina)",
+      value: "EG23"
+    },
+    {
+      name: "Sohag (Suhaj)",
+      value: "EG24"
+    },
+    {
+      name: "South Sinai (Janub Sina')",
+      value: "EG26"
+    },
+    {
+      name: "North Sinai (Shamal Sina')",
+      value: "EG27"
+    },
+    {
+      name: "Luxor (Uqsur)",
+      value: "EG28"
     },
     // =========================================================
     // El Salvador
