@@ -4193,12 +4193,180 @@ export default {
       name: "Dominica",
       value: "DM"
     },
+    {
+      name: "Saint Andrew",
+      value: "DM02"
+    },
+    {
+      name: "Saint David",
+      value: "DM03"
+    },
+    {
+      name: "Saint George",
+      value: "DM04"
+    },
+    {
+      name: "Saint John",
+      value: "DM05"
+    },
+    {
+      name: "Saint Joseph",
+      value: "DM06"
+    },
+    {
+      name: "Saint Luke",
+      value: "DM07"
+    },
+    {
+      name: "Saint Mark",
+      value: "DM08"
+    },
+    {
+      name: "Saint Patrick",
+      value: "DM09"
+    },
+    {
+      name: "Saint Paul",
+      value: "DM10"
+    },
+    {
+      name: "Saint Peter",
+      value: "DM11"
+    },
     // =========================================================
     // Dominican Republic
     // =========================================================
     {
       name: "Dominican Republic",
       value: "DO"
+    },
+    {
+      name: "Azua",
+      value: "DO01"
+    },
+    {
+      name: "Bahoruco",
+      value: "DO02"
+    },
+    {
+      name: "Barahona",
+      value: "DO03"
+    },
+    {
+      name: "Dajabón",
+      value: "DO04"
+    },
+    {
+      name: "Duarte",
+      value: "DO06"
+    },
+    {
+      name: "Espaillat",
+      value: "DO08"
+    },
+    {
+      name: "Independencia",
+      value: "DO09"
+    },
+    {
+      name: "La Altagracia",
+      value: "DO10"
+    },
+    {
+      name: "Elías Piña",
+      value: "DO11"
+    },
+    {
+      name: "La Romana",
+      value: "DO12"
+    },
+    {
+      name: "María Trinidad Sánchez",
+      value: "DO14"
+    },
+    {
+      name: "Monte Cristi",
+      value: "DO15"
+    },
+    {
+      name: "Pedernales",
+      value: "DO16"
+    },
+    {
+      name: "Puerto Plata",
+      value: "DO18"
+    },
+    {
+      name: "Hermanas Mirabal",
+      value: "DO19"
+    },
+    {
+      name: "Samaná",
+      value: "DO20"
+    },
+    {
+      name: "Sánchez Ramírez",
+      value: "DO21"
+    },
+    {
+      name: "San Juan",
+      value: "DO23"
+    },
+    {
+      name: "San Pedro de Macorís",
+      value: "DO24"
+    },
+    {
+      name: "Santiago",
+      value: "DO25"
+    },
+    {
+      name: "Santiago Rodríguez",
+      value: "DO26"
+    },
+    {
+      name: "Valverde",
+      value: "DO27"
+    },
+    {
+      name: "El Seíbo",
+      value: "DO28"
+    },
+    {
+      name: "Hato Mayor",
+      value: "DO29"
+    },
+    {
+      name: "La Vega",
+      value: "DO30"
+    },
+    {
+      name: "Monseñor Nouel",
+      value: "DO31"
+    },
+    {
+      name: "Monte Plata",
+      value: "DO32"
+    },
+    {
+      name: "San Cristobal",
+      value: "DO33"
+    },
+    {
+      name: "Distrito Nacional",
+      value: "DO34"
+    },
+    {
+      name: "Peravia",
+      value: "DO35"
+    },
+    {
+      name: "San Jose de Ocoa",
+      value: "DO36"
+    },
+    {
+      name: "Santo Domingo",
+      value: "DO37"
     },
     // =========================================================
     // Ecuador
