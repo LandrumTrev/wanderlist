@@ -4132,197 +4132,326 @@ export default {
       value: "DK"
     },
     {
+      name: "Capital Region (Hovedstaden)",
+      value: "DK17"
+    },
+    {
+      name: "Central Jutland (Midtjylland)",
+      value: "DK18"
+    },
+    {
+      name: "North Denmark (Nordjylland)",
+      value: "DK19"
+    },
+    {
+      name: "Zealand (Sjaelland)",
+      value: "DK20"
+    },
+    {
+      name: "South Denmark (Syddanmark)",
+      value: "DK21"
+    },
+    // =========================================================
+    // Djibouti
+    // =========================================================
+    {
       name: "Djibouti",
       value: "DJ"
     },
     {
+      name: "Ali Sabieh",
+      value: "DJ01"
+    },
+    {
+      name: "Arta",
+      value: "DJ08"
+    },
+    {
+      name: "Dikhil",
+      value: "DJ06"
+    },
+    {
+      name: "Djibouti",
+      value: "DJ07"
+    },
+    {
+      name: "Obock",
+      value: "DJ04"
+    },
+    {
+      name: "Tadjourah",
+      value: "DJ05"
+    },
+    {
+      name: "(other)",
+      value: "DJ00"
+    },
+    // =========================================================
+    // Dominica
+    // =========================================================
+    {
       name: "Dominica",
       value: "DM"
     },
+    // =========================================================
+    // Dominican Republic
+    // =========================================================
     {
       name: "Dominican Republic",
       value: "DO"
     },
+    // =========================================================
+    // Ecuador
+    // =========================================================
     {
       name: "Ecuador",
       value: "EC"
     },
+    // =========================================================
+    // Egypt
+    // =========================================================
     {
       name: "Egypt",
       value: "EG"
     },
+    // =========================================================
+    // El Salvador
+    // =========================================================
     {
       name: "El Salvador",
       value: "SV"
     },
+    // =========================================================
+    // Equatorial Guinea
+    // =========================================================
     {
       name: "Equatorial Guinea",
       value: "GQ"
     },
+    // =========================================================
+    // Eritrea
+    // =========================================================
     {
       name: "Eritrea",
       value: "ER"
     },
+    // =========================================================
+    // Estonia
+    // =========================================================
     {
       name: "Estonia",
       value: "EE"
     },
+    // =========================================================
+    // Ethiopia
+    // =========================================================
     {
       name: "Ethiopia",
       value: "ET"
     },
+    // =========================================================
+    // Falkland Islands (Malvinas)
+    // =========================================================
     {
       name: "Falkland Islands (Malvinas)",
       value: "FK"
     },
+    // =========================================================
+    // Faroe Islands
+    // =========================================================
     {
       name: "Faroe Islands",
       value: "FO"
     },
     {
+      name: "Eysturoy (Faroe Islands)",
+      value: "FOOS"
+    },
+    {
+      name: "Norðoyar (Faroe Islands)",
+      value: "FONO"
+    },
+    {
+      name: "Sandoy (Faroe Islands)",
+      value: "FOSA"
+    },
+    {
+      name: "Streymoy (Faroe Islands)",
+      value: "FOST"
+    },
+    {
+      name: "Suðuroy (Faroe Islands)",
+      value: "FOSU"
+    },
+    {
+      name: "Vágar (Faroe Islands)",
+      value: "FOVG"
+    },
+    // =========================================================
+    // Fiji
+    // =========================================================
+    {
       name: "Fiji",
       value: "FJ"
     },
+    // =========================================================
+    // Finland
+    // =========================================================
     {
       name: "Finland",
       value: "FI"
     },
     {
-      name: "Finland, Uusimaa",
+      name: "Uusimaa",
       value: "FI01"
     },
     {
-      name: "Finland, Finland Proper",
+      name: "Finland Proper",
       value: "FI02"
     },
     {
-      name: "Finland, Satakunta",
+      name: "Satakunta",
       value: "FI04"
     },
     {
-      name: "Finland, Tavastia Proper",
+      name: "Tavastia Proper",
       value: "FI05"
     },
     {
-      name: "Finland, Pirkanmaa",
+      name: "Pirkanmaa",
       value: "FI06"
     },
     {
-      name: "Finland, Kymenlaakso",
+      name: "Kymenlaakso",
       value: "FI08"
     },
     {
-      name: "Finland, Southern Savonia",
+      name: "Southern Savonia",
       value: "FI10"
     },
     {
-      name: "Finland, Northern Savo",
+      name: "Northern Savo",
       value: "FI11"
     },
     {
-      name: "Finland, North Karelia",
+      name: "North Karelia",
       value: "FI12"
     },
     {
-      name: "Finland, Central Finland",
+      name: "Central Finland",
       value: "FI13"
     },
     {
-      name: "Finland, Southern Ostrobothnia",
+      name: "Southern Ostrobothnia",
       value: "FI14"
     },
     {
-      name: "Finland, Ostrobothnia",
+      name: "Ostrobothnia",
       value: "FI15"
     },
     {
-      name: "Finland, Central Ostrobothnia",
+      name: "Central Ostrobothnia",
       value: "FI16"
     },
     {
-      name: "Finland, Northern Ostrobothnia",
+      name: "Northern Ostrobothnia",
       value: "FI17"
     },
     {
-      name: "Finland, Kainuu",
+      name: "Kainuu",
       value: "FI18"
     },
     {
-      name: "Finland, Lapland",
+      name: "Lapland",
       value: "FI19"
     },
     {
-      name: "Finland, Åland Islands",
+      name: "Åland Islands",
       value: "AX"
     },
+    // =========================================================
+    // France
+    // =========================================================
     {
       name: "France",
       value: "FR"
     },
     {
-      name: "France, Grand Est (Strasbourg)",
+      name: "Grand Est (Strasbourg)",
       value: "FR44"
     },
     {
-      name: "France, Nouvelle-Aquitaine (Bordeaux)",
+      name: "Nouvelle-Aquitaine (Bordeaux)",
       value: "FR75"
     },
     {
-      name: "France, Auvergne-Rhône-Alpes (Lyon)",
+      name: "Auvergne-Rhône-Alpes (Lyon)",
       value: "FR84"
     },
     {
-      name: "France, Bourgogne-Franche-Comté (Dijon)",
+      name: "Bourgogne-Franche-Comté (Dijon)",
       value: "FR27"
     },
     {
-      name: "France, Brittany (Rennes)",
+      name: "Brittany (Rennes)",
       value: "FR53"
     },
     {
-      name: "France, Centre-Val de Loire (Orléans)",
+      name: "Centre-Val de Loire (Orléans)",
       value: "FR24"
     },
     {
-      name: "France, Île-de-France (Paris)",
+      name: "Île-de-France (Paris)",
       value: "FR11"
     },
     {
-      name: "France, Occitanie (Toulouse)",
+      name: "Occitanie (Toulouse)",
       value: "FR76"
     },
     {
-      name: "France, Hauts-de-France (Lille)",
+      name: "Hauts-de-France (Lille)",
       value: "FR32"
     },
     {
-      name: "France, Normandy (Rouen)",
+      name: "Normandy (Rouen)",
       value: "FR28"
     },
     {
-      name: "France, Pays de la Loire (Nantes)",
+      name: "Pays de la Loire (Nantes)",
       value: "FR52"
     },
     {
-      name: "France, Provence-Alpes-Côte d'Azur (Marseille)",
+      name: "Provence-Alpes-Côte d'Azur (Marseille)",
       value: "FR93"
     },
     {
-      name: "France, Corsica (Ajaccio)",
+      name: "Corsica (Ajaccio)",
       value: "FR94"
     },
+    // =========================================================
+    // French Guiana
+    // =========================================================
     {
       name: "French Guiana",
       value: "GF"
     },
+    // =========================================================
+    // French Polynesia
+    // =========================================================
     {
       name: "French Polynesia",
       value: "PF"
     },
+    // =========================================================
+    // French Southern Territories
+    // =========================================================
     {
       name: "French Southern Territories",
       value: "TF"
     },
+    // =========================================================
+    // Gabon
+    // =========================================================
     {
       name: "Gabon",
       value: "GA"
