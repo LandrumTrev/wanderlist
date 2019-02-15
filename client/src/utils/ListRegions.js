@@ -5200,16 +5200,40 @@ export default {
       name: "Woleu-Ntem",
       value: "GA09"
     },
-    {
-      name: "(other)",
-      value: "GA00"
-    },
     // =========================================================
     // Gambia
     // =========================================================
     {
       name: "Gambia",
       value: "GM"
+    },
+    {
+      name: "Banjul",
+      value: "GM01"
+    },
+    {
+      name: "Lower River",
+      value: "GM02"
+    },
+    {
+      name: "Central River",
+      value: "GM03"
+    },
+    {
+      name: "Upper River",
+      value: "GM04"
+    },
+    {
+      name: "Western",
+      value: "GM05"
+    },
+    {
+      name: "North Bank",
+      value: "GM07"
+    },
+    {
+      name: "(other)",
+      value: "GM00"
     },
     // =========================================================
     // Georgia
