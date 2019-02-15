@@ -5932,12 +5932,88 @@ export default {
       name: "Guinea",
       value: "GN"
     },
+    {
+      name: "Boke",
+      value: "GNB"
+    },
+    {
+      name: "Conakry (capital)",
+      value: "GN04"
+    },
+    {
+      name: "Faranah",
+      value: "GNF"
+    },
+    {
+      name: "Kankan",
+      value: "GNK"
+    },
+    {
+      name: "Kindia",
+      value: "GND"
+    },
+    {
+      name: "Labé",
+      value: "GNL"
+    },
+    {
+      name: "Mamou",
+      value: "GNM"
+    },
+    {
+      name: "Nzerekore",
+      value: "GNN"
+    },
+    {
+      name: "(other)",
+      value: "GN00"
+    },
     // =========================================================
     // Guinea-Bissau
     // =========================================================
     {
       name: "Guinea-Bissau",
       value: "GW"
+    },
+    {
+      name: "Bafatá",
+      value: "GW01"
+    },
+    {
+      name: "Quinara",
+      value: "GW02"
+    },
+    {
+      name: "Oio",
+      value: "GW04"
+    },
+    {
+      name: "Bolama",
+      value: "GW05"
+    },
+    {
+      name: "Cacheu",
+      value: "GW06"
+    },
+    {
+      name: "Tombali",
+      value: "GW07"
+    },
+    {
+      name: "Gabú",
+      value: "GW10"
+    },
+    {
+      name: "Bissau",
+      value: "GW11"
+    },
+    {
+      name: "Biombo",
+      value: "GW12"
+    },
+    {
+      name: "(other)",
+      value: "GW00"
     },
     // =========================================================
     // Guyana
@@ -5946,6 +6022,50 @@ export default {
       name: "Guyana",
       value: "GY"
     },
+    {
+      name: "Barima-Waini",
+      value: "GY10"
+    },
+    {
+      name: "Cuyuni-Mazaruni",
+      value: "GY11"
+    },
+    {
+      name: "Demerara-Mahaica",
+      value: "GY12"
+    },
+    {
+      name: "East Berbice-Corentyne",
+      value: "GY13"
+    },
+    {
+      name: "Essequibo Islands-West Demerara",
+      value: "GY14"
+    },
+    {
+      name: "Mahaica-Berbice",
+      value: "GY15"
+    },
+    {
+      name: "Pomeroon-Supenaam",
+      value: "GY16"
+    },
+    {
+      name: "Potaro-Siparuni",
+      value: "GY17"
+    },
+    {
+      name: "Upper Demerara-Berbice",
+      value: "GY18"
+    },
+    {
+      name: "Upper Takutu-Upper Essequibo",
+      value: "GY19"
+    },
+    {
+      name: "(other)",
+      value: "GY00"
+    },
     // =========================================================
     // Haiti
     // =========================================================
@@ -5953,222 +6073,267 @@ export default {
       name: "Haiti",
       value: "HT"
     },
+    // =========================================================
+    // Heard Island and McDonald Islands
+    // =========================================================
     {
       name: "Heard Island and McDonald Islands",
       value: "HM"
     },
+    // =========================================================
+    // Holy See (Vatican City State)
+    // =========================================================
     {
       name: "Holy See (Vatican City State)",
       value: "VA"
     },
+    // =========================================================
+    // Honduras
+    // =========================================================
     {
       name: "Honduras",
       value: "HN"
     },
+    // =========================================================
+    // Hong Kong
+    // =========================================================
     {
       name: "Hong Kong",
       value: "HK"
     },
+    // =========================================================
+    // Hungary
+    // =========================================================
     {
       name: "Hungary",
       value: "HU"
     },
+    // =========================================================
+    // Iceland
+    // =========================================================
     {
       name: "Iceland",
       value: "IS"
     },
+    // =========================================================
+    // India
+    // =========================================================
     {
       name: "India",
       value: "IN"
     },
     {
-      name: "India, Andaman and Nicobar Islands Union Territory",
+      name: "Andaman and Nicobar Islands",
       value: "IN01"
     },
     {
-      name: "India, Andhra Pradesh State",
+      name: "Andhra Pradesh",
       value: "IN02"
     },
     {
-      name: "India, Assam State",
+      name: "Assam",
       value: "IN03"
     },
     {
-      name: "India, Chandigarh Union Territory",
+      name: "Chandigarh",
       value: "IN05"
     },
     {
-      name: "India, Dadra and Nagar Haveli Union Territory",
+      name: "Dadra and Nagar Haveli",
       value: "IN06"
     },
     {
-      name: "India, Delhi Union Territory",
+      name: "Delhi",
       value: "IN07"
     },
     {
-      name: "India, Gujarat State",
+      name: "Gujarat",
       value: "IN09"
     },
     {
-      name: "India, Haryana State",
+      name: "Haryana",
       value: "IN10"
     },
     {
-      name: "India, Himachal Pradesh State",
+      name: "Himachal Pradesh",
       value: "IN11"
     },
     {
-      name: "India, Jammu and Kashmir State",
+      name: "Jammu and Kashmir",
       value: "IN12"
     },
     {
-      name: "India, Kerala State",
+      name: "Kerala",
       value: "IN13"
     },
     {
-      name: "India, Lakshadweep Union Territory",
+      name: "Lakshadweep",
       value: "IN14"
     },
     {
-      name: "India, Maharashtra State",
+      name: "Maharashtra",
       value: "IN16"
     },
     {
-      name: "India, Manipur State",
+      name: "Manipur",
       value: "IN17"
     },
     {
-      name: "India, Meghalaya State",
+      name: "Meghalaya",
       value: "IN18"
     },
     {
-      name: "India, Karnataka State",
+      name: "Karnataka",
       value: "IN19"
     },
     {
-      name: "India, Nagaland State",
+      name: "Nagaland",
       value: "IN20"
     },
     {
-      name: "India, Odisha State",
+      name: "Odisha",
       value: "IN21"
     },
     {
-      name: "India, Puducherry Union Territory",
+      name: "Puducherry",
       value: "IN22"
     },
     {
-      name: "India, Punjab State",
+      name: "Punjab",
       value: "IN23"
     },
     {
-      name: "India, Rajasthan State",
+      name: "Rajasthan",
       value: "IN24"
     },
     {
-      name: "India, Tamil Nadu State",
+      name: "Tamil Nadu",
       value: "IN25"
     },
     {
-      name: "India, Tripura State",
+      name: "Tripura",
       value: "IN26"
     },
     {
-      name: "India, West Bengal State",
+      name: "West Bengal",
       value: "IN28"
     },
     {
-      name: "India, Sikkim State",
+      name: "Sikkim",
       value: "IN29"
     },
     {
-      name: "India, Arunachal Pradesh State",
+      name: "Arunachal Pradesh",
       value: "IN30"
     },
     {
-      name: "India, Mizoram State",
+      name: "Mizoram",
       value: "IN31"
     },
     {
-      name: "India, Daman and Diu Union Territory",
+      name: "Daman and Diu",
       value: "IN32"
     },
     {
-      name: "India, Goa State",
+      name: "Goa",
       value: "IN33"
     },
     {
-      name: "India, Bihar State",
+      name: "Bihar",
       value: "IN34"
     },
     {
-      name: "India, Madhya Pradesh State",
+      name: "Madhya Pradesh",
       value: "IN35"
     },
     {
-      name: "India, Uttar Pradesh State",
+      name: "Uttar Pradesh",
       value: "IN36"
     },
     {
-      name: "India, Chhattisgarh State",
+      name: "Chhattisgarh",
       value: "IN37"
     },
     {
-      name: "India, Jharkhand State",
+      name: "Jharkhand",
       value: "IN38"
     },
     {
-      name: "India, Uttarakhand State",
+      name: "Uttarakhand",
       value: "IN39"
     },
     {
-      name: "India, Telangana State",
+      name: "Telangana",
       value: "IN40"
     },
+    // =========================================================
+    // Indonesia
+    // =========================================================
     {
       name: "Indonesia",
       value: "ID"
     },
+    // =========================================================
+    // Iran
+    // =========================================================
     {
       name: "Iran",
       value: "IR"
     },
+    // =========================================================
+    // Iraq
+    // =========================================================
     {
       name: "Iraq",
       value: "IQ"
     },
+    // =========================================================
+    // Ireland
+    // =========================================================
     {
       name: "Ireland",
       value: "IE"
     },
     {
-      name: "Ireland, Leinster",
+      name: "Leinster",
       value: "IEL"
     },
     {
-      name: "Ireland, Ulster",
+      name: "Ulster",
       value: "IEU"
     },
     {
-      name: "Ireland, Munster",
+      name: "Munster",
       value: "IEM"
     },
     {
-      name: "Ireland, Connaught",
+      name: "Connaught",
       value: "IEC"
     },
+    // =========================================================
+    // Isle of Man
+    // =========================================================
     {
       name: "Isle of Man",
       value: "IM"
     },
+    // =========================================================
+    // Israel
+    // =========================================================
     {
       name: "Israel",
       value: "IL"
     },
+    // =========================================================
+    // Italy
+    // =========================================================
     {
       name: "Italy",
       value: "IT"
     },
+    // =========================================================
+    // Jamaica
+    // =========================================================
     {
       name: "Jamaica",
       value: "JM"
