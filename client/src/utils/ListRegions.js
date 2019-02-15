@@ -5164,6 +5164,46 @@ export default {
       name: "Gabon",
       value: "GA"
     },
+    {
+      name: "Estuaire",
+      value: "GA01"
+    },
+    {
+      name: "Haut-Ogooué",
+      value: "GA02"
+    },
+    {
+      name: "Moyen-Ogooué",
+      value: "GA03"
+    },
+    {
+      name: "Ngouni",
+      value: "GA04"
+    },
+    {
+      name: "Nyanga",
+      value: "GA05"
+    },
+    {
+      name: "Ogooué-Ivindo",
+      value: "GA06"
+    },
+    {
+      name: "Ogooué-Lolo",
+      value: "GA07"
+    },
+    {
+      name: "Ogooué-Maritime",
+      value: "GA08"
+    },
+    {
+      name: "Woleu-Ntem",
+      value: "GA09"
+    },
+    {
+      name: "(other)",
+      value: "GA00"
+    },
     // =========================================================
     // Gambia
     // =========================================================
