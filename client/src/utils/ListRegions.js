@@ -5201,10 +5201,10 @@ export default {
       value: "GA09"
     },
     // =========================================================
-    // Gambia
+    // The Gambia
     // =========================================================
     {
-      name: "Gambia",
+      name: "The Gambia",
       value: "GM"
     },
     {
@@ -5464,8 +5464,53 @@ export default {
       name: "Ghana",
       value: "GH"
     },
+    {
+      name: "Greater Accra",
+      value: "GH01"
+    },
+    {
+      name: "Ashanti",
+      value: "GH02"
+    },
+    {
+      name: "Brong-Ahafo",
+      value: "GH03"
+    },
+    {
+      name: "Central",
+      value: "GH04"
+    },
+    {
+      name: "Eastern",
+      value: "GH05"
+    },
+    {
+      name: "Northern",
+      value: "GH06"
+    },
+    {
+      name: "Volta",
+      value: "GH08"
+    },
+    {
+      name: "Western",
+      value: "GH09"
+    },
+    {
+      name: "Upper East",
+      value: "GH10"
+    },
+    {
+      name: "Upper West",
+      value: "GH11"
+    },
+    {
+      name: "(other)",
+      value: "GH00"
+    },
     // =========================================================
     // Gibraltar
+    // leave as "search entire country": some 00, others have no Admin1 code
     // =========================================================
     {
       name: "Gibraltar",
@@ -5477,6 +5522,66 @@ export default {
     {
       name: "Greece",
       value: "GR"
+    },
+    {
+      name: "Attica",
+      value: "GRESYE31"
+    },
+    {
+      name: "Central Greece",
+      value: "GRESYE24"
+    },
+    {
+      name: "Central Macedonia",
+      value: "GRESYE12"
+    },
+    {
+      name: "Crete",
+      value: "GRESYE43"
+    },
+    {
+      name: "East Macedonia and Thrace",
+      value: "GRESYE11"
+    },
+    {
+      name: "Epirus",
+      value: "GRESYE21"
+    },
+    {
+      name: "Ionian Islands",
+      value: "GRESYE22"
+    },
+    {
+      name: "North Aegean",
+      value: "GRESYE41"
+    },
+    {
+      name: "Peloponnese",
+      value: "GRESYE25"
+    },
+    {
+      name: "South Aegean",
+      value: "GRESYE42"
+    },
+    {
+      name: "Thessaly",
+      value: "GRESYE14"
+    },
+    {
+      name: "West Greece",
+      value: "GRESYE23"
+    },
+    {
+      name: "West Macedonia",
+      value: "GRESYE13"
+    },
+    {
+      name: "Mount Athos",
+      value: "GR736572"
+    },
+    {
+      name: "(other)",
+      value: "GR00"
     },
     // =========================================================
     // Greenland
