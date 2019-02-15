@@ -5389,6 +5389,74 @@ export default {
       name: "Germany",
       value: "DE"
     },
+    {
+      name: "Baden-Württemberg",
+      value: "DE01"
+    },
+    {
+      name: "Bavaria (Bayern)",
+      value: "DE02"
+    },
+    {
+      name: "Bremen",
+      value: "DE03"
+    },
+    {
+      name: "Hamburg",
+      value: "DE04"
+    },
+    {
+      name: "Hesse (Hessen)",
+      value: "DE05"
+    },
+    {
+      name: "Lower Saxony (Niedersachsen)",
+      value: "DE06"
+    },
+    {
+      name: "North Rhine-Westphalia (Nordrhein-Westfalen)",
+      value: "DE07"
+    },
+    {
+      name: "Rhineland-Palatinate (Rheinland-Pfalz)",
+      value: "DE08"
+    },
+    {
+      name: "Saarland",
+      value: "DE09"
+    },
+    {
+      name: "Schleswig-Holstein",
+      value: "DE10"
+    },
+    {
+      name: "Brandenburg",
+      value: "DE11"
+    },
+    {
+      name: "Mecklenburg-Vorpommern",
+      value: "DE12"
+    },
+    {
+      name: "Saxony (Sachsen)",
+      value: "DE13"
+    },
+    {
+      name: "Saxony-Anhalt (Sachsen-Anhalt)",
+      value: "DE14"
+    },
+    {
+      name: "Thuringia (Thüringen)",
+      value: "DE15"
+    },
+    {
+      name: "Berlin",
+      value: "DE16"
+    },
+    {
+      name: "(other)",
+      value: "DE00"
+    },
     // =========================================================
     // Ghana
     // =========================================================
