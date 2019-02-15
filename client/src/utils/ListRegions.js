@@ -5590,12 +5590,84 @@ export default {
       name: "Greenland",
       value: "GL"
     },
+    {
+      name: "Avannaata (Ilulissat)",
+      value: "GL11839537"
+    },
+    {
+      name: "Qeqertalik (Aasiaat)",
+      value: "GL11839534"
+    },
+    {
+      name: "Qeqqata (Sisimiut)",
+      value: "GL06"
+    },
+    {
+      name: "Sermersooq (Nuuk)",
+      value: "GL07"
+    },
+    {
+      name: "Kujalleq (Qaqortoq)",
+      value: "GL04"
+    },
+    {
+      name: "(defunct) Qaasuitsup (Avannaata and Qeqertalik)",
+      value: "GL05"
+    },
+    {
+      name: "(defunct) Avannaa (Nordgrønland)",
+      value: "GL01"
+    },
+    {
+      name: "(defunct) Tunu (Østgrønland)",
+      value: "GL02"
+    },
+    {
+      name: "(defunct) Kitaa (Vestgrønland)",
+      value: "GL03"
+    },
+    {
+      name: "(other)",
+      value: "GL00"
+    },
     // =========================================================
     // Grenada
     // =========================================================
     {
       name: "Grenada",
       value: "GD"
+    },
+    {
+      name: "Saint Andrew",
+      value: "GD01"
+    },
+    {
+      name: "Saint David",
+      value: "GD02"
+    },
+    {
+      name: "Saint George",
+      value: "GD03"
+    },
+    {
+      name: "Saint John",
+      value: "GD04"
+    },
+    {
+      name: "Saint Mark",
+      value: "GD05"
+    },
+    {
+      name: "Saint Patrick",
+      value: "GD06"
+    },
+    {
+      name: "Carriacou and Petite Martinique",
+      value: "GD10"
+    },
+    {
+      name: "(other)",
+      value: "GD00"
     },
     // =========================================================
     // Guadeloupe
