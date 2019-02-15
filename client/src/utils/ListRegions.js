@@ -5676,12 +5676,100 @@ export default {
       name: "Guadeloupe",
       value: "GP"
     },
+    {
+      name: "Guadeloupe",
+      value: "GPGP"
+    },
+    {
+      name: "(other)",
+      value: "GP00"
+    },
     // =========================================================
     // Guam
     // =========================================================
     {
       name: "Guam",
       value: "GU"
+    },
+    {
+      name: "Agana Heights",
+      value: "GUAH"
+    },
+    {
+      name: "Agat",
+      value: "GUAT"
+    },
+    {
+      name: "Asan-Maina",
+      value: "GUAS"
+    },
+    {
+      name: "Barrigada",
+      value: "GUBA"
+    },
+    {
+      name: "Chalan Pago-Ordot",
+      value: "GUCP"
+    },
+    {
+      name: "Dededo",
+      value: "GUDD"
+    },
+    {
+      name: "Hagatna",
+      value: "GUAN"
+    },
+    {
+      name: "Inarajan",
+      value: "GUIN"
+    },
+    {
+      name: "Mangilao",
+      value: "GUMA"
+    },
+    {
+      name: "Merizo",
+      value: "GUME"
+    },
+    {
+      name: "Mongmong-Toto-Maite",
+      value: "GUMT"
+    },
+    {
+      name: "Piti",
+      value: "GUPI"
+    },
+    {
+      name: "Santa Rita",
+      value: "GUSR"
+    },
+    {
+      name: "Sinajana",
+      value: "GUSJ"
+    },
+    {
+      name: "Talofofo",
+      value: "GUTF"
+    },
+    {
+      name: "Tamuning-Tumon-Harmon",
+      value: "GUTM"
+    },
+    {
+      name: "Umatac",
+      value: "GUUM"
+    },
+    {
+      name: "Yigo",
+      value: "GUYG"
+    },
+    {
+      name: "Yona",
+      value: "GUYN"
+    },
+    {
+      name: "(other)",
+      value: "GU00"
     },
     // =========================================================
     // Guatemala
