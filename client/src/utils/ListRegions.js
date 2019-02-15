@@ -5778,12 +5778,152 @@ export default {
       name: "Guatemala",
       value: "GT"
     },
+    {
+      name: "Alta Verapaz (Cobán)",
+      value: "GT01"
+    },
+    {
+      name: "Baja Verapaz (Salamá)",
+      value: "GT02"
+    },
+    {
+      name: "Chimaltenango (Chimaltenango)",
+      value: "GT03"
+    },
+    {
+      name: "Chiquimula (Chiquimula)",
+      value: "GT04"
+    },
+    {
+      name: "El Progreso (Guastatoya)",
+      value: "GT05"
+    },
+    {
+      name: "Escuintla (Escuintla)",
+      value: "GT06"
+    },
+    {
+      name: "Guatemala (Guatemala City) capital",
+      value: "GT07"
+    },
+    {
+      name: "Huehuetenango (Huehuetenango)",
+      value: "GT08"
+    },
+    {
+      name: "Izabal (Puerto Barrios)",
+      value: "GT09"
+    },
+    {
+      name: "Jalapa (Jalapa)",
+      value: "GT10"
+    },
+    {
+      name: "Jutiapa (Jutiapa)",
+      value: "GT11"
+    },
+    {
+      name: "Petén (Flores)",
+      value: "GT12"
+    },
+    {
+      name: "Quetzaltenango (Quetzaltenango)",
+      value: "GT13"
+    },
+    {
+      name: "Quiché (Santa Cruz del Quiché)",
+      value: "GT14"
+    },
+    {
+      name: "Retalhuleu (Retalhuleu)",
+      value: "GT15"
+    },
+    {
+      name: "Sacatepéquez (Antigua Guatemala)",
+      value: "GT16"
+    },
+    {
+      name: "San Marcos (San Marcos)",
+      value: "GT17"
+    },
+    {
+      name: "Santa Rosa (Cuilapa)",
+      value: "GT18"
+    },
+    {
+      name: "Sololá (Sololá)",
+      value: "GT19"
+    },
+    {
+      name: "Suchitepéquez (Mazatenango)",
+      value: "GT20"
+    },
+    {
+      name: "Totonicapán (Totonicapán)",
+      value: "GT21"
+    },
+    {
+      name: "Zacapa (Zacapa)",
+      value: "GT22"
+    },
+    {
+      name: "(other)",
+      value: "GT00"
+    },
     // =========================================================
     // Guernsey
     // =========================================================
     {
       name: "Guernsey",
       value: "GG"
+    },
+    {
+      name: "Guernsey",
+      value: "GG00"
+    },
+    {
+      name: "Alderney island (Saint Anne)",
+      value: "GG8989934"
+    },
+    {
+      name: "Castel (Guernsey island)",
+      value: "GG6417229"
+    },
+    {
+      name: "Forest (Guernsey island)",
+      value: "GG6417223"
+    },
+    {
+      name: "Saint Andrew (Guernsey island)",
+      value: "GG6417226"
+    },
+    {
+      name: "Saint Martin (Guernsey island)",
+      value: "GG6417224"
+    },
+    {
+      name: "Saint Peter Port (Guernsey island) capital, Herm and Jethou",
+      value: "GG6417228"
+    },
+    {
+      name: "Saint Pierre du Bois (Guernsey island)",
+      value: "GG6417213"
+    },
+    {
+      name: "Saint Sampson (Guernsey island)",
+      value: "GG6417233"
+    },
+    {
+      name: "Saint Saviour (Guernsey island)",
+      value: "GG6417215"
+    },
+    {
+      name: "Torteval (Guernsey island)",
+      value: "GG6417214"
+    },
+    {
+      name: "Vale (Guernsey island)",
+      value: "GG6417230"
     },
     // =========================================================
     // Guinea
