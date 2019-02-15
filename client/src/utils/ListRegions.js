@@ -5242,6 +5242,146 @@ export default {
       name: "Georgia",
       value: "GE"
     },
+    {
+      name: "Abkhazia",
+      value: "GE02"
+    },
+    {
+      name: "Ajaria",
+      value: "GE04"
+    },
+    {
+      name: "Akhmetis Raioni",
+      value: "GE08"
+    },
+    {
+      name: "Onis Raioni",
+      value: "GE10"
+    },
+    {
+      name: "Baghdati",
+      value: "GE11"
+    },
+    {
+      name: "Borjomis Raioni",
+      value: "GE13"
+    },
+    {
+      name: "Chiatura",
+      value: "GE14"
+    },
+    {
+      name: "Dedoplistskaro",
+      value: "GE17"
+    },
+    {
+      name: "Goris Raioni",
+      value: "GE22"
+    },
+    {
+      name: "Javis Raioni",
+      value: "GE24"
+    },
+    {
+      name: "Kareli",
+      value: "GE25"
+    },
+    {
+      name: "Kaspis Raioni",
+      value: "GE26"
+    },
+    {
+      name: "Kharagaulis Raioni",
+      value: "GE27"
+    },
+    {
+      name: "Khashuris Raioni",
+      value: "GE28"
+    },
+    {
+      name: "Kutaisi",
+      value: "GE31"
+    },
+    {
+      name: "Lagodekhis Raioni",
+      value: "GE32"
+    },
+    {
+      name: "Mtskheta",
+      value: "GE38"
+    },
+    {
+      name: "Aspindzis Raioni",
+      value: "GE40"
+    },
+    {
+      name: "Rustavi",
+      value: "GE45"
+    },
+    {
+      name: "T'bilisi (Tiflis) capital",
+      value: "GE51"
+    },
+    {
+      name: "Telavi",
+      value: "GE52"
+    },
+    {
+      name: "Tianeti",
+      value: "GE55"
+    },
+    {
+      name: "Tsageri",
+      value: "GE57"
+    },
+    {
+      name: "Tsalkis Raioni",
+      value: "GE59"
+    },
+    {
+      name: "Vanis Raioni",
+      value: "GE61"
+    },
+    {
+      name: "Guria",
+      value: "GE65"
+    },
+    {
+      name: "Imereti",
+      value: "GE66"
+    },
+    {
+      name: "Kakheti",
+      value: "GE67"
+    },
+    {
+      name: "Kvemo Kartli",
+      value: "GE68"
+    },
+    {
+      name: "Mtskheta-Mtianeti",
+      value: "GE69"
+    },
+    {
+      name: "Racha-Lechkhumi and Kvemo Svaneti",
+      value: "GE70"
+    },
+    {
+      name: "Samegrelo and Zemo Svaneti",
+      value: "GE71"
+    },
+    {
+      name: "Samtskhe-Javakheti",
+      value: "GE72"
+    },
+    {
+      name: "Shida Kartli",
+      value: "GE73"
+    },
+    {
+      name: "(other)",
+      value: "GE00"
+    },
     // =========================================================
     // Germany
     // =========================================================
