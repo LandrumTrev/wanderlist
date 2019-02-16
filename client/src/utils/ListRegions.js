@@ -6215,6 +6215,82 @@ export default {
       name: "Hong Kong",
       value: "HK"
     },
+    {
+      name: "Central and Western District",
+      value: "HKHCW"
+    },
+    {
+      name: "Eastern",
+      value: "HKHEA"
+    },
+    {
+      name: "Islands District",
+      value: "HKNIS"
+    },
+    {
+      name: "Kowloon City",
+      value: "HKKKC"
+    },
+    {
+      name: "Kwai Tsing",
+      value: "HKNKT"
+    },
+    {
+      name: "Kwon Tong",
+      value: "HKKKT"
+    },
+    {
+      name: "North",
+      value: "HKNNO"
+    },
+    {
+      name: "Sai Kung",
+      value: "HKNSK"
+    },
+    {
+      name: "Sha Tin",
+      value: "HKNST"
+    },
+    {
+      name: "Sham Shui Po",
+      value: "HKKSS"
+    },
+    {
+      name: "Southern",
+      value: "HKHSO"
+    },
+    {
+      name: "Tai Po",
+      value: "HKNTP"
+    },
+    {
+      name: "Tsuen Wan",
+      value: "HKNTW"
+    },
+    {
+      name: "Tuen Mun",
+      value: "HKNTM"
+    },
+    {
+      name: "Wan Chai",
+      value: "HKHWC"
+    },
+    {
+      name: "Wong Tai Sin",
+      value: "HKKWT"
+    },
+    {
+      name: "Yau Tsim Mong",
+      value: "HKKYT"
+    },
+    {
+      name: "Yuen Long",
+      value: "HKNYL"
+    },
+    {
+      name: "(other)",
+      value: "HK00"
+    },
     // =========================================================
     // Hungary
     // =========================================================
