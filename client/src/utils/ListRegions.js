@@ -6073,6 +6073,50 @@ export default {
       name: "Haiti",
       value: "HT"
     },
+    {
+      name: "Nord-Ouest",
+      value: "HT03"
+    },
+    {
+      name: "Artibonite",
+      value: "HT06"
+    },
+    {
+      name: "Centre",
+      value: "HT07"
+    },
+    {
+      name: "Nord",
+      value: "HT09"
+    },
+    {
+      name: "Nord-Est",
+      value: "HT10"
+    },
+    {
+      name: "Ouest (Port-au-Prince, capital)",
+      value: "HT11"
+    },
+    {
+      name: "Sud",
+      value: "HT12"
+    },
+    {
+      name: "Sud-Est",
+      value: "HT13"
+    },
+    {
+      name: "Grand’Anse",
+      value: "HT14"
+    },
+    {
+      name: "Nippes",
+      value: "HT15"
+    },
+    {
+      name: "(other)",
+      value: "HT00"
+    },
     // =========================================================
     // Heard Island and McDonald Islands
     // =========================================================
