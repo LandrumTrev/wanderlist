@@ -6298,6 +6298,90 @@ export default {
       name: "Hungary",
       value: "HU"
     },
+    {
+      name: "Bács-Kiskun",
+      value: "HU01"
+    },
+    {
+      name: "Baranya",
+      value: "HU02"
+    },
+    {
+      name: "Bekes",
+      value: "HU03"
+    },
+    {
+      name: "Borsod-Abaúj-Zemplén",
+      value: "HU04"
+    },
+    {
+      name: "Budapest (capital)",
+      value: "HU05"
+    },
+    {
+      name: "Csongrád",
+      value: "HU06"
+    },
+    {
+      name: "Fejér",
+      value: "HU08"
+    },
+    {
+      name: "Győr-Moson-Sopron",
+      value: "HU09"
+    },
+    {
+      name: "Hajdú-Bihar",
+      value: "HU10"
+    },
+    {
+      name: "Heves",
+      value: "HU11"
+    },
+    {
+      name: "Komárom-Esztergom",
+      value: "HU12"
+    },
+    {
+      name: "Nógrád",
+      value: "HU14"
+    },
+    {
+      name: "Pest",
+      value: "HU16"
+    },
+    {
+      name: "Somogy",
+      value: "HU17"
+    },
+    {
+      name: "Szabolcs-Szatmár-Bereg",
+      value: "HU18"
+    },
+    {
+      name: "Jász-Nagykun-Szolnok",
+      value: "HU20"
+    },
+    {
+      name: "Tolna",
+      value: "HU21"
+    },
+    {
+      name: "Vas",
+      value: "HU22"
+    },
+    {
+      name: "Veszprém",
+      value: "HU23"
+    },
+    {
+      name: "Zala",
+      value: "HU24"
+    },
+    {
+      name: "(other)",
+      value: "HU00"
+    },
     // =========================================================
     // Iceland
     // =========================================================
