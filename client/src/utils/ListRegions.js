@@ -6118,18 +6118,12 @@ export default {
       value: "HT00"
     },
     // =========================================================
-    // Heard Island and McDonald Islands
+    // Heard Island and McDonald Islands (Antarctica)
+    // leave as "search entire country": some 00, others have no Admin1 code
     // =========================================================
     {
       name: "Heard Island and McDonald Islands",
       value: "HM"
-    },
-    // =========================================================
-    // Holy See (Vatican City State)
-    // =========================================================
-    {
-      name: "Holy See (Vatican City State)",
-      value: "VA"
     },
     // =========================================================
     // Honduras
@@ -6137,6 +6131,82 @@ export default {
     {
       name: "Honduras",
       value: "HN"
+    },
+    {
+      name: "Atlántida",
+      value: "HN01"
+    },
+    {
+      name: "Choluteca",
+      value: "HN02"
+    },
+    {
+      name: "Colón",
+      value: "HN03"
+    },
+    {
+      name: "Comayagua",
+      value: "HN04"
+    },
+    {
+      name: "Copán",
+      value: "HN05"
+    },
+    {
+      name: "Cortés",
+      value: "HN06"
+    },
+    {
+      name: "El Paraíso",
+      value: "HN07"
+    },
+    {
+      name: "Francisco Morazán (Tegucigalpa, capital)",
+      value: "HN08"
+    },
+    {
+      name: "Gracias a Dios",
+      value: "HN09"
+    },
+    {
+      name: "Intibucá",
+      value: "HN10"
+    },
+    {
+      name: "Islas de la Bahía",
+      value: "HN11"
+    },
+    {
+      name: "La Paz",
+      value: "HN12"
+    },
+    {
+      name: "Lempira",
+      value: "HN13"
+    },
+    {
+      name: "Ocotepeque",
+      value: "HN14"
+    },
+    {
+      name: "Olancho",
+      value: "HN15"
+    },
+    {
+      name: "Santa Bárbara",
+      value: "HN16"
+    },
+    {
+      name: "Valle",
+      value: "HN17"
+    },
+    {
+      name: "Yoro",
+      value: "HN18"
+    },
+    {
+      name: "(other)",
+      value: "HN00"
     },
     // =========================================================
     // Hong Kong
@@ -6382,282 +6452,315 @@ export default {
       name: "Jamaica",
       value: "JM"
     },
+    // =========================================================
+    // Japan
+    // =========================================================
     {
       name: "Japan",
       value: "JP"
     },
     {
-      name: "Japan, Aichi Prefecture",
+      name: "Aichi",
       value: "JP01"
     },
     {
-      name: "Japan, Akita Prefecture",
+      name: "Akita",
       value: "JP02"
     },
     {
-      name: "Japan, Aomori Prefecture",
+      name: "Aomori",
       value: "JP03"
     },
     {
-      name: "Japan, Chiba Prefecture",
+      name: "Chiba",
       value: "JP04"
     },
     {
-      name: "Japan, Ehime Prefecture",
+      name: "Ehime",
       value: "JP05"
     },
     {
-      name: "Japan, Fukui Prefecture",
+      name: "Fukui",
       value: "JP06"
     },
     {
-      name: "Japan, Fukuoka Prefecture",
+      name: "Fukuoka",
       value: "JP07"
     },
     {
-      name: "Japan, Fukushima Prefecture",
+      name: "Fukushima",
       value: "JP08"
     },
     {
-      name: "Japan, Gifu Prefecture",
+      name: "Gifu",
       value: "JP09"
     },
     {
-      name: "Japan, Gunma Prefecture",
+      name: "Gunma",
       value: "JP10"
     },
     {
-      name: "Japan, Hiroshima Prefecture",
+      name: "Hiroshima",
       value: "JP11"
     },
     {
-      name: "Japan, Hokkaidō Prefecture",
+      name: "Hokkaidō",
       value: "JP12"
     },
     {
-      name: "Japan, Hyōgo Prefecture",
+      name: "Hyōgo",
       value: "JP13"
     },
     {
-      name: "Japan, Ibaraki Prefecture",
+      name: "Ibaraki",
       value: "JP14"
     },
     {
-      name: "Japan, Ishikawa Prefecture",
+      name: "Ishikawa",
       value: "JP15"
     },
     {
-      name: "Japan, Iwate Prefecture",
+      name: "Iwate",
       value: "JP16"
     },
     {
-      name: "Japan, Kagawa Prefecture",
+      name: "Kagawa",
       value: "JP17"
     },
     {
-      name: "Japan, Kagoshima Prefecture",
+      name: "Kagoshima",
       value: "JP18"
     },
     {
-      name: "Japan, Kanagawa Prefecture",
+      name: "Kanagawa",
       value: "JP19"
     },
     {
-      name: "Japan, Kōchi Prefecture",
+      name: "Kōchi",
       value: "JP20"
     },
     {
-      name: "Japan, Kumamoto Prefecture",
+      name: "Kumamoto",
       value: "JP21"
     },
     {
-      name: "Japan, Kyōto Prefecture",
+      name: "Kyōto",
       value: "JP22"
     },
     {
-      name: "Japan, Mie Prefecture",
+      name: "Mie",
       value: "JP23"
     },
     {
-      name: "Japan, Miyagi Prefecture",
+      name: "Miyagi",
       value: "JP24"
     },
     {
-      name: "Japan, Miyazaki Prefecture",
+      name: "Miyazaki",
       value: "JP25"
     },
     {
-      name: "Japan, Nagano Prefecture",
+      name: "Nagano",
       value: "JP26"
     },
     {
-      name: "Japan, Nagasaki Prefecture",
+      name: "Nagasaki",
       value: "JP27"
     },
     {
-      name: "Japan, Nara Prefecture",
+      name: "Nara",
       value: "JP28"
     },
     {
-      name: "Japan, Niigata Prefecture",
+      name: "Niigata",
       value: "JP29"
     },
     {
-      name: "Japan, Ōita Prefecture",
+      name: "Ōita",
       value: "JP30"
     },
     {
-      name: "Japan, Okayama Prefecture",
+      name: "Okayama",
       value: "JP31"
     },
     {
-      name: "Japan, Ōsaka Prefecture",
+      name: "Ōsaka",
       value: "JP32"
     },
     {
-      name: "Japan, Saga Prefecture",
+      name: "Saga",
       value: "JP33"
     },
     {
-      name: "Japan, Saitama Prefecture",
+      name: "Saitama",
       value: "JP34"
     },
     {
-      name: "Japan, Shiga Prefecture",
+      name: "Shiga",
       value: "JP35"
     },
     {
-      name: "Japan, Shimane Prefecture",
+      name: "Shimane",
       value: "JP36"
     },
     {
-      name: "Japan, Shizuoka Prefecture",
+      name: "Shizuoka",
       value: "JP37"
     },
     {
-      name: "Japan, Tochigi Prefecture",
+      name: "Tochigi",
       value: "JP38"
     },
     {
-      name: "Japan, Tokushima Prefecture",
+      name: "Tokushima",
       value: "JP39"
     },
     {
-      name: "Japan, Tōkyō Prefecture",
+      name: "Tōkyō (capital)",
       value: "JP40"
     },
     {
-      name: "Japan, Tottori Prefecture",
+      name: "Tottori",
       value: "JP41"
     },
     {
-      name: "Japan, Toyama Prefecture",
+      name: "Toyama",
       value: "JP42"
     },
     {
-      name: "Japan, Wakayama Prefecture",
+      name: "Wakayama",
       value: "JP43"
     },
     {
-      name: "Japan, Yamagata Prefecture",
+      name: "Yamagata",
       value: "JP44"
     },
     {
-      name: "Japan, Yamaguchi Prefecture",
+      name: "Yamaguchi",
       value: "JP45"
     },
     {
-      name: "Japan, Yamanashi Prefecture",
+      name: "Yamanashi",
       value: "JP46"
     },
     {
-      name: "Japan, Okinawa Prefecture",
+      name: "Okinawa",
       value: "JP47"
     },
+    // =========================================================
+    // Jersey
+    // =========================================================
     {
       name: "Jersey",
       value: "JE"
     },
+    // =========================================================
+    // Jersey
+    // =========================================================
     {
       name: "Jordan",
       value: "JO"
     },
     {
-      name: "Jordan, Balqa",
+      name: "Balqa",
       value: "JO02"
     },
     {
-      name: "Jordan, Karak",
+      name: "Karak",
       value: "JO09"
     },
     {
-      name: "Jordan, Tafilah",
+      name: "Tafilah",
       value: "JO12"
     },
     {
-      name: "Jordan, Mafraq",
+      name: "Mafraq",
       value: "JO15"
     },
     {
-      name: "Jordan, Amman",
+      name: "Amman (capital)",
       value: "JO16"
     },
     {
-      name: "Jordan, Zarqa",
+      name: "Zarqa",
       value: "JO17"
     },
     {
-      name: "Jordan, Irbid",
+      name: "Irbid",
       value: "JO18"
     },
     {
-      name: "Jordan, Ma'an",
+      name: "Ma'an",
       value: "JO19"
     },
     {
-      name: "Jordan, Ajlun",
+      name: "Ajlun",
       value: "JO20"
     },
     {
-      name: "Jordan, Aqaba",
+      name: "Aqaba",
       value: "JO21"
     },
     {
-      name: "Jordan, Jerash",
+      name: "Jerash",
       value: "JO22"
     },
     {
-      name: "Jordan, Madaba",
+      name: "Madaba",
       value: "JO23"
     },
+    // =========================================================
+    // Kazakhstan
+    // =========================================================
     {
       name: "Kazakhstan",
       value: "KZ"
     },
+    // =========================================================
+    // Kenya
+    // =========================================================
     {
       name: "Kenya",
       value: "KE"
     },
+    // =========================================================
+    // Kiribati
+    // =========================================================
     {
       name: "Kiribati",
       value: "KI"
     },
+    // =========================================================
+    // North Korea
+    // =========================================================
     {
       name: "North Korea",
       value: "KP"
     },
+    // =========================================================
+    // South Korea
+    // =========================================================
     {
       name: "South Korea",
       value: "KR"
     },
+    // =========================================================
+    // Kuwait
+    // =========================================================
     {
       name: "Kuwait",
       value: "KW"
     },
+    // =========================================================
+    // Kyrgyzstan
+    // =========================================================
     {
       name: "Kyrgyzstan",
       value: "KG"
     },
+    // =========================================================
+    // Laos
+    // =========================================================
     {
       name: "Laos",
       value: "LA"
@@ -7727,410 +7830,471 @@ export default {
       name: "Tuvalu",
       value: "TV"
     },
+    // =========================================================
+    // Uganda
+    // =========================================================
     {
       name: "Uganda",
       value: "UG"
     },
+    // =========================================================
+    // Ukraine
+    // =========================================================
     {
       name: "Ukraine",
       value: "UA"
     },
+    // =========================================================
+    // United Arab Emirates
+    // =========================================================
     {
       name: "United Arab Emirates",
       value: "AE"
     },
     {
-      name: "Abū Z̧aby Emirate, United Arab Emirates",
+      name: "Abu Dhabi (Abū Z̧aby) capital",
       value: "AE01"
     },
     {
-      name: "`Ajmān Emirate, United Arab Emirates",
+      name: "Ajman (`Ajmān)",
       value: "AE02"
     },
     {
-      name: "Dubayy Emirate, United Arab Emirates",
+      name: "Dubai (Dubayy)",
       value: "AE03"
     },
     {
-      name: "Al Fujayrah Emirate, United Arab Emirates",
+      name: "Fujairah (Al Fujayrah)",
       value: "AE04"
     },
     {
-      name: "Ra's al Khaymah Emirate, United Arab Emirates",
+      name: "Ras Al Khaimah (Ra's al Khaymah)",
       value: "AE05"
     },
     {
-      name: "Ash Shāriqah Emirate, United Arab Emirates",
+      name: "Sharjah (Ash Shāriqah)",
       value: "AE06"
     },
     {
-      name: "Umm al Qaywayn Emirate, United Arab Emirates",
+      name: "Umm Al Quwain (Umm al Qaywayn)",
       value: "AE07"
     },
+    // =========================================================
+    // United Kingdom
+    // =========================================================
     {
       name: "United Kingdom",
       value: "GB"
     },
     {
-      name: "UK, England",
+      name: "England",
       value: "GBENG"
     },
     {
-      name: "UK, Scotland",
+      name: "Scotland",
       value: "GBSCT"
     },
     {
-      name: "UK, Northern Ireland",
+      name: "Northern Ireland",
       value: "GBNIR"
     },
     {
-      name: "UK, Wales",
+      name: "Wales",
       value: "GBWLS"
     },
     {
-      name: "UK, Isle of Man, Guernsey, and Jersey",
+      name: "Isle of Man, Guernsey, and Jersey",
       value: "GB00"
     },
     {
-      name: "UK, Dhekelia (Cyprus)",
+      name: "Dhekelia (Cyprus)",
       value: "GB03"
     },
     {
-      name: "UK, Akrotiri (Cyprus)",
+      name: "Akrotiri (Cyprus)",
       value: "GB05"
     },
+    // =========================================================
+    // United States of America
+    // =========================================================
     {
       name: "United States of America",
       value: "US"
     },
     {
-      name: "US, Alabama",
+      name: "Alabama",
       value: "USAL"
     },
     {
-      name: "US, Alaska",
+      name: "Alaska",
       value: "USAK"
     },
     {
-      name: "US, Arizona",
+      name: "Arizona",
       value: "USAZ"
     },
     {
-      name: "US, Arkansas",
+      name: "Arkansas",
       value: "USAR"
     },
     {
-      name: "US, California",
+      name: "California",
       value: "USCA"
     },
     {
-      name: "US, Colorado",
+      name: "Colorado",
       value: "USCO"
     },
     {
-      name: "US, Connecticut",
+      name: "Connecticut",
       value: "USCT"
     },
     {
-      name: "US, Delaware",
+      name: "Delaware",
       value: "USDE"
     },
     {
-      name: "US, District of Columbia",
+      name: "District of Columbia (Washington, D.C.) capital",
       value: "USDC"
     },
     {
-      name: "US, Florida",
+      name: "Florida",
       value: "USFL"
     },
     {
-      name: "US, Georgia",
+      name: "Georgia",
       value: "USGA"
     },
     {
-      name: "US, Hawaii",
+      name: "Hawaii",
       value: "USHI"
     },
     {
-      name: "US, Idaho",
+      name: "Idaho",
       value: "USID"
     },
     {
-      name: "US, Illinois",
+      name: "Illinois",
       value: "USIL"
     },
     {
-      name: "US, Indiana",
+      name: "Indiana",
       value: "USIN"
     },
     {
-      name: "US, Iowa",
+      name: "Iowa",
       value: "USIA"
     },
     {
-      name: "US, Kansas",
+      name: "Kansas",
       value: "USKS"
     },
     {
-      name: "US, Kentucky",
+      name: "Kentucky",
       value: "USKY"
     },
     {
-      name: "US, Louisiana",
+      name: "Louisiana",
       value: "USLA"
     },
     {
-      name: "US, Maine",
+      name: "Maine",
       value: "USME"
     },
     {
-      name: "US, Maryland",
+      name: "Maryland",
       value: "USMD"
     },
     {
-      name: "US, Massachusetts",
+      name: "Massachusetts",
       value: "USMA"
     },
     {
-      name: "US, Michigan",
+      name: "Michigan",
       value: "USMI"
     },
     {
-      name: "US, Minnesota",
+      name: "Minnesota",
       value: "USMN"
     },
     {
-      name: "US, Mississippi",
+      name: "Mississippi",
       value: "USMS"
     },
     {
-      name: "US, Missouri",
+      name: "Missouri",
       value: "USMO"
     },
     {
-      name: "US, Montana",
+      name: "Montana",
       value: "USMT"
     },
     {
-      name: "US, Nebraska",
+      name: "Nebraska",
       value: "USNE"
     },
     {
-      name: "US, Nevada",
+      name: "Nevada",
       value: "USNV"
     },
     {
-      name: "US, New Hampshire",
+      name: "New Hampshire",
       value: "USNH"
     },
     {
-      name: "US, New Jersey",
+      name: "New Jersey",
       value: "USNJ"
     },
     {
-      name: "US, New Mexico",
+      name: "New Mexico",
       value: "USNM"
     },
     {
-      name: "US, New York",
+      name: "New York",
       value: "USNY"
     },
     {
-      name: "US, North Carolina",
+      name: "North Carolina",
       value: "USNC"
     },
     {
-      name: "US, North Dakota",
+      name: "North Dakota",
       value: "USND"
     },
     {
-      name: "US, Ohio",
+      name: "Ohio",
       value: "USOH"
     },
     {
-      name: "US, Oklahoma",
+      name: "Oklahoma",
       value: "USOK"
     },
     {
-      name: "US, Oregon",
+      name: "Oregon",
       value: "USOR"
     },
     {
-      name: "US, Pennsylvania",
+      name: "Pennsylvania",
       value: "USPA"
     },
     {
-      name: "US, Rhode Island",
+      name: "Rhode Island",
       value: "USRI"
     },
     {
-      name: "US, South Carolina",
+      name: "South Carolina",
       value: "USSC"
     },
     {
-      name: "US, South Dakota",
+      name: "South Dakota",
       value: "USSD"
     },
     {
-      name: "US, Tennessee",
+      name: "Tennessee",
       value: "USTN"
     },
     {
-      name: "US, Texas",
+      name: "Texas",
       value: "USTX"
     },
     {
-      name: "US, Utah",
+      name: "Utah",
       value: "USUT"
     },
     {
-      name: "US, Vermont",
+      name: "Vermont",
       value: "USVT"
     },
     {
-      name: "US, Virginia",
+      name: "Virginia",
       value: "USVA"
     },
     {
-      name: "US, Washington",
+      name: "Washington",
       value: "USWA"
     },
     {
-      name: "US, West Virginia",
+      name: "West Virginia",
       value: "USWV"
     },
     {
-      name: "US, Wisconsin",
+      name: "Wisconsin",
       value: "USWI"
     },
     {
-      name: "US, Wyoming",
+      name: "Wyoming",
       value: "USWY"
     },
+    // =========================================================
+    // US, Minor Outlying Islands
+    // =========================================================
     {
-      name: "United States Minor Outlying Islands",
+      name: "US, Minor Outlying Islands",
       value: "UM"
     },
+    // =========================================================
+    // Uruguay
+    // =========================================================
     {
       name: "Uruguay",
       value: "UY"
     },
     {
-      name: "Uruguay, Artigas",
+      name: "Artigas",
       value: "UY01"
     },
     {
-      name: "Uruguay, Canelones",
+      name: "Canelones",
       value: "UY02"
     },
     {
-      name: "Uruguay, Cerro Largo",
+      name: "Cerro Largo",
       value: "UY03"
     },
     {
-      name: "Uruguay, Colonia",
+      name: "Colonia",
       value: "UY04"
     },
     {
-      name: "Uruguay, Durazno",
+      name: "Durazno",
       value: "UY05"
     },
     {
-      name: "Uruguay, Flores",
+      name: "Flores",
       value: "UY06"
     },
     {
-      name: "Uruguay, Florida",
+      name: "Florida",
       value: "UY07"
     },
     {
-      name: "Uruguay, Lavalleja",
+      name: "Lavalleja",
       value: "UY08"
     },
     {
-      name: "Uruguay, Maldonado",
+      name: "Maldonado",
       value: "UY09"
     },
     {
-      name: "Uruguay, Montevideo",
+      name: "Montevideo (capital)",
       value: "UY10"
     },
     {
-      name: "Uruguay, Paysandú",
+      name: "Paysandú",
       value: "UY11"
     },
     {
-      name: "Uruguay, Río Negro",
+      name: "Río Negro",
       value: "UY12"
     },
     {
-      name: "Uruguay, Rivera",
+      name: "Rivera",
       value: "UY13"
     },
     {
-      name: "Uruguay, Rocha",
+      name: "Rocha",
       value: "UY14"
     },
     {
-      name: "Uruguay, Salto",
+      name: "Salto",
       value: "UY15"
     },
     {
-      name: "Uruguay, San José",
+      name: "San José",
       value: "UY16"
     },
     {
-      name: "Uruguay, Soriano",
+      name: "Soriano",
       value: "UY17"
     },
     {
-      name: "Uruguay, Tacuarembó",
+      name: "Tacuarembó",
       value: "UY18"
     },
     {
-      name: "Uruguay, Treinta y Tres",
+      name: "Treinta y Tres",
       value: "UY19"
     },
+    // =========================================================
+    // Uzbekistan
+    // =========================================================
     {
       name: "Uzbekistan",
       value: "UZ"
     },
+    // =========================================================
+    // Vanuatu
+    // =========================================================
     {
       name: "Vanuatu",
       value: "VU"
     },
+    // =========================================================
+    // Vatican City State (Holy See)
+    // =========================================================
+    {
+      name: "Vatican City State (Holy See)",
+      value: "VA"
+    },
+    // =========================================================
+    // Venezuela
+    // =========================================================
     {
       name: "Venezuela",
       value: "VE"
     },
+    // =========================================================
+    // Viet Nam
+    // =========================================================
     {
       name: "Viet Nam",
       value: "VN"
     },
+    // =========================================================
+    // Virgin Islands, British
+    // =========================================================
     {
       name: "Virgin Islands, British",
       value: "VG"
     },
+    // =========================================================
+    // Virgin Islands, U.S.
+    // =========================================================
     {
       name: "Virgin Islands, U.S.",
       value: "VI"
     },
+    // =========================================================
+    // Wallis and Futuna
+    // =========================================================
     {
       name: "Wallis and Futuna",
       value: "WF"
     },
+    // =========================================================
+    // Western Sahara
+    // =========================================================
     {
       name: "Western Sahara",
       value: "EH"
     },
+    // =========================================================
+    // Yemen
+    // =========================================================
     {
       name: "Yemen",
       value: "YE"
     },
+    // =========================================================
+    // Zambia
+    // =========================================================
     {
       name: "Zambia",
       value: "ZM"
     },
+    // =========================================================
+    // Zimbabwe
+    // =========================================================
     {
       name: "Zimbabwe",
       value: "ZW"
