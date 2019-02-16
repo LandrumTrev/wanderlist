@@ -6389,6 +6389,42 @@ export default {
       name: "Iceland",
       value: "IS"
     },
+    {
+      name: "East (Austurland)",
+      value: "IS38"
+    },
+    {
+      name: "Capital Region (Höfuðborgarsvæðið) Reykjavík, capital",
+      value: "IS39"
+    },
+    {
+      name: "Northeast (Norðurland eystra)",
+      value: "IS40"
+    },
+    {
+      name: "Northwest (Norðurland vestra)",
+      value: "IS41"
+    },
+    {
+      name: "South (Suðurland)",
+      value: "IS42"
+    },
+    {
+      name: "Southern Peninsula (Suðurnes)",
+      value: "IS43"
+    },
+    {
+      name: "Westfjords (Vestfirðir)",
+      value: "IS44"
+    },
+    {
+      name: "West (Vesturland)",
+      value: "IS45"
+    },
+    {
+      name: "(other)",
+      value: "IS00"
+    },
     // =========================================================
     // India
     // =========================================================
