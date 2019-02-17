@@ -6583,6 +6583,146 @@ export default {
       name: "Indonesia",
       value: "ID"
     },
+    {
+      name: "Aceh (Nanggroe Aceh Darussalam)",
+      value: "ID01"
+    },
+    {
+      name: "Bali (Bali)",
+      value: "ID02"
+    },
+    {
+      name: "Bengkulu (Bengkulu)",
+      value: "ID03"
+    },
+    {
+      name: "Jakarta (Daerah Khusus Ibukota Jakarta)",
+      value: "ID04"
+    },
+    {
+      name: "Jambi (Jambi)",
+      value: "ID05"
+    },
+    {
+      name: "Central Java (Jawa Tengah)",
+      value: "ID07"
+    },
+    {
+      name: "East Java (Jawa Timur)",
+      value: "ID08"
+    },
+    {
+      name: "Yogyakarta (Daerah Istimewa Yogyakarta)",
+      value: "ID10"
+    },
+    {
+      name: "West Kalimantan (Kalimantan Barat)",
+      value: "ID11"
+    },
+    {
+      name: "South Kalimantan (Kalimantan Selatan)",
+      value: "ID12"
+    },
+    {
+      name: "Central Kalimantan (Kalimantan Tengah)",
+      value: "ID13"
+    },
+    {
+      name: "East Kalimantan (Kalimantan Timur)",
+      value: "ID14"
+    },
+    {
+      name: "Lampung (Lampung)",
+      value: "ID15"
+    },
+    {
+      name: "West Nusa Tenggara (Nusa Tenggara Barat)",
+      value: "ID17"
+    },
+    {
+      name: "East Nusa Tenggara (Nusa Tenggara Timur)",
+      value: "ID18"
+    },
+    {
+      name: "Central Sulawesi (Sulawesi Tengah)",
+      value: "ID21"
+    },
+    {
+      name: "Southeast Sulawesi (Sulawesi Tenggara)",
+      value: "ID22"
+    },
+    {
+      name: "West Sumatra (Sumatera Barat)",
+      value: "ID24"
+    },
+    {
+      name: "North Sumatra (Sumatera Utara)",
+      value: "ID26"
+    },
+    {
+      name: "Maluku (Spice Islands)",
+      value: "ID28"
+    },
+    {
+      name: "North Maluku (Maluku Utara, Spice Islands)",
+      value: "ID29"
+    },
+    {
+      name: "West Java (Jawa Barat)",
+      value: "ID30"
+    },
+    {
+      name: "North Sulawesi (Sulawesi Utara)",
+      value: "ID31"
+    },
+    {
+      name: "South Sumatra (Sumatera Selatan)",
+      value: "ID32"
+    },
+    {
+      name: "Banten (Banten)",
+      value: "ID33"
+    },
+    {
+      name: "Gorontalo (Hulontalo)",
+      value: "ID34"
+    },
+    {
+      name: "Bangka Belitung Islands (Kepulauan Bangka Belitung)",
+      value: "ID35"
+    },
+    {
+      name: "Papua (Provinsi Papua)",
+      value: "ID36"
+    },
+    {
+      name: "Riau (Provinsi Riau)",
+      value: "ID37"
+    },
+    {
+      name: "South Sulawesi (Sulawesi Selatan)",
+      value: "ID38"
+    },
+    {
+      name: "West Papua (Papua Barat)",
+      value: "ID39"
+    },
+    {
+      name: "Riau Islands (Kepulauan Riau)",
+      value: "ID40"
+    },
+    {
+      name: "West Sulawesi (Sulawesi Barat)",
+      value: "ID41"
+    },
+    {
+      name: "North Kalimantan (Kalimantan Utara)",
+      value: "ID42"
+    },
+    {
+      name: "(other)",
+      value: "ID00"
+    },
     // =========================================================
     // Iran
     // =========================================================
