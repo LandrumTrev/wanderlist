@@ -7857,12 +7857,132 @@ export default {
       name: "North Korea",
       value: "KP"
     },
+    {
+      name: "Chagang-do",
+      value: "KP01"
+    },
+    {
+      name: "Hamnam (Hamgyŏng-namdo)",
+      value: "KP03"
+    },
+    {
+      name: "Hwanghae-namdo",
+      value: "KP06"
+    },
+    {
+      name: "Hwanghae-bukto",
+      value: "KP07"
+    },
+    {
+      name: "Kangwŏn-do",
+      value: "KP09"
+    },
+    {
+      name: "P'yŏngan-bukto",
+      value: "KP11"
+    },
+    {
+      name: "Pyongyang",
+      value: "KP12"
+    },
+    {
+      name: "Yanggang-do",
+      value: "KP13"
+    },
+    {
+      name: "South Pyongan (P’yŏngan-namdo)",
+      value: "KP15"
+    },
+    {
+      name: "Hambuk (Hamgyŏng-bukto)",
+      value: "KP17"
+    },
+    {
+      name: "Rason (Nasŏn-si)",
+      value: "KP18"
+    },
+    {
+      name: "(other)",
+      value: "KP00"
+    },
     // =========================================================
     // South Korea
     // =========================================================
     {
       name: "South Korea",
       value: "KR"
+    },
+    {
+      name: "Jeju-do (Jeju-teukbyeoljachido)",
+      value: "KR01"
+    },
+    {
+      name: "Jeollabuk-do",
+      value: "KR03"
+    },
+    {
+      name: "North Chungcheong (Chungcheongbuk-do)",
+      value: "KR05"
+    },
+    {
+      name: "Gangwon-do",
+      value: "KR06"
+    },
+    {
+      name: "Busan",
+      value: "KR10"
+    },
+    {
+      name: "Seoul (Seoul-teukbyeolsi)",
+      value: "KR11"
+    },
+    {
+      name: "Incheon",
+      value: "KR12"
+    },
+    {
+      name: "Gyeonggi-do",
+      value: "KR13"
+    },
+    {
+      name: "Gyeongsangbuk-do",
+      value: "KR14"
+    },
+    {
+      name: "Daegu",
+      value: "KR15"
+    },
+    {
+      name: "Jeollanam-do",
+      value: "KR16"
+    },
+    {
+      name: "Chungcheongnam-do",
+      value: "KR17"
+    },
+    {
+      name: "Gwangju",
+      value: "KR18"
+    },
+    {
+      name: "Daejeon",
+      value: "KR19"
+    },
+    {
+      name: "Gyeongsangnam-do",
+      value: "KR20"
+    },
+    {
+      name: "Ulsan",
+      value: "KR21"
+    },
+    {
+      name: "Sejong",
+      value: "KR22"
+    },
+    {
+      name: "(other)",
+      value: "KR00"
     },
     // =========================================================
     // Kuwait
