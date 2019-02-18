@@ -8148,6 +8148,494 @@ export default {
       name: "Latvia",
       value: "LV"
     },
+    {
+      name: "Ādažu",
+      value: "LV34"
+    },
+    {
+      name: "Aglonas",
+      value: "LV35"
+    },
+    {
+      name: "Aizkraukles",
+      value: "LV01"
+    },
+    {
+      name: "Aizputes",
+      value: "LV37"
+    },
+    {
+      name: "Aknīstes",
+      value: "LV38"
+    },
+    {
+      name: "Alojas",
+      value: "LV39"
+    },
+    {
+      name: "Alsungas",
+      value: "LV40"
+    },
+    {
+      name: "Alūksnes",
+      value: "LV02"
+    },
+    {
+      name: "Amatas",
+      value: "LV42"
+    },
+    {
+      name: "Apes",
+      value: "LV43"
+    },
+    {
+      name: "Auces",
+      value: "LV44"
+    },
+    {
+      name: "Babītes",
+      value: "LV45"
+    },
+    {
+      name: "Baldones",
+      value: "LV46"
+    },
+    {
+      name: "Baltinavas",
+      value: "LV47"
+    },
+    {
+      name: "Balvu",
+      value: "LV03"
+    },
+    {
+      name: "Bauskas",
+      value: "LV04"
+    },
+    {
+      name: "Beverīnas",
+      value: "LV50"
+    },
+    {
+      name: "Brocēnu",
+      value: "LV51"
+    },
+    {
+      name: "Burtnieku",
+      value: "LV52"
+    },
+    {
+      name: "Carnikavas",
+      value: "LV53"
+    },
+    {
+      name: "Cēsu",
+      value: "LV05"
+    },
+    {
+      name: "Cesvaines",
+      value: "LV55"
+    },
+    {
+      name: "Ciblas",
+      value: "LV56"
+    },
+    {
+      name: "Dagdas",
+      value: "LV57"
+    },
+    {
+      name: "Daugavpils",
+      value: "LV06"
+    },
+    {
+      name: "Daugavpils municipality",
+      value: "LV07"
+    },
+    {
+      name: "Dobeles",
+      value: "LV08"
+    },
+    {
+      name: "Dundagas",
+      value: "LV60"
+    },
+    {
+      name: "Durbes",
+      value: "LV61"
+    },
+    {
+      name: "Engures",
+      value: "LV62"
+    },
+    {
+      name: "Ērgļu",
+      value: "LV63"
+    },
+    {
+      name: "Garkalne",
+      value: "LV64"
+    },
+    {
+      name: "Grobiņas",
+      value: "LV65"
+    },
+    {
+      name: "Gulbenes",
+      value: "LV09"
+    },
+    {
+      name: "Iecavas",
+      value: "LV67"
+    },
+    {
+      name: "Ikšķiles",
+      value: "LV68"
+    },
+    {
+      name: "Ilūkstes",
+      value: "LV69"
+    },
+    {
+      name: "Inčukalna",
+      value: "LV70"
+    },
+    {
+      name: "Jaunjelgavas",
+      value: "LV71"
+    },
+    {
+      name: "Jaunpiebalgas",
+      value: "LV72"
+    },
+    {
+      name: "Jaunpils",
+      value: "LV73"
+    },
+    {
+      name: "Jēkabpils",
+      value: "LV74"
+    },
+    {
+      name: "Jēkabpils Municipality",
+      value: "LV10"
+    },
+    {
+      name: "Jelgava",
+      value: "LV11"
+    },
+    {
+      name: "Jelgavas Rajons",
+      value: "LV12"
+    },
+    {
+      name: "Jūrmala",
+      value: "LV13"
+    },
+    {
+      name: "Kandavas",
+      value: "LV77"
+    },
+    {
+      name: "Kārsavas",
+      value: "LV78"
+    },
+    {
+      name: "Ķeguma",
+      value: "LV79"
+    },
+    {
+      name: "Ķekavas",
+      value: "LV80"
+    },
+    {
+      name: "Kocēnu",
+      value: "LV81"
+    },
+    {
+      name: "Kokneses",
+      value: "LV82"
+    },
+    {
+      name: "Krāslavas",
+      value: "LV14"
+    },
+    {
+      name: "Krimuldas",
+      value: "LV84"
+    },
+    {
+      name: "Krustpils",
+      value: "LV85"
+    },
+    {
+      name: "Kuldīgas",
+      value: "LV15"
+    },
+    {
+      name: "Lielvārdes",
+      value: "LV87"
+    },
+    {
+      name: "Liepāja",
+      value: "LV16"
+    },
+    {
+      name: "Liepājas Rajons",
+      value: "LV17"
+    },
+    {
+      name: "Līgatnes",
+      value: "LV88"
+    },
+    {
+      name: "Limbažu",
+      value: "LV18"
+    },
+    {
+      name: "Līvānu",
+      value: "LV90"
+    },
+    {
+      name: "Lubānas",
+      value: "LV91"
+    },
+    {
+      name: "Ludzas",
+      value: "LV19"
+    },
+    {
+      name: "Madona Municipality",
+      value: "LV20"
+    },
+    {
+      name: "Mālpils",
+      value: "LV94"
+    },
+    {
+      name: "Mārupes",
+      value: "LV95"
+    },
+    {
+      name: "Mazsalacas",
+      value: "LV96"
+    },
+    {
+      name: "Mērsraga",
+      value: "LVF1"
+    },
+    {
+      name: "Naukšēnu",
+      value: "LV97"
+    },
+    {
+      name: "Neretas",
+      value: "LV98"
+    },
+    {
+      name: "Nīcas",
+      value: "LV99"
+    },
+    {
+      name: "Ogres",
+      value: "LV21"
+    },
+    {
+      name: "Olaines",
+      value: "LVA2"
+    },
+    {
+      name: "Ozolnieku",
+      value: "LVA3"
+    },
+    {
+      name: "Pārgaujas",
+      value: "LVA4"
+    },
+    {
+      name: "Pāvilostas",
+      value: "LVA5"
+    },
+    {
+      name: "Pļaviņu",
+      value: "LVA6"
+    },
+    {
+      name: "Preiļi",
+      value: "LV22"
+    },
+    {
+      name: "Priekules",
+      value: "LVA8"
+    },
+    {
+      name: "Priekuļi",
+      value: "LVA9"
+    },
+    {
+      name: "Raunas",
+      value: "LVB1"
+    },
+    {
+      name: "Rēzekne",
+      value: "LV23"
+    },
+    {
+      name: "Rēzeknes Rajons",
+      value: "LV24"
+    },
+    {
+      name: "Riebiņu",
+      value: "LVB3"
+    },
+    {
+      name: "Rīga",
+      value: "LV25"
+    },
+    {
+      name: "Rīgas Rajons",
+      value: "LV26"
+    },
+    {
+      name: "Rojas",
+      value: "LVB4"
+    },
+    {
+      name: "Ropažu",
+      value: "LVB5"
+    },
+    {
+      name: "Rucavas",
+      value: "LVB6"
+    },
+    {
+      name: "Rugāju",
+      value: "LVB7"
+    },
+    {
+      name: "Rūjienas",
+      value: "LVB8"
+    },
+    {
+      name: "Rundāles",
+      value: "LVB9"
+    },
+    {
+      name: "Salacgrīvas",
+      value: "LVC1"
+    },
+    {
+      name: "Salas",
+      value: "LVC2"
+    },
+    {
+      name: "Salaspils",
+      value: "LVC3"
+    },
+    {
+      name: "Saldus Municipality",
+      value: "LV27"
+    },
+    {
+      name: "Saulkrastu",
+      value: "LVC5"
+    },
+    {
+      name: "Sējas",
+      value: "LVC6"
+    },
+    {
+      name: "Siguldas",
+      value: "LVC7"
+    },
+    {
+      name: "Skrīveru",
+      value: "LVC8"
+    },
+    {
+      name: "Skrundas",
+      value: "LVC9"
+    },
+    {
+      name: "Smiltenes",
+      value: "LVD1"
+    },
+    {
+      name: "Stopiņu",
+      value: "LVD2"
+    },
+    {
+      name: "Strenču",
+      value: "LVD3"
+    },
+    {
+      name: "Talsi",
+      value: "LV28"
+    },
+    {
+      name: "Tērvetes",
+      value: "LVD5"
+    },
+    {
+      name: "Tukuma",
+      value: "LV29"
+    },
+    {
+      name: "Vaiņodes",
+      value: "LVD7"
+    },
+    {
+      name: "Valka Municipality",
+      value: "LV30"
+    },
+    {
+      name: "Valmiera District",
+      value: "LV31"
+    },
+    {
+      name: "Varakļānu",
+      value: "LVE1"
+    },
+    {
+      name: "Vārkavas",
+      value: "LVE2"
+    },
+    {
+      name: "Vecpiebalgas",
+      value: "LVE3"
+    },
+    {
+      name: "Vecumnieku",
+      value: "LVE4"
+    },
+    {
+      name: "Ventspils",
+      value: "LV32"
+    },
+    {
+      name: "Ventspils Municipality",
+      value: "LV33"
+    },
+    {
+      name: "Viesītes",
+      value: "LVE6"
+    },
+    {
+      name: "Viļakas",
+      value: "LVE7"
+    },
+    {
+      name: "Viļānu",
+      value: "LVE8"
+    },
+    {
+      name: "Zilupes",
+      value: "LVE9"
+    },
+    {
+      name: "(other)",
+      value: "LV00"
+    },
     // =========================================================
     // Lebanon
     // =========================================================
