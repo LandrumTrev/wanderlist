@@ -8069,258 +8069,354 @@ export default {
       name: "Laos",
       value: "LA"
     },
+    // =========================================================
+    // Latvia
+    // =========================================================
     {
       name: "Latvia",
       value: "LV"
     },
+    // =========================================================
+    // Lebanon
+    // =========================================================
     {
       name: "Lebanon",
       value: "LB"
     },
+    // =========================================================
+    // Lesotho
+    // =========================================================
     {
       name: "Lesotho",
       value: "LS"
     },
+    // =========================================================
+    // Liberia
+    // =========================================================
     {
       name: "Liberia",
       value: "LR"
     },
+    // =========================================================
+    // Libya
+    // =========================================================
     {
       name: "Libya",
       value: "LY"
     },
+    // =========================================================
+    // Liechtenstein
+    // =========================================================
     {
       name: "Liechtenstein",
       value: "LI"
     },
+    // =========================================================
+    // Lithuania
+    // =========================================================
     {
       name: "Lithuania",
       value: "LT"
     },
+    // =========================================================
+    // Luxembourg
+    // =========================================================
     {
       name: "Luxembourg",
       value: "LU"
     },
+    // =========================================================
+    // Macao
+    // =========================================================
     {
       name: "Macao",
       value: "MO"
     },
+    // =========================================================
+    // Macedonia
+    // =========================================================
     {
       name: "Macedonia",
       value: "MK"
     },
+    // =========================================================
+    // Madagascar
+    // =========================================================
     {
       name: "Madagascar",
       value: "MG"
     },
+    // =========================================================
+    // Malawi
+    // =========================================================
     {
       name: "Malawi",
       value: "MW"
     },
+    // =========================================================
+    // Malaysia
+    // =========================================================
     {
       name: "Malaysia",
       value: "MY"
     },
+    // =========================================================
+    // Maldives
+    // =========================================================
     {
       name: "Maldives",
       value: "MV"
     },
+    // =========================================================
+    // Mali
+    // =========================================================
     {
       name: "Mali",
       value: "ML"
     },
+    // =========================================================
+    // Malta
+    // =========================================================
     {
       name: "Malta",
       value: "MT"
     },
+    // =========================================================
+    // Marshall Islands
+    // =========================================================
     {
       name: "Marshall Islands",
       value: "MH"
     },
+    // =========================================================
+    // Martinique
+    // =========================================================
     {
       name: "Martinique",
       value: "MQ"
     },
+    // =========================================================
+    // Mauritania
+    // =========================================================
     {
       name: "Mauritania",
       value: "MR"
     },
+    // =========================================================
+    // Mauritius
+    // =========================================================
     {
       name: "Mauritius",
       value: "MU"
     },
+    // =========================================================
+    // Mayotte
+    // =========================================================
     {
       name: "Mayotte",
       value: "YT"
     },
+    // =========================================================
+    // Mexico
+    // =========================================================
     {
       name: "Mexico",
       value: "MX"
     },
     {
-      name: "Mexico, Aguascalientes",
+      name: "Aguascalientes",
       value: "MX01"
     },
     {
-      name: "Mexico, Baja California",
+      name: "Baja California",
       value: "MX02"
     },
     {
-      name: "Mexico, Baja California Sur",
+      name: "Baja California Sur",
       value: "MX03"
     },
     {
-      name: "Mexico, Campeche",
+      name: "Campeche",
       value: "MX04"
     },
     {
-      name: "Mexico, Chiapas",
+      name: "Chiapas",
       value: "MX05"
     },
     {
-      name: "Mexico, Chihuahua",
+      name: "Chihuahua",
       value: "MX06"
     },
     {
-      name: "Mexico, Coahuila",
+      name: "Coahuila",
       value: "MX07"
     },
     {
-      name: "Mexico, Colima",
+      name: "Colima",
       value: "MX08"
     },
     {
-      name: "Mexico, Distrito Federal",
+      name: "Distrito Federal",
       value: "MX09"
     },
     {
-      name: "Mexico, Durango",
+      name: "Durango",
       value: "MX10"
     },
     {
-      name: "Mexico, Guanajuato",
+      name: "Guanajuato",
       value: "MX11"
     },
     {
-      name: "Mexico, Guerrero",
+      name: "Guerrero",
       value: "MX12"
     },
     {
-      name: "Mexico, Hidalgo",
+      name: "Hidalgo",
       value: "MX13"
     },
     {
-      name: "Mexico, Jalisco",
+      name: "Jalisco",
       value: "MX14"
     },
     {
-      name: "Mexico, México State",
+      name: "México State",
       value: "MX15"
     },
     {
-      name: "Mexico, Michoacán",
+      name: "Michoacán",
       value: "MX16"
     },
     {
-      name: "Mexico, Morelos",
+      name: "Morelos",
       value: "MX17"
     },
     {
-      name: "Mexico, Nayarit",
+      name: "Nayarit",
       value: "MX18"
     },
     {
-      name: "Mexico, Nuevo León",
+      name: "Nuevo León",
       value: "MX19"
     },
     {
-      name: "Mexico, Oaxaca",
+      name: "Oaxaca",
       value: "MX20"
     },
     {
-      name: "Mexico, Puebla",
+      name: "Puebla",
       value: "MX21"
     },
     {
-      name: "Mexico, Querétaro",
+      name: "Querétaro",
       value: "MX22"
     },
     {
-      name: "Mexico, Quintana Roo",
+      name: "Quintana Roo",
       value: "MX23"
     },
     {
-      name: "Mexico, San Luis Potosí",
+      name: "San Luis Potosí",
       value: "MX24"
     },
     {
-      name: "Mexico, Sinaloa",
+      name: "Sinaloa",
       value: "MX25"
     },
     {
-      name: "Mexico, Sonora",
+      name: "Sonora",
       value: "MX26"
     },
     {
-      name: "Mexico, Tabasco",
+      name: "Tabasco",
       value: "MX27"
     },
     {
-      name: "Mexico, Tamaulipas",
+      name: "Tamaulipas",
       value: "MX28"
     },
     {
-      name: "Mexico, Tlaxcala",
+      name: "Tlaxcala",
       value: "MX29"
     },
     {
-      name: "Mexico, Veracruz",
+      name: "Veracruz",
       value: "MX30"
     },
     {
-      name: "Mexico, Yucatán",
+      name: "Yucatán",
       value: "MX31"
     },
     {
-      name: "Mexico, Zacatecas",
+      name: "Zacatecas",
       value: "MX32"
     },
+    // =========================================================
+    // Micronesia
+    // =========================================================
     {
       name: "Micronesia",
       value: "FM"
     },
+    // =========================================================
+    // Moldova
+    // =========================================================
     {
       name: "Moldova",
       value: "MD"
     },
+    // =========================================================
+    // Monaco
+    // =========================================================
     {
       name: "Monaco",
       value: "MC"
     },
+    // =========================================================
+    // Mongolia
+    // =========================================================
     {
       name: "Mongolia",
       value: "MN"
     },
+    // =========================================================
+    // Montenegro
+    // =========================================================
     {
       name: "Montenegro",
       value: "ME"
     },
+    // =========================================================
+    // Montserrat
+    // =========================================================
     {
       name: "Montserrat",
       value: "MS"
     },
+    // =========================================================
+    // Morocco
+    // =========================================================
     {
       name: "Morocco",
       value: "MA"
     },
+    // =========================================================
+    // Mozambique
+    // =========================================================
     {
       name: "Mozambique",
       value: "MZ"
     },
+    // =========================================================
+    // Myanmar (Burma)
+    // =========================================================
     {
       name: "Myanmar (Burma)",
       value: "MM"
     },
+    // =========================================================
+    // Namibia
+    // =========================================================
     {
       name: "Namibia",
       value: "NA"
