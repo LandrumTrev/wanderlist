@@ -7106,8 +7106,92 @@ export default {
     // Italy
     // =========================================================
     {
-      name: "Italy",
+      name: "Italy (Italia)",
       value: "IT"
+    },
+    {
+      name: "Abruzzo (Abruzzo)",
+      value: "IT01"
+    },
+    {
+      name: "Aosta Valley (Valle d'Aosta)",
+      value: "IT19"
+    },
+    {
+      name: "Apulia (Puglia)",
+      value: "IT13"
+    },
+    {
+      name: "Basilicate (Basilicata)",
+      value: "IT02"
+    },
+    {
+      name: "Calabria (Calabria)",
+      value: "IT03"
+    },
+    {
+      name: "Campania (Campania)",
+      value: "IT04"
+    },
+    {
+      name: "Emilia-Romagna (Emilia-Romagna)",
+      value: "IT05"
+    },
+    {
+      name: "Friuli Venezia Giulia (Friuli Venezia Giulia)",
+      value: "IT06"
+    },
+    {
+      name: "Latium (Lazio)",
+      value: "IT07"
+    },
+    {
+      name: "Liguria (Liguria)",
+      value: "IT08"
+    },
+    {
+      name: "Lombardy (Lombardia)",
+      value: "IT09"
+    },
+    {
+      name: "The Marches (Marche)",
+      value: "IT10"
+    },
+    {
+      name: "Molise (Molise)",
+      value: "IT11"
+    },
+    {
+      name: "Piedmont (Piemonte)",
+      value: "IT12"
+    },
+    {
+      name: "Sardinia (Sardegna)",
+      value: "IT14"
+    },
+    {
+      name: "Sicily (Sicilia)",
+      value: "IT15"
+    },
+    {
+      name: "Trentino-South Tyrol (Trentino-Alto Adige)",
+      value: "IT17"
+    },
+    {
+      name: "Tuscany (Toscana)",
+      value: "IT16"
+    },
+    {
+      name: "Umbria (Umbria)",
+      value: "IT18"
+    },
+    {
+      name: "Veneto (Veneto)",
+      value: "IT20"
+    },
+    {
+      name: "(other)",
+      value: "IT00"
     },
     // =========================================================
     // Jamaica
