@@ -7070,6 +7070,38 @@ export default {
       name: "Israel",
       value: "IL"
     },
+    {
+      name: "Southern District",
+      value: "IL01"
+    },
+    {
+      name: "Central District",
+      value: "IL02"
+    },
+    {
+      name: "Northern District",
+      value: "IL03"
+    },
+    {
+      name: "Haifa",
+      value: "IL04"
+    },
+    {
+      name: "Tel Aviv",
+      value: "IL05"
+    },
+    {
+      name: "Jerusalem",
+      value: "IL06"
+    },
+    {
+      name: "Judea and Samaria Area",
+      value: "ILWE"
+    },
+    {
+      name: "(other)",
+      value: "IL00"
+    },
     // =========================================================
     // Italy
     // =========================================================
