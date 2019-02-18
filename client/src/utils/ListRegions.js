@@ -7871,6 +7871,34 @@ export default {
       name: "Kuwait",
       value: "KW"
     },
+    {
+      name: "Al Asimah",
+      value: "KW02"
+    },
+    {
+      name: "Al Aḩmadī",
+      value: "KW04"
+    },
+    {
+      name: "Al Jahrāʼ",
+      value: "KW05"
+    },
+    {
+      name: "Al Farwaniyah",
+      value: "KW07"
+    },
+    {
+      name: "Hawalli",
+      value: "KW08"
+    },
+    {
+      name: "Mubārak al Kabīr",
+      value: "KW09"
+    },
+    {
+      name: "(other)",
+      value: "KW00"
+    },
     // =========================================================
     // Kyrgyzstan
     // =========================================================
