@@ -7906,6 +7906,42 @@ export default {
       name: "Kyrgyzstan",
       value: "KG"
     },
+    {
+      name: "Bishkek",
+      value: "KG01"
+    },
+    {
+      name: "Chüy",
+      value: "KG02"
+    },
+    {
+      name: "Jalal-Abad",
+      value: "KG03"
+    },
+    {
+      name: "Naryn",
+      value: "KG04"
+    },
+    {
+      name: "Talas",
+      value: "KG06"
+    },
+    {
+      name: "Issyk-Kul",
+      value: "KG07"
+    },
+    {
+      name: "Osh",
+      value: "KG08"
+    },
+    {
+      name: "Batken",
+      value: "KG09"
+    },
+    {
+      name: "(other)",
+      value: "KG00"
+    },
     // =========================================================
     // Laos
     // =========================================================
