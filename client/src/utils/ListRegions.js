@@ -7795,6 +7795,22 @@ export default {
       name: "Kiribati",
       value: "KI"
     },
+    {
+      name: "Gilbert Islands",
+      value: "KI01"
+    },
+    {
+      name: "Line Islands",
+      value: "KI02"
+    },
+    {
+      name: "Phoenix Islands",
+      value: "KI03"
+    },
+    {
+      name: "(other)",
+      value: "KI00"
+    },
     // =========================================================
     // North Korea
     // =========================================================
