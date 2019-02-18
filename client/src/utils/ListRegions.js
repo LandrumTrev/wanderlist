@@ -7417,13 +7417,14 @@ export default {
     },
     // =========================================================
     // Jersey
+    // NO RESULTS FOR JERSEY AS A COUNTRY (see UK)
     // =========================================================
-    {
-      name: "Jersey",
-      value: "JE"
-    },
+    // {
+    //   name: "Jersey",
+    //   value: "JE"
+    // },
     // =========================================================
-    // Jersey
+    // Jordan
     // =========================================================
     {
       name: "Jordan",
@@ -7483,6 +7484,82 @@ export default {
     {
       name: "Kazakhstan",
       value: "KZ"
+    },
+    {
+      name: "Almaty Oblysy",
+      value: "KZ01"
+    },
+    {
+      name: "Almaty Qalasy",
+      value: "KZ02"
+    },
+    {
+      name: "Aqmola Oblysy",
+      value: "KZ03"
+    },
+    {
+      name: "Aqtöbe (Aktyubinskaya Oblast)",
+      value: "KZ04"
+    },
+    {
+      name: "Astana Qalasy",
+      value: "KZ05"
+    },
+    {
+      name: "Atyraū Oblysy",
+      value: "KZ06"
+    },
+    {
+      name: "Batys Qazaqstan Oblysy",
+      value: "KZ07"
+    },
+    {
+      name: "Baikonur (Bayqongyr Qalasy)",
+      value: "KZ08"
+    },
+    {
+      name: "Mangghystaū (Mangistauskaya Oblast’)",
+      value: "KZ09"
+    },
+    {
+      name: "Turkistan (Yuzhno-Kazakhstanskaya Oblast’)",
+      value: "KZ10"
+    },
+    {
+      name: "Pavlodar Oblysy",
+      value: "KZ11"
+    },
+    {
+      name: "Karaganda (Qaraghandy Oblysy)",
+      value: "KZ12"
+    },
+    {
+      name: "Qostanay Oblysy",
+      value: "KZ13"
+    },
+    {
+      name: "Qyzylorda Oblysy",
+      value: "KZ14"
+    },
+    {
+      name: "East Kazakhstan (Shyghys Qazaqstan Oblysy)",
+      value: "KZ15"
+    },
+    {
+      name: "Soltüstik Qazaqstan (Severo-Kazakhstanskaya Oblast’)",
+      value: "KZ16"
+    },
+    {
+      name: "Zhambyl Oblysy",
+      value: "KZ17"
+    },
+    {
+      name: "Shymkent",
+      value: "KZ1537272"
+    },
+    {
+      name: "(other)",
+      value: "KZ00"
     },
     // =========================================================
     // Kenya
