@@ -8069,6 +8069,78 @@ export default {
       name: "Laos",
       value: "LA"
     },
+    {
+      name: "Attapu",
+      value: "LA01"
+    },
+    {
+      name: "Champasak",
+      value: "LA02"
+    },
+    {
+      name: "Houaphan",
+      value: "LA03"
+    },
+    {
+      name: "Oudômxai",
+      value: "LA07"
+    },
+    {
+      name: "Xiagnabouli",
+      value: "LA13"
+    },
+    {
+      name: "Xiangkhoang",
+      value: "LA14"
+    },
+    {
+      name: "Khammouan",
+      value: "LA15"
+    },
+    {
+      name: "Loungnamtha",
+      value: "LA16"
+    },
+    {
+      name: "Louangphabang",
+      value: "LA17"
+    },
+    {
+      name: "Phôngsali",
+      value: "LA18"
+    },
+    {
+      name: "Salavan",
+      value: "LA19"
+    },
+    {
+      name: "Savannahkhét",
+      value: "LA20"
+    },
+    {
+      name: "Bokeo",
+      value: "LA22"
+    },
+    {
+      name: "Bolikhamsai",
+      value: "LA23"
+    },
+    {
+      name: "Vientiane Prefecture (capital)",
+      value: "LA24"
+    },
+    {
+      name: "Xékong",
+      value: "LA26"
+    },
+    {
+      name: "Vientiane Province",
+      value: "LA27"
+    },
+    {
+      name: "(other)",
+      value: "LA00"
+    },
     // =========================================================
     // Latvia
     // =========================================================
