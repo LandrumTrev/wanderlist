@@ -6730,12 +6730,216 @@ export default {
       name: "Iran",
       value: "IR"
     },
+    {
+      name: "West Azerbaijan (Āz̄arbāyjān-e Gharbī)",
+      value: "IR01"
+    },
+    {
+      name: "Chaharmahal and Bakhtiari (Chahār Maḩāl va Bakhtīārī)",
+      value: "IR03"
+    },
+    {
+      name: "Sistan and Baluchestan (Sīstān va Balūchestān)",
+      value: "IR04"
+    },
+    {
+      name: "Kohgiluyeh and Boyer-Ahmad (Kohgīlūyeh va Bowyer Aḩmad)",
+      value: "IR05"
+    },
+    {
+      name: "Fars (Fārs)",
+      value: "IR07"
+    },
+    {
+      name: "Gilan (Gīlān)",
+      value: "IR08"
+    },
+    {
+      name: "Hamadan (Hamadān)",
+      value: "IR09"
+    },
+    {
+      name: "Ilam (Īlām)",
+      value: "IR10"
+    },
+    {
+      name: "Hormozgan (Hormozgān)",
+      value: "IR11"
+    },
+    {
+      name: "Kermanshah (Kermānshāh)",
+      value: "IR13"
+    },
+    {
+      name: "Khuzestan (Khūzestān)",
+      value: "IR15"
+    },
+    {
+      name: "Kordestan (Kordestān)",
+      value: "IR16"
+    },
+    {
+      name: "Bushehr (Būshehr)",
+      value: "IR22"
+    },
+    {
+      name: "Lorestan (Lorestān)",
+      value: "IR23"
+    },
+    {
+      name: "Semnan (Semnān)",
+      value: "IR25"
+    },
+    {
+      name: "Tehran (Tehrān)",
+      value: "IR26"
+    },
+    {
+      name: "Isfahan (Eşfahān)",
+      value: "IR28"
+    },
+    {
+      name: "Kerman (Kermān)",
+      value: "IR29"
+    },
+    {
+      name: "Ardabil (Ardabīl)",
+      value: "IR32"
+    },
+    {
+      name: "Āz̄arbāyjān-e Sharqī",
+      value: "IR33"
+    },
+    {
+      name: "Markazi (Markazī)",
+      value: "IR34"
+    },
+    {
+      name: "Mazandaran (Māzandarān)",
+      value: "IR35"
+    },
+    {
+      name: "Zanjan (Zanjān)",
+      value: "IR36"
+    },
+    {
+      name: "Golestan (Golestān)",
+      value: "IR37"
+    },
+    {
+      name: "Qazvin (Qazvīn)",
+      value: "IR38"
+    },
+    {
+      name: "Qom (Qom)",
+      value: "IR39"
+    },
+    {
+      name: "Yazd (Yazd)",
+      value: "IR40"
+    },
+    {
+      name: "South Khorasan (Khorāsān-e Jonūbī)",
+      value: "IR41"
+    },
+    {
+      name: "Razavi Khorasan (Khorāsān-e Raẕavī)",
+      value: "IR42"
+    },
+    {
+      name: "North Khorasan (Khorāsān-e Shomālī)",
+      value: "IR43"
+    },
+    {
+      name: "Alborz (Alborz)",
+      value: "IR44"
+    },
+    {
+      name: "(other)",
+      value: "IR00"
+    },
     // =========================================================
     // Iraq
     // =========================================================
     {
       name: "Iraq",
       value: "IQ"
+    },
+    {
+      name: "Anbar (Anbār)",
+      value: "IQ01"
+    },
+    {
+      name: "Basra (Başrah)",
+      value: "IQ02"
+    },
+    {
+      name: "Muthanna (al Muthanná)",
+      value: "IQ03"
+    },
+    {
+      name: "Qadisiyah (Al Qādisīyah)",
+      value: "IQ04"
+    },
+    {
+      name: "Sulaymaniyah (As Sulaymānīyah)",
+      value: "IQ05"
+    },
+    {
+      name: "Babil (Bābil)",
+      value: "IQ06"
+    },
+    {
+      name: "Baghdad (Baghdād)",
+      value: "IQ07"
+    },
+    {
+      name: "Dohuk (Dahūk)",
+      value: "IQ08"
+    },
+    {
+      name: "Dhi Qar (Dhī Qār)",
+      value: "IQ09"
+    },
+    {
+      name: "Diyala (Diyālá)",
+      value: "IQ10"
+    },
+    {
+      name: "Erbil (Arbīl)",
+      value: "IQ11"
+    },
+    {
+      name: "Karbala (Karbalā)",
+      value: "IQ12"
+    },
+    {
+      name: "Kirkuk (Kirkūk)",
+      value: "IQ13"
+    },
+    {
+      name: "Maysan (Maysān)",
+      value: "IQ14"
+    },
+    {
+      name: "Nineveh (Nīnawá)",
+      value: "IQ15"
+    },
+    {
+      name: "Wasit (Wāsiţ)",
+      value: "IQ16"
+    },
+    {
+      name: "Najaf (An Najaf)",
+      value: "IQ17"
+    },
+    {
+      name: "Saladin (Salah ad Din)",
+      value: "IQ18"
+    },
+    {
+      name: "(other)",
+      value: "IQ00"
     },
     // =========================================================
     // Ireland
@@ -6766,6 +6970,98 @@ export default {
     {
       name: "Isle of Man",
       value: "IM"
+    },
+    {
+      name: "Andreas",
+      value: "IM9782164"
+    },
+    {
+      name: "Arbory",
+      value: "IM9782165"
+    },
+    {
+      name: "Ballaugh",
+      value: "IM9782166"
+    },
+    {
+      name: "Braddan",
+      value: "IM9782167"
+    },
+    {
+      name: "Bride",
+      value: "IM9782168"
+    },
+    {
+      name: "Castletown",
+      value: "IM9782169"
+    },
+    {
+      name: "Douglas",
+      value: "IM9782170"
+    },
+    {
+      name: "Jurby",
+      value: "IM9782172"
+    },
+    {
+      name: "Laxey",
+      value: "IM9782173"
+    },
+    {
+      name: "Lezayre",
+      value: "IM9782176"
+    },
+    {
+      name: "Malew",
+      value: "IM9782182"
+    },
+    {
+      name: "Marown",
+      value: "IM9782183"
+    },
+    {
+      name: "Maughold",
+      value: "IM9782184"
+    },
+    {
+      name: "Michael",
+      value: "IM9782185"
+    },
+    {
+      name: "Onchan",
+      value: "IM9782186"
+    },
+    {
+      name: "Patrick",
+      value: "IM9782187"
+    },
+    {
+      name: "Peel",
+      value: "IM9782188"
+    },
+    {
+      name: "Port Erin",
+      value: "IM9782189"
+    },
+    {
+      name: "Port St Mary",
+      value: "IM9782190"
+    },
+    {
+      name: "Ramsey",
+      value: "IM9782191"
+    },
+    {
+      name: "Rushen",
+      value: "IM9782192"
+    },
+    {
+      name: "Santon",
+      value: "IM9782193"
+    },
+    {
+      name: "(other)",
+      value: "IM00"
     },
     // =========================================================
     // Israel
