@@ -7568,6 +7568,226 @@ export default {
       name: "Kenya",
       value: "KE"
     },
+    {
+      name: "Central",
+      value: "KE01"
+    },
+    {
+      name: "Coast",
+      value: "KE02"
+    },
+    {
+      name: "Eastern",
+      value: "KE03"
+    },
+    {
+      name: "Nairobi",
+      value: "KE05"
+    },
+    {
+      name: "North Eastern",
+      value: "KE06"
+    },
+    {
+      name: "Nyanza",
+      value: "KE07"
+    },
+    {
+      name: "Rift Valley",
+      value: "KE08"
+    },
+    {
+      name: "Western",
+      value: "KE09"
+    },
+    {
+      name: "Baringo",
+      value: "KE10"
+    },
+    {
+      name: "Bomet",
+      value: "KE11"
+    },
+    {
+      name: "Bungoma",
+      value: "KE12"
+    },
+    {
+      name: "Busia",
+      value: "KE13"
+    },
+    {
+      name: "Elegeyo-Marakwet",
+      value: "KE14"
+    },
+    {
+      name: "Embu",
+      value: "KE15"
+    },
+    {
+      name: "Garissa",
+      value: "KE16"
+    },
+    {
+      name: "Homa Bay",
+      value: "KE17"
+    },
+    {
+      name: "Isiolo",
+      value: "KE18"
+    },
+    {
+      name: "Kajiado",
+      value: "KE19"
+    },
+    {
+      name: "Kakamega",
+      value: "KE20"
+    },
+    {
+      name: "Kericho",
+      value: "KE21"
+    },
+    {
+      name: "Kiambu",
+      value: "KE22"
+    },
+    {
+      name: "Kilifi",
+      value: "KE23"
+    },
+    {
+      name: "Kirinyaga",
+      value: "KE24"
+    },
+    {
+      name: "Kisii",
+      value: "KE25"
+    },
+    {
+      name: "Kisumu",
+      value: "KE26"
+    },
+    {
+      name: "Kitui",
+      value: "KE27"
+    },
+    {
+      name: "Kwale",
+      value: "KE28"
+    },
+    {
+      name: "Laikipia",
+      value: "KE29"
+    },
+    {
+      name: "Lamu",
+      value: "KE30"
+    },
+    {
+      name: "Machakos",
+      value: "KE31"
+    },
+    {
+      name: "Makueni",
+      value: "KE32"
+    },
+    {
+      name: "Mandera",
+      value: "KE33"
+    },
+    {
+      name: "Marsabit",
+      value: "KE34"
+    },
+    {
+      name: "Meru",
+      value: "KE35"
+    },
+    {
+      name: "Migori",
+      value: "KE36"
+    },
+    {
+      name: "Mombasa",
+      value: "KE37"
+    },
+    {
+      name: "Murang'A",
+      value: "KE38"
+    },
+    {
+      name: "Nakuru",
+      value: "KE39"
+    },
+    {
+      name: "Nandi",
+      value: "KE40"
+    },
+    {
+      name: "Narok",
+      value: "KE41"
+    },
+    {
+      name: "Nyamira",
+      value: "KE42"
+    },
+    {
+      name: "Nyandarua",
+      value: "KE43"
+    },
+    {
+      name: "Nyeri",
+      value: "KE44"
+    },
+    {
+      name: "Samburu",
+      value: "KE45"
+    },
+    {
+      name: "Siaya",
+      value: "KE46"
+    },
+    {
+      name: "Taita Taveta",
+      value: "KE47"
+    },
+    {
+      name: "Tana River",
+      value: "KE48"
+    },
+    {
+      name: "Tharaka - Nithi",
+      value: "KE49"
+    },
+    {
+      name: "Trans Nzoia",
+      value: "KE50"
+    },
+    {
+      name: "Turkana",
+      value: "KE51"
+    },
+    {
+      name: "Uasin Gishu",
+      value: "KE52"
+    },
+    {
+      name: "Vihiga",
+      value: "KE53"
+    },
+    {
+      name: "Wajir",
+      value: "KE54"
+    },
+    {
+      name: "West Pokot",
+      value: "KE55"
+    },
+    {
+      name: "(other)",
+      value: "KE00"
+    },
     // =========================================================
     // Kiribati
     // =========================================================
