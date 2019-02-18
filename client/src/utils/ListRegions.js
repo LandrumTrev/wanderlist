@@ -1752,57 +1752,17 @@ export default {
       value: "BEVLG"
       // value: "BE01"
     },
-    // {
-    //   name: "Hainaut Province",
-    //   value: "BE03"
-    //   // value: "BE03"
-    // },
     {
       name: "Wallonia",
       // name: "Liège Province (Wallonia)",
       value: "BEWAL"
       // value: "BE04"
     },
-    // {
-    //   name: "Limburg Province",
-    //   value: "BE05"
-    //   // value: "BE05"
-    // },
-    // {
-    //   name: "Luxembourg Province",
-    //   value: "BE06"
-    //   // value: "BE06"
-    // },
-    // {
-    //   name: "Namur Province",
-    //   value: "BE07"
-    //   // value: "BE07"
-    // },
-    // {
-    //   name: "Oost-Vlaanderen Province",
-    //   value: "BE08"
-    //   // value: "BE08"
-    // },
-    // {
-    //   name: "West-Vlaanderen Province",
-    //   value: "BE09"
-    //   // value: "BE09"
-    // },
-    // {
-    //   name: "Walloon Brabant Province",
-    //   value: "BE10"
-    //   // value: "BE10"
-    // },
     {
       name: "Brussels-Capital Region",
       value: "BEBRU"
       // value: "BE11"
     },
-    // {
-    //   name: "Flemish Brabant Province",
-    //   value: "BE12"
-    //   // value: "BE12"
-    // },
     // =========================================================
     // Belize
     // =========================================================
@@ -3796,73 +3756,6 @@ export default {
     {
       name: "San José",
       value: "CR08"
-    },
-    // =========================================================
-    // Côte d'Ivoire (Ivory Coast)
-    // =========================================================
-    {
-      name: "Côte d'Ivoire (Ivory Coast)",
-      value: "CI"
-    },
-    {
-      name: "Abidjan",
-      value: "CI93"
-    },
-    {
-      name: "Bas-Sassandra",
-      value: "CI76"
-    },
-    {
-      name: "Comoé",
-      value: "CI94"
-    },
-    {
-      name: "Denguélé",
-      value: "CI77"
-    },
-    {
-      name: "Gôh-Djiboua",
-      value: "CI95"
-    },
-    {
-      name: "Lacs",
-      value: "CI81"
-    },
-    {
-      name: "Lagunes",
-      value: "CI82"
-    },
-    {
-      name: "Montagnes",
-      value: "CI78"
-    },
-    {
-      name: "Sassandra-Marahoué",
-      value: "CI96"
-    },
-    {
-      name: "Savanes",
-      value: "CI87"
-    },
-    {
-      name: "Vallée du Bandama",
-      value: "CI90"
-    },
-    {
-      name: "Woroba",
-      value: "CI97"
-    },
-    {
-      name: "Yamoussoukro",
-      value: "CI98"
-    },
-    {
-      name: "Zanzan",
-      value: "CI92"
-    },
-    {
-      name: "(other)",
-      value: "CI00"
     },
     // =========================================================
     // Croatia
@@ -7194,11 +7087,138 @@ export default {
       value: "IT00"
     },
     // =========================================================
+    // Ivory Coast (Côte d'Ivoire)
+    // =========================================================
+    {
+      name: "Ivory Coast (Côte d'Ivoire)",
+      value: "CI"
+    },
+    {
+      name: "Abidjan",
+      value: "CI93"
+    },
+    {
+      name: "Bas-Sassandra",
+      value: "CI76"
+    },
+    {
+      name: "Comoé",
+      value: "CI94"
+    },
+    {
+      name: "Denguélé",
+      value: "CI77"
+    },
+    {
+      name: "Gôh-Djiboua",
+      value: "CI95"
+    },
+    {
+      name: "Lacs",
+      value: "CI81"
+    },
+    {
+      name: "Lagunes",
+      value: "CI82"
+    },
+    {
+      name: "Montagnes",
+      value: "CI78"
+    },
+    {
+      name: "Sassandra-Marahoué",
+      value: "CI96"
+    },
+    {
+      name: "Savanes",
+      value: "CI87"
+    },
+    {
+      name: "Vallée du Bandama",
+      value: "CI90"
+    },
+    {
+      name: "Woroba",
+      value: "CI97"
+    },
+    {
+      name: "Yamoussoukro",
+      value: "CI98"
+    },
+    {
+      name: "Zanzan",
+      value: "CI92"
+    },
+    {
+      name: "(other)",
+      value: "CI00"
+    },
+    // =========================================================
     // Jamaica
     // =========================================================
     {
       name: "Jamaica",
       value: "JM"
+    },
+    {
+      name: "Clarendon",
+      value: "JM01"
+    },
+    {
+      name: "Hanover",
+      value: "JM02"
+    },
+    {
+      name: "Manchester",
+      value: "JM04"
+    },
+    {
+      name: "Portland",
+      value: "JM07"
+    },
+    {
+      name: "Saint Andrew",
+      value: "JM08"
+    },
+    {
+      name: "Saint Ann",
+      value: "JM09"
+    },
+    {
+      name: "Saint Catherine",
+      value: "JM10"
+    },
+    {
+      name: "Saint Elizabeth",
+      value: "JM11"
+    },
+    {
+      name: "Saint James",
+      value: "JM12"
+    },
+    {
+      name: "Saint Mary",
+      value: "JM13"
+    },
+    {
+      name: "Saint Thomas",
+      value: "JM14"
+    },
+    {
+      name: "Trelawny",
+      value: "JM15"
+    },
+    {
+      name: "Westmoreland",
+      value: "JM16"
+    },
+    {
+      name: "Kingston",
+      value: "JM17"
+    },
+    {
+      name: "(other)",
+      value: "JM00"
     },
     // =========================================================
     // Japan
