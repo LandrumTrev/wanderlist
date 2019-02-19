@@ -8962,6 +8962,50 @@ export default {
       name: "Lithuania",
       value: "LT"
     },
+    {
+      name: "Alytus (Alytaus)",
+      value: "LT56"
+    },
+    {
+      name: "Kaunas (Kauno)",
+      value: "LT57"
+    },
+    {
+      name: "Klaipėda (Klaipėdos)",
+      value: "LT58"
+    },
+    {
+      name: "Marijampolė (Marijampolės)",
+      value: "LT59"
+    },
+    {
+      name: "Panevėžys (Panevėžio)",
+      value: "LT60"
+    },
+    {
+      name: "Siauliai (Šiaulių)",
+      value: "LT61"
+    },
+    {
+      name: "Tauragė (Tauragės)",
+      value: "LT62"
+    },
+    {
+      name: "Telsiai (Telšių)",
+      value: "LT63"
+    },
+    {
+      name: "Utena (Utenos)",
+      value: "LT64"
+    },
+    {
+      name: "Vilnius (Vilniaus) capital",
+      value: "LT65"
+    },
+    {
+      name: "(other)",
+      value: "LT00"
+    },
     // =========================================================
     // Luxembourg
     // =========================================================
