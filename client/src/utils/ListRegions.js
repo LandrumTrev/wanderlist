@@ -9013,6 +9013,58 @@ export default {
       name: "Luxembourg",
       value: "LU"
     },
+    {
+      name: "Capellen",
+      value: "LUCA"
+    },
+    {
+      name: "Clervaux",
+      value: "LUCL"
+    },
+    {
+      name: "Diekirch",
+      value: "LUDI"
+    },
+    {
+      name: "Echternach",
+      value: "LUEC"
+    },
+    {
+      name: "Esch-sur-Alzette",
+      value: "LUES"
+    },
+    {
+      name: "Grevenmacher",
+      value: "LUGR"
+    },
+    {
+      name: "Luxembourg (capital)",
+      value: "LULU"
+    },
+    {
+      name: "Mersch",
+      value: "LUME"
+    },
+    {
+      name: "Redange",
+      value: "LURD"
+    },
+    {
+      name: "Remich",
+      value: "LURM"
+    },
+    {
+      name: "Vianden",
+      value: "LUVD"
+    },
+    {
+      name: "Wiltz",
+      value: "LUWI"
+    },
+    {
+      name: "(other)",
+      value: "LU00"
+    },
     // =========================================================
     // Macao
     // =========================================================
