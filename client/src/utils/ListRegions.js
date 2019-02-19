@@ -8808,6 +8808,98 @@ export default {
       name: "Libya",
       value: "LY"
     },
+    {
+      name: "Jufrah",
+      value: "LY64"
+    },
+    {
+      name: "Kufrah",
+      value: "LY65"
+    },
+    {
+      name: "Marj",
+      value: "LY66"
+    },
+    {
+      name: "Murqub (Marqab)",
+      value: "LY82"
+    },
+    {
+      name: "Derna (Darnah)",
+      value: "LY70"
+    },
+    {
+      name: "Murzuq",
+      value: "LY73"
+    },
+    {
+      name: "Tobruk (Buţnān)",
+      value: "LY79"
+    },
+    {
+      name: "Jabal al Akhḑar",
+      value: "LY63"
+    },
+    {
+      name: "Jabal al Gharbī",
+      value: "LY80"
+    },
+    {
+      name: "Jafara (Jafārah)",
+      value: "LY81"
+    },
+    {
+      name: "Al Wahat (Al Wāḩāt, The Oasis)",
+      value: "LY83"
+    },
+    {
+      name: "Nuqāţ al Khams",
+      value: "LY67"
+    },
+    {
+      name: "Zawia (Zāwiyah)",
+      value: "LY68"
+    },
+    {
+      name: "Benghazi (Banghāzī)",
+      value: "LY69"
+    },
+    {
+      name: "Ghāt",
+      value: "LY71"
+    },
+    {
+      name: "Misrata (Mişrātah)",
+      value: "LY72"
+    },
+    {
+      name: "Nālūt",
+      value: "LY74"
+    },
+    {
+      name: "Sabhā",
+      value: "LY75"
+    },
+    {
+      name: "Tripoli (Ţarābulus)",
+      value: "LY77"
+    },
+    {
+      name: "Wadi al Hayaa (Wādī al Ḩayāt)",
+      value: "LY84"
+    },
+    {
+      name: "Wadi al Shatii (Wādī ash Shāţi’)",
+      value: "LY78"
+    },
+    {
+      name: "Sirte (Surt)",
+      value: "LY76"
+    },
+    {
+      name: "(other)",
+      value: "LY00"
+    },
     // =========================================================
     // Liechtenstein
     // =========================================================
