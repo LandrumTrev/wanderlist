@@ -8643,6 +8643,42 @@ export default {
       name: "Lebanon",
       value: "LB"
     },
+    {
+      name: "Beirut (Bayrūt, Beyrouth) capital",
+      value: "LB04"
+    },
+    {
+      name: "Mount Lebanon (jabal lubnān, Mont-Liban)",
+      value: "LB05"
+    },
+    {
+      name: "South (al-Janub, Liban-Sud)",
+      value: "LB06"
+    },
+    {
+      name: "Nabatieh (an-Nabaṭiyyah, Nabatîyé)",
+      value: "LB07"
+    },
+    {
+      name: "Beqaa Valley (Al-Biqā', Béqaa)",
+      value: "LB08"
+    },
+    {
+      name: "North (Aš Šamāl, Liban-Nord)",
+      value: "LB09"
+    },
+    {
+      name: "Akkar (Aakkâr)",
+      value: "LB10"
+    },
+    {
+      name: "Baalbek-Hermel (Baalbek and Hermel)",
+      value: "LB11"
+    },
+    {
+      name: "(other)",
+      value: "LB00"
+    },
     // =========================================================
     // Lesotho
     // =========================================================
