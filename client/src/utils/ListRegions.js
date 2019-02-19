@@ -8737,6 +8737,70 @@ export default {
       name: "Liberia",
       value: "LR"
     },
+    {
+      name: "Bomi",
+      value: "LR15"
+    },
+    {
+      name: "Bong",
+      value: "LR01"
+    },
+    {
+      name: "Gbarpolu",
+      value: "LR21"
+    },
+    {
+      name: "Grand Bassa",
+      value: "LR11"
+    },
+    {
+      name: "Grand Cape Mount",
+      value: "LR12"
+    },
+    {
+      name: "Grand Gedeh",
+      value: "LR19"
+    },
+    {
+      name: "Grand Kru",
+      value: "LR16"
+    },
+    {
+      name: "Lofa",
+      value: "LR20"
+    },
+    {
+      name: "Margibi",
+      value: "LR17"
+    },
+    {
+      name: "Maryland",
+      value: "LR13"
+    },
+    {
+      name: "Montserrado",
+      value: "LR14"
+    },
+    {
+      name: "Nimba",
+      value: "LR09"
+    },
+    {
+      name: "River Cess",
+      value: "LR18"
+    },
+    {
+      name: "River Gee",
+      value: "LR22"
+    },
+    {
+      name: "Sinoe",
+      value: "LR10"
+    },
+    {
+      name: "(other)",
+      value: "LR00"
+    },
     // =========================================================
     // Libya
     // =========================================================
