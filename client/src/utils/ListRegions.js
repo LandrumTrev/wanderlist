@@ -8686,6 +8686,50 @@ export default {
       name: "Lesotho",
       value: "LS"
     },
+    {
+      name: "Berea",
+      value: "LS10"
+    },
+    {
+      name: "Butha-Buthe",
+      value: "LS11"
+    },
+    {
+      name: "Leribe",
+      value: "LS12"
+    },
+    {
+      name: "Mafeteng",
+      value: "LS13"
+    },
+    {
+      name: "Maseru",
+      value: "LS14"
+    },
+    {
+      name: "Mohale’s Hoek",
+      value: "LS15"
+    },
+    {
+      name: "Mokhotlong",
+      value: "LS16"
+    },
+    {
+      name: "Qacha’s Nek",
+      value: "LS17"
+    },
+    {
+      name: "Quthing",
+      value: "LS18"
+    },
+    {
+      name: "Thaba-Tseka",
+      value: "LS19"
+    },
+    {
+      name: "(other)",
+      value: "LS00"
+    },
     // =========================================================
     // Liberia
     // =========================================================
