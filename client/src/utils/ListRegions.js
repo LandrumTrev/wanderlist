@@ -8907,6 +8907,54 @@ export default {
       name: "Liechtenstein",
       value: "LI"
     },
+    {
+      name: "Balzers",
+      value: "LI01"
+    },
+    {
+      name: "Eschen",
+      value: "LI02"
+    },
+    {
+      name: "Gamprin",
+      value: "LI03"
+    },
+    {
+      name: "Mauren",
+      value: "LI04"
+    },
+    {
+      name: "Planken",
+      value: "LI05"
+    },
+    {
+      name: "Ruggell",
+      value: "LI06"
+    },
+    {
+      name: "Schaan",
+      value: "LI07"
+    },
+    {
+      name: "Schellenberg",
+      value: "LI08"
+    },
+    {
+      name: "Triesen",
+      value: "LI09"
+    },
+    {
+      name: "Triesenberg",
+      value: "LI10"
+    },
+    {
+      name: "Vaduz",
+      value: "LI11"
+    },
+    {
+      name: "(other)",
+      value: "LI00"
+    },
     // =========================================================
     // Lithuania
     // =========================================================
