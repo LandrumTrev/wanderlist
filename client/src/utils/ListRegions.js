@@ -9564,6 +9564,74 @@ export default {
       name: "Malaysia",
       value: "MY"
     },
+    {
+      name: "Johor",
+      value: "MY01"
+    },
+    {
+      name: "Kedah",
+      value: "MY02"
+    },
+    {
+      name: "Kelantan",
+      value: "MY03"
+    },
+    {
+      name: "Kuala Lumpur (capital)",
+      value: "MY14"
+    },
+    {
+      name: "Labuan",
+      value: "MY15"
+    },
+    {
+      name: "Melaka",
+      value: "MY04"
+    },
+    {
+      name: "Negeri Sembilan",
+      value: "MY05"
+    },
+    {
+      name: "Pahang",
+      value: "MY06"
+    },
+    {
+      name: "Perak",
+      value: "MY07"
+    },
+    {
+      name: "Perlis",
+      value: "MY08"
+    },
+    {
+      name: "Pulau Pinang",
+      value: "MY09"
+    },
+    {
+      name: "Putrajaya",
+      value: "MY17"
+    },
+    {
+      name: "Sabah",
+      value: "MY16"
+    },
+    {
+      name: "Sarawak",
+      value: "MY11"
+    },
+    {
+      name: "Selangor",
+      value: "MY12"
+    },
+    {
+      name: "Terengganu",
+      value: "MY13"
+    },
+    {
+      name: "(other)",
+      value: "MY00"
+    },
     // =========================================================
     // Maldives
     // =========================================================
