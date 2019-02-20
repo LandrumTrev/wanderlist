@@ -9442,6 +9442,98 @@ export default {
       name: "Madagascar",
       value: "MG"
     },
+    {
+      name: "Alaotra Mangoro",
+      value: "MG33"
+    },
+    {
+      name: "Amoron'i Mania",
+      value: "MG22"
+    },
+    {
+      name: "Analamanga (Antananarivo/Tana, capital)",
+      value: "MG11"
+    },
+    {
+      name: "Analanjirofo",
+      value: "MG32"
+    },
+    {
+      name: "Androy",
+      value: "MG52"
+    },
+    {
+      name: "Anosy",
+      value: "MG53"
+    },
+    {
+      name: "Atsimo-Andrefana",
+      value: "MG51"
+    },
+    {
+      name: "Atsimo-Atsinanana",
+      value: "MG25"
+    },
+    {
+      name: "Atsinanana",
+      value: "MG31"
+    },
+    {
+      name: "Betsiboka",
+      value: "MG43"
+    },
+    {
+      name: "Boeny",
+      value: "MG41"
+    },
+    {
+      name: "Bongolava",
+      value: "MG14"
+    },
+    {
+      name: "Diana",
+      value: "MG71"
+    },
+    {
+      name: "Haute Matsiatra (Upper Matsiatra)",
+      value: "MG21"
+    },
+    {
+      name: "Ihorombe",
+      value: "MG24"
+    },
+    {
+      name: "Itasy",
+      value: "MG13"
+    },
+    {
+      name: "Melaky",
+      value: "MG44"
+    },
+    {
+      name: "Menabe",
+      value: "MG54"
+    },
+    {
+      name: "Sava",
+      value: "MG72"
+    },
+    {
+      name: "Sofia",
+      value: "MG42"
+    },
+    {
+      name: "Vakinankaratra",
+      value: "MG12"
+    },
+    {
+      name: "Vatovavy Fitovinany",
+      value: "MG23"
+    },
+    {
+      name: "(other)",
+      value: "MG00"
+    },
     // =========================================================
     // Malawi
     // =========================================================
