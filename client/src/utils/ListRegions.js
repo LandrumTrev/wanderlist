@@ -9639,6 +9639,122 @@ export default {
       name: "Maldives",
       value: "MV"
     },
+    {
+      name: "Laamu Atholhu",
+      value: "MV05"
+    },
+    {
+      name: "Alifu Atholhu",
+      value: "MV30"
+    },
+    {
+      name: "Baa Atholhu",
+      value: "MV31"
+    },
+    {
+      name: "Dhaalu Atholhu",
+      value: "MV32"
+    },
+    {
+      name: "Faafu Atholhu",
+      value: "MV33"
+    },
+    {
+      name: "Gaafu Alifu Atholhu",
+      value: "MV34"
+    },
+    {
+      name: "Gaafu Dhaalu Atholhu",
+      value: "MV35"
+    },
+    {
+      name: "Haa Alifu Atholhu",
+      value: "MV36"
+    },
+    {
+      name: "Haa Dhaalu Atholhu",
+      value: "MV37"
+    },
+    {
+      name: "Kaafu Atoll",
+      value: "MV38"
+    },
+    {
+      name: "Lhaviyani Atholhu",
+      value: "MV39"
+    },
+    {
+      name: "Malé (Maale, capital)",
+      value: "MV40"
+    },
+    {
+      name: "Meemu Atholhu",
+      value: "MV41"
+    },
+    {
+      name: "Gnyaviyani Atoll",
+      value: "MV42"
+    },
+    {
+      name: "Noonu Atoll",
+      value: "MV43"
+    },
+    {
+      name: "Raa Atholhu",
+      value: "MV44"
+    },
+    {
+      name: "Seenu Atholhu",
+      value: "MV01"
+    },
+    {
+      name: "Shaviyani Atholhu",
+      value: "MV45"
+    },
+    {
+      name: "Thaa Atholhu",
+      value: "MV46"
+    },
+    {
+      name: "Vaavu Atholhu",
+      value: "MV47"
+    },
+    {
+      name: "Southern Ari Atoll",
+      value: "MV10346475"
+    },
+    {
+      name: "South Province (Dhekunu Sarahahdhu)",
+      value: "MV48"
+    },
+    {
+      name: "Upper South (Mathi Dhekunu Sarahahdhu)",
+      value: "MV49"
+    },
+    {
+      name: "Upper North (Mathi Uthuru Sarahahdhu)",
+      value: "MV50"
+    },
+    {
+      name: "Central Province (Medhu Sarahahdhu)",
+      value: "MV51"
+    },
+    {
+      name: "South Central (Medhu Dhekunu Sarahahdhu)",
+      value: "MV52"
+    },
+    {
+      name: "North Central (Medhu Uthuru Sarahahdhu)",
+      value: "MV53"
+    },
+    {
+      name: "North Province (Uthuru Sarahahdhu)",
+      value: "MV54"
+    },
+    {
+      name: "(other)",
+      value: "MV00"
+    },
     // =========================================================
     // Mali
     // =========================================================
