@@ -9072,6 +9072,22 @@ export default {
       name: "Macao",
       value: "MO"
     },
+    {
+      name: "Nossa Senhora do Carmo",
+      value: "MO11875159"
+    },
+    {
+      name: "Ilhas (Concelho das Ilhas)",
+      value: "MO01"
+    },
+    {
+      name: "Macau (Concelho de Macau)",
+      value: "MO02"
+    },
+    {
+      name: "(other)",
+      value: "MO00"
+    },
     // =========================================================
     // Macedonia
     // =========================================================
