@@ -9541,6 +9541,22 @@ export default {
       name: "Malawi",
       value: "MW"
     },
+    {
+      name: "Central Region (Lilongwe, capital)",
+      value: "MWC"
+    },
+    {
+      name: "Northern Region (Mzuzu)",
+      value: "MWN"
+    },
+    {
+      name: "Southern Region (Blantyre, Zomba)",
+      value: "MWS"
+    },
+    {
+      name: "(other)",
+      value: "MW00"
+    },
     // =========================================================
     // Malaysia
     // =========================================================
