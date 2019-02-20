@@ -9762,6 +9762,46 @@ export default {
       name: "Mali",
       value: "ML"
     },
+    {
+      name: "Bamako",
+      value: "ML01"
+    },
+    {
+      name: "Gao",
+      value: "ML09"
+    },
+    {
+      name: "Kayes",
+      value: "ML03"
+    },
+    {
+      name: "Kidal",
+      value: "ML10"
+    },
+    {
+      name: "Koulikoro",
+      value: "ML07"
+    },
+    {
+      name: "Mopti",
+      value: "ML04"
+    },
+    {
+      name: "Ségou",
+      value: "ML05"
+    },
+    {
+      name: "Sikasso",
+      value: "ML06"
+    },
+    {
+      name: "Timbuktu (Tombouctou)",
+      value: "ML08"
+    },
+    {
+      name: "(other)",
+      value: "ML00"
+    },
     // =========================================================
     // Malta
     // =========================================================
