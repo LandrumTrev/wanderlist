@@ -9089,11 +9089,351 @@ export default {
       value: "MO00"
     },
     // =========================================================
-    // Macedonia
+    // Macedonia (North Macedonia)
     // =========================================================
     {
-      name: "Macedonia",
+      name: "Macedonia (North Macedonia)",
       value: "MK"
+    },
+    {
+      name: "Aerodrom",
+      value: "MKF3"
+    },
+    {
+      name: "Berovo",
+      value: "MK04"
+    },
+    {
+      name: "Bitola",
+      value: "MK06"
+    },
+    {
+      name: "Bogdanci",
+      value: "MK08"
+    },
+    {
+      name: "Bogovinje",
+      value: "MKC7"
+    },
+    {
+      name: "Bosilovo",
+      value: "MK11"
+    },
+    {
+      name: "Brvenica",
+      value: "MK12"
+    },
+    {
+      name: "Butel",
+      value: "MKF4"
+    },
+    {
+      name: "Debar",
+      value: "MKD2"
+    },
+    {
+      name: "Debarca",
+      value: "MKF5"
+    },
+    {
+      name: "Demir Hisar",
+      value: "MKD3"
+    },
+    {
+      name: "Demir Kapija",
+      value: "MK25"
+    },
+    {
+      name: "Dolneni",
+      value: "MK28"
+    },
+    {
+      name: "Drugovo",
+      value: "MK30"
+    },
+    {
+      name: "Gazi Baba",
+      value: "MK32"
+    },
+    {
+      name: "Gevgelija",
+      value: "MK33"
+    },
+    {
+      name: "Gostivar",
+      value: "MKD4"
+    },
+    {
+      name: "Gradsko",
+      value: "MK35"
+    },
+    {
+      name: "Ilinden",
+      value: "MK36"
+    },
+    {
+      name: "Jegunovce",
+      value: "MKD5"
+    },
+    {
+      name: "Karbinci",
+      value: "MK40"
+    },
+    {
+      name: "Kavadarci",
+      value: "MKD6"
+    },
+    {
+      name: "Kisela Voda",
+      value: "MK44"
+    },
+    {
+      name: "Kratovo",
+      value: "MK51"
+    },
+    {
+      name: "Kriva Palanka",
+      value: "MK52"
+    },
+    {
+      name: "Kumanovo",
+      value: "MKD7"
+    },
+    {
+      name: "Lozovo",
+      value: "MK60"
+    },
+    {
+      name: "Makedonska Kamenica",
+      value: "MK62"
+    },
+    {
+      name: "Makedonski Brod",
+      value: "MKD8"
+    },
+    {
+      name: "Mogila",
+      value: "MKD9"
+    },
+    {
+      name: "Negotino",
+      value: "MK69"
+    },
+    {
+      name: "Novaci",
+      value: "MKE1"
+    },
+    {
+      name: "Novo Selo",
+      value: "MK72"
+    },
+    {
+      name: "Ohrid",
+      value: "MKE2"
+    },
+    {
+      name: "Aračinovo",
+      value: "MK01"
+    },
+    {
+      name: "Čair",
+      value: "MKC8"
+    },
+    {
+      name: "Čaška",
+      value: "MKC9"
+    },
+    {
+      name: "Centar",
+      value: "MKD1"
+    },
+    {
+      name: "Centar Župa",
+      value: "MK18"
+    },
+    {
+      name: "Češinovo-Obleševo",
+      value: "MK19"
+    },
+    {
+      name: "Čučer-Sandevo",
+      value: "MK20"
+    },
+    {
+      name: "Delčevo",
+      value: "MK22"
+    },
+    {
+      name: "Dojran",
+      value: "MKE5"
+    },
+    {
+      name: "Gjorce Petrov",
+      value: "MK29"
+    },
+    {
+      name: "Karpoš",
+      value: "MK41"
+    },
+    {
+      name: "Kičevo",
+      value: "MK43"
+    },
+    {
+      name: "Kočani",
+      value: "MK46"
+    },
+    {
+      name: "Konče",
+      value: "MK47"
+    },
+    {
+      name: "Krivogaštani",
+      value: "MK53"
+    },
+    {
+      name: "Kruševo",
+      value: "MK54"
+    },
+    {
+      name: "Lipkovo",
+      value: "MK59"
+    },
+    {
+      name: "Mavrovo i Rostuša",
+      value: "MKE4"
+    },
+    {
+      name: "Pehčevo",
+      value: "MK78"
+    },
+    {
+      name: "Probištip",
+      value: "MK83"
+    },
+    {
+      name: "Radoviš",
+      value: "MK84"
+    },
+    {
+      name: "Rankovce",
+      value: "MK85"
+    },
+    {
+      name: "Sopište",
+      value: "MK92"
+    },
+    {
+      name: "Staro Nagoričane",
+      value: "MK97"
+    },
+    {
+      name: "Štip",
+      value: "MK98"
+    },
+    {
+      name: "Studeničani",
+      value: "MKA2"
+    },
+    {
+      name: "Šuto Orizari",
+      value: "MKA3"
+    },
+    {
+      name: "Vevčani",
+      value: "MKB3"
+    },
+    {
+      name: "Vraneštica",
+      value: "MKB6"
+    },
+    {
+      name: "Vrapčište",
+      value: "MKB7"
+    },
+    {
+      name: "Želino",
+      value: "MKC3"
+    },
+    {
+      name: "Oslomej",
+      value: "MK77"
+    },
+    {
+      name: "Petrovec",
+      value: "MK79"
+    },
+    {
+      name: "Plasnica",
+      value: "MK80"
+    },
+    {
+      name: "Prilep",
+      value: "MKE3"
+    },
+    {
+      name: "Resen",
+      value: "MK86"
+    },
+    {
+      name: "Rosoman",
+      value: "MK87"
+    },
+    {
+      name: "Saraj",
+      value: "MK90"
+    },
+    {
+      name: "Struga",
+      value: "MKE6"
+    },
+    {
+      name: "Strumica",
+      value: "MKE7"
+    },
+    {
+      name: "Sveti Nikole",
+      value: "MKA4"
+    },
+    {
+      name: "Tearce",
+      value: "MKA5"
+    },
+    {
+      name: "Tetovo",
+      value: "MKE8"
+    },
+    {
+      name: "Valandovo",
+      value: "MKE9"
+    },
+    {
+      name: "Vasilevo",
+      value: "MKA9"
+    },
+    {
+      name: "Veles",
+      value: "MKF1"
+    },
+    {
+      name: "Vinica",
+      value: "MKB4"
+    },
+    {
+      name: "Zajas",
+      value: "MKC1"
+    },
+    {
+      name: "Zelenikovo",
+      value: "MKC2"
+    },
+    {
+      name: "Zrnovci",
+      value: "MKC6"
+    },
+    {
+      name: "(other)",
+      value: "MK00"
     },
     // =========================================================
     // Madagascar
