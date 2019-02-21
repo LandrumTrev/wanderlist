@@ -10246,12 +10246,120 @@ export default {
       name: "Mauritania",
       value: "MR"
     },
+    {
+      name: "Adrar",
+      value: "MR07"
+    },
+    {
+      name: "Assaba",
+      value: "MR03"
+    },
+    {
+      name: "Brakna",
+      value: "MR05"
+    },
+    {
+      name: "Dakhlet Nouadhibou",
+      value: "MR08"
+    },
+    {
+      name: "District de Nouakchott",
+      value: "MRNKC"
+    },
+    {
+      name: "Gorgol",
+      value: "MR04"
+    },
+    {
+      name: "Guidimaka",
+      value: "MR10"
+    },
+    {
+      name: "Hodh ech Chargui",
+      value: "MR01"
+    },
+    {
+      name: "Hodh el Gharbi",
+      value: "MR02"
+    },
+    {
+      name: "Inchiri",
+      value: "MR12"
+    },
+    {
+      name: "Tagant",
+      value: "MR09"
+    },
+    {
+      name: "Tiris Zemmour",
+      value: "MR11"
+    },
+    {
+      name: "Wilaya du Trarza",
+      value: "MR06"
+    },
+    {
+      name: "(other)",
+      value: "MR00"
+    },
     // =========================================================
     // Mauritius
     // =========================================================
     {
       name: "Mauritius",
       value: "MU"
+    },
+    {
+      name: "Agalega Islands",
+      value: "MU21"
+    },
+    {
+      name: "Black River",
+      value: "MU12"
+    },
+    {
+      name: "Cargados Carajos",
+      value: "MU22"
+    },
+    {
+      name: "Flacq",
+      value: "MU13"
+    },
+    {
+      name: "Grand Port",
+      value: "MU14"
+    },
+    {
+      name: "Moka",
+      value: "MU15"
+    },
+    {
+      name: "Pamplemousses",
+      value: "MU16"
+    },
+    {
+      name: "Plaines Wilhems",
+      value: "MU17"
+    },
+    {
+      name: "Port Louis",
+      value: "MU18"
+    },
+    {
+      name: "Rivière du Rempart",
+      value: "MU19"
+    },
+    {
+      name: "Rodrigues",
+      value: "MU23"
+    },
+    {
+      name: "Savanne",
+      value: "MU20"
+    },
+    {
+      name: "(other)",
+      value: "MU00"
     },
     // =========================================================
     // Mayotte
