@@ -11206,94 +11206,139 @@ export default {
       name: "Namibia",
       value: "NA"
     },
+    // =========================================================
+    // Nauru
+    // =========================================================
     {
       name: "Nauru",
       value: "NR"
     },
+    // =========================================================
+    // Nepal
+    // =========================================================
     {
       name: "Nepal",
       value: "NP"
     },
+    // =========================================================
+    // Netherlands
+    // =========================================================
     {
       name: "Netherlands",
       value: "NL"
     },
+    // =========================================================
+    // New Caledonia
+    // =========================================================
     {
       name: "New Caledonia",
       value: "NC"
     },
+    // =========================================================
+    // New Zealand
+    // =========================================================
     {
       name: "New Zealand",
       value: "NZ"
     },
+    // =========================================================
+    // Nicaragua
+    // =========================================================
     {
       name: "Nicaragua",
       value: "NI"
     },
+    // =========================================================
+    // Niger
+    // =========================================================
     {
       name: "Niger",
       value: "NE"
     },
+    // =========================================================
+    // Nigeria
+    // =========================================================
     {
       name: "Nigeria",
       value: "NG"
     },
+    // =========================================================
+    // Niue
+    // =========================================================
     {
       name: "Niue",
       value: "NU"
     },
+    // =========================================================
+    // Norfolk Island
+    // =========================================================
     {
       name: "Norfolk Island",
       value: "NF"
     },
+    // =========================================================
+    // Northern Mariana Islands
+    // =========================================================
     {
       name: "Northern Mariana Islands",
       value: "MP"
     },
+    // =========================================================
+    // Norway
+    // =========================================================
     {
       name: "Norway",
       value: "NO"
     },
+    // =========================================================
+    // Oman
+    // =========================================================
     {
       name: "Oman",
       value: "OM"
     },
+    // =========================================================
+    // Pakistan
+    // =========================================================
     {
       name: "Pakistan",
       value: "PK"
     },
     {
-      name: "Pakistan, Federally Administered Tribal Areas Territory",
+      name: "Federally Administered Tribal Areas Territory",
       value: "PK01"
     },
     {
-      name: "Pakistan, Balochistān Province",
+      name: "Balochistān",
       value: "PK02"
     },
     {
-      name: "Pakistan, North-West Frontier Province",
+      name: "North-West Frontier",
       value: "PK03"
     },
     {
-      name: "Pakistan, Punjab Province",
+      name: "Punjab",
       value: "PK04"
     },
     {
-      name: "Pakistan, Sindh Province",
+      name: "Sindh",
       value: "PK05"
     },
     {
-      name: "Pakistan, Azad Jammu and Kashmir (disputed territory)",
+      name: "Azad Jammu and Kashmir (disputed territory)",
       value: "PK06"
     },
     {
-      name: "Pakistan, Federally Administered Northern Areas (disputed territory)",
+      name: "Federally Administered Northern Areas (disputed territory)",
       value: "PK07"
     },
     {
-      name: "Pakistan, Islāmābād",
+      name: "Islāmābād",
       value: "PK08"
     },
+    // =========================================================
+    // Palau
+    // =========================================================
     {
       name: "Palau",
       value: "PW"
