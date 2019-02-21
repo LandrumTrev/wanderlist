@@ -11080,6 +11080,54 @@ export default {
       name: "Mozambique",
       value: "MZ"
     },
+    {
+      name: "Cabo Delgado",
+      value: "MZ01"
+    },
+    {
+      name: "Gaza",
+      value: "MZ02"
+    },
+    {
+      name: "Inhambane",
+      value: "MZ03"
+    },
+    {
+      name: "Manica",
+      value: "MZ10"
+    },
+    {
+      name: "Maputo City (capital)",
+      value: "MZ11"
+    },
+    {
+      name: "Maputo Province",
+      value: "MZ04"
+    },
+    {
+      name: "Nampula",
+      value: "MZ06"
+    },
+    {
+      name: "Niassa",
+      value: "MZ07"
+    },
+    {
+      name: "Zambézia",
+      value: "MZ09"
+    },
+    {
+      name: "Sofala",
+      value: "MZ05"
+    },
+    {
+      name: "Tete",
+      value: "MZ08"
+    },
+    {
+      name: "(other)",
+      value: "MZ00"
+    },
     // =========================================================
     // Myanmar (Burma)
     // =========================================================
