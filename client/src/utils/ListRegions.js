@@ -10368,6 +10368,78 @@ export default {
       name: "Mayotte",
       value: "YT"
     },
+    {
+      name: "Acoua",
+      value: "YT97601"
+    },
+    {
+      name: "Bandraboua",
+      value: "YT97602"
+    },
+    {
+      name: "Bandrele",
+      value: "YT97603"
+    },
+    {
+      name: "Bouéni",
+      value: "YT97604"
+    },
+    {
+      name: "Chiconi",
+      value: "YT97605"
+    },
+    {
+      name: "Chirongui",
+      value: "YT97606"
+    },
+    {
+      name: "Dembeni",
+      value: "YT97607"
+    },
+    {
+      name: "Dzaoudzi",
+      value: "YT97608"
+    },
+    {
+      name: "Kani-Kéli",
+      value: "YT97609"
+    },
+    {
+      name: "Koungou",
+      value: "YT97610"
+    },
+    {
+      name: "M'Tsangamouji",
+      value: "YT97613"
+    },
+    {
+      name: "Mamoudzou (capital)",
+      value: "YT97611"
+    },
+    {
+      name: "Mtsamboro",
+      value: "YT97612"
+    },
+    {
+      name: "Ouangani",
+      value: "YT97614"
+    },
+    {
+      name: "Pamandzi",
+      value: "YT97615"
+    },
+    {
+      name: "Sada",
+      value: "YT97616"
+    },
+    {
+      name: "Tsingoni",
+      value: "YT97617"
+    },
+    {
+      name: "(other)",
+      value: "YT00"
+    },
     // =========================================================
     // Mexico
     // =========================================================
