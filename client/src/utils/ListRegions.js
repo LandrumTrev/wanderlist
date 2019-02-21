@@ -9809,6 +9809,278 @@ export default {
       name: "Malta",
       value: "MT"
     },
+    {
+      name: "Attard",
+      value: "MT01"
+    },
+    {
+      name: "Balzan",
+      value: "MT02"
+    },
+    {
+      name: "Birkirkara",
+      value: "MT04"
+    },
+    {
+      name: "Birżebbuġa",
+      value: "MT05"
+    },
+    {
+      name: "Bormla",
+      value: "MT06"
+    },
+    {
+      name: "Dingli",
+      value: "MT07"
+    },
+    {
+      name: "Għajnsielem",
+      value: "MT11"
+    },
+    {
+      name: "Il-Belt Valletta",
+      value: "MT60"
+    },
+    {
+      name: "Il-Birgu",
+      value: "MT03"
+    },
+    {
+      name: "Il-Fgura",
+      value: "MT08"
+    },
+    {
+      name: "Il-Fontana",
+      value: "MT10"
+    },
+    {
+      name: "Il-Furjana",
+      value: "MT09"
+    },
+    {
+      name: "Il-Gudja",
+      value: "MT16"
+    },
+    {
+      name: "Il-Gżira",
+      value: "MT17"
+    },
+    {
+      name: "Il-Kalkara",
+      value: "MT26"
+    },
+    {
+      name: "Il-Marsa",
+      value: "MT31"
+    },
+    {
+      name: "Il-Mellieħa",
+      value: "MT34"
+    },
+    {
+      name: "Il-Mosta",
+      value: "MT35"
+    },
+    {
+      name: "Il-Munxar",
+      value: "MT36"
+    },
+    {
+      name: "Il-Qala",
+      value: "MT42"
+    },
+    {
+      name: "Il-Qrendi",
+      value: "MT44"
+    },
+    {
+      name: "Il-Ħamrun",
+      value: "MT18"
+    },
+    {
+      name: "In-Nadur",
+      value: "MT37"
+    },
+    {
+      name: "In-Naxxar",
+      value: "MT38"
+    },
+    {
+      name: "Ir-Rabat",
+      value: "MT46"
+    },
+    {
+      name: "Is-Siġġiewi",
+      value: "MT55"
+    },
+    {
+      name: "Is-Swieqi",
+      value: "MT57"
+    },
+    {
+      name: "Ix-Xagħra",
+      value: "MT61"
+    },
+    {
+      name: "Ix-Xewkija",
+      value: "MT62"
+    },
+    {
+      name: "Ix-Xgħajra",
+      value: "MT63"
+    },
+    {
+      name: "Iż-Żebbuġ",
+      value: "MT66"
+    },
+    {
+      name: "Iż-Żejtun",
+      value: "MT67"
+    },
+    {
+      name: "Iż-Żurrieq",
+      value: "MT68"
+    },
+    {
+      name: "Kirkop",
+      value: "MT28"
+    },
+    {
+      name: "L-Għarb",
+      value: "MT12"
+    },
+    {
+      name: "L-Għasri",
+      value: "MT14"
+    },
+    {
+      name: "L-Iklin",
+      value: "MT19"
+    },
+    {
+      name: "L-Imdina",
+      value: "MT20"
+    },
+    {
+      name: "L-Imġarr",
+      value: "MT21"
+    },
+    {
+      name: "L-Imqabba",
+      value: "MT22"
+    },
+    {
+      name: "L-Imsida",
+      value: "MT23"
+    },
+    {
+      name: "L-Imtarfa",
+      value: "MT24"
+    },
+    {
+      name: "L-Isla",
+      value: "MT25"
+    },
+    {
+      name: "Lija",
+      value: "MT29"
+    },
+    {
+      name: "Luqa",
+      value: "MT30"
+    },
+    {
+      name: "Marsaskala",
+      value: "MT32"
+    },
+    {
+      name: "Marsaxlokk",
+      value: "MT33"
+    },
+    {
+      name: "Paola",
+      value: "MT39"
+    },
+    {
+      name: "Pembroke",
+      value: "MT40"
+    },
+    {
+      name: "Qormi",
+      value: "MT43"
+    },
+    {
+      name: "Safi",
+      value: "MT47"
+    },
+    {
+      name: "Saint John",
+      value: "MT48"
+    },
+    {
+      name: "Saint Julian",
+      value: "MT49"
+    },
+    {
+      name: "Saint Lawrence",
+      value: "MT50"
+    },
+    {
+      name: "Saint Lucia",
+      value: "MT51"
+    },
+    {
+      name: "Saint Paul’s Bay",
+      value: "MT52"
+    },
+    {
+      name: "Saint Venera",
+      value: "MT53"
+    },
+    {
+      name: "Sannat",
+      value: "MT54"
+    },
+    {
+      name: "Tal-Pietà",
+      value: "MT41"
+    },
+    {
+      name: "Tarxien",
+      value: "MT58"
+    },
+    {
+      name: "Tas-Sliema",
+      value: "MT56"
+    },
+    {
+      name: "Ta’ Kerċem",
+      value: "MT27"
+    },
+    {
+      name: "Ta’ Xbiex",
+      value: "MT59"
+    },
+    {
+      name: "Ħal Għargħur",
+      value: "MT13"
+    },
+    {
+      name: "Ħal Għaxaq",
+      value: "MT15"
+    },
+    {
+      name: "Ħaż-Żabbar",
+      value: "MT64"
+    },
+    {
+      name: "Ħaż-Żebbuġ",
+      value: "MT65"
+    },
+    {
+      name: "(other)",
+      value: "MT00"
+    },
     // =========================================================
     // Marshall Islands
     // =========================================================
