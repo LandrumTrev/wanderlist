@@ -10767,6 +10767,7 @@ export default {
     },
     // =========================================================
     // Monaco
+    // a few "00" admin codes, but most locations have NO admin1
     // =========================================================
     {
       name: "Monaco",
