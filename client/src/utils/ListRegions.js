@@ -10879,6 +10879,94 @@ export default {
       name: "Montenegro",
       value: "ME"
     },
+    {
+      name: "Andrijevica",
+      value: "ME01"
+    },
+    {
+      name: "Bar",
+      value: "ME02"
+    },
+    {
+      name: "Berane",
+      value: "ME03"
+    },
+    {
+      name: "Bijelo Polje",
+      value: "ME04"
+    },
+    {
+      name: "Budva",
+      value: "ME05"
+    },
+    {
+      name: "Cetinje",
+      value: "ME06"
+    },
+    {
+      name: "Danilovgrad",
+      value: "ME07"
+    },
+    {
+      name: "Herceg Novi",
+      value: "ME08"
+    },
+    {
+      name: "Kotor",
+      value: "ME10"
+    },
+    {
+      name: "Mojkovac",
+      value: "ME11"
+    },
+    {
+      name: "Opština Kolašin",
+      value: "ME09"
+    },
+    {
+      name: "Opština Nikšić",
+      value: "ME12"
+    },
+    {
+      name: "Opština Plav",
+      value: "ME13"
+    },
+    {
+      name: "Opština Plužine",
+      value: "ME15"
+    },
+    {
+      name: "Opština Rožaje",
+      value: "ME17"
+    },
+    {
+      name: "Opština Šavnik",
+      value: "ME18"
+    },
+    {
+      name: "Opština Žabljak",
+      value: "ME21"
+    },
+    {
+      name: "Pljevlja",
+      value: "ME14"
+    },
+    {
+      name: "Podgorica (capital)",
+      value: "ME16"
+    },
+    {
+      name: "Tivat",
+      value: "ME19"
+    },
+    {
+      name: "Ulcinj",
+      value: "ME20"
+    },
+    {
+      name: "(other)",
+      value: "ME00"
+    },
     // =========================================================
     // Montserrat
     // =========================================================
