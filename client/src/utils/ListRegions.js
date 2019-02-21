@@ -10997,6 +10997,82 @@ export default {
       name: "Morocco",
       value: "MA"
     },
+    {
+      name: "Tanger-Tetouan-Al Hoceima",
+      value: "MA01"
+    },
+    {
+      name: "Oriental",
+      value: "MA02"
+    },
+    {
+      name: "Fès-Meknès",
+      value: "MA03"
+    },
+    {
+      name: "Rabat-Salé-Kénitra (Rabat, capital)",
+      value: "MA04"
+    },
+    {
+      name: "Béni Mellal-Khénifra",
+      value: "MA05"
+    },
+    {
+      name: "Casablanca-Settat",
+      value: "MA06"
+    },
+    {
+      name: "Marrakesh-Safi",
+      value: "MA07"
+    },
+    {
+      name: "Drâa-Tafilalet",
+      value: "MA08"
+    },
+    {
+      name: "Souss-Massa",
+      value: "MA09"
+    },
+    {
+      name: "Guelmim-Oued Noun (Western Sahara)",
+      value: "MA10"
+    },
+    {
+      name: "Laâyoune-Sakia El Hamra (Western Sahara)",
+      value: "MA11"
+    },
+    {
+      name: "Dakhla-Oued Ed-Dahab (Western Sahara)",
+      value: "MAEH"
+    },
+    {
+      name: "(defunct) Oued Ed-Dahab-Lagouira (Western Sahara)",
+      value: "MACE"
+    },
+    {
+      name: "(defunct) Meknès-Tafilalet",
+      value: "MA48"
+    },
+    {
+      name: "(defunct) Souss-Massa-Drâa",
+      value: "MA55"
+    },
+    {
+      name: "(defunct) Taza-Al Hoceima-Taounate",
+      value: "MA58"
+    },
+    {
+      name: "(defunct) Oriental",
+      value: "MA54"
+    },
+    {
+      name: "(defunct) Gharb-Chrarda-Beni Hssen",
+      value: "MA52"
+    },
+    {
+      name: "(other)",
+      value: "MA00"
+    },
     // =========================================================
     // Mozambique
     // =========================================================
