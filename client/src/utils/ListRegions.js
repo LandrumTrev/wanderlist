@@ -10088,6 +10088,142 @@ export default {
       name: "Marshall Islands",
       value: "MH"
     },
+    {
+      name: "Ailinginae Atoll",
+      value: "MH007"
+    },
+    {
+      name: "Ailinglaplap Atoll",
+      value: "MH010"
+    },
+    {
+      name: "Ailuk Atoll",
+      value: "MH030"
+    },
+    {
+      name: "Arno Atoll",
+      value: "MH040"
+    },
+    {
+      name: "Aur Atoll",
+      value: "MH050"
+    },
+    {
+      name: "Bikar Atoll",
+      value: "MH060"
+    },
+    {
+      name: "Bikini Atoll",
+      value: "MH070"
+    },
+    {
+      name: "Bokak Atoll",
+      value: "MH073"
+    },
+    {
+      name: "Ebon Atoll",
+      value: "MH080"
+    },
+    {
+      name: "Enewetak Atoll",
+      value: "MH090"
+    },
+    {
+      name: "Erikub Atoll",
+      value: "MH100"
+    },
+    {
+      name: "Jabat Island",
+      value: "MH110"
+    },
+    {
+      name: "Jaluit Atoll",
+      value: "MH120"
+    },
+    {
+      name: "Jemo Island",
+      value: "MH130"
+    },
+    {
+      name: "Kili Island",
+      value: "MH140"
+    },
+    {
+      name: "Kwajalein Atoll",
+      value: "MH150"
+    },
+    {
+      name: "Lae Atoll",
+      value: "MH160"
+    },
+    {
+      name: "Lib Island",
+      value: "MH170"
+    },
+    {
+      name: "Likiep Atoll",
+      value: "MH180"
+    },
+    {
+      name: "Majuro Atoll",
+      value: "MH190"
+    },
+    {
+      name: "Maloelap Atoll",
+      value: "MH300"
+    },
+    {
+      name: "Mejit Island",
+      value: "MH310"
+    },
+    {
+      name: "Mili Atoll",
+      value: "MH320"
+    },
+    {
+      name: "Namdrik Atoll",
+      value: "MH330"
+    },
+    {
+      name: "Namu Atoll",
+      value: "MH340"
+    },
+    {
+      name: "Rongelap Atoll",
+      value: "MH350"
+    },
+    {
+      name: "Rongrik Atoll",
+      value: "MH360"
+    },
+    {
+      name: "Taka Atoll",
+      value: "MH385"
+    },
+    {
+      name: "Ujae Atoll",
+      value: "MH390"
+    },
+    {
+      name: "Ujelang Atoll",
+      value: "MH400"
+    },
+    {
+      name: "Utrik Atoll",
+      value: "MH410"
+    },
+    {
+      name: "Wotho Atoll",
+      value: "MH420"
+    },
+    {
+      name: "Wotje Atoll",
+      value: "MH430"
+    },
+    {
+      name: "(other)",
+      value: "MH00"
+    },
     // =========================================================
     // Martinique
     // =========================================================
