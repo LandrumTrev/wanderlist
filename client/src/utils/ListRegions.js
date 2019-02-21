@@ -11135,6 +11135,70 @@ export default {
       name: "Myanmar (Burma)",
       value: "MM"
     },
+    {
+      name: "Ayeyawady",
+      value: "MM03"
+    },
+    {
+      name: "Bago",
+      value: "MM16"
+    },
+    {
+      name: "Chin",
+      value: "MM02"
+    },
+    {
+      name: "Kachin",
+      value: "MM04"
+    },
+    {
+      name: "Kayah",
+      value: "MM06"
+    },
+    {
+      name: "Kayin",
+      value: "MM05"
+    },
+    {
+      name: "Magway",
+      value: "MM15"
+    },
+    {
+      name: "Mandalay",
+      value: "MM08"
+    },
+    {
+      name: "Mon",
+      value: "MM13"
+    },
+    {
+      name: "Rakhine",
+      value: "MM01"
+    },
+    {
+      name: "Sagaing",
+      value: "MM10"
+    },
+    {
+      name: "Shan",
+      value: "MM11"
+    },
+    {
+      name: "Taninthayi",
+      value: "MM12"
+    },
+    {
+      name: "Rangoon (Yangon)",
+      value: "MM17"
+    },
+    {
+      name: "Nay Pyi Taw (capital)",
+      value: "MM18"
+    },
+    {
+      name: "(other)",
+      value: "MM00"
+    },
     // =========================================================
     // Namibia
     // =========================================================
