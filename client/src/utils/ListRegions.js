@@ -10613,6 +10613,158 @@ export default {
       name: "Moldova",
       value: "MD"
     },
+    {
+      name: "Găgăuzia (autonomous region)",
+      value: "MD51"
+    },
+    {
+      name: "Bălţi (city)",
+      value: "MD60"
+    },
+    {
+      name: "Bender (city)",
+      value: "MD62"
+    },
+    {
+      name: "Chişinău (capital)",
+      value: "MD57"
+    },
+    {
+      name: "Anenii Noi",
+      value: "MD59"
+    },
+    {
+      name: "Basarabeasca",
+      value: "MD61"
+    },
+    {
+      name: "Briceni",
+      value: "MD63"
+    },
+    {
+      name: "Cahul",
+      value: "MD64"
+    },
+    {
+      name: "Călăraşi",
+      value: "MD66"
+    },
+    {
+      name: "Cantemir",
+      value: "MD65"
+    },
+    {
+      name: "Căuşeni",
+      value: "MD67"
+    },
+    {
+      name: "Cimişlia",
+      value: "MD68"
+    },
+    {
+      name: "Criuleni",
+      value: "MD69"
+    },
+    {
+      name: "Donduşeni",
+      value: "MD70"
+    },
+    {
+      name: "Drochia",
+      value: "MD71"
+    },
+    {
+      name: "Dubăsari",
+      value: "MD72"
+    },
+    {
+      name: "Edineţ",
+      value: "MD73"
+    },
+    {
+      name: "Făleşti",
+      value: "MD74"
+    },
+    {
+      name: "Floreşti",
+      value: "MD75"
+    },
+    {
+      name: "Glodeni",
+      value: "MD76"
+    },
+    {
+      name: "Hînceşti",
+      value: "MD77"
+    },
+    {
+      name: "Ialoveni",
+      value: "MD78"
+    },
+    {
+      name: "Leova",
+      value: "MD79"
+    },
+    {
+      name: "Nisporeni",
+      value: "MD80"
+    },
+    {
+      name: "Ocniţa",
+      value: "MD81"
+    },
+    {
+      name: "Orhei",
+      value: "MD82"
+    },
+    {
+      name: "Rezina",
+      value: "MD83"
+    },
+    {
+      name: "Rîşcani",
+      value: "MD84"
+    },
+    {
+      name: "Sîngerei",
+      value: "MD85"
+    },
+    {
+      name: "Şoldăneşti",
+      value: "MD86"
+    },
+    {
+      name: "Soroca",
+      value: "MD87"
+    },
+    {
+      name: "Ştefan Vodă",
+      value: "MD88"
+    },
+    {
+      name: "Străşeni",
+      value: "MD89"
+    },
+    {
+      name: "Taraclia",
+      value: "MD90"
+    },
+    {
+      name: "Teleneşti",
+      value: "MD91"
+    },
+    {
+      name: "Ungheni",
+      value: "MD92"
+    },
+    {
+      name: "Transnistria (Stînga Nistrului)",
+      value: "MD58"
+    },
+    {
+      name: "(other)",
+      value: "MD00"
+    },
     // =========================================================
     // Monaco
     // =========================================================
