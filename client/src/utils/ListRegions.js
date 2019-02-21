@@ -10974,6 +10974,22 @@ export default {
       name: "Montserrat",
       value: "MS"
     },
+    {
+      name: "Saint Anthony",
+      value: "MS01"
+    },
+    {
+      name: "Saint Georges",
+      value: "MS02"
+    },
+    {
+      name: "Saint Peter",
+      value: "MS03"
+    },
+    {
+      name: "(other)",
+      value: "MS00"
+    },
     // =========================================================
     // Morocco
     // =========================================================
