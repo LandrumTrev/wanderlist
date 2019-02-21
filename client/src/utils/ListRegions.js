@@ -10780,6 +10780,98 @@ export default {
       name: "Mongolia",
       value: "MN"
     },
+    {
+      name: "Arhangay",
+      value: "MN01"
+    },
+    {
+      name: "Bayan-Ölgiy",
+      value: "MN03"
+    },
+    {
+      name: "Bayanhongor",
+      value: "MN02"
+    },
+    {
+      name: "Bulgan",
+      value: "MN21"
+    },
+    {
+      name: "Darhan-Uul",
+      value: "MN23"
+    },
+    {
+      name: "Dornod",
+      value: "MN06"
+    },
+    {
+      name: "Dornogovĭ",
+      value: "MN07"
+    },
+    {
+      name: "Dundgovĭ",
+      value: "MN08"
+    },
+    {
+      name: "Dzavhan",
+      value: "MN09"
+    },
+    {
+      name: "Govĭ-Altay",
+      value: "MN10"
+    },
+    {
+      name: "Govĭ-Sumber",
+      value: "MN24"
+    },
+    {
+      name: "Hentiy",
+      value: "MN11"
+    },
+    {
+      name: "Hovd",
+      value: "MN12"
+    },
+    {
+      name: "Hövsgöl",
+      value: "MN13"
+    },
+    {
+      name: "Ömnögovi",
+      value: "MN14"
+    },
+    {
+      name: "Orhon",
+      value: "MN25"
+    },
+    {
+      name: "Övörhangay",
+      value: "MN15"
+    },
+    {
+      name: "Selenge",
+      value: "MN16"
+    },
+    {
+      name: "Sühbaatar",
+      value: "MN17"
+    },
+    {
+      name: "Töv",
+      value: "MN18"
+    },
+    {
+      name: "Ulaanbaatar (capital)",
+      value: "MN20"
+    },
+    {
+      name: "Uvs",
+      value: "MN19"
+    },
+    {
+      name: "(other)",
+      value: "MN00"
+    },
     // =========================================================
     // Montenegro
     // =========================================================
