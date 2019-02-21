@@ -10231,6 +10231,14 @@ export default {
       name: "Martinique",
       value: "MQ"
     },
+    {
+      name: "Martinique",
+      value: "MQMQ"
+    },
+    {
+      name: "(other)",
+      value: "MQ00"
+    },
     // =========================================================
     // Mauritania
     // =========================================================
