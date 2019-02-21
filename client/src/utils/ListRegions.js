@@ -10575,12 +10575,36 @@ export default {
       name: "Zacatecas",
       value: "MX32"
     },
+    {
+      name: "(other)",
+      value: "MX00"
+    },
     // =========================================================
     // Micronesia
     // =========================================================
     {
       name: "Micronesia",
       value: "FM"
+    },
+    {
+      name: "Chuuk",
+      value: "FM03"
+    },
+    {
+      name: "Kosrae",
+      value: "FM01"
+    },
+    {
+      name: "Pohnpei",
+      value: "FM02"
+    },
+    {
+      name: "Yap",
+      value: "FM04"
+    },
+    {
+      name: "(other)",
+      value: "FM00"
     },
     // =========================================================
     // Moldova
