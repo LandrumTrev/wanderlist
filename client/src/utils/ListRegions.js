@@ -11344,6 +11344,30 @@ export default {
       name: "Nepal",
       value: "NP"
     },
+    {
+      name: "Mid Western (Madhya Pashchimanchal)",
+      value: "NPMR"
+    },
+    {
+      name: "Central Region (Madhyamanchal)",
+      value: "NPCR"
+    },
+    {
+      name: "Western Region (Pashchimanchal)",
+      value: "NPWR"
+    },
+    {
+      name: "Eastern Region (Purwanchal)",
+      value: "NPER"
+    },
+    {
+      name: "Far Western (Sudur Pashchimanchal)",
+      value: "NPFR"
+    },
+    {
+      name: "(other)",
+      value: "NP00"
+    },
     // =========================================================
     // Netherlands
     // =========================================================
