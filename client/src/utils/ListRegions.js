@@ -11206,6 +11206,70 @@ export default {
       name: "Namibia",
       value: "NA"
     },
+    {
+      name: "Caprivi",
+      value: "NA28"
+    },
+    {
+      name: "Erongo",
+      value: "NA29"
+    },
+    {
+      name: "Hardap",
+      value: "NA30"
+    },
+    {
+      name: "Karas",
+      value: "NA31"
+    },
+    {
+      name: "Kavango East",
+      value: "NA40"
+    },
+    {
+      name: "Kavango West",
+      value: "NA41"
+    },
+    {
+      name: "Khomas",
+      value: "NA21"
+    },
+    {
+      name: "Kunene",
+      value: "NA32"
+    },
+    {
+      name: "Ohangwena",
+      value: "NA33"
+    },
+    {
+      name: "Okavango",
+      value: "NA34"
+    },
+    {
+      name: "Omaheke",
+      value: "NA35"
+    },
+    {
+      name: "Omusati",
+      value: "NA36"
+    },
+    {
+      name: "Oshana",
+      value: "NA37"
+    },
+    {
+      name: "Oshikoto",
+      value: "NA38"
+    },
+    {
+      name: "Otjozondjupa",
+      value: "NA39"
+    },
+    {
+      name: "(other)",
+      value: "NA00"
+    },
     // =========================================================
     // Nauru
     // =========================================================
