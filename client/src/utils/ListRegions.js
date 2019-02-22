@@ -11277,6 +11277,66 @@ export default {
       name: "Nauru",
       value: "NR"
     },
+    {
+      name: "Aiwo",
+      value: "NR01"
+    },
+    {
+      name: "Anabar",
+      value: "NR02"
+    },
+    {
+      name: "Anetan",
+      value: "NR03"
+    },
+    {
+      name: "Anibare",
+      value: "NR04"
+    },
+    {
+      name: "Baiti",
+      value: "NR05"
+    },
+    {
+      name: "Boe",
+      value: "NR06"
+    },
+    {
+      name: "Buada",
+      value: "NR07"
+    },
+    {
+      name: "Denigomodu",
+      value: "NR08"
+    },
+    {
+      name: "Ewa",
+      value: "NR09"
+    },
+    {
+      name: "Ijuw",
+      value: "NR10"
+    },
+    {
+      name: "Meneng",
+      value: "NR11"
+    },
+    {
+      name: "Nibok",
+      value: "NR12"
+    },
+    {
+      name: "Uaboe",
+      value: "NR13"
+    },
+    {
+      name: "Yaren",
+      value: "NR14"
+    },
+    {
+      name: "(other)",
+      value: "NR00"
+    },
     // =========================================================
     // Nepal
     // =========================================================
