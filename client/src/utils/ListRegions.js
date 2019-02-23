@@ -11868,6 +11868,105 @@ export default {
       name: "Norway",
       value: "NO"
     },
+    {
+      name: "Akershus",
+      value: "NO01"
+    },
+    {
+      name: "Aust-Agder",
+      value: "NO02"
+    },
+    {
+      name: "Buskerud",
+      value: "NO04"
+    },
+    {
+      name: "Finnmark",
+      value: "NO05"
+    },
+    {
+      name: "Hedmark",
+      value: "NO06"
+    },
+    {
+      name: "Hordaland",
+      value: "NO07"
+    },
+    {
+      name: "Møre og Romsdal",
+      value: "NO08"
+    },
+    {
+      name: "Nord-Trøndelag",
+      value: "NO10"
+    },
+    {
+      name: "Nordland",
+      value: "NO09"
+    },
+    {
+      name: "Oppland",
+      value: "NO11"
+    },
+    {
+      name: "Oslo",
+      value: "NO12"
+    },
+    {
+      name: "Rogaland",
+      value: "NO14"
+    },
+    {
+      name: "Sogn og Fjordane",
+      value: "NO15"
+    },
+    {
+      name: "Sør-Trøndelag",
+      value: "NO16"
+    },
+    {
+      name: "Telemark",
+      value: "NO17"
+    },
+    {
+      name: "Troms",
+      value: "NO18"
+    },
+    {
+      name: "Vest-Agder",
+      value: "NO19"
+    },
+    {
+      name: "Vestfold",
+      value: "NO20"
+    },
+    {
+      name: "Østfold",
+      value: "NO13"
+    },
+    {
+      name: "Trøndelag",
+      value: "NO21"
+    },
+    {
+      name: "(other)",
+      value: "NO00"
+    },
+    // =========================================================
+    // Svalbard and Jan Mayen (Norway)
+    // =========================================================
+    {
+      name: "Svalbard and Jan Mayen (Norway)",
+      value: "SJ"
+    },
+    {
+      name: "Svalbard",
+      value: "SJ21"
+    },
+    {
+      name: "Jan Mayen",
+      value: "SJ22"
+    },
     // =========================================================
     // Oman
     // =========================================================
@@ -12561,10 +12660,6 @@ export default {
     {
       name: "Suriname",
       value: "SR"
-    },
-    {
-      name: "Svalbard and Jan Mayen",
-      value: "SJ"
     },
     {
       name: "Swaziland",
