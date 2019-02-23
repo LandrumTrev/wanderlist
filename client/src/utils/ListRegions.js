@@ -11457,6 +11457,86 @@ export default {
       name: "New Zealand",
       value: "NZ"
     },
+    {
+      name: "Atafu",
+      value: "NZA"
+    },
+    {
+      name: "Auckland",
+      value: "NZE7"
+    },
+    {
+      name: "Bay of Plenty",
+      value: "NZE8"
+    },
+    {
+      name: "Canterbury",
+      value: "NZE9"
+    },
+    {
+      name: "Chatham Islands",
+      value: "NZ10"
+    },
+    {
+      name: "Hawke's Bay",
+      value: "NZF2"
+    },
+    {
+      name: "Gisborne",
+      value: "NZF1"
+    },
+    {
+      name: "Manawatu-Wanganui",
+      value: "NZF3"
+    },
+    {
+      name: "Marlborough",
+      value: "NZF4"
+    },
+    {
+      name: "Nelson",
+      value: "NZF5"
+    },
+    {
+      name: "Northland",
+      value: "NZF6"
+    },
+    {
+      name: "Nukunonu",
+      value: "NZN"
+    },
+    {
+      name: "Otago",
+      value: "NZF7"
+    },
+    {
+      name: "Southland",
+      value: "NZF8"
+    },
+    {
+      name: "Taranaki",
+      value: "NZF9"
+    },
+    {
+      name: "Tasman",
+      value: "NZTAS"
+    },
+    {
+      name: "Waikato",
+      value: "NZG1"
+    },
+    {
+      name: "Wellington",
+      value: "NZG2"
+    },
+    {
+      name: "West Coast",
+      value: "NZG3"
+    },
+    {
+      name: "(other)",
+      value: "NZ00"
+    },
     // =========================================================
     // Nicaragua
     // =========================================================
