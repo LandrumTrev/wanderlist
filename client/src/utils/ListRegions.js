@@ -11434,6 +11434,22 @@ export default {
       name: "New Caledonia",
       value: "NC"
     },
+    {
+      name: "North Province (Province Nord)",
+      value: "NC01"
+    },
+    {
+      name: "South Province (Province Sud)",
+      value: "NC02"
+    },
+    {
+      name: "Loyalty Islands (Province des îles Loyauté)",
+      value: "NC03"
+    },
+    {
+      name: "(other)",
+      value: "NC00"
+    },
     // =========================================================
     // New Zealand
     // =========================================================
