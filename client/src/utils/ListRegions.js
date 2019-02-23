@@ -11820,6 +11820,7 @@ export default {
     },
     // =========================================================
     // Niue
+    // no regions: either 00 or no admin1 code
     // =========================================================
     {
       name: "Niue",
@@ -11827,6 +11828,7 @@ export default {
     },
     // =========================================================
     // Norfolk Island
+    // no regions: either 00 or no admin1 code
     // =========================================================
     {
       name: "Norfolk Island",
@@ -11838,6 +11840,26 @@ export default {
     {
       name: "Northern Mariana Islands",
       value: "MP"
+    },
+    {
+      name: "Northern Islands",
+      value: "MP085"
+    },
+    {
+      name: "Rota",
+      value: "MP100"
+    },
+    {
+      name: "Saipan",
+      value: "MP110"
+    },
+    {
+      name: "Tinian",
+      value: "MP120"
+    },
+    {
+      name: "(other)",
+      value: "MP00"
     },
     // =========================================================
     // Norway
