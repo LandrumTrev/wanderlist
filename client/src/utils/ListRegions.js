@@ -11369,11 +11369,63 @@ export default {
       value: "NP00"
     },
     // =========================================================
-    // Netherlands
+    // Netherlands (Holland)
     // =========================================================
     {
-      name: "Netherlands",
+      name: "Netherlands (Holland)",
       value: "NL"
+    },
+    {
+      name: "Drenthe",
+      value: "NL01"
+    },
+    {
+      name: "Flevoland",
+      value: "NL16"
+    },
+    {
+      name: "Friesland",
+      value: "NL02"
+    },
+    {
+      name: "Gelderland",
+      value: "NL03"
+    },
+    {
+      name: "Groningen",
+      value: "NL04"
+    },
+    {
+      name: "Limburg",
+      value: "NL05"
+    },
+    {
+      name: "Noord-Brabant (North Brabant)",
+      value: "NL06"
+    },
+    {
+      name: "Noord-Holland (North Holland) (Amsterdam)",
+      value: "NL07"
+    },
+    {
+      name: "Overijssel",
+      value: "NL15"
+    },
+    {
+      name: "Utrecht",
+      value: "NL09"
+    },
+    {
+      name: "Zeeland",
+      value: "NL10"
+    },
+    {
+      name: "Zuid-Holland (South Holland) (Rotterdam-The Hague)",
+      value: "NL11"
+    },
+    {
+      name: "(other)",
+      value: "NL00"
     },
     // =========================================================
     // New Caledonia
