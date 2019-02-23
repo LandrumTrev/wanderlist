@@ -11623,6 +11623,42 @@ export default {
       name: "Niger",
       value: "NE"
     },
+    {
+      name: "Agadez",
+      value: "NE01"
+    },
+    {
+      name: "Diffa",
+      value: "NE02"
+    },
+    {
+      name: "Dosso",
+      value: "NE03"
+    },
+    {
+      name: "Maradi",
+      value: "NE04"
+    },
+    {
+      name: "Niamey",
+      value: "NE08"
+    },
+    {
+      name: "Tahoua",
+      value: "NE06"
+    },
+    {
+      name: "Tillabéri",
+      value: "NE09"
+    },
+    {
+      name: "Zinder",
+      value: "NE07"
+    },
+    {
+      name: "(other)",
+      value: "NE00"
+    },
     // =========================================================
     // Nigeria
     // =========================================================
