@@ -11666,6 +11666,158 @@ export default {
       name: "Nigeria",
       value: "NG"
     },
+    {
+      name: "Abia",
+      value: "NG45"
+    },
+    {
+      name: "Adamawa",
+      value: "NG35"
+    },
+    {
+      name: "Akwa Ibom",
+      value: "NG21"
+    },
+    {
+      name: "Anambra",
+      value: "NG25"
+    },
+    {
+      name: "Bauchi",
+      value: "NG46"
+    },
+    {
+      name: "Bayelsa",
+      value: "NG52"
+    },
+    {
+      name: "Benue",
+      value: "NG26"
+    },
+    {
+      name: "Borno",
+      value: "NG27"
+    },
+    {
+      name: "Cross River",
+      value: "NG22"
+    },
+    {
+      name: "Delta",
+      value: "NG36"
+    },
+    {
+      name: "Ebonyi",
+      value: "NG53"
+    },
+    {
+      name: "Edo",
+      value: "NG37"
+    },
+    {
+      name: "Ekiti",
+      value: "NG54"
+    },
+    {
+      name: "Enugu",
+      value: "NG47"
+    },
+    {
+      name: "Federal Capital Territory",
+      value: "NG11"
+    },
+    {
+      name: "Gombe",
+      value: "NG55"
+    },
+    {
+      name: "Imo",
+      value: "NG28"
+    },
+    {
+      name: "Jigawa",
+      value: "NG39"
+    },
+    {
+      name: "Kaduna",
+      value: "NG23"
+    },
+    {
+      name: "Kano",
+      value: "NG29"
+    },
+    {
+      name: "Katsina",
+      value: "NG24"
+    },
+    {
+      name: "Kebbi",
+      value: "NG40"
+    },
+    {
+      name: "Kogi",
+      value: "NG41"
+    },
+    {
+      name: "Kwara",
+      value: "NG30"
+    },
+    {
+      name: "Lagos",
+      value: "NG05"
+    },
+    {
+      name: "Nassarawa",
+      value: "NG56"
+    },
+    {
+      name: "Niger",
+      value: "NG31"
+    },
+    {
+      name: "Ogun",
+      value: "NG16"
+    },
+    {
+      name: "Ondo",
+      value: "NG48"
+    },
+    {
+      name: "Osun",
+      value: "NG42"
+    },
+    {
+      name: "Oyo",
+      value: "NG32"
+    },
+    {
+      name: "Plateau",
+      value: "NG49"
+    },
+    {
+      name: "Rivers",
+      value: "NG50"
+    },
+    {
+      name: "Sokoto",
+      value: "NG51"
+    },
+    {
+      name: "Taraba",
+      value: "NG43"
+    },
+    {
+      name: "Yobe",
+      value: "NG44"
+    },
+    {
+      name: "Zamfara",
+      value: "NGZamfara"
+    },
+    {
+      name: "(other)",
+      value: "NG00"
+    },
     // =========================================================
     // Niue
     // =========================================================
