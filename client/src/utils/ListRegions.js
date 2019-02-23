@@ -11544,6 +11544,78 @@ export default {
       name: "Nicaragua",
       value: "NI"
     },
+    {
+      name: "Boaco",
+      value: "NI01"
+    },
+    {
+      name: "Carazo",
+      value: "NI02"
+    },
+    {
+      name: "Chinandega",
+      value: "NI03"
+    },
+    {
+      name: "Chontales",
+      value: "NI04"
+    },
+    {
+      name: "Estelí",
+      value: "NI05"
+    },
+    {
+      name: "Granada",
+      value: "NI06"
+    },
+    {
+      name: "Jinotega",
+      value: "NI07"
+    },
+    {
+      name: "León",
+      value: "NI08"
+    },
+    {
+      name: "Madriz",
+      value: "NI09"
+    },
+    {
+      name: "Managua",
+      value: "NI10"
+    },
+    {
+      name: "Masaya",
+      value: "NI11"
+    },
+    {
+      name: "Matagalpa",
+      value: "NI12"
+    },
+    {
+      name: "Nueva Segovia",
+      value: "NI13"
+    },
+    {
+      name: "Río San Juan",
+      value: "NI14"
+    },
+    {
+      name: "Rivas",
+      value: "NI15"
+    },
+    {
+      name: "Atlántico Norte (Región Autónoma)",
+      value: "NI17"
+    },
+    {
+      name: "Atlántico Sur (Región Autónoma)",
+      value: "NI18"
+    },
+    {
+      name: "(other)",
+      value: "NI00"
+    },
     // =========================================================
     // Niger
     // =========================================================
