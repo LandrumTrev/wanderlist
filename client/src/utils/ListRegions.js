@@ -12162,6 +12162,62 @@ export default {
       name: "Panama",
       value: "PA"
     },
+    {
+      name: "Bocas del Toro",
+      value: "PA01"
+    },
+    {
+      name: "Chiriquí",
+      value: "PA02"
+    },
+    {
+      name: "Coclé",
+      value: "PA03"
+    },
+    {
+      name: "Colón",
+      value: "PA04"
+    },
+    {
+      name: "Darién",
+      value: "PA05"
+    },
+    {
+      name: "Emberá-Wounaan",
+      value: "PA11"
+    },
+    {
+      name: "Guna Yala (Kuna Yala)",
+      value: "PA09"
+    },
+    {
+      name: "Herrera",
+      value: "PA06"
+    },
+    {
+      name: "Los Santos",
+      value: "PA07"
+    },
+    {
+      name: "Ngöbe-Buglé",
+      value: "PA12"
+    },
+    {
+      name: "Panamá (Provincia de) capital",
+      value: "PA08"
+    },
+    {
+      name: "Panamá Oeste",
+      value: "PA13"
+    },
+    {
+      name: "Veraguas",
+      value: "PA10"
+    },
+    {
+      name: "(other)",
+      value: "PA00"
+    },
     // =========================================================
     // Papua New Guinea
     // =========================================================
