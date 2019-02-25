@@ -12143,6 +12143,18 @@ export default {
       name: "Palestine",
       value: "PS"
     },
+    {
+      name: "Gaza Strip",
+      value: "PSGZ"
+    },
+    {
+      name: "West Bank",
+      value: "PSWE"
+    },
+    {
+      name: "(other)",
+      value: "PS00"
+    },
     // =========================================================
     // Panama
     // =========================================================
