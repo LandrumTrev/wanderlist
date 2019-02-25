@@ -11974,6 +11974,54 @@ export default {
       name: "Oman",
       value: "OM"
     },
+    {
+      name: "Southeastern Governorate (Ash Sharqiyah South)",
+      value: "OM04"
+    },
+    {
+      name: "Az Zahirah (Az̧ Z̧āhirah)",
+      value: "OM09"
+    },
+    {
+      name: "Ad Dakhiliyah (Ad Dākhilīyah)",
+      value: "OM01"
+    },
+    {
+      name: "Al Buraimi (Al Buraymī)",
+      value: "OM10"
+    },
+    {
+      name: "Al Wusta (Al Wusţá)",
+      value: "OM03"
+    },
+    {
+      name: "Al Batinah South (Janub al Batinah)",
+      value: "OM02"
+    },
+    {
+      name: "Muscat (Masqaţ) capital",
+      value: "OM06"
+    },
+    {
+      name: "Al Batinah North (Shamal Al Batinah)",
+      value: "OM11"
+    },
+    {
+      name: "Northeastern Governorate (Shamal Ash Sharqiyah)",
+      value: "OM12"
+    },
+    {
+      name: "Dhofar (Z̧ufār)",
+      value: "OM08"
+    },
+    {
+      name: "Musandam (Musandam)",
+      value: "OM07"
+    },
+    {
+      name: "(other)",
+      value: "OM00"
+    },
     // =========================================================
     // Pakistan
     // =========================================================
