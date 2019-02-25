@@ -12068,154 +12068,193 @@ export default {
       name: "Palau",
       value: "PW"
     },
+    // =========================================================
+    // Palestine
+    // =========================================================
     {
       name: "Palestine",
       value: "PS"
     },
+    // =========================================================
+    // Panama
+    // =========================================================
     {
       name: "Panama",
       value: "PA"
     },
+    // =========================================================
+    // Papua New Guinea
+    // =========================================================
     {
       name: "Papua New Guinea",
       value: "PG"
     },
+    // =========================================================
+    // Paraguay
+    // =========================================================
     {
       name: "Paraguay",
       value: "PY"
     },
+    // =========================================================
+    // Peru
+    // =========================================================
     {
       name: "Peru",
       value: "PE"
     },
     {
-      name: "Peru, Amazonas",
+      name: "Amazonas",
       value: "PE01"
     },
     {
-      name: "Peru, Ancash",
+      name: "Ancash",
       value: "PE02"
     },
     {
-      name: "Peru, Apurímac",
+      name: "Apurímac",
       value: "PE03"
     },
     {
-      name: "Peru, Arequipa",
+      name: "Arequipa",
       value: "PE04"
     },
     {
-      name: "Peru, Ayacucho",
+      name: "Ayacucho",
       value: "PE05"
     },
     {
-      name: "Peru, Cajamarca",
+      name: "Cajamarca",
       value: "PE06"
     },
     {
-      name: "Peru, Callao",
+      name: "Callao",
       value: "PE07"
     },
     {
-      name: "Peru, Cusco",
+      name: "Cusco",
       value: "PE08"
     },
     {
-      name: "Peru, Huancavelica",
+      name: "Huancavelica",
       value: "PE09"
     },
     {
-      name: "Peru, Huánuco",
+      name: "Huánuco",
       value: "PE10"
     },
     {
-      name: "Peru, Ica",
+      name: "Ica",
       value: "PE11"
     },
     {
-      name: "Peru, Junín",
+      name: "Junín",
       value: "PE12"
     },
     {
-      name: "Peru, La Libertad",
+      name: "La Libertad",
       value: "PE13"
     },
     {
-      name: "Peru, Lambayeque",
+      name: "Lambayeque",
       value: "PE14"
     },
     {
-      name: "Peru, Lima",
+      name: "Lima",
       value: "PE15"
     },
     {
-      name: "Peru, Loreto",
+      name: "Loreto",
       value: "PE16"
     },
     {
-      name: "Peru, Madre de Dios",
+      name: "Madre de Dios",
       value: "PE17"
     },
     {
-      name: "Peru, Moquegua",
+      name: "Moquegua",
       value: "PE18"
     },
     {
-      name: "Peru, Pasco",
+      name: "Pasco",
       value: "PE19"
     },
     {
-      name: "Peru, Piura",
+      name: "Piura",
       value: "PE20"
     },
     {
-      name: "Peru, Puno",
+      name: "Puno",
       value: "PE21"
     },
     {
-      name: "Peru, San Martín",
+      name: "San Martín",
       value: "PE22"
     },
     {
-      name: "Peru, Tacna",
+      name: "Tacna",
       value: "PE23"
     },
     {
-      name: "Peru, Tumbes",
+      name: "Tumbes",
       value: "PE24"
     },
     {
-      name: "Peru, Ucayali",
+      name: "Ucayali",
       value: "PE25"
     },
+    // =========================================================
+    // Philippines
+    // =========================================================
     {
       name: "Philippines",
       value: "PH"
     },
+    // =========================================================
+    // Pitcairn
+    // =========================================================
     {
       name: "Pitcairn",
       value: "PN"
     },
+    // =========================================================
+    // Poland
+    // =========================================================
     {
       name: "Poland",
       value: "PL"
     },
+    // =========================================================
+    // Portugal
+    // =========================================================
     {
       name: "Portugal",
       value: "PT"
     },
+    // =========================================================
+    // Puerto Rico
+    // =========================================================
     {
       name: "Puerto Rico",
       value: "PR"
     },
+    // =========================================================
+    // Qatar
+    // =========================================================
     {
       name: "Qatar",
       value: "QA"
     },
+    // =========================================================
+    // Réunion
+    // =========================================================
     {
       name: "Réunion",
       value: "RE"
     },
+    // =========================================================
+    // Romania
+    // =========================================================
     {
       name: "Romania",
       value: "RO"
