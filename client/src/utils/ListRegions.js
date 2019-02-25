@@ -12068,6 +12068,74 @@ export default {
       name: "Palau",
       value: "PW"
     },
+    {
+      name: "Aimeliik",
+      value: "PW01"
+    },
+    {
+      name: "Airai",
+      value: "PW02"
+    },
+    {
+      name: "Angaur",
+      value: "PW03"
+    },
+    {
+      name: "Hatohobei",
+      value: "PW04"
+    },
+    {
+      name: "Kayangel",
+      value: "PW05"
+    },
+    {
+      name: "Koror",
+      value: "PW06"
+    },
+    {
+      name: "Melekeok",
+      value: "PW07"
+    },
+    {
+      name: "Ngaraard",
+      value: "PW08"
+    },
+    {
+      name: "Ngarchelong",
+      value: "PW09"
+    },
+    {
+      name: "Ngardmau",
+      value: "PW10"
+    },
+    {
+      name: "Ngatpang",
+      value: "PW11"
+    },
+    {
+      name: "Ngchesar",
+      value: "PW12"
+    },
+    {
+      name: "Ngeremlengui",
+      value: "PW13"
+    },
+    {
+      name: "Ngiwal",
+      value: "PW14"
+    },
+    {
+      name: "Peleliu",
+      value: "PW15"
+    },
+    {
+      name: "Sonsorol",
+      value: "PW16"
+    },
+    {
+      name: "(other)",
+      value: "PW00"
+    },
     // =========================================================
     // Palestine
     // =========================================================
