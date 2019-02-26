@@ -12768,6 +12768,322 @@ export default {
       name: "Puerto Rico",
       value: "PR"
     },
+    {
+      name: "Adjuntas",
+      value: "PR001"
+    },
+    {
+      name: "Aguada",
+      value: "PR003"
+    },
+    {
+      name: "Aguadilla",
+      value: "PR005"
+    },
+    {
+      name: "Aguas Buenas",
+      value: "PR007"
+    },
+    {
+      name: "Aibonito",
+      value: "PR009"
+    },
+    {
+      name: "Añasco",
+      value: "PR011"
+    },
+    {
+      name: "Arecibo",
+      value: "PR013"
+    },
+    {
+      name: "Arroyo",
+      value: "PR015"
+    },
+    {
+      name: "Barceloneta",
+      value: "PR017"
+    },
+    {
+      name: "Barranquitas",
+      value: "PR019"
+    },
+    {
+      name: "Bayamón",
+      value: "PR021"
+    },
+    {
+      name: "Cabo Rojo",
+      value: "PR023"
+    },
+    {
+      name: "Caguas",
+      value: "PR025"
+    },
+    {
+      name: "Camuy",
+      value: "PR027"
+    },
+    {
+      name: "Canóvanas",
+      value: "PR029"
+    },
+    {
+      name: "Carolina",
+      value: "PR031"
+    },
+    {
+      name: "Cataño",
+      value: "PR033"
+    },
+    {
+      name: "Cayey",
+      value: "PR035"
+    },
+    {
+      name: "Ceiba",
+      value: "PR037"
+    },
+    {
+      name: "Ciales",
+      value: "PR039"
+    },
+    {
+      name: "Cidra",
+      value: "PR041"
+    },
+    {
+      name: "Coamo",
+      value: "PR043"
+    },
+    {
+      name: "Comerío",
+      value: "PR045"
+    },
+    {
+      name: "Corozal",
+      value: "PR047"
+    },
+    {
+      name: "Culebra",
+      value: "PR049"
+    },
+    {
+      name: "Dorado",
+      value: "PR051"
+    },
+    {
+      name: "Fajardo",
+      value: "PR053"
+    },
+    {
+      name: "Florida",
+      value: "PR054"
+    },
+    {
+      name: "Guánica",
+      value: "PR055"
+    },
+    {
+      name: "Guayama",
+      value: "PR057"
+    },
+    {
+      name: "Guayanilla",
+      value: "PR059"
+    },
+    {
+      name: "Guaynabo",
+      value: "PR061"
+    },
+    {
+      name: "Gurabo",
+      value: "PR063"
+    },
+    {
+      name: "Hatillo",
+      value: "PR065"
+    },
+    {
+      name: "Hormigueros",
+      value: "PR067"
+    },
+    {
+      name: "Humacao",
+      value: "PR069"
+    },
+    {
+      name: "Juana Díaz",
+      value: "PR075"
+    },
+    {
+      name: "Lajas",
+      value: "PR079"
+    },
+    {
+      name: "Lares",
+      value: "PR081"
+    },
+    {
+      name: "Las Marías",
+      value: "PR083"
+    },
+    {
+      name: "Las Piedras",
+      value: "PR085"
+    },
+    {
+      name: "Loíza",
+      value: "PR087"
+    },
+    {
+      name: "Luquillo",
+      value: "PR089"
+    },
+    {
+      name: "Manatí",
+      value: "PR091"
+    },
+    {
+      name: "Maricao",
+      value: "PR093"
+    },
+    {
+      name: "Maunabo",
+      value: "PR095"
+    },
+    {
+      name: "Mayagüez",
+      value: "PR097"
+    },
+    {
+      name: "Moca",
+      value: "PR099"
+    },
+    {
+      name: "Morovis",
+      value: "PR101"
+    },
+    {
+      name: "Isabela",
+      value: "PR071"
+    },
+    {
+      name: "Jayuya",
+      value: "PR073"
+    },
+    {
+      name: "Juncos",
+      value: "PR077"
+    },
+    {
+      name: "Naguabo",
+      value: "PR103"
+    },
+    {
+      name: "Naranjito",
+      value: "PR105"
+    },
+    {
+      name: "Orocovis",
+      value: "PR107"
+    },
+    {
+      name: "Patillas",
+      value: "PR109"
+    },
+    {
+      name: "Peñuelas",
+      value: "PR111"
+    },
+    {
+      name: "Ponce",
+      value: "PR113"
+    },
+    {
+      name: "Quebradillas",
+      value: "PR115"
+    },
+    {
+      name: "Rincón",
+      value: "PR117"
+    },
+    {
+      name: "Río Grande",
+      value: "PR119"
+    },
+    {
+      name: "Sabana Grande",
+      value: "PR121"
+    },
+    {
+      name: "Salinas",
+      value: "PR123"
+    },
+    {
+      name: "San Germán",
+      value: "PR125"
+    },
+    {
+      name: "San Juan (capital)",
+      value: "PR127"
+    },
+    {
+      name: "San Lorenzo",
+      value: "PR129"
+    },
+    {
+      name: "San Sebastián",
+      value: "PR131"
+    },
+    {
+      name: "Santa Isabel",
+      value: "PR133"
+    },
+    {
+      name: "Toa Alta",
+      value: "PR135"
+    },
+    {
+      name: "Toa Baja",
+      value: "PR137"
+    },
+    {
+      name: "Trujillo Alto",
+      value: "PR139"
+    },
+    {
+      name: "Utuado",
+      value: "PR141"
+    },
+    {
+      name: "Vega Alta",
+      value: "PR143"
+    },
+    {
+      name: "Vega Baja",
+      value: "PR145"
+    },
+    {
+      name: "Vieques",
+      value: "PR147"
+    },
+    {
+      name: "Villalba",
+      value: "PR149"
+    },
+    {
+      name: "Yabucoa",
+      value: "PR151"
+    },
+    {
+      name: "Yauco",
+      value: "PR153"
+    },
+    {
+      name: "(other)",
+      value: "PR00"
+    },
     // =========================================================
     // Qatar
     // =========================================================
