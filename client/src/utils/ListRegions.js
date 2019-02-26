@@ -13142,6 +13142,178 @@ export default {
       name: "Romania",
       value: "RO"
     },
+    {
+      name: "Arad",
+      value: "RO02"
+    },
+    {
+      name: "Bihor",
+      value: "RO05"
+    },
+    {
+      name: "Bucharest (Bucureşti) capital",
+      value: "RO10"
+    },
+    {
+      name: "Covasna",
+      value: "RO15"
+    },
+    {
+      name: "Dolj",
+      value: "RO17"
+    },
+    {
+      name: "Giurgiu",
+      value: "RO42"
+    },
+    {
+      name: "Gorj",
+      value: "RO19"
+    },
+    {
+      name: "Harghita",
+      value: "RO20"
+    },
+    {
+      name: "Hunedoara",
+      value: "RO21"
+    },
+    {
+      name: "Ilfov",
+      value: "RO43"
+    },
+    {
+      name: "Alba",
+      value: "RO01"
+    },
+    {
+      name: "Argeş",
+      value: "RO03"
+    },
+    {
+      name: "Bacău",
+      value: "RO04"
+    },
+    {
+      name: "Bistriţa-Năsăud",
+      value: "RO06"
+    },
+    {
+      name: "Botoşani",
+      value: "RO07"
+    },
+    {
+      name: "Brăila",
+      value: "RO08"
+    },
+    {
+      name: "Braşov",
+      value: "RO09"
+    },
+    {
+      name: "Buzău",
+      value: "RO11"
+    },
+    {
+      name: "Călăraşi",
+      value: "RO41"
+    },
+    {
+      name: "Caraş-Severin",
+      value: "RO12"
+    },
+    {
+      name: "Cluj",
+      value: "RO13"
+    },
+    {
+      name: "Constanţa",
+      value: "RO14"
+    },
+    {
+      name: "Dâmboviţa",
+      value: "RO16"
+    },
+    {
+      name: "Galaţi",
+      value: "RO18"
+    },
+    {
+      name: "Ialomiţa",
+      value: "RO22"
+    },
+    {
+      name: "Iaşi",
+      value: "RO23"
+    },
+    {
+      name: "Maramureş",
+      value: "RO25"
+    },
+    {
+      name: "Mehedinţi",
+      value: "RO26"
+    },
+    {
+      name: "Mureş",
+      value: "RO27"
+    },
+    {
+      name: "Neamţ",
+      value: "RO28"
+    },
+    {
+      name: "Sălaj",
+      value: "RO31"
+    },
+    {
+      name: "Sibiu",
+      value: "RO33"
+    },
+    {
+      name: "Timiş",
+      value: "RO36"
+    },
+    {
+      name: "Vâlcea",
+      value: "RO39"
+    },
+    {
+      name: "Olt",
+      value: "RO29"
+    },
+    {
+      name: "Prahova",
+      value: "RO30"
+    },
+    {
+      name: "Satu Mare",
+      value: "RO32"
+    },
+    {
+      name: "Suceava",
+      value: "RO34"
+    },
+    {
+      name: "Teleorman",
+      value: "RO35"
+    },
+    {
+      name: "Tulcea",
+      value: "RO37"
+    },
+    {
+      name: "Vaslui",
+      value: "RO38"
+    },
+    {
+      name: "Vrancea",
+      value: "RO40"
+    },
+    {
+      name: "(other)",
+      value: "RO00"
+    },
     // =========================================================
     // Russian Federation
     // =========================================================
