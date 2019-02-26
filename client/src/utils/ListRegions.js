@@ -13091,6 +13091,42 @@ export default {
       name: "Qatar",
       value: "QA"
     },
+    {
+      name: "Al Wakrah (Al-Wakrah)",
+      value: "QA10"
+    },
+    {
+      name: "Ad-Dawhah (Ad Dawḩah), Doha (capital)",
+      value: "QA01"
+    },
+    {
+      name: "Al Khor and Al Thakhira (al Khawr wa adh Dhakhīrah)",
+      value: "QA04"
+    },
+    {
+      name: "Al Rayyan (Ar Rayyān)",
+      value: "QA06"
+    },
+    {
+      name: "Al Shamal (Ash Shamāl)",
+      value: "QA08"
+    },
+    {
+      name: "Al Daayen (Az̧ Z̧a‘āyin)",
+      value: "QA13"
+    },
+    {
+      name: "Umm Salal (Umm Şalāl)",
+      value: "QA09"
+    },
+    {
+      name: "Al-Shahaniya (Ash Shīḩānīyah)",
+      value: "QA14"
+    },
+    {
+      name: "(other)",
+      value: "QA00"
+    },
     // =========================================================
     // Réunion
     // =========================================================
