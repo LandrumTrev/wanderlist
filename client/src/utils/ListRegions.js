@@ -12514,6 +12514,78 @@ export default {
       name: "Philippines",
       value: "PH"
     },
+    {
+      name: "Autonomous Region in Muslim Mindanao",
+      value: "PH14"
+    },
+    {
+      name: "Bicol",
+      value: "PH05"
+    },
+    {
+      name: "Cagayan Valley",
+      value: "PH02"
+    },
+    {
+      name: "Calabarzon",
+      value: "PH40"
+    },
+    {
+      name: "Caraga",
+      value: "PH13"
+    },
+    {
+      name: "Central Luzon",
+      value: "PH03"
+    },
+    {
+      name: "Central Visayas",
+      value: "PH07"
+    },
+    {
+      name: "Cordillera",
+      value: "PH15"
+    },
+    {
+      name: "Davao",
+      value: "PH11"
+    },
+    {
+      name: "Eastern Visayas",
+      value: "PH08"
+    },
+    {
+      name: "Ilocos",
+      value: "PH01"
+    },
+    {
+      name: "Mimaropa",
+      value: "PH41"
+    },
+    {
+      name: "National Capital Region",
+      value: "PHNCR"
+    },
+    {
+      name: "Northern Mindanao",
+      value: "PH10"
+    },
+    {
+      name: "Soccsksargen",
+      value: "PH12"
+    },
+    {
+      name: "Western Visayas",
+      value: "PH06"
+    },
+    {
+      name: "Zamboanga Peninsula",
+      value: "PH09"
+    },
+    {
+      name: "(other)",
+      value: "PH00"
+    },
     // =========================================================
     // Pitcairn
     // =========================================================
