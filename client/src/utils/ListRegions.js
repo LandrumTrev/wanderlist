@@ -12677,6 +12677,90 @@ export default {
       name: "Portugal",
       value: "PT"
     },
+    {
+      name: "Azores",
+      value: "PT23"
+    },
+    {
+      name: "Guarda",
+      value: "PT11"
+    },
+    {
+      name: "Aveiro",
+      value: "PT02"
+    },
+    {
+      name: "Beja",
+      value: "PT03"
+    },
+    {
+      name: "Braga",
+      value: "PT04"
+    },
+    {
+      name: "Bragança",
+      value: "PT05"
+    },
+    {
+      name: "Castelo Branco",
+      value: "PT06"
+    },
+    {
+      name: "Coimbra",
+      value: "PT07"
+    },
+    {
+      name: "Évora",
+      value: "PT08"
+    },
+    {
+      name: "Faro",
+      value: "PT09"
+    },
+    {
+      name: "Leiria",
+      value: "PT13"
+    },
+    {
+      name: "Lisbon (Lisboa)",
+      value: "PT14"
+    },
+    {
+      name: "Portalegre",
+      value: "PT16"
+    },
+    {
+      name: "Santarém",
+      value: "PT18"
+    },
+    {
+      name: "Setúbal",
+      value: "PT19"
+    },
+    {
+      name: "Viana do Castelo",
+      value: "PT20"
+    },
+    {
+      name: "Vila Real",
+      value: "PT21"
+    },
+    {
+      name: "Viseu",
+      value: "PT22"
+    },
+    {
+      name: "Porto",
+      value: "PT17"
+    },
+    {
+      name: "Madeira",
+      value: "PT10"
+    },
+    {
+      name: "(other)",
+      value: "PT00"
+    },
     // =========================================================
     // Puerto Rico
     // =========================================================
