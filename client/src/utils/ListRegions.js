@@ -12225,6 +12225,98 @@ export default {
       name: "Papua New Guinea",
       value: "PG"
     },
+    {
+      name: "Bougainville",
+      value: "PG07"
+    },
+    {
+      name: "Central Province",
+      value: "PG01"
+    },
+    {
+      name: "Chimbu",
+      value: "PG08"
+    },
+    {
+      name: "East New Britain",
+      value: "PG10"
+    },
+    {
+      name: "East Sepik",
+      value: "PG11"
+    },
+    {
+      name: "Eastern Highlands",
+      value: "PG09"
+    },
+    {
+      name: "Enga",
+      value: "PG19"
+    },
+    {
+      name: "Gulf",
+      value: "PG02"
+    },
+    {
+      name: "Hela",
+      value: "PG21"
+    },
+    {
+      name: "Jiwaka",
+      value: "PG22"
+    },
+    {
+      name: "Madang",
+      value: "PG12"
+    },
+    {
+      name: "Manus",
+      value: "PG13"
+    },
+    {
+      name: "Milne Bay",
+      value: "PG03"
+    },
+    {
+      name: "Morobe",
+      value: "PG14"
+    },
+    {
+      name: "National Capital District",
+      value: "PG20"
+    },
+    {
+      name: "New Ireland",
+      value: "PG15"
+    },
+    {
+      name: "Northern Province",
+      value: "PG04"
+    },
+    {
+      name: "Southern Highlands",
+      value: "PG05"
+    },
+    {
+      name: "West New Britain",
+      value: "PG17"
+    },
+    {
+      name: "West Sepik",
+      value: "PG18"
+    },
+    {
+      name: "Western Highlands",
+      value: "PG16"
+    },
+    {
+      name: "Western Province",
+      value: "PG06"
+    },
+    {
+      name: "(other)",
+      value: "PG00"
+    },
     // =========================================================
     // Paraguay
     // =========================================================
