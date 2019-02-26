@@ -12588,6 +12588,8 @@ export default {
     },
     // =========================================================
     // Pitcairn
+    // all 00 or no code, several islands but only Pitcairn inhabited
+    // all 50 islanders descended from mutineers on the HMS Bounty
     // =========================================================
     {
       name: "Pitcairn",
