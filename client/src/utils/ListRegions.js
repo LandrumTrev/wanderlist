@@ -12324,6 +12324,82 @@ export default {
       name: "Paraguay",
       value: "PY"
     },
+    {
+      name: "Asunción (capital)",
+      value: "PY22"
+    },
+    {
+      name: "Central",
+      value: "PY06"
+    },
+    {
+      name: "Alto Paraguay",
+      value: "PY23"
+    },
+    {
+      name: "Boquerón",
+      value: "PY24"
+    },
+    {
+      name: "Caaguazú",
+      value: "PY04"
+    },
+    {
+      name: "Caazapá",
+      value: "PY05"
+    },
+    {
+      name: "Canindeyú",
+      value: "PY19"
+    },
+    {
+      name: "Concepción",
+      value: "PY07"
+    },
+    {
+      name: "Itapúa",
+      value: "PY11"
+    },
+    {
+      name: "la Cordillera",
+      value: "PY08"
+    },
+    {
+      name: "Misiones",
+      value: "PY12"
+    },
+    {
+      name: "Ñeembucú",
+      value: "PY13"
+    },
+    {
+      name: "Paraguarí",
+      value: "PY15"
+    },
+    {
+      name: "Presidente Hayes",
+      value: "PY16"
+    },
+    {
+      name: "San Pedro",
+      value: "PY17"
+    },
+    {
+      name: "Alto Paraná",
+      value: "PY01"
+    },
+    {
+      name: "Amambay",
+      value: "PY02"
+    },
+    {
+      name: "Guairá",
+      value: "PY10"
+    },
+    {
+      name: "(other)",
+      value: "PY00"
+    },
     // =========================================================
     // Peru
     // =========================================================
