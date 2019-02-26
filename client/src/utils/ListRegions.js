@@ -12602,6 +12602,74 @@ export default {
       name: "Poland",
       value: "PL"
     },
+    {
+      name: "Kujawy-Pomerania (Kujawsko-Pomorskie)",
+      value: "PL73"
+    },
+    {
+      name: "Lublin (Lubelskie)",
+      value: "PL75"
+    },
+    {
+      name: "Lubusz (Lubuskie)",
+      value: "PL76"
+    },
+    {
+      name: "Mazovia (Mazowieckie)",
+      value: "PL78"
+    },
+    {
+      name: "Opole (Opolskie)",
+      value: "PL79"
+    },
+    {
+      name: "Subcarpathian (Podkarpackie)",
+      value: "PL80"
+    },
+    {
+      name: "Podlasie (Podlaskie)",
+      value: "PL81"
+    },
+    {
+      name: "Pomerania (Pomorskie)",
+      value: "PL82"
+    },
+    {
+      name: "Greater Poland (Wielkopolskie)",
+      value: "PL86"
+    },
+    {
+      name: "Lower Silesia (Dolnośląskie)",
+      value: "PL72"
+    },
+    {
+      name: "Lesser Poland (Małopolskie)",
+      value: "PL77"
+    },
+    {
+      name: "Silesia (Śląskie)",
+      value: "PL83"
+    },
+    {
+      name: "Holy Cross (Świętokrzyskie)",
+      value: "PL84"
+    },
+    {
+      name: "Warmia-Masuria (Warmińsko-Mazurskie)",
+      value: "PL85"
+    },
+    {
+      name: "Lodz (Łódzkie)",
+      value: "PL74"
+    },
+    {
+      name: "West Pomerania (Zachodniopomorskie)",
+      value: "PL87"
+    },
+    {
+      name: "(other)",
+      value: "PL00"
+    },
     // =========================================================
     // Portugal
     // =========================================================
