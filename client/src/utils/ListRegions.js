@@ -13856,10 +13856,23 @@ export default {
     },
     // =========================================================
     // Saint Pierre and Miquelon
+    // France, self-governing, off coast of Newfoundland, Canada
     // =========================================================
     {
       name: "Saint Pierre and Miquelon",
       value: "PM"
+    },
+    {
+      name: "Miquelon-Langlade",
+      value: "PM97501"
+    },
+    {
+      name: "Saint-Pierre",
+      value: "PM97502"
+    },
+    {
+      name: "(other)",
+      value: "PM00"
     },
     // =========================================================
     // Saint Vincent and the Grenadines
