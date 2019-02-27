@@ -14041,6 +14041,62 @@ export default {
       name: "Saudi Arabia",
       value: "SA"
     },
+    {
+      name: "Al Jawf (al-Ǧawf)",
+      value: "SA20"
+    },
+    {
+      name: "Eastern Province (Ash Sharqīyah)",
+      value: "SA06"
+    },
+    {
+      name: "Al-Qassim (al-Qaṣīm)",
+      value: "SA08"
+    },
+    {
+      name: "Mecca (Makkah)",
+      value: "SA14"
+    },
+    {
+      name: "Al Bahah (al Bāḩah)",
+      value: "SA02"
+    },
+    {
+      name: "Northern Borders Region (al Ḩudūd ash Shamālīyah)",
+      value: "SA15"
+    },
+    {
+      name: "Medina (al Madīnah)",
+      value: "SA05"
+    },
+    {
+      name: "Riyadh (ar Riyāḑ)",
+      value: "SA10"
+    },
+    {
+      name: "Ha'il (Ḩā’il)",
+      value: "SA13"
+    },
+    {
+      name: "Jizan (Jīzān)",
+      value: "SA17"
+    },
+    {
+      name: "Najran (Najrān)",
+      value: "SA16"
+    },
+    {
+      name: "Tabuk (Tabūk)",
+      value: "SA19"
+    },
+    {
+      name: "'Asir (‘Asīr)",
+      value: "SA11"
+    },
+    {
+      name: "(other)",
+      value: "SA00"
+    },
     // =========================================================
     // Senegal
     // =========================================================
