@@ -13703,6 +13703,18 @@ export default {
       name: "Saint Helena, Ascension and Tristan da Cunha",
       value: "SH"
     },
+    {
+      name: "Ascension",
+      value: "SH01"
+    },
+    {
+      name: "Saint Helena",
+      value: "SH02"
+    },
+    {
+      name: "Tristan da Cunha",
+      value: "SH03"
+    },
     // =========================================================
     // Saint Kitts and Nevis
     // =========================================================
