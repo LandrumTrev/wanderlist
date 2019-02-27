@@ -13722,6 +13722,66 @@ export default {
       name: "Saint Kitts and Nevis",
       value: "KN"
     },
+    {
+      name: "Christ Church Nichola Town",
+      value: "KN01"
+    },
+    {
+      name: "Saint Anne Sandy Point",
+      value: "KN02"
+    },
+    {
+      name: "Saint George Basseterre",
+      value: "KN03"
+    },
+    {
+      name: "Saint George Gingerland",
+      value: "KN04"
+    },
+    {
+      name: "Saint James Windward",
+      value: "KN05"
+    },
+    {
+      name: "Saint John Capesterre",
+      value: "KN06"
+    },
+    {
+      name: "Saint John Figtree",
+      value: "KN07"
+    },
+    {
+      name: "Saint Mary Cayon",
+      value: "KN08"
+    },
+    {
+      name: "Saint Paul Capesterre",
+      value: "KN09"
+    },
+    {
+      name: "Saint Paul Charlestown",
+      value: "KN10"
+    },
+    {
+      name: "Saint Peter Basseterre",
+      value: "KN11"
+    },
+    {
+      name: "Saint Thomas Lowland",
+      value: "KN12"
+    },
+    {
+      name: "Saint Thomas Middle Island",
+      value: "KN13"
+    },
+    {
+      name: "Trinity Palmetto Point",
+      value: "KN13"
+    },
+    {
+      name: "(other)",
+      value: "KN00"
+    },
     // =========================================================
     // Saint Lucia
     // =========================================================
