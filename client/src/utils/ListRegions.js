@@ -14016,10 +14016,23 @@ export default {
     },
     // =========================================================
     // Sao Tome and Principe
+    // two islands in Gulf of Guinea off sw Africa coast
     // =========================================================
     {
       name: "Sao Tome and Principe",
       value: "ST"
+    },
+    {
+      name: "Principe",
+      value: "ST01"
+    },
+    {
+      name: "São Tomé Island",
+      value: "ST02"
+    },
+    {
+      name: "(other)",
+      value: "ST00"
     },
     // =========================================================
     // Saudi Arabia
