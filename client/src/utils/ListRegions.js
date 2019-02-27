@@ -14325,6 +14325,7 @@ export default {
     },
     // =========================================================
     // Singapore
+    // city-state island on the tip of Malaysian peninsula
     // =========================================================
     {
       name: "Singapore",
@@ -14356,6 +14357,42 @@ export default {
     {
       name: "Slovakia",
       value: "SK"
+    },
+    {
+      name: "Banská Bystrica (Banskobystrický)",
+      value: "SK01"
+    },
+    {
+      name: "Bratislava (Bratislavský) capital",
+      value: "SK02"
+    },
+    {
+      name: "Košice (Košický)",
+      value: "SK03"
+    },
+    {
+      name: "Nitra (Nitriansky)",
+      value: "SK04"
+    },
+    {
+      name: "Prešov (Prešovský)",
+      value: "SK05"
+    },
+    {
+      name: "Trenčín (Trenčiansky)",
+      value: "SK06"
+    },
+    {
+      name: "Trnava	(Trnavský)",
+      value: "SK07"
+    },
+    {
+      name: "Žilina (Žilinský)",
+      value: "SK08"
+    },
+    {
+      name: "(other)",
+      value: "SK00"
     },
     // =========================================================
     // Slovenia
