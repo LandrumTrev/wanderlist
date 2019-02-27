@@ -13967,10 +13967,52 @@ export default {
     },
     // =========================================================
     // San Marino
+    // tiny country inside of NE Italy near Rimini coast 
+    // cool mountaintop rock ridge town w views 
     // =========================================================
     {
       name: "San Marino",
       value: "SM"
+    },
+    {
+      name: "Acquaviva",
+      value: "SM01"
+    },
+    {
+      name: "Borgo Maggiore",
+      value: "SM06"
+    },
+    {
+      name: "Domagnano",
+      value: "SM03"
+    },
+    {
+      name: "Faetano",
+      value: "SM04"
+    },
+    {
+      name: "Fiorentino",
+      value: "SM05"
+    },
+    {
+      name: "Montegiardino",
+      value: "SM08"
+    },
+    {
+      name: "San Marino Città",
+      value: "SM07"
+    },
+    {
+      name: "Chiesanuova",
+      value: "SM02"
+    },
+    {
+      name: "Serravalle",
+      value: "SM09"
+    },
+    {
+      name: "(other)",
+      value: "SM00"
     },
     // =========================================================
     // Sao Tome and Principe
