@@ -14104,6 +14104,66 @@ export default {
       name: "Senegal",
       value: "SN"
     },
+    {
+      name: "Dakar",
+      value: "SN01"
+    },
+    {
+      name: "Diourbel",
+      value: "SN03"
+    },
+    {
+      name: "Fatick",
+      value: "SN09"
+    },
+    {
+      name: "Kaolack",
+      value: "SN10"
+    },
+    {
+      name: "Kolda",
+      value: "SN11"
+    },
+    {
+      name: "Louga",
+      value: "SN13"
+    },
+    {
+      name: "Matam",
+      value: "SN15"
+    },
+    {
+      name: "Kaffrine",
+      value: "SN16"
+    },
+    {
+      name: "Kédougou",
+      value: "SN17"
+    },
+    {
+      name: "Sédhiou",
+      value: "SN18"
+    },
+    {
+      name: "Thiès",
+      value: "SN07"
+    },
+    {
+      name: "Saint-Louis",
+      value: "SN14"
+    },
+    {
+      name: "Tambacounda",
+      value: "SN05"
+    },
+    {
+      name: "Ziguinchor",
+      value: "SN12"
+    },
+    {
+      name: "(other)",
+      value: "SN00"
+    },
     // =========================================================
     // Serbia
     // =========================================================
