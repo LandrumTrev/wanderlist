@@ -13876,10 +13876,39 @@ export default {
     },
     // =========================================================
     // Saint Vincent and the Grenadines
+    // Caribbean, Windwards, s of St Lucia, n of Grenada
     // =========================================================
     {
       name: "Saint Vincent and the Grenadines",
       value: "VC"
+    },
+    {
+      name: "Grenadines",
+      value: "VC06"
+    },
+    {
+      name: "Charlotte",
+      value: "VC01"
+    },
+    {
+      name: "Saint Andrew",
+      value: "VC02"
+    },
+    {
+      name: "Saint David",
+      value: "VC03"
+    },
+    {
+      name: "Saint George",
+      value: "VC04"
+    },
+    {
+      name: "Saint Patrick",
+      value: "VC05"
+    },
+    {
+      name: "(other)",
+      value: "VC00"
     },
     // =========================================================
     // Samoa
