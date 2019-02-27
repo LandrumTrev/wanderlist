@@ -470,33 +470,6 @@ export default {
       // value: "AG56"
     },
     // =========================================================
-    // American Samoa
-    // =========================================================
-    {
-      name: "American Samoa",
-      value: "AS"
-    },
-    {
-      name: "Eastern District",
-      value: "AS010"
-    },
-    {
-      name: "Manu'a",
-      value: "AS020"
-    },
-    {
-      name: "Rose Island",
-      value: "AS030"
-    },
-    {
-      name: "Swains Island",
-      value: "AS040"
-    },
-    {
-      name: "Western District",
-      value: "AS050"
-    },
-    // =========================================================
     // Andorra
     // =========================================================
     {
@@ -13916,6 +13889,81 @@ export default {
     {
       name: "Samoa",
       value: "WS"
+    },
+    {
+      name: "A'ana",
+      value: "WS01"
+    },
+    {
+      name: "Aiga-i-le-Tai",
+      value: "WS02"
+    },
+    {
+      name: "Atua",
+      value: "WS03"
+    },
+    {
+      name: "Fa‘asaleleaga",
+      value: "WS04"
+    },
+    {
+      name: "Gagaifomauga",
+      value: "WS07"
+    },
+    {
+      name: "Gaga‘emauga",
+      value: "WS05"
+    },
+    {
+      name: "Palauli",
+      value: "WS08"
+    },
+    {
+      name: "Satupa‘itea",
+      value: "WS09"
+    },
+    {
+      name: "Tuamasaga",
+      value: "WS10"
+    },
+    {
+      name: "Vaisigano",
+      value: "WS11"
+    },
+    {
+      name: "Va‘a-o-Fonoti",
+      value: "WS06"
+    },
+    {
+      name: "(other)",
+      value: "WS00"
+    },
+    // =========================================================
+    // American Samoa
+    // =========================================================
+    {
+      name: "American Samoa",
+      value: "AS"
+    },
+    {
+      name: "Eastern District",
+      value: "AS010"
+    },
+    {
+      name: "Manu'a",
+      value: "AS020"
+    },
+    {
+      name: "Rose Island",
+      value: "AS030"
+    },
+    {
+      name: "Swains Island",
+      value: "AS040"
+    },
+    {
+      name: "Western District",
+      value: "AS050"
     },
     // =========================================================
     // San Marino
