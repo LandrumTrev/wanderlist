@@ -14185,10 +14185,115 @@ export default {
     },
     // =========================================================
     // Seychelles
+    // archipelago n of Madagascar, e of Somalia
     // =========================================================
     {
       name: "Seychelles",
       value: "SC"
+    },
+    {
+      name: "Anse aux Pins",
+      value: "SC01"
+    },
+    {
+      name: "Anse Boileau",
+      value: "SC02"
+    },
+    {
+      name: "Anse Etoile",
+      value: "SC03"
+    },
+    {
+      name: "Anse Royale",
+      value: "SC05"
+    },
+    {
+      name: "Au Cap",
+      value: "SC28"
+    },
+    {
+      name: "Baie Lazare",
+      value: "SC06"
+    },
+    {
+      name: "Baie Sainte Anne",
+      value: "SC07"
+    },
+    {
+      name: "Beau Vallon",
+      value: "SC08"
+    },
+    {
+      name: "Bel Air",
+      value: "SC09"
+    },
+    {
+      name: "Bel Ombre",
+      value: "SC10"
+    },
+    {
+      name: "Cascade",
+      value: "SC11"
+    },
+    {
+      name: "English River",
+      value: "SC26"
+    },
+    {
+      name: "Glacis",
+      value: "SC12"
+    },
+    {
+      name: "Grand Anse Mahe",
+      value: "SC24"
+    },
+    {
+      name: "Grand Anse Praslin",
+      value: "SC14"
+    },
+    {
+      name: "Inner Islands",
+      value: "SC25"
+    },
+    {
+      name: "Les Mamelles",
+      value: "SC29"
+    },
+    {
+      name: "Mont Buxton",
+      value: "SC17"
+    },
+    {
+      name: "Mont Fleuri",
+      value: "SC18"
+    },
+    {
+      name: "Plaisance",
+      value: "SC19"
+    },
+    {
+      name: "Pointe Larue",
+      value: "SC20"
+    },
+    {
+      name: "Port Glaud",
+      value: "SC27"
+    },
+    {
+      name: "Roche Caiman",
+      value: "SC30"
+    },
+    {
+      name: "Saint Louis",
+      value: "SC22"
+    },
+    {
+      name: "Takamaka",
+      value: "SC23"
+    },
+    {
+      name: "(other)",
+      value: "SC00"
     },
     // =========================================================
     // Sierra Leone
