@@ -14302,6 +14302,26 @@ export default {
       name: "Sierra Leone",
       value: "SL"
     },
+    {
+      name: "Eastern Province",
+      value: "SL01"
+    },
+    {
+      name: "Northern Province",
+      value: "SL02"
+    },
+    {
+      name: "Southern Province",
+      value: "SL03"
+    },
+    {
+      name: "Western Area",
+      value: "SL04"
+    },
+    {
+      name: "(other)",
+      value: "SL00"
+    },
     // =========================================================
     // Singapore
     // =========================================================
