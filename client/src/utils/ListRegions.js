@@ -13776,7 +13776,7 @@ export default {
     },
     {
       name: "Trinity Palmetto Point",
-      value: "KN13"
+      value: "KN15"
     },
     {
       name: "(other)",
@@ -13784,10 +13784,59 @@ export default {
     },
     // =========================================================
     // Saint Lucia
+    // Caribbean, s of Martinique, n of St Vincent
     // =========================================================
     {
       name: "Saint Lucia",
       value: "LC"
+    },
+    {
+      name: "Anse-la-Raye",
+      value: "LC01"
+    },
+    {
+      name: "Castries",
+      value: "LC03"
+    },
+    {
+      name: "Choiseul",
+      value: "LC04"
+    },
+    {
+      name: "Dauphin",
+      value: "LC02"
+    },
+    {
+      name: "Dennery",
+      value: "LC05"
+    },
+    {
+      name: "Gros-Islet",
+      value: "LC06"
+    },
+    {
+      name: "Laborie",
+      value: "LC07"
+    },
+    {
+      name: "Micoud",
+      value: "LC08"
+    },
+    {
+      name: "Praslin",
+      value: "LC11"
+    },
+    {
+      name: "Soufrière",
+      value: "LC09"
+    },
+    {
+      name: "Vieux-Fort",
+      value: "LC10"
+    },
+    {
+      name: "(other)",
+      value: "LC00"
     },
     // =========================================================
     // Saint Martin (French part)
