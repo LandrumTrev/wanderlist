@@ -13690,6 +13690,7 @@ export default {
     },
     // =========================================================
     // Saint Barthélemy
+    // all codes 00, small island in Leewards near Anguilla
     // =========================================================
     {
       name: "Saint Barthélemy",
