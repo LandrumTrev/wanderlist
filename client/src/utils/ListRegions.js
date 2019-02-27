@@ -14297,6 +14297,7 @@ export default {
     },
     // =========================================================
     // Sierra Leone
+    // west coast Africa
     // =========================================================
     {
       name: "Sierra Leone",
@@ -14328,6 +14329,26 @@ export default {
     {
       name: "Singapore",
       value: "SG"
+    },
+    {
+      name: "Central Singapore",
+      value: "SG01"
+    },
+    {
+      name: "North East",
+      value: "SG02"
+    },
+    {
+      name: "North West",
+      value: "SG03"
+    },
+    {
+      name: "South East",
+      value: "SG04"
+    },
+    {
+      name: "South West",
+      value: "SG05"
     },
     // =========================================================
     // Slovakia
