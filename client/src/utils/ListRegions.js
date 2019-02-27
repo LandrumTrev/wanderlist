@@ -13839,14 +13839,16 @@ export default {
       value: "LC00"
     },
     // =========================================================
-    // Saint Martin (French part)
+    // Saint-Martin (French part)
+    // all codes 00 (or no code), Caribbean, s of Anguilla, Leewards 
     // =========================================================
     {
-      name: "Saint Martin (French part)",
+      name: "Saint-Martin (French part)",
       value: "MF"
     },
     // =========================================================
     // Sint Maarten (Dutch part)
+    // all codes 00 (or no code), Caribbean, s of Anguilla, Leewards 
     // =========================================================
     {
       name: "Sint Maarten (Dutch part)",
