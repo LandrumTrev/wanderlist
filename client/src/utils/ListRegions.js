@@ -14171,6 +14171,18 @@ export default {
       name: "Serbia",
       value: "RS"
     },
+    {
+      name: "Vojvodina",
+      value: "RSVO"
+    },
+    {
+      name: "Central Serbia",
+      value: "RSSE"
+    },
+    {
+      name: "(other)",
+      value: "RS00"
+    },
     // =========================================================
     // Seychelles
     // =========================================================
