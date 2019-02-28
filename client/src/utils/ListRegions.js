@@ -15296,6 +15296,82 @@ export default {
       name: "Somalia",
       value: "SO"
     },
+    {
+      name: "Awdal",
+      value: "SO21"
+    },
+    {
+      name: "Bakool",
+      value: "SO01"
+    },
+    {
+      name: "Banaadir (Mogadishu, capital)",
+      value: "SO02"
+    },
+    {
+      name: "Bari",
+      value: "SO03"
+    },
+    {
+      name: "Bay",
+      value: "SO04"
+    },
+    {
+      name: "Galguduud",
+      value: "SO05"
+    },
+    {
+      name: "Gedo",
+      value: "SO06"
+    },
+    {
+      name: "Hiiraan",
+      value: "SO07"
+    },
+    {
+      name: "Middle Juba (Jubbada Dhexe)",
+      value: "SO08"
+    },
+    {
+      name: "Lower Juba (Jubbada Hoose)",
+      value: "SO09"
+    },
+    {
+      name: "Mudug",
+      value: "SO10"
+    },
+    {
+      name: "Nugaal",
+      value: "SO18"
+    },
+    {
+      name: "Sanaag",
+      value: "SO12"
+    },
+    {
+      name: "Middle Shabele (Shabeellaha Dhexe)",
+      value: "SO13"
+    },
+    {
+      name: "Lower Shabeelle (Shabeellaha Hoose)",
+      value: "SO14"
+    },
+    {
+      name: "Sool",
+      value: "SO22"
+    },
+    {
+      name: "Togdheer",
+      value: "SO19"
+    },
+    {
+      name: "Woqooyi Galbeed",
+      value: "SO20"
+    },
+    {
+      name: "(other)",
+      value: "SO00"
+    },
     // =========================================================
     // South Africa
     // =========================================================
