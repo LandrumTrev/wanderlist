@@ -15243,10 +15243,51 @@ export default {
     },
     // =========================================================
     // Solomon Islands
+    // e of Papua New Guinea, ne of Australia
     // =========================================================
     {
       name: "Solomon Islands",
       value: "SB"
+    },
+    {
+      name: "Central Province",
+      value: "SB10"
+    },
+    {
+      name: "Choiseul",
+      value: "SB12"
+    },
+    {
+      name: "Guadalcanal",
+      value: "SB06"
+    },
+    {
+      name: "Isabel",
+      value: "SB07"
+    },
+    {
+      name: "Makira-Ulawa",
+      value: "SB08"
+    },
+    {
+      name: "Malaita",
+      value: "SB03"
+    },
+    {
+      name: "Rennell and Bellona",
+      value: "SB13"
+    },
+    {
+      name: "Temotu",
+      value: "SB09"
+    },
+    {
+      name: "Western Province",
+      value: "SB11"
+    },
+    {
+      name: "(other)",
+      value: "SB00"
     },
     // =========================================================
     // Somalia
