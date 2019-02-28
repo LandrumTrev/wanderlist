@@ -14401,6 +14401,846 @@ export default {
       name: "Slovenia",
       value: "SI"
     },
+    {
+      name: "Beltinci",
+      value: "SI02"
+    },
+    {
+      name: "Benedikt",
+      value: "SIF4"
+    },
+    {
+      name: "Bistrica ob Sotli",
+      value: "SIF5"
+    },
+    {
+      name: "Bloke",
+      value: "SIF6"
+    },
+    {
+      name: "Bohinj",
+      value: "SI04"
+    },
+    {
+      name: "Borovnica",
+      value: "SI05"
+    },
+    {
+      name: "Brda",
+      value: "SI07"
+    },
+    {
+      name: "Brezovica",
+      value: "SI09"
+    },
+    {
+      name: "Cankova",
+      value: "SIF8"
+    },
+    {
+      name: "Celje",
+      value: "SI11"
+    },
+    {
+      name: "Cerklje na Gorenjskem",
+      value: "SI12"
+    },
+    {
+      name: "Cerknica",
+      value: "SI13"
+    },
+    {
+      name: "Cerkno",
+      value: "SI14"
+    },
+    {
+      name: "Cerkvenjak",
+      value: "SIF9"
+    },
+    {
+      name: "Cirkulane",
+      value: "SIO1"
+    },
+    {
+      name: "Destrnik",
+      value: "SIG1"
+    },
+    {
+      name: "Dobje",
+      value: "SIG2"
+    },
+    {
+      name: "Dobrepolje",
+      value: "SI20"
+    },
+    {
+      name: "Dobrna",
+      value: "SIG3"
+    },
+    {
+      name: "Dobrova-Polhov Gradec",
+      value: "SIG4"
+    },
+    {
+      name: "Dobrovnik",
+      value: "SIG5"
+    },
+    {
+      name: "Dol pri Ljubljani",
+      value: "SI22"
+    },
+    {
+      name: "Dolenjske Toplice",
+      value: "SIG6"
+    },
+    {
+      name: "Dornava",
+      value: "SI24"
+    },
+    {
+      name: "Dravograd",
+      value: "SI25"
+    },
+    {
+      name: "Duplek",
+      value: "SI26"
+    },
+    {
+      name: "Gorenja Vas-Poljane",
+      value: "SI27"
+    },
+    {
+      name: "Gornja Radgona",
+      value: "SI29"
+    },
+    {
+      name: "Gornji Grad",
+      value: "SI30"
+    },
+    {
+      name: "Gornji Petrovci",
+      value: "SI31"
+    },
+    {
+      name: "Grad",
+      value: "SIG8"
+    },
+    {
+      name: "Grosuplje",
+      value: "SI32"
+    },
+    {
+      name: "Hajdina",
+      value: "SIG9"
+    },
+    {
+      name: "Hodos",
+      value: "SIH2"
+    },
+    {
+      name: "Horjul",
+      value: "SIH3"
+    },
+    {
+      name: "Hrastnik",
+      value: "SI34"
+    },
+    {
+      name: "Hrpelje-Kozina",
+      value: "SI35"
+    },
+    {
+      name: "Idrija",
+      value: "SI36"
+    },
+    {
+      name: "Ig",
+      value: "SI37"
+    },
+    {
+      name: "Ilirska Bistrica",
+      value: "SI38"
+    },
+    {
+      name: "Izola",
+      value: "SI40"
+    },
+    {
+      name: "Jesenice",
+      value: "SIH4"
+    },
+    {
+      name: "Jezersko",
+      value: "SIH5"
+    },
+    {
+      name: "Kamnik",
+      value: "SIH6"
+    },
+    {
+      name: "Kanal",
+      value: "SI44"
+    },
+    {
+      name: "Kobilje",
+      value: "SI47"
+    },
+    {
+      name: "Komen",
+      value: "SI49"
+    },
+    {
+      name: "Komenda",
+      value: "SIH8"
+    },
+    {
+      name: "Koper",
+      value: "SI50"
+    },
+    {
+      name: "Kostanjevica na Krki",
+      value: "SIO3"
+    },
+    {
+      name: "Kostel",
+      value: "SIH9"
+    },
+    {
+      name: "Kozje",
+      value: "SI51"
+    },
+    {
+      name: "Kranj",
+      value: "SI52"
+    },
+    {
+      name: "Kranjska Gora",
+      value: "SI53"
+    },
+    {
+      name: "Kungota",
+      value: "SI55"
+    },
+    {
+      name: "Kuzma",
+      value: "SII2"
+    },
+    {
+      name: "Lenart",
+      value: "SII3"
+    },
+    {
+      name: "Lendava",
+      value: "SII4"
+    },
+    {
+      name: "Litija",
+      value: "SII5"
+    },
+    {
+      name: "Ljubno",
+      value: "SI62"
+    },
+    {
+      name: "Ljutomer",
+      value: "SII6"
+    },
+    {
+      name: "Log-Dragomer",
+      value: "SIO4"
+    },
+    {
+      name: "Logatec",
+      value: "SI64"
+    },
+    {
+      name: "Lovrenc na Pohorju",
+      value: "SII8"
+    },
+    {
+      name: "Lukovica",
+      value: "SI68"
+    },
+    {
+      name: "Makole",
+      value: "SIO5"
+    },
+    {
+      name: "Maribor",
+      value: "SIJ2"
+    },
+    {
+      name: "Markovci",
+      value: "SIJ3"
+    },
+    {
+      name: "Medvode",
+      value: "SI71"
+    },
+    {
+      name: "Ljubljana (Mestna Občina Ljubljana) capital",
+      value: "SI61"
+    },
+    {
+      name: "Novo Mesto (Mestna Občina Novo Mesto)",
+      value: "SIJ7"
+    },
+    {
+      name: "Metlika",
+      value: "SI73"
+    },
+    {
+      name: "Miren-Kostanjevica",
+      value: "SIJ5"
+    },
+    {
+      name: "Mislinja",
+      value: "SI76"
+    },
+    {
+      name: "Mokronog-Trebelno",
+      value: "SIO7"
+    },
+    {
+      name: "Moravske Toplice",
+      value: "SI78"
+    },
+    {
+      name: "Mozirje",
+      value: "SI79"
+    },
+    {
+      name: "Murska Sobota",
+      value: "SI80"
+    },
+    {
+      name: "Muta",
+      value: "SI81"
+    },
+    {
+      name: "Naklo",
+      value: "SI82"
+    },
+    {
+      name: "Nazarje",
+      value: "SI83"
+    },
+    {
+      name: "Nova Gorica",
+      value: "SI84"
+    },
+    {
+      name: "Občina Ajdovščina",
+      value: "SI01"
+    },
+    {
+      name: "Občina Apače",
+      value: "SIN9"
+    },
+    {
+      name: "Občina Bled",
+      value: "SI03"
+    },
+    {
+      name: "Občina Bovec",
+      value: "SI06"
+    },
+    {
+      name: "Občina Braslovče",
+      value: "SIF7"
+    },
+    {
+      name: "Občina Brežice",
+      value: "SI08"
+    },
+    {
+      name: "Občina Črenšovci",
+      value: "SI15"
+    },
+    {
+      name: "Občina Črna na Koroškem",
+      value: "SI16"
+    },
+    {
+      name: "Občina Črnomelj",
+      value: "SI17"
+    },
+    {
+      name: "Občina Divača",
+      value: "SI19"
+    },
+    {
+      name: "Občina Domžale",
+      value: "SIG7"
+    },
+    {
+      name: "Občina Gorišnica",
+      value: "SI28"
+    },
+    {
+      name: "Občina Hoče-Slivnica",
+      value: "SIH1"
+    },
+    {
+      name: "Občina Ivančna Gorica",
+      value: "SI39"
+    },
+    {
+      name: "Občina Juršinci",
+      value: "SI42"
+    },
+    {
+      name: "Občina Kidričevo",
+      value: "SI45"
+    },
+    {
+      name: "Občina Kobarid",
+      value: "SI46"
+    },
+    {
+      name: "Občina Kočevje",
+      value: "SIH7"
+    },
+    {
+      name: "Občina Križevci",
+      value: "SII1"
+    },
+    {
+      name: "Občina Krško",
+      value: "SI54"
+    },
+    {
+      name: "Občina Laško",
+      value: "SI57"
+    },
+    {
+      name: "Občina Loška Dolina",
+      value: "SII7"
+    },
+    {
+      name: "Občina Loški Potok",
+      value: "SI66"
+    },
+    {
+      name: "Občina Luče",
+      value: "SII9"
+    },
+    {
+      name: "Občina Majšperk",
+      value: "SIJ1"
+    },
+    {
+      name: "Občina Mengeš",
+      value: "SI72"
+    },
+    {
+      name: "Občina Mežica",
+      value: "SI74"
+    },
+    {
+      name: "Občina Miklavž na Dravskem Polju",
+      value: "SIJ4"
+    },
+    {
+      name: "Občina Mirna Peč",
+      value: "SIJ6"
+    },
+    {
+      name: "Občina Moravče",
+      value: "SI77"
+    },
+    {
+      name: "Občina Ormož",
+      value: "SI87"
+    },
+    {
+      name: "Občina Podčetrtek",
+      value: "SI92"
+    },
+    {
+      name: "Občina Poljčane",
+      value: "SIO8"
+    },
+    {
+      name: "Občina Rače-Fram",
+      value: "SI98"
+    },
+    {
+      name: "Občina Radeče",
+      value: "SI99"
+    },
+    {
+      name: "Občina Ravne na Koroškem",
+      value: "SIK8"
+    },
+    {
+      name: "Občina Razkrižje",
+      value: "SIK9"
+    },
+    {
+      name: "Občina Rečica ob Savinji",
+      value: "SIO9"
+    },
+    {
+      name: "Občina Renče-Vogrsko",
+      value: "SIP1"
+    },
+    {
+      name: "Občina Rogaška Slatina",
+      value: "SIA7"
+    },
+    {
+      name: "Občina Rogašovci",
+      value: "SIA6"
+    },
+    {
+      name: "Občina Ruše",
+      value: "SIL3"
+    },
+    {
+      name: "Občina Šalovci",
+      value: "SIL4"
+    },
+    {
+      name: "Občina Semič",
+      value: "SIB1"
+    },
+    {
+      name: "Občina Šempeter-Vrtojba",
+      value: "SIL6"
+    },
+    {
+      name: "Občina Šenčur",
+      value: "SIB2"
+    },
+    {
+      name: "Občina Šentilj",
+      value: "SIB3"
+    },
+    {
+      name: "Občina Šentjernej",
+      value: "SIB4"
+    },
+    {
+      name: "Občina Šentjur",
+      value: "SIL7"
+    },
+    {
+      name: "Občina Šentrupert",
+      value: "SIP2"
+    },
+    {
+      name: "Občina Sežana",
+      value: "SIB7"
+    },
+    {
+      name: "Občina Škocjan",
+      value: "SIB8"
+    },
+    {
+      name: "Občina Škofja Loka",
+      value: "SIB9"
+    },
+    {
+      name: "Občina Škofljica",
+      value: "SIC1"
+    },
+    {
+      name: "Občina Šmarje pri Jelšah",
+      value: "SIC5"
+    },
+    {
+      name: "Občina Šmarješke Toplice",
+      value: "SIP3"
+    },
+    {
+      name: "Občina Šmartno ob Paki",
+      value: "SIC6"
+    },
+    {
+      name: "Občina Šmartno pri Litiji",
+      value: "SIL9"
+    },
+    {
+      name: "Občina Sodražica",
+      value: "SIM1"
+    },
+    {
+      name: "Občina Solčava",
+      value: "SIM2"
+    },
+    {
+      name: "Občina Šoštanj",
+      value: "SIC7"
+    },
+    {
+      name: "Občina Središče ob Dravi",
+      value: "SIP4"
+    },
+    {
+      name: "Občina Starše",
+      value: "SIC8"
+    },
+    {
+      name: "Občina Štore",
+      value: "SIC9"
+    },
+    {
+      name: "Občina Straža",
+      value: "SIP5"
+    },
+    {
+      name: "Občina Sveti Andraž v Slovenskih Goricah",
+      value: "SIM4"
+    },
+    {
+      name: "Občina Sveti Jurij ob Ščavnici",
+      value: "SID1"
+    },
+    {
+      name: "Občina Sveti Tomaž",
+      value: "SIP8"
+    },
+    {
+      name: "Občina Tišina",
+      value: "SIM6"
+    },
+    {
+      name: "Občina Tolmin",
+      value: "SID2"
+    },
+    {
+      name: "Občina Trnovska vas",
+      value: "SIM7"
+    },
+    {
+      name: "Občina Tržič",
+      value: "SID5"
+    },
+    {
+      name: "Občina Turnišče",
+      value: "SID6"
+    },
+    {
+      name: "Občina Velike Lašče",
+      value: "SID8"
+    },
+    {
+      name: "Občina Veržej",
+      value: "SIN1"
+    },
+    {
+      name: "Občina Žalec",
+      value: "SIN5"
+    },
+    {
+      name: "Občina Zavrč",
+      value: "SIE9"
+    },
+    {
+      name: "Občina Železniki",
+      value: "SIF1"
+    },
+    {
+      name: "Občina Žetale",
+      value: "SIN6"
+    },
+    {
+      name: "Občina Žiri",
+      value: "SIF2"
+    },
+    {
+      name: "Občina Žirovnica",
+      value: "SIN7"
+    },
+    {
+      name: "Občina Zreče",
+      value: "SIF3"
+    },
+    {
+      name: "Občina Žužemberk",
+      value: "SIN8"
+    },
+    {
+      name: "Odranci",
+      value: "SI86"
+    },
+    {
+      name: "Oplotnica",
+      value: "SIJ8"
+    },
+    {
+      name: "Osilnica",
+      value: "SI88"
+    },
+    {
+      name: "Pesnica",
+      value: "SI89"
+    },
+    {
+      name: "Piran",
+      value: "SIJ9"
+    },
+    {
+      name: "Pivka",
+      value: "SI91"
+    },
+    {
+      name: "Podlehnik",
+      value: "SIK1"
+    },
+    {
+      name: "Podvelka",
+      value: "SIK2"
+    },
+    {
+      name: "Polzela",
+      value: "SIK3"
+    },
+    {
+      name: "Postojna",
+      value: "SI94"
+    },
+    {
+      name: "Prebold",
+      value: "SIK4"
+    },
+    {
+      name: "Preddvor",
+      value: "SIK5"
+    },
+    {
+      name: "Prevalje",
+      value: "SIK6"
+    },
+    {
+      name: "Ptuj",
+      value: "SIK7"
+    },
+    {
+      name: "Puconci",
+      value: "SI97"
+    },
+    {
+      name: "Radenci",
+      value: "SIA1"
+    },
+    {
+      name: "Radlje ob Dravi",
+      value: "SIA2"
+    },
+    {
+      name: "Radovljica",
+      value: "SIA3"
+    },
+    {
+      name: "Ribnica",
+      value: "SIL1"
+    },
+    {
+      name: "Ribnica na Pohorju",
+      value: "SIL2"
+    },
+    {
+      name: "Rogatec",
+      value: "SIA8"
+    },
+    {
+      name: "Selnica ob Dravi",
+      value: "SIL5"
+    },
+    {
+      name: "Sevnica",
+      value: "SIB6"
+    },
+    {
+      name: "Slovenj Gradec",
+      value: "SIC2"
+    },
+    {
+      name: "Slovenska Bistrica",
+      value: "SIL8"
+    },
+    {
+      name: "Slovenske Konjice",
+      value: "SIC4"
+    },
+    {
+      name: "Sveta Ana",
+      value: "SIM3"
+    },
+    {
+      name: "Sveta Trojica v Slovenskih Goricah",
+      value: "SIP6"
+    },
+    {
+      name: "Sveti Jurij v Slovenskih Goricah",
+      value: "SIP7"
+    },
+    {
+      name: "Tabor",
+      value: "SIM5"
+    },
+    {
+      name: "Trbovlje",
+      value: "SID3"
+    },
+    {
+      name: "Trebnje",
+      value: "SID4"
+    },
+    {
+      name: "Trzin",
+      value: "SIM8"
+    },
+    {
+      name: "Velenje",
+      value: "SID7"
+    },
+    {
+      name: "Velika Polana",
+      value: "SIM9"
+    },
+    {
+      name: "Videm",
+      value: "SIN2"
+    },
+    {
+      name: "Vipava",
+      value: "SIE1"
+    },
+    {
+      name: "Vitanje",
+      value: "SIE2"
+    },
+    {
+      name: "Vodice",
+      value: "SIE3"
+    },
+    {
+      name: "Vojnik",
+      value: "SIN3"
+    },
+    {
+      name: "Vransko",
+      value: "SIN4"
+    },
+    {
+      name: "Vrhnika",
+      value: "SIE5"
+    },
+    {
+      name: "Vuzenica",
+      value: "SIE6"
+    },
+    {
+      name: "Zagorje ob Savi",
+      value: "SIE7"
+    },
+    {
+      name: "(other)",
+      value: "SI00"
+    },
     // =========================================================
     // Solomon Islands
     // =========================================================
