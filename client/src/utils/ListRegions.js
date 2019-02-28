@@ -15421,6 +15421,7 @@ export default {
     },
     // =========================================================
     // South Georgia and the South Sandwich Islands
+    // all 00, mostly uninhabited, between Antartica and Argentina
     // =========================================================
     {
       name: "South Georgia and the South Sandwich Islands",
