@@ -15379,6 +15379,46 @@ export default {
       name: "South Africa",
       value: "ZA"
     },
+    {
+      name: "Free State",
+      value: "ZA03"
+    },
+    {
+      name: "Gauteng",
+      value: "ZA06"
+    },
+    {
+      name: "Limpopo",
+      value: "ZA09"
+    },
+    {
+      name: "Mpumalanga",
+      value: "ZA07"
+    },
+    {
+      name: "Eastern Cape",
+      value: "ZA05"
+    },
+    {
+      name: "KwaZulu-Natal",
+      value: "ZA02"
+    },
+    {
+      name: "North-West",
+      value: "ZA10"
+    },
+    {
+      name: "Northern Cape",
+      value: "ZA08"
+    },
+    {
+      name: "Western Cape",
+      value: "ZA11"
+    },
+    {
+      name: "(other)",
+      value: "ZA00"
+    },
     // =========================================================
     // South Georgia and the South Sandwich Islands
     // =========================================================
