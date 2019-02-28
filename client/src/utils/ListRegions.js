@@ -15621,6 +15621,86 @@ export default {
       name: "Spain",
       value: "ES"
     },
+    {
+      name: "Andalusia (Andalucía)",
+      value: "ES51"
+    },
+    {
+      name: "Aragon (Aragón)",
+      value: "ES52"
+    },
+    {
+      name: "Canary Islands (Canarias)",
+      value: "ES53"
+    },
+    {
+      name: "Cantabria (Cantabria)",
+      value: "ES39"
+    },
+    {
+      name: "Castille and León (Castilla y León)",
+      value: "ES55"
+    },
+    {
+      name: "Castille-La Mancha (Castilla-La Mancha)",
+      value: "ES54"
+    },
+    {
+      name: "Catalonia (Catalunya)",
+      value: "ES56"
+    },
+    {
+      name: "Ceuta (Ceuta)",
+      value: "ESCE"
+    },
+    {
+      name: "Madrid (capital)",
+      value: "ES29"
+    },
+    {
+      name: "Balearic Islands (Comunitat Autònoma de les Illes Balears)",
+      value: "ES07 "
+    },
+    {
+      name: "Valencia (Valenciana)",
+      value: "ES60"
+    },
+    {
+      name: "Basque Country (Euskal Autonomia Erkidegoa)",
+      value: "ES59"
+    },
+    {
+      name: "Extremadura (Extremadura)",
+      value: "ES57"
+    },
+    {
+      name: "Galicia (Galicia)",
+      value: "ES58"
+    },
+    {
+      name: "La Rioja (La Rioja)",
+      value: "ES27"
+    },
+    {
+      name: "Melilla (Melilla)",
+      value: "ESML"
+    },
+    {
+      name: "Navarre (Navarra)",
+      value: "ES32"
+    },
+    {
+      name: "Asturias (Asturias)",
+      value: "ES34"
+    },
+    {
+      name: "Murcia (Murcia)",
+      value: "ES31"
+    },
+    {
+      name: "(other)",
+      value: "ES00"
+    },
     // =========================================================
     // Sri Lanka
     // =========================================================
