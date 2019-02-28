@@ -13813,7 +13813,7 @@ export default {
     },
     // =========================================================
     // Saint-Martin (French part)
-    // all codes 00 (or no code), Caribbean, s of Anguilla, Leewards 
+    // all codes 00 (or no code), Caribbean, s of Anguilla, Leewards
     // =========================================================
     {
       name: "Saint-Martin (French part)",
@@ -13821,7 +13821,7 @@ export default {
     },
     // =========================================================
     // Sint Maarten (Dutch part)
-    // all codes 00 (or no code), Caribbean, s of Anguilla, Leewards 
+    // all codes 00 (or no code), Caribbean, s of Anguilla, Leewards
     // =========================================================
     {
       name: "Sint Maarten (Dutch part)",
@@ -13967,8 +13967,8 @@ export default {
     },
     // =========================================================
     // San Marino
-    // tiny country inside of NE Italy near Rimini coast 
-    // cool mountaintop rock ridge town w views 
+    // tiny country inside of NE Italy near Rimini coast
+    // cool mountaintop rock ridge town w views
     // =========================================================
     {
       name: "San Marino",
@@ -15433,6 +15433,186 @@ export default {
     {
       name: "South Sudan",
       value: "SS"
+    },
+    {
+      name: "Akobo",
+      value: "SS9407085"
+    },
+    {
+      name: "Amadi",
+      value: "SS11550552"
+    },
+    {
+      name: "Aweil",
+      value: "SS11550543"
+    },
+    {
+      name: "Aweil East",
+      value: "SS11550582"
+    },
+    {
+      name: "Bieh",
+      value: "SS11550574"
+    },
+    {
+      name: "Boma",
+      value: "SS11550573"
+    },
+    {
+      name: "Central Upper Nile",
+      value: "SS11550575"
+    },
+    {
+      name: "Eastern Lakes",
+      value: "SS11550544"
+    },
+    {
+      name: "Fangak",
+      value: "SS11550580"
+    },
+    {
+      name: "Fashoda",
+      value: "SS11550558"
+    },
+    {
+      name: "Gbudwe",
+      value: "SS11550566"
+    },
+    {
+      name: "Gogrial",
+      value: "SS11550545"
+    },
+    {
+      name: "Gok",
+      value: "SS11550562"
+    },
+    {
+      name: "Imatong",
+      value: "SS11550567"
+    },
+    {
+      name: "Jonglei",
+      value: "SS11550576"
+    },
+    {
+      name: "Jubek (Juba, capital)",
+      value: "SS11550569"
+    },
+    {
+      name: "Kapoeta",
+      value: "SS11550596"
+    },
+    {
+      name: "Latjoor",
+      value: "SS11550577"
+    },
+    {
+      name: "Lol",
+      value: "SS11550548"
+    },
+    {
+      name: "Maiwut",
+      value: "SS9072661"
+    },
+    {
+      name: "Maridi",
+      value: "SS11550570"
+    },
+    {
+      name: "Northern Liech",
+      value: "SS11550578"
+    },
+    {
+      name: "Northern Upper Nile",
+      value: "SS11550588"
+    },
+    {
+      name: "Ruweng",
+      value: "SS367894"
+    },
+    {
+      name: "Southern Liech",
+      value: "SS11550579"
+    },
+    {
+      name: "Tambura",
+      value: "SS11550589"
+    },
+    {
+      name: "Terekeka",
+      value: "SS11550571"
+    },
+    {
+      name: "Tonj",
+      value: "SS11550563"
+    },
+    {
+      name: "Twic",
+      value: "SS11550564"
+    },
+    {
+      name: "Wau",
+      value: "SS11550565"
+    },
+    {
+      name: "Western Lakes",
+      value: "SS11550581"
+    },
+    {
+      name: "Yei River",
+      value: "SS11550555"
+    },
+    {
+      name: "(defunct) Central Equatoria",
+      value: "SS01"
+    },
+    {
+      name: "(defunct) Eastern Equatoria",
+      value: "SS02"
+    },
+    {
+      name: "(defunct) Lakes",
+      value: "SS04"
+    },
+    {
+      name: "(defunct) Northern Bahr al Ghazal",
+      value: "SS05"
+    },
+    {
+      name: "(defunct) Unity",
+      value: "SS06"
+    },
+    {
+      name: "(defunct) Upper Nile",
+      value: "SS07"
+    },
+    {
+      name: "(defunct) Warrap",
+      value: "SS08"
+    },
+    {
+      name: "(defunct) Western Bahr al Ghazal",
+      value: "SS09"
+    },
+    {
+      name: "(defunct) Western Equatoria",
+      value: "SS10"
+    },
+    {
+      name: "(defunct) SS.03",
+      value: "SS03"
+    },
+    {
+      name: "(defunct) SS.32",
+      value: "SS32"
+    },
+    {
+      name: "(defunct) SS.28",
+      value: "SS28"
+    },
+    {
+      name: "(other)",
+      value: "SS00"
     },
     // =========================================================
     // Spain
