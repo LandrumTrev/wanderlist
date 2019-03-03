@@ -16197,6 +16197,26 @@ export default {
       name: "Taiwan",
       value: "TW"
     },
+    {
+      name: "Fukien",
+      value: "TW01"
+    },
+    {
+      name: "Kaohsiung",
+      value: "TW02"
+    },
+    {
+      name: "Taipei",
+      value: "TW03"
+    },
+    {
+      name: "Taiwan",
+      value: "TW04"
+    },
+    {
+      name: "(other)",
+      value: "TW00"
+    },
     // =========================================================
     // Tajikistan
     // =========================================================
