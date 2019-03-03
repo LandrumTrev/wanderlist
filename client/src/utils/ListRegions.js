@@ -16255,6 +16255,130 @@ export default {
       name: "Tanzania",
       value: "TZ"
     },
+    {
+      name: "Arusha",
+      value: "TZ26"
+    },
+    {
+      name: "Coast",
+      value: "TZ02"
+    },
+    {
+      name: "Dar es Salaam",
+      value: "TZ23"
+    },
+    {
+      name: "Dodoma",
+      value: "TZ03"
+    },
+    {
+      name: "Geita",
+      value: "TZ28"
+    },
+    {
+      name: "Iringa",
+      value: "TZ04"
+    },
+    {
+      name: "Kagera",
+      value: "TZ19"
+    },
+    {
+      name: "Katavi",
+      value: "TZ29"
+    },
+    {
+      name: "Kigoma",
+      value: "TZ05"
+    },
+    {
+      name: "Kilimanjaro",
+      value: "TZ06"
+    },
+    {
+      name: "Lindi",
+      value: "TZ07"
+    },
+    {
+      name: "Manyara",
+      value: "TZ27"
+    },
+    {
+      name: "Mara",
+      value: "TZ08"
+    },
+    {
+      name: "Mbeya",
+      value: "TZ09"
+    },
+    {
+      name: "Morogoro",
+      value: "TZ10"
+    },
+    {
+      name: "Mtwara",
+      value: "TZ11"
+    },
+    {
+      name: "Mwanza",
+      value: "TZ12"
+    },
+    {
+      name: "Njombe",
+      value: "TZ30"
+    },
+    {
+      name: "Pemba North",
+      value: "TZ13"
+    },
+    {
+      name: "Pemba South",
+      value: "TZ20"
+    },
+    {
+      name: "Rukwa",
+      value: "TZ24"
+    },
+    {
+      name: "Ruvuma",
+      value: "TZ14"
+    },
+    {
+      name: "Shinyanga",
+      value: "TZ15"
+    },
+    {
+      name: "Simiyu",
+      value: "TZ31"
+    },
+    {
+      name: "Singida",
+      value: "TZ16"
+    },
+    {
+      name: "Tabora",
+      value: "TZ17"
+    },
+    {
+      name: "Tanga",
+      value: "TZ18"
+    },
+    {
+      name: "Zanzibar Central/South",
+      value: "TZ21"
+    },
+    {
+      name: "Zanzibar North",
+      value: "TZ22"
+    },
+    {
+      name: "Zanzibar Urban/West",
+      value: "TZ25"
+    },
+    {
+      name: "(other)",
+      value: "TZ00"
+    },
     // =========================================================
     // Thailand
     // =========================================================
