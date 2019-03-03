@@ -15893,6 +15893,26 @@ export default {
       name: "Swaziland",
       value: "SZ"
     },
+    {
+      name: "Hhohho",
+      value: "SZ01"
+    },
+    {
+      name: "Lubombo",
+      value: "SZ02"
+    },
+    {
+      name: "Manzini",
+      value: "SZ03"
+    },
+    {
+      name: "Shiselweni",
+      value: "SZ04"
+    },
+    {
+      name: "(other)",
+      value: "SZ00"
+    },
     // =========================================================
     // Sweden
     // =========================================================
