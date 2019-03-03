@@ -15708,6 +15708,46 @@ export default {
       name: "Sri Lanka",
       value: "LK"
     },
+    {
+      name: "Central",
+      value: "LK29"
+    },
+    {
+      name: "Eastern",
+      value: "LK37"
+    },
+    {
+      name: "Northern",
+      value: "LK38"
+    },
+    {
+      name: "North Central",
+      value: "LK30"
+    },
+    {
+      name: "North Western",
+      value: "LK32"
+    },
+    {
+      name: "Sabaragamuwa",
+      value: "LK33"
+    },
+    {
+      name: "Southern",
+      value: "LK34"
+    },
+    {
+      name: "Uva",
+      value: "LK35"
+    },
+    {
+      name: "Western",
+      value: "LK36"
+    },
+    {
+      name: "(other)",
+      value: "LK00"
+    },
     // =========================================================
     // Sudan
     // =========================================================
