@@ -15755,6 +15755,86 @@ export default {
       name: "Sudan",
       value: "SD"
     },
+    {
+      name: "Al Jazirah",
+      value: "SD38"
+    },
+    {
+      name: "Al Qadarif",
+      value: "SD39"
+    },
+    {
+      name: "Al Wilāyah al Wusţá",
+      value: "SD27"
+    },
+    {
+      name: "Al Wilāyah ash Sharqīyah",
+      value: "SD31"
+    },
+    {
+      name: "Blue Nile",
+      value: "SD42"
+    },
+    {
+      name: "Central Darfur",
+      value: "SD61"
+    },
+    {
+      name: "Eastern Darfur",
+      value: "SD60"
+    },
+    {
+      name: "Kassala",
+      value: "SD52"
+    },
+    {
+      name: "Khartoum",
+      value: "SD29"
+    },
+    {
+      name: "Northern",
+      value: "SD43"
+    },
+    {
+      name: "Northern Darfur",
+      value: "SD55"
+    },
+    {
+      name: "Northern Kordofan",
+      value: "SD56"
+    },
+    {
+      name: "Red Sea",
+      value: "SD36"
+    },
+    {
+      name: "River Nile",
+      value: "SD53"
+    },
+    {
+      name: "Sinnar",
+      value: "SD58"
+    },
+    {
+      name: "Southern Darfur",
+      value: "SD49"
+    },
+    {
+      name: "Southern Kordofan",
+      value: "SD50"
+    },
+    {
+      name: "Western Darfur",
+      value: "SD47"
+    },
+    {
+      name: "White Nile",
+      value: "SD41"
+    },
+    {
+      name: "(other)",
+      value: "SD00"
+    },
     // =========================================================
     // Suriname
     // =========================================================
