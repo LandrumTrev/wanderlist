@@ -16015,6 +16015,114 @@ export default {
       name: "Switzerland",
       value: "CH"
     },
+    {
+      name: "Aargau (Argovia)",
+      value: "CHAG"
+    },
+    {
+      name: "Appenzell Ausserrhoden (Appenzell Outer Rhodes)",
+      value: "CHAR"
+    },
+    {
+      name: "Appenzell Innerrhoden (Appenzell Inner-Rhodes)",
+      value: "CHAI"
+    },
+    {
+      name: "Basel-Landschaft (Basel-Country)",
+      value: "CHBL"
+    },
+    {
+      name: "Basel-Stadt (City of Basel)",
+      value: "CHBS"
+    },
+    {
+      name: "Bern (Berne)",
+      value: "CHBE"
+    },
+    {
+      name: "Fribourg (Friburg)",
+      value: "CHFR"
+    },
+    {
+      name: "Genève (Geneva)",
+      value: "CHGE"
+    },
+    {
+      name: "Glarus (Glaris)",
+      value: "CHGL"
+    },
+    {
+      name: "Graubünden (Grisons)",
+      value: "CHGR"
+    },
+    {
+      name: "Jura (Jura)",
+      value: "CHJU"
+    },
+    {
+      name: "Luzern (Lucerne)",
+      value: "CHLU"
+    },
+    {
+      name: "Neuchâtel (Neuchâtel)",
+      value: "CHNE"
+    },
+    {
+      name: "Nidwalden (Nidwald)",
+      value: "CHNW"
+    },
+    {
+      name: "Obwalden (Obwald)",
+      value: "CHOW"
+    },
+    {
+      name: "Schaffhausen (Schaffouse)",
+      value: "CHSH"
+    },
+    {
+      name: "Schwyz (Schwyz)",
+      value: "CHSZ"
+    },
+    {
+      name: "Solothurn (Soleure)",
+      value: "CHSO"
+    },
+    {
+      name: "St. Gallen (St Gall)",
+      value: "CHSG"
+    },
+    {
+      name: "Thurgau (Thurgovia)",
+      value: "CHTG"
+    },
+    {
+      name: "Ticino (Ticino)",
+      value: "CHTI"
+    },
+    {
+      name: "Uri (Uri)",
+      value: "CHUR"
+    },
+    {
+      name: "Valais (Wallis)",
+      value: "CHVS"
+    },
+    {
+      name: "Vaud (Vaud)",
+      value: "CHVD"
+    },
+    {
+      name: "Zug (Zoug)",
+      value: "CHZG"
+    },
+    {
+      name: "Zürich (Zürich)",
+      value: "CHZH"
+    },
+    {
+      name: "(other)",
+      value: "CH00"
+    },
     // =========================================================
     // Syria
     // =========================================================
