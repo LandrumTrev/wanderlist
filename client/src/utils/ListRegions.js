@@ -15842,6 +15842,50 @@ export default {
       name: "Suriname",
       value: "SR"
     },
+    {
+      name: "Brokopondo",
+      value: "SR10"
+    },
+    {
+      name: "Commewijne",
+      value: "SR11"
+    },
+    {
+      name: "Coronie",
+      value: "SR12"
+    },
+    {
+      name: "Marowijne",
+      value: "SR13"
+    },
+    {
+      name: "Nickerie",
+      value: "SR14"
+    },
+    {
+      name: "Para",
+      value: "SR15"
+    },
+    {
+      name: "Paramaribo",
+      value: "SR16"
+    },
+    {
+      name: "Saramacca",
+      value: "SR17"
+    },
+    {
+      name: "Sipaliwini",
+      value: "SR18"
+    },
+    {
+      name: "Wanica",
+      value: "SR19"
+    },
+    {
+      name: "(other)",
+      value: "SR00"
+    },
     // =========================================================
     // Swaziland
     // =========================================================
