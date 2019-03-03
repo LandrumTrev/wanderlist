@@ -16224,6 +16224,30 @@ export default {
       name: "Tajikistan",
       value: "TJ"
     },
+    {
+      name: "Dushanbe",
+      value: "TJ04"
+    },
+    {
+      name: "Gorno-Badakhshan",
+      value: "TJ01"
+    },
+    {
+      name: "Khatlon",
+      value: "TJ02"
+    },
+    {
+      name: "Republican Subordination",
+      value: "TJRR"
+    },
+    {
+      name: "Sughd",
+      value: "TJ03"
+    },
+    {
+      name: "(other)",
+      value: "TJ00"
+    },
     // =========================================================
     // Tanzania
     // =========================================================
