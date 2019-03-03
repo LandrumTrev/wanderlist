@@ -15920,6 +15920,94 @@ export default {
       name: "Sweden",
       value: "SE"
     },
+    {
+      name: "Blekinge",
+      value: "SE02"
+    },
+    {
+      name: "Dalarna",
+      value: "SE10"
+    },
+    {
+      name: "Gävleborgs",
+      value: "SE03"
+    },
+    {
+      name: "Gotland",
+      value: "SE05"
+    },
+    {
+      name: "Halland",
+      value: "SE06"
+    },
+    {
+      name: "Jämtlands",
+      value: "SE07"
+    },
+    {
+      name: "Jönköpings",
+      value: "SE08"
+    },
+    {
+      name: "Kalmar",
+      value: "SE09"
+    },
+    {
+      name: "Kronoberg",
+      value: "SE12"
+    },
+    {
+      name: "Norrbotten",
+      value: "SE14"
+    },
+    {
+      name: "Örebro",
+      value: "SE15"
+    },
+    {
+      name: "Östergötlands",
+      value: "SE16"
+    },
+    {
+      name: "Skåne",
+      value: "SE27"
+    },
+    {
+      name: "Södermanlands",
+      value: "SE18"
+    },
+    {
+      name: "Stockholm",
+      value: "SE26"
+    },
+    {
+      name: "Uppsala",
+      value: "SE21"
+    },
+    {
+      name: "Värmlands",
+      value: "SE22"
+    },
+    {
+      name: "Västerbottens",
+      value: "SE23"
+    },
+    {
+      name: "Västernorrlands",
+      value: "SE24"
+    },
+    {
+      name: "Västmanlands",
+      value: "SE25"
+    },
+    {
+      name: "Västra Götalands",
+      value: "SE28"
+    },
+    {
+      name: "(other)",
+      value: "SE00"
+    },
     // =========================================================
     // Switzerland
     // =========================================================
