@@ -16130,6 +16130,66 @@ export default {
       name: "Syria",
       value: "SY"
     },
+    {
+      name: "Ar Raqqah (Raqqah)",
+      value: "SY04"
+    },
+    {
+      name: "Dayr az Zawr (Deir ez-Zor)",
+      value: "SY07"
+    },
+    {
+      name: "Dimashq (Dimashq)",
+      value: "SY13"
+    },
+    {
+      name: "Idlib (Idlib)",
+      value: "SY12"
+    },
+    {
+      name: "al Ḩasakah (Al-Hasakah)",
+      value: "SY01"
+    },
+    {
+      name: "al Lādhiqīyah (Latakia)",
+      value: "SY02"
+    },
+    {
+      name: "al Qunayţirah (Quneitra)",
+      value: "SY03"
+    },
+    {
+      name: "as Suwaydā (Al-Suwayda)",
+      value: "SY05"
+    },
+    {
+      name: "Dar‘ā (Daraa)",
+      value: "SY06"
+    },
+    {
+      name: "Ḩalab (Aleppo)",
+      value: "SY09"
+    },
+    {
+      name: "Ḩamāh (Hama)",
+      value: "SY10"
+    },
+    {
+      name: "Ḩimş (Homs)",
+      value: "SY11"
+    },
+    {
+      name: "Rīf Dimashq (Rif Dimashq)",
+      value: "SY08"
+    },
+    {
+      name: "Ţarţūs (Tartus)",
+      value: "SY14"
+    },
+    {
+      name: "(other)",
+      value: "SY00"
+    },
     // =========================================================
     // Taiwan
     // =========================================================
