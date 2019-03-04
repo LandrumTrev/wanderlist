@@ -16853,6 +16853,74 @@ export default {
       name: "Trinidad and Tobago",
       value: "TT"
     },
+    {
+      name: "Arima",
+      value: "TT01"
+    },
+    {
+      name: "Chaguanas",
+      value: "TTCHA"
+    },
+    {
+      name: "Port of Spain",
+      value: "TT05"
+    },
+    {
+      name: "Couva-Tabaquite-Talparo",
+      value: "TTCTT"
+    },
+    {
+      name: "Diego Martin",
+      value: "TTDMN"
+    },
+    {
+      name: "Eastern Tobago",
+      value: "TTETO"
+    },
+    {
+      name: "Mayaro",
+      value: "TT03"
+    },
+    {
+      name: "Penal/Debe",
+      value: "TTPED"
+    },
+    {
+      name: "Point Fortin",
+      value: "TTPTF"
+    },
+    {
+      name: "Princes Town",
+      value: "TTPRT"
+    },
+    {
+      name: "San Fernando",
+      value: "TT10"
+    },
+    {
+      name: "San Juan/Laventille",
+      value: "TTSJL"
+    },
+    {
+      name: "Sangre Grande",
+      value: "TTSGE"
+    },
+    {
+      name: "Siparia",
+      value: "TTSIP"
+    },
+    {
+      name: "Tobago",
+      value: "TT11"
+    },
+    {
+      name: "Tunapuna/Piarco",
+      value: "TTTUP"
+    },
+    {
+      name: "(other)",
+      value: "TT00"
+    },
     // =========================================================
     // Tunisia
     // =========================================================
