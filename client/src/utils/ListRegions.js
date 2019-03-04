@@ -4235,6 +4235,69 @@ export default {
       value: "DO37"
     },
     // =========================================================
+    // East Timor (Timor-Leste)
+    // =========================================================
+    {
+      name: "East Timor (Timor-Leste)",
+      value: "TL"
+    },
+    {
+      name: "Aileu",
+      value: "TLAL"
+    },
+    {
+      name: "Ainaro",
+      value: "TLAN"
+    },
+    {
+      name: "Baucau",
+      value: "TLBA"
+    },
+    {
+      name: "Bobonaro",
+      value: "TLBO"
+    },
+    {
+      name: "Cova Lima",
+      value: "TLCO"
+    },
+    {
+      name: "Díli",
+      value: "TLDI"
+    },
+    {
+      name: "Oecussi-Ambeno (Oecusse)",
+      value: "TLOE"
+    },
+    {
+      name: "Ermera",
+      value: "TLER"
+    },
+    {
+      name: "Lautém",
+      value: "TLLA"
+    },
+    {
+      name: "Liquiçá",
+      value: "TLLI"
+    },
+    {
+      name: "Manatuto",
+      value: "TLMT"
+    },
+    {
+      name: "Manufahi",
+      value: "TLMF"
+    },
+    {
+      name: "Viqueque",
+      value: "TLVI"
+    },
+    {
+      name: "(other)",
+      value: "TL00"
+    },
+    // =========================================================
     // Ecuador
     // =========================================================
     {
@@ -16697,13 +16760,6 @@ export default {
     {
       name: "(other)",
       value: "TH00"
-    },
-    // =========================================================
-    // Timor-Leste
-    // =========================================================
-    {
-      name: "Timor-Leste",
-      value: "TL"
     },
     // =========================================================
     // Togo
