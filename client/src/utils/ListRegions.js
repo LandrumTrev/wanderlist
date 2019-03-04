@@ -16799,6 +16799,22 @@ export default {
       name: "Tokelau",
       value: "TK"
     },
+    {
+      name: "Atafu",
+      value: "TKA"
+    },
+    {
+      name: "Fakaofo",
+      value: "TKF"
+    },
+    {
+      name: "Nukunonu",
+      value: "TKN"
+    },
+    {
+      name: "(other)",
+      value: "TK00"
+    },
     // =========================================================
     // Tonga
     // =========================================================
