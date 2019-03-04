@@ -16822,6 +16822,30 @@ export default {
       name: "Tonga",
       value: "TO"
     },
+    {
+      name: "Eua",
+      value: "TOEU"
+    },
+    {
+      name: "Ha`apai",
+      value: "TO01"
+    },
+    {
+      name: "Niuas",
+      value: "TONI"
+    },
+    {
+      name: "Tongatapu",
+      value: "TO02"
+    },
+    {
+      name: "Vava`u",
+      value: "TO03"
+    },
+    {
+      name: "(other)",
+      value: "TO00"
+    },
     // =========================================================
     // Trinidad and Tobago
     // =========================================================
