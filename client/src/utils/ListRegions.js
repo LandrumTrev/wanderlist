@@ -16768,6 +16768,30 @@ export default {
       name: "Togo",
       value: "TG"
     },
+    {
+      name: "Centrale",
+      value: "TG22"
+    },
+    {
+      name: "Kara",
+      value: "TG23"
+    },
+    {
+      name: "Maritime",
+      value: "TG24"
+    },
+    {
+      name: "Plateaux",
+      value: "TG25"
+    },
+    {
+      name: "Savanes",
+      value: "TG26"
+    },
+    {
+      name: "(other)",
+      value: "TG00"
+    },
     // =========================================================
     // Tokelau
     // =========================================================
