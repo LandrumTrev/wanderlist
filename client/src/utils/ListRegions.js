@@ -16928,6 +16928,106 @@ export default {
       name: "Tunisia",
       value: "TN"
     },
+    {
+      name: "Béja",
+      value: "TN17"
+    },
+    {
+      name: "Ben Arous",
+      value: "TN27"
+    },
+    {
+      name: "Bizerte",
+      value: "TN18"
+    },
+    {
+      name: "Gabès",
+      value: "TN29"
+    },
+    {
+      name: "Gafsa",
+      value: "TN30"
+    },
+    {
+      name: "Jendouba",
+      value: "TN06"
+    },
+    {
+      name: "Kairouan",
+      value: "TN03"
+    },
+    {
+      name: "Kasserine",
+      value: "TN02"
+    },
+    {
+      name: "Kébili",
+      value: "TN31"
+    },
+    {
+      name: "Kef",
+      value: "TN14"
+    },
+    {
+      name: "l’ Ariana",
+      value: "TN38"
+    },
+    {
+      name: "Mahdia",
+      value: "TN15"
+    },
+    {
+      name: "Manouba",
+      value: "TN39"
+    },
+    {
+      name: "Médenine",
+      value: "TN28"
+    },
+    {
+      name: "Monastir",
+      value: "TN16"
+    },
+    {
+      name: "Nabeul",
+      value: "TN19"
+    },
+    {
+      name: "Sfax",
+      value: "TN32"
+    },
+    {
+      name: "Sidi Bouzid",
+      value: "TN33"
+    },
+    {
+      name: "Siliana",
+      value: "TN22"
+    },
+    {
+      name: "Sousse",
+      value: "TN23"
+    },
+    {
+      name: "Tataouine",
+      value: "TN34"
+    },
+    {
+      name: "Tozeur",
+      value: "TN35"
+    },
+    {
+      name: "Tunis (capital)",
+      value: "TN36"
+    },
+    {
+      name: "Zaghouan",
+      value: "TN37"
+    },
+    {
+      name: "(other)",
+      value: "TN00"
+    },
     // =========================================================
     // Turkey
     // =========================================================
