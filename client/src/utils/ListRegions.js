@@ -16386,6 +16386,318 @@ export default {
       name: "Thailand",
       value: "TH"
     },
+    {
+      name: "Bangkok (Krung Thep Maha Nakhon) capital",
+      value: "TH40"
+    },
+    {
+      name: "Chiang Mai",
+      value: "TH02"
+    },
+    {
+      name: "Phuket",
+      value: "TH62"
+    },
+    {
+      name: "Amnat Charoen",
+      value: "TH77"
+    },
+    {
+      name: "Ang Thong",
+      value: "TH35"
+    },
+    {
+      name: "Bueng Kan",
+      value: "TH81"
+    },
+    {
+      name: "Buriram",
+      value: "TH28"
+    },
+    {
+      name: "Chachoengsao",
+      value: "TH44"
+    },
+    {
+      name: "Chai Nat",
+      value: "TH32"
+    },
+    {
+      name: "Chaiyaphum",
+      value: "TH26"
+    },
+    {
+      name: "Chanthaburi",
+      value: "TH48"
+    },
+    {
+      name: "Chiang Rai",
+      value: "TH03"
+    },
+    {
+      name: "Chon Buri",
+      value: "TH46"
+    },
+    {
+      name: "Chumphon",
+      value: "TH58"
+    },
+    {
+      name: "Kalasin",
+      value: "TH23"
+    },
+    {
+      name: "Kamphaeng Phet",
+      value: "TH11"
+    },
+    {
+      name: "Kanchanaburi",
+      value: "TH50"
+    },
+    {
+      name: "Khon Kaen",
+      value: "TH22"
+    },
+    {
+      name: "Krabi",
+      value: "TH63"
+    },
+    {
+      name: "Lampang",
+      value: "TH06"
+    },
+    {
+      name: "Lamphun",
+      value: "TH05"
+    },
+    {
+      name: "Loei",
+      value: "TH18"
+    },
+    {
+      name: "Lop Buri",
+      value: "TH34"
+    },
+    {
+      name: "Mae Hong Son",
+      value: "TH01"
+    },
+    {
+      name: "Maha Sarakham",
+      value: "TH24"
+    },
+    {
+      name: "Mukdahan",
+      value: "TH78"
+    },
+    {
+      name: "Nakhon Nayok",
+      value: "TH43"
+    },
+    {
+      name: "Nakhon Pathom",
+      value: "TH53"
+    },
+    {
+      name: "Nakhon Phanom",
+      value: "TH73"
+    },
+    {
+      name: "Nakhon Ratchasima",
+      value: "TH27"
+    },
+    {
+      name: "Nakhon Sawan",
+      value: "TH16"
+    },
+    {
+      name: "Nakhon Si Thammarat",
+      value: "TH64"
+    },
+    {
+      name: "Nan",
+      value: "TH04"
+    },
+    {
+      name: "Narathiwat",
+      value: "TH31"
+    },
+    {
+      name: "Nong Bua Lamphu",
+      value: "TH79"
+    },
+    {
+      name: "Nong Khai",
+      value: "TH17"
+    },
+    {
+      name: "Nonthaburi",
+      value: "TH38"
+    },
+    {
+      name: "Pathum Thani",
+      value: "TH39"
+    },
+    {
+      name: "Pattani",
+      value: "TH69"
+    },
+    {
+      name: "Phangnga",
+      value: "TH61"
+    },
+    {
+      name: "Phatthalung",
+      value: "TH66"
+    },
+    {
+      name: "Phayao",
+      value: "TH41"
+    },
+    {
+      name: "Phetchabun",
+      value: "TH14"
+    },
+    {
+      name: "Phetchaburi",
+      value: "TH56"
+    },
+    {
+      name: "Phichit",
+      value: "TH13"
+    },
+    {
+      name: "Phitsanulok",
+      value: "TH12"
+    },
+    {
+      name: "Phra Nakhon Si Ayutthaya",
+      value: "TH36"
+    },
+    {
+      name: "Phrae",
+      value: "TH07"
+    },
+    {
+      name: "Prachin Buri",
+      value: "TH74"
+    },
+    {
+      name: "Prachuap Khiri Khan",
+      value: "TH57"
+    },
+    {
+      name: "Ranong",
+      value: "TH59"
+    },
+    {
+      name: "Ratchaburi",
+      value: "TH52"
+    },
+    {
+      name: "Rayong",
+      value: "TH47"
+    },
+    {
+      name: "Roi Et",
+      value: "TH25"
+    },
+    {
+      name: "Sa Kaeo",
+      value: "TH80"
+    },
+    {
+      name: "Sakon Nakhon",
+      value: "TH20"
+    },
+    {
+      name: "Samut Prakan",
+      value: "TH42"
+    },
+    {
+      name: "Samut Sakhon",
+      value: "TH55"
+    },
+    {
+      name: "Samut Songkhram",
+      value: "TH54"
+    },
+    {
+      name: "Sara Buri",
+      value: "TH37"
+    },
+    {
+      name: "Satun",
+      value: "TH67"
+    },
+    {
+      name: "Sing Buri",
+      value: "TH33"
+    },
+    {
+      name: "Sisaket",
+      value: "TH30"
+    },
+    {
+      name: "Songkhla",
+      value: "TH68"
+    },
+    {
+      name: "Sukhothai",
+      value: "TH09"
+    },
+    {
+      name: "Suphan Buri",
+      value: "TH51"
+    },
+    {
+      name: "Surat Thani",
+      value: "TH60"
+    },
+    {
+      name: "Surin",
+      value: "TH29"
+    },
+    {
+      name: "Tak",
+      value: "TH08"
+    },
+    {
+      name: "Trang",
+      value: "TH65"
+    },
+    {
+      name: "Trat",
+      value: "TH49"
+    },
+    {
+      name: "Ubon Ratchathani",
+      value: "TH75"
+    },
+    {
+      name: "Udon Thani",
+      value: "TH76"
+    },
+    {
+      name: "Uthai Thani",
+      value: "TH15"
+    },
+    {
+      name: "Uttaradit",
+      value: "TH10"
+    },
+    {
+      name: "Yala",
+      value: "TH70"
+    },
+    {
+      name: "Yasothon",
+      value: "TH72"
+    },
+    {
+      name: "(other)",
+      value: "TH00"
+    },
     // =========================================================
     // Timor-Leste
     // =========================================================
