@@ -17483,6 +17483,118 @@ export default {
       name: "Ukraine",
       value: "UA"
     },
+    {
+      name: "Autonomous Republic of Crimea (Avtonomna Respublika Krym)",
+      value: "UA11"
+    },
+    {
+      name: "Cherkasy (Cherkas’ka Oblast’)",
+      value: "UA01"
+    },
+    {
+      name: "Chernihiv (Chernihivs’ka Oblast’)",
+      value: "UA02"
+    },
+    {
+      name: "Chernivtsi (Chernivets’ka Oblast’)",
+      value: "UA03"
+    },
+    {
+      name: "Dnipropetrovsk (Dnipropetrovska Oblast’)",
+      value: "UA04"
+    },
+    {
+      name: "Donetsk (Donets’ka Oblast’)",
+      value: "UA05"
+    },
+    {
+      name: "Ivano-Frankivsk (Ivano-Frankivs’ka Oblast’)",
+      value: "UA06"
+    },
+    {
+      name: "Kharkiv (Kharkivs’ka Oblast’)",
+      value: "UA07"
+    },
+    {
+      name: "Kherson (Khersons’ka Oblast’)",
+      value: "UA08"
+    },
+    {
+      name: "Khmelnytskyi (Khmel’nyts’ka Oblast’)",
+      value: "UA09"
+    },
+    {
+      name: "Kirovohrad (Kirovohrads’ka Oblast’)",
+      value: "UA10"
+    },
+    {
+      name: "Kyiv (Kyyivs’ka Oblast’)",
+      value: "UA13"
+    },
+    {
+      name: "Luhansk (Luhans’ka Oblast’)",
+      value: "UA14"
+    },
+    {
+      name: "Lviv (L’vivs’ka Oblast’)",
+      value: "UA15"
+    },
+    {
+      name: "Kiev (capital), Kyiv City (Misto Kyyiv)",
+      value: "UA12"
+    },
+    {
+      name: "Sevastopol City (Misto Sevastopol’)",
+      value: "UA20"
+    },
+    {
+      name: "Mykolaiv (Mykolayivs’ka Oblast’)",
+      value: "UA16"
+    },
+    {
+      name: "Odessa (Odes’ka Oblast’)",
+      value: "UA17"
+    },
+    {
+      name: "Poltava (Poltavs’ka Oblast’)",
+      value: "UA18"
+    },
+    {
+      name: "Rivne (Rivnens’ka Oblast’)",
+      value: "UA19"
+    },
+    {
+      name: "Sumy (Sums’ka Oblast’)",
+      value: "UA21"
+    },
+    {
+      name: "Ternopil (Ternopil’s’ka Oblast’)",
+      value: "UA22"
+    },
+    {
+      name: "Vinnytsia (Vinnyts’ka Oblast’)",
+      value: "UA23"
+    },
+    {
+      name: "Volyn (Volyns’ka Oblast’)",
+      value: "UA24"
+    },
+    {
+      name: "Transcarpathia (Zakarpattia Oblast)",
+      value: "UA25"
+    },
+    {
+      name: "Zaporizhia (Zaporiz’ka Oblast’)",
+      value: "UA26"
+    },
+    {
+      name: "Zhytomyr (Zhytomyrs’ka Oblast’)",
+      value: "UA27"
+    },
+    {
+      name: "(other)",
+      value: "UA00"
+    },
     // =========================================================
     // United Arab Emirates
     // =========================================================
