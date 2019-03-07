@@ -17883,6 +17883,46 @@ export default {
       name: "US, Minor Outlying Islands",
       value: "UM"
     },
+    {
+      name: "Baker Island",
+      value: "UM050"
+    },
+    {
+      name: "Howland Island",
+      value: "UM100"
+    },
+    {
+      name: "Jarvis Island",
+      value: "UM150"
+    },
+    {
+      name: "Johnston Atoll",
+      value: "UM200"
+    },
+    {
+      name: "Kingman Reef",
+      value: "UM250"
+    },
+    {
+      name: "Midway Islands",
+      value: "UM300"
+    },
+    {
+      name: "Navassa Island",
+      value: "UM350"
+    },
+    {
+      name: "Palmyra Atoll",
+      value: "UM400"
+    },
+    {
+      name: "Wake Island",
+      value: "UM450"
+    },
+    {
+      name: "(other)",
+      value: "UM00"
+    },
     // =========================================================
     // Uruguay
     // =========================================================
