@@ -18013,6 +18013,66 @@ export default {
       name: "Uzbekistan",
       value: "UZ"
     },
+    {
+      name: "Andijan (Andijan)",
+      value: "UZ01"
+    },
+    {
+      name: "Bukhara (Bukhara)",
+      value: "UZ02"
+    },
+    {
+      name: "Fergana (Fergana)",
+      value: "UZ03"
+    },
+    {
+      name: "Jizzakh (Jizzakh)",
+      value: "UZ15"
+    },
+    {
+      name: "Karakalpakstan Republic",
+      value: "UZ09"
+    },
+    {
+      name: "Kashkadarya (Qashqadaryo)",
+      value: "UZ08"
+    },
+    {
+      name: "Khorezm (Xorazm)",
+      value: "UZ05"
+    },
+    {
+      name: "Namangan (Namangan)",
+      value: "UZ06"
+    },
+    {
+      name: "Navoiy (Navoiy)",
+      value: "UZ07"
+    },
+    {
+      name: "Samarkand (Samarqand)",
+      value: "UZ10"
+    },
+    {
+      name: "Syrdarya (Sirdaryo)",
+      value: "UZ16"
+    },
+    {
+      name: "Surkhandarya (Surxondaryo)",
+      value: "UZ12"
+    },
+    {
+      name: "Tashkent City, capital (Toshkent Shahri)",
+      value: "UZ13"
+    },
+    {
+      name: "Tashkent Region (Toshkent Viloyati)",
+      value: "UZ14"
+    },
+    {
+      name: "(other)",
+      value: "UZ00"
+    },
     // =========================================================
     // Vanuatu
     // =========================================================
