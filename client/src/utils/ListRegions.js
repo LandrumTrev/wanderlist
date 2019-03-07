@@ -17370,6 +17370,34 @@ export default {
       name: "Turkmenistan",
       value: "TM"
     },
+    {
+      name: "Ashgabat (capital)",
+      value: "TMS"
+    },
+    {
+      name: "Ahal",
+      value: "TM01"
+    },
+    {
+      name: "Balkan",
+      value: "TM02"
+    },
+    {
+      name: "Daşoguz",
+      value: "TM03"
+    },
+    {
+      name: "Lebap",
+      value: "TM04"
+    },
+    {
+      name: "Mary",
+      value: "TM05"
+    },
+    {
+      name: "(other)",
+      value: "TM00"
+    },
     // =========================================================
     // Turks and Caicos Islands
     // =========================================================
