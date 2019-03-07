@@ -17400,6 +17400,7 @@ export default {
     },
     // =========================================================
     // Turks and Caicos Islands
+    // all 00 or no admin1 code
     // =========================================================
     {
       name: "Turks and Caicos Islands",
