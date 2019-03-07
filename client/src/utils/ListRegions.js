@@ -17413,6 +17413,42 @@ export default {
       name: "Tuvalu",
       value: "TV"
     },
+    {
+      name: "Funafuti",
+      value: "TVFUN"
+    },
+    {
+      name: "Nanumanga",
+      value: "TVNMG"
+    },
+    {
+      name: "Nanumea",
+      value: "TVNMA"
+    },
+    {
+      name: "Niutao",
+      value: "TVNIT"
+    },
+    {
+      name: "Nui",
+      value: "TVNUI"
+    },
+    {
+      name: "Nukufetau",
+      value: "TVNKF"
+    },
+    {
+      name: "Nukulaelae",
+      value: "TVNKL"
+    },
+    {
+      name: "Vaitupu",
+      value: "TVVAI"
+    },
+    {
+      name: "(other)",
+      value: "TV00"
+    },
     // =========================================================
     // Uganda
     // =========================================================
