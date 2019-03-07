@@ -17035,6 +17035,334 @@ export default {
       name: "Turkey",
       value: "TR"
     },
+    {
+      name: "Adana",
+      value: "TR81"
+    },
+    {
+      name: "Adıyaman",
+      value: "TR02"
+    },
+    {
+      name: "Afyonkarahisar",
+      value: "TR03"
+    },
+    {
+      name: "Ağrı",
+      value: "TR04"
+    },
+    {
+      name: "Aksaray",
+      value: "TR75"
+    },
+    {
+      name: "Amasya",
+      value: "TR05"
+    },
+    {
+      name: "Ankara",
+      value: "TR68"
+    },
+    {
+      name: "Antalya",
+      value: "TR07"
+    },
+    {
+      name: "Ardahan",
+      value: "TR86"
+    },
+    {
+      name: "Artvin",
+      value: "TR08"
+    },
+    {
+      name: "Aydın",
+      value: "TR09"
+    },
+    {
+      name: "Balıkesir",
+      value: "TR10"
+    },
+    {
+      name: "Bartın",
+      value: "TR87"
+    },
+    {
+      name: "Batman",
+      value: "TR76"
+    },
+    {
+      name: "Bayburt",
+      value: "TR77"
+    },
+    {
+      name: "Bilecik",
+      value: "TR11"
+    },
+    {
+      name: "Bingöl",
+      value: "TR12"
+    },
+    {
+      name: "Bitlis",
+      value: "TR13"
+    },
+    {
+      name: "Bolu",
+      value: "TR14"
+    },
+    {
+      name: "Burdur",
+      value: "TR15"
+    },
+    {
+      name: "Bursa",
+      value: "TR16"
+    },
+    {
+      name: "Çanakkale",
+      value: "TR17"
+    },
+    {
+      name: "Çankırı",
+      value: "TR82"
+    },
+    {
+      name: "Çorum",
+      value: "TR19"
+    },
+    {
+      name: "Denizli",
+      value: "TR20"
+    },
+    {
+      name: "Diyarbakır",
+      value: "TR21"
+    },
+    {
+      name: "Düzce",
+      value: "TR93"
+    },
+    {
+      name: "Edirne",
+      value: "TR22"
+    },
+    {
+      name: "Elazığ",
+      value: "TR23"
+    },
+    {
+      name: "Erzincan",
+      value: "TR24"
+    },
+    {
+      name: "Erzurum",
+      value: "TR25"
+    },
+    {
+      name: "Eskişehir",
+      value: "TR26"
+    },
+    {
+      name: "Gaziantep",
+      value: "TR83"
+    },
+    {
+      name: "Giresun",
+      value: "TR28"
+    },
+    {
+      name: "Gümüşhane",
+      value: "TR69"
+    },
+    {
+      name: "Hakkari",
+      value: "TR70"
+    },
+    {
+      name: "Hatay",
+      value: "TR31"
+    },
+    {
+      name: "İçel",
+      value: "TR32"
+    },
+    {
+      name: "Iğdır",
+      value: "TR88"
+    },
+    {
+      name: "Isparta",
+      value: "TR33"
+    },
+    {
+      name: "İstanbul",
+      value: "TR34"
+    },
+    {
+      name: "İzmir",
+      value: "TR35"
+    },
+    {
+      name: "Kahramanmaraş",
+      value: "TR46"
+    },
+    {
+      name: "Karabük",
+      value: "TR89"
+    },
+    {
+      name: "Karaman",
+      value: "TR78"
+    },
+    {
+      name: "Kars",
+      value: "TR84"
+    },
+    {
+      name: "Kastamonu",
+      value: "TR37"
+    },
+    {
+      name: "Kayseri",
+      value: "TR38"
+    },
+    {
+      name: "Kilis",
+      value: "TR90"
+    },
+    {
+      name: "Kırıkkale",
+      value: "TR79"
+    },
+    {
+      name: "Kırklareli",
+      value: "TR39"
+    },
+    {
+      name: "Kırşehir",
+      value: "TR40"
+    },
+    {
+      name: "Kocaeli",
+      value: "TR41"
+    },
+    {
+      name: "Konya",
+      value: "TR71"
+    },
+    {
+      name: "Kütahya",
+      value: "TR43"
+    },
+    {
+      name: "Malatya",
+      value: "TR44"
+    },
+    {
+      name: "Manisa",
+      value: "TR45"
+    },
+    {
+      name: "Mardin",
+      value: "TR72"
+    },
+    {
+      name: "Muğla",
+      value: "TR48"
+    },
+    {
+      name: "Muş",
+      value: "TR49"
+    },
+    {
+      name: "Nevşehir",
+      value: "TR50"
+    },
+    {
+      name: "Niğde",
+      value: "TR73"
+    },
+    {
+      name: "Ordu",
+      value: "TR52"
+    },
+    {
+      name: "Osmaniye",
+      value: "TR91"
+    },
+    {
+      name: "Rize",
+      value: "TR53"
+    },
+    {
+      name: "Sakarya",
+      value: "TR54"
+    },
+    {
+      name: "Samsun",
+      value: "TR55"
+    },
+    {
+      name: "Şanlıurfa",
+      value: "TR63"
+    },
+    {
+      name: "Siirt",
+      value: "TR74"
+    },
+    {
+      name: "Sinop",
+      value: "TR57"
+    },
+    {
+      name: "Şırnak Province",
+      value: "TR80"
+    },
+    {
+      name: "Sivas",
+      value: "TR58"
+    },
+    {
+      name: "Tekirdağ",
+      value: "TR59"
+    },
+    {
+      name: "Tokat",
+      value: "TR60"
+    },
+    {
+      name: "Trabzon",
+      value: "TR61"
+    },
+    {
+      name: "Tunceli",
+      value: "TR62"
+    },
+    {
+      name: "Uşak",
+      value: "TR64"
+    },
+    {
+      name: "Van",
+      value: "TR65"
+    },
+    {
+      name: "Yalova",
+      value: "TR92"
+    },
+    {
+      name: "Yozgat",
+      value: "TR66"
+    },
+    {
+      name: "Zonguldak",
+      value: "TR85"
+    },
+    {
+      name: "(other)",
+      value: "TR00"
+    },
     // =========================================================
     // Turkmenistan
     // =========================================================
