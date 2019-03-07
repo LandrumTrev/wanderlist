@@ -17456,6 +17456,26 @@ export default {
       name: "Uganda",
       value: "UG"
     },
+    {
+      name: "Central Region",
+      value: "UGC"
+    },
+    {
+      name: "Eastern Region",
+      value: "UGE"
+    },
+    {
+      name: "Northern Region",
+      value: "UGN"
+    },
+    {
+      name: "Western Region",
+      value: "UGW"
+    },
+    {
+      name: "(other)",
+      value: "UG00"
+    },
     // =========================================================
     // Ukraine
     // =========================================================
