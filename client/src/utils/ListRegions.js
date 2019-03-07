@@ -18014,19 +18014,19 @@ export default {
       value: "UZ"
     },
     {
-      name: "Andijan (Andijan)",
+      name: "Andijan",
       value: "UZ01"
     },
     {
-      name: "Bukhara (Bukhara)",
+      name: "Bukhara",
       value: "UZ02"
     },
     {
-      name: "Fergana (Fergana)",
+      name: "Fergana",
       value: "UZ03"
     },
     {
-      name: "Jizzakh (Jizzakh)",
+      name: "Jizzakh",
       value: "UZ15"
     },
     {
@@ -18042,11 +18042,11 @@ export default {
       value: "UZ05"
     },
     {
-      name: "Namangan (Namangan)",
+      name: "Namangan",
       value: "UZ06"
     },
     {
-      name: "Navoiy (Navoiy)",
+      name: "Navoiy",
       value: "UZ07"
     },
     {
@@ -18079,6 +18079,34 @@ export default {
     {
       name: "Vanuatu",
       value: "VU"
+    },
+    {
+      name: "Malampa",
+      value: "VU16"
+    },
+    {
+      name: "Penama",
+      value: "VU17"
+    },
+    {
+      name: "Sanma",
+      value: "VU13"
+    },
+    {
+      name: "Shefa",
+      value: "VU18"
+    },
+    {
+      name: "Tafea",
+      value: "VU15"
+    },
+    {
+      name: "Torba",
+      value: "VU07"
+    },
+    {
+      name: "(other)",
+      value: "VU00"
     },
     // =========================================================
     // Vatican City State (Holy See)
