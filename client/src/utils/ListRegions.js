@@ -18110,6 +18110,7 @@ export default {
     },
     // =========================================================
     // Vatican City State (Holy See)
+    // mostly no admin1 code, some 00 codes
     // =========================================================
     {
       name: "Vatican City State (Holy See)",
