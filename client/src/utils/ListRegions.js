@@ -18236,6 +18236,7 @@ export default {
     },
     // =========================================================
     // Virgin Islands, British
+    // no admin1 codes, all 00
     // =========================================================
     {
       name: "Virgin Islands, British",
@@ -18257,7 +18258,7 @@ export default {
       value: "VI020"
     },
     {
-      name: "Saint Thomas Island",
+      name: "Saint Thomas Island (Charlotte Amalie, capital)",
       value: "VI030"
     },
     {
