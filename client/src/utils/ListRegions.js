@@ -18282,6 +18282,50 @@ export default {
     {
       name: "Zimbabwe",
       value: "ZW"
-    }
+    },
+    {
+      name: "Bulawayo",
+      value: "ZW09"
+    },
+    {
+      name: "Harare",
+      value: "ZW10"
+    },
+    {
+      name: "Manicaland",
+      value: "ZW01"
+    },
+    {
+      name: "Mashonaland Central",
+      value: "ZW03"
+    },
+    {
+      name: "Mashonaland East",
+      value: "ZW04"
+    },
+    {
+      name: "Mashonaland West",
+      value: "ZW05"
+    },
+    {
+      name: "Masvingo",
+      value: "ZW08"
+    },
+    {
+      name: "Matabeleland North",
+      value: "ZW06"
+    },
+    {
+      name: "Matabeleland South",
+      value: "ZW07"
+    },
+    {
+      name: "Midlands",
+      value: "ZW02"
+    },
+    {
+      name: "(other)",
+      value: "ZW00"
+    },
   ]
 };
