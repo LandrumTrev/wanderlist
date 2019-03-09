@@ -18257,10 +18257,19 @@ export default {
     },
     // =========================================================
     // Western Sahara
+    // disputed territory, only one defined admin1 area
     // =========================================================
     {
       name: "Western Sahara",
       value: "EH"
+    },
+    {
+      name: "Oued Ed-Dahab-Lagouira",
+      value: "EHCE"
+    },
+    {
+      name: "(other)",
+      value: "EH00"
     },
     // =========================================================
     // Yemen
