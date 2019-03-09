@@ -18255,6 +18255,22 @@ export default {
       name: "Wallis and Futuna",
       value: "WF"
     },
+    {
+      name: "Uvea (Wallis Island)",
+      value: "WF98613"
+    },
+    {
+      name: "Alo (eastern Futuna and Alofi Island)",
+      value: "WF98611"
+    },
+    {
+      name: "Sigave (western Futuna Island)",
+      value: "WF98612"
+    },
+    {
+      name: "(other)",
+      value: "WF00"
+    },
     // =========================================================
     // Western Sahara
     // disputed territory, only one defined admin1 area
