@@ -18228,11 +18228,267 @@ export default {
       value: "VE00"
     },
     // =========================================================
-    // Viet Nam
+    // Vietnam
     // =========================================================
     {
-      name: "Viet Nam",
+      name: "Vietnam",
       value: "VN"
+    },
+    {
+      name: "Hà Nội (Hanoi) capital city",
+      value: "VN44"
+    },
+    {
+      name: "Ho Chi Minh City (Saigon)",
+      value: "VN20"
+    },
+    {
+      name: "Hải Phòng (Haiphong) city",
+      value: "VN13"
+    },
+    {
+      name: "Đà Nẵng (Da Nang) city",
+      value: "VN78"
+    },
+    {
+      name: "Cần Thơ (Can Tho) city",
+      value: "VN87"
+    },
+    {
+      name: "An Giang",
+      value: "VN01"
+    },
+    {
+      name: "Gia Lai",
+      value: "VN49"
+    },
+    {
+      name: "Hau Giang",
+      value: "VN93"
+    },
+    {
+      name: "Ðiện Biên",
+      value: "VN92"
+    },
+    {
+      name: "Kon Tum",
+      value: "VN55"
+    },
+    {
+      name: "Long An",
+      value: "VN24"
+    },
+    {
+      name: "Bà Rịa-Vũng Tàu",
+      value: "VN45"
+    },
+    {
+      name: "Bắc Giang",
+      value: "VN71"
+    },
+    {
+      name: "Bắc Kạn",
+      value: "VN72"
+    },
+    {
+      name: "Bạc Liêu",
+      value: "VN73"
+    },
+    {
+      name: "Bắc Ninh",
+      value: "VN74"
+    },
+    {
+      name: "Bến Tre",
+      value: "VN03"
+    },
+    {
+      name: "Bình Dương",
+      value: "VN75"
+    },
+    {
+      name: "Bình Phước",
+      value: "VN76"
+    },
+    {
+      name: "Bình Thuận",
+      value: "VN47"
+    },
+    {
+      name: "Bình Định",
+      value: "VN46"
+    },
+    {
+      name: "Cà Mau",
+      value: "VN77"
+    },
+    {
+      name: "Cao Bằng",
+      value: "VN05"
+    },
+    {
+      name: "Hà Giang",
+      value: "VN50"
+    },
+    {
+      name: "Hà Nam",
+      value: "VN80"
+    },
+    {
+      name: "Hà Tĩnh",
+      value: "VN52"
+    },
+    {
+      name: "Hải Dương",
+      value: "VN79"
+    },
+    {
+      name: "Hòa Bình",
+      value: "VN53"
+    },
+    {
+      name: "Hưng Yên",
+      value: "VN81"
+    },
+    {
+      name: "Khánh Hòa",
+      value: "VN54"
+    },
+    {
+      name: "Kiến Giang",
+      value: "VN21"
+    },
+    {
+      name: "Lai Châu",
+      value: "VN89"
+    },
+    {
+      name: "Lâm Đồng",
+      value: "VN23"
+    },
+    {
+      name: "Lạng Sơn",
+      value: "VN39"
+    },
+    {
+      name: "Lào Cai",
+      value: "VN90"
+    },
+    {
+      name: "Nam Ðịnh",
+      value: "VN82"
+    },
+    {
+      name: "Nghệ An",
+      value: "VN58"
+    },
+    {
+      name: "Ninh Bình",
+      value: "VN59"
+    },
+    {
+      name: "Ninh Thuận",
+      value: "VN60"
+    },
+    {
+      name: "Phú Thọ",
+      value: "VN83"
+    },
+    {
+      name: "Phú Yên",
+      value: "VN61"
+    },
+    {
+      name: "Quảng Bình",
+      value: "VN62"
+    },
+    {
+      name: "Quảng Nam",
+      value: "VN84"
+    },
+    {
+      name: "Quảng Ngãi",
+      value: "VN63"
+    },
+    {
+      name: "Quảng Ninh",
+      value: "VN30"
+    },
+    {
+      name: "Quảng Trị",
+      value: "VN64"
+    },
+    {
+      name: "Sóc Trăng",
+      value: "VN65"
+    },
+    {
+      name: "Sơn La",
+      value: "VN32"
+    },
+    {
+      name: "Tây Ninh",
+      value: "VN33"
+    },
+    {
+      name: "Thái Bình",
+      value: "VN35"
+    },
+    {
+      name: "Thái Nguyên",
+      value: "VN85"
+    },
+    {
+      name: "Thanh Hóa",
+      value: "VN34"
+    },
+    {
+      name: "Thừa Thiên-Huế",
+      value: "VN66"
+    },
+    {
+      name: "Tiền Giang Nam",
+      value: "VN37"
+    },
+    {
+      name: "Trà Vinh",
+      value: "VN67"
+    },
+    {
+      name: "Tuyên Quang",
+      value: "VN68"
+    },
+    {
+      name: "Vĩnh Long",
+      value: "VN69"
+    },
+    {
+      name: "Vĩnh Phúc",
+      value: "VN86"
+    },
+    {
+      name: "Yên Bái",
+      value: "VN70"
+    },
+    {
+      name: "Đắk Lắk",
+      value: "VN88"
+    },
+    {
+      name: "Đồng Nai",
+      value: "VN43"
+    },
+    {
+      name: "Đồng Tháp",
+      value: "VN09"
+    },
+    {
+      name: "Ðắk Nông",
+      value: "VN91"
+    },
+    {
+      name: "(other)",
+      value: "VN00"
     },
     // =========================================================
     // Virgin Islands, British
