@@ -18123,6 +18123,110 @@ export default {
       name: "Venezuela",
       value: "VE"
     },
+    {
+      name: "Dependencias Federales (Federal Dependencies)",
+      value: "VE24"
+    },
+    {
+      name: "Distrito Capital (Distrito Federal) capital",
+      value: "VE25"
+    },
+    {
+      name: "Amazonas",
+      value: "VE01"
+    },
+    {
+      name: "Anzoátegui",
+      value: "VE02"
+    },
+    {
+      name: "Apure",
+      value: "VE03"
+    },
+    {
+      name: "Aragua",
+      value: "VE04"
+    },
+    {
+      name: "Barinas",
+      value: "VE05"
+    },
+    {
+      name: "Bolívar",
+      value: "VE06"
+    },
+    {
+      name: "Carabobo",
+      value: "VE07"
+    },
+    {
+      name: "Cojedes",
+      value: "VE08"
+    },
+    {
+      name: "Falcón",
+      value: "VE11"
+    },
+    {
+      name: "Guárico",
+      value: "VE12"
+    },
+    {
+      name: "Lara",
+      value: "VE13"
+    },
+    {
+      name: "Mérida",
+      value: "VE14"
+    },
+    {
+      name: "Miranda",
+      value: "VE15"
+    },
+    {
+      name: "Monagas",
+      value: "VE16"
+    },
+    {
+      name: "Nueva Esparta",
+      value: "VE17"
+    },
+    {
+      name: "Portuguesa",
+      value: "VE18"
+    },
+    {
+      name: "Sucre",
+      value: "VE19"
+    },
+    {
+      name: "Táchira",
+      value: "VE20"
+    },
+    {
+      name: "Trujillo",
+      value: "VE21"
+    },
+    {
+      name: "Vargas",
+      value: "VE26"
+    },
+    {
+      name: "Yaracuy",
+      value: "VE22"
+    },
+    {
+      name: "Zulia",
+      value: "VE23"
+    },
+    {
+      name: "Delta Amacuro (Territorio Federal)",
+      value: "VE09"
+    },
+    {
+      name: "(other)",
+      value: "VE00"
+    },
     // =========================================================
     // Viet Nam
     // =========================================================
