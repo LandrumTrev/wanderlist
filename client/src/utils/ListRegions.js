@@ -18269,12 +18269,140 @@ export default {
       name: "Yemen",
       value: "YE"
     },
+    {
+      name: "‘Adan",
+      value: "YE02"
+    },
+    {
+      name: "‘Amrān",
+      value: "YE19"
+    },
+    {
+      name: "Abyan",
+      value: "YE01"
+    },
+    {
+      name: "Amanat Al Asimah",
+      value: "YE26"
+    },
+    {
+      name: "al Bayḑā’",
+      value: "YE20"
+    },
+    {
+      name: "aḑ Ḑāli‘",
+      value: "YE18"
+    },
+    {
+      name: "Dhamār",
+      value: "YE11"
+    },
+    {
+      name: "Ḩaḑramawt",
+      value: "YE04"
+    },
+    {
+      name: "Ḩajjah",
+      value: "YE22"
+    },
+    {
+      name: "al Ḩudaydah",
+      value: "YE08"
+    },
+    {
+      name: "Ibb",
+      value: "YE23"
+    },
+    {
+      name: "al Jawf",
+      value: "YE21"
+    },
+    {
+      name: "Laḩij",
+      value: "YE24"
+    },
+    {
+      name: "Al Mahrah",
+      value: "YE03"
+    },
+    {
+      name: "Al Maḩwīt",
+      value: "YE10"
+    },
+    {
+      name: "Ma’rib",
+      value: "YE14"
+    },
+    {
+      name: "Raymah",
+      value: "YE27"
+    },
+    {
+      name: "Şa‘dah",
+      value: "YE15"
+    },
+    {
+      name: "Sanaa",
+      value: "YE16"
+    },
+    {
+      name: "Shabwah",
+      value: "YE05"
+    },
+    {
+      name: "Ta‘izz",
+      value: "YE25"
+    },
+    {
+      name: "(other)",
+      value: "YE00"
+    },
     // =========================================================
     // Zambia
     // =========================================================
     {
       name: "Zambia",
       value: "ZM"
+    },
+    {
+      name: "Central",
+      value: "ZM02"
+    },
+    {
+      name: "Copperbelt",
+      value: "ZM08"
+    },
+    {
+      name: "Eastern",
+      value: "ZM03"
+    },
+    {
+      name: "Luapula",
+      value: "ZM04"
+    },
+    {
+      name: "Lusaka",
+      value: "ZM09"
+    },
+    {
+      name: "North-Western",
+      value: "ZM06"
+    },
+    {
+      name: "Northern",
+      value: "ZM05"
+    },
+    {
+      name: "Southern",
+      value: "ZM07"
+    },
+    {
+      name: "Western",
+      value: "ZM01"
+    },
+    {
+      name: "(other)",
+      value: "ZM00"
     },
     // =========================================================
     // Zimbabwe
@@ -18288,7 +18416,7 @@ export default {
       value: "ZW09"
     },
     {
-      name: "Harare",
+      name: "Harare, capital",
       value: "ZW10"
     },
     {
