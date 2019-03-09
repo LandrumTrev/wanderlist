@@ -18248,6 +18248,22 @@ export default {
       name: "Virgin Islands, U.S.",
       value: "VI"
     },
+    {
+      name: "Saint Croix Island",
+      value: "VI010"
+    },
+    {
+      name: "Saint John Island",
+      value: "VI020"
+    },
+    {
+      name: "Saint Thomas Island",
+      value: "VI030"
+    },
+    {
+      name: "(other)",
+      value: "VI00"
+    },
     // =========================================================
     // Wallis and Futuna
     // =========================================================
