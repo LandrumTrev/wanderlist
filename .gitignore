@@ -16,6 +16,9 @@ client/build
 # production
 /build
 
+# dev
+scripts/seedDB.js
+
 # misc
 .DS_Store
 .env.local
